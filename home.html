@@ -39,6 +39,7 @@
     <div id="description">
         <div id="previous-button"> &#8249;</div>
             <h2 id="header">This is the header</h2>
+            <hr>
             <div id="next-button">&#8250;</div>
             <p>This is the description</p>
         </div>
@@ -55,3 +56,21 @@
     </nav>
 </body>
 </html>
+<script>
+    const previousButton = document.getElementById('previous-button'); // The back button
+    const nextButton = document.getElementById('next-button'); // The next button
+    const headerDiv = document.getElementById('header');
+
+    const headerTitles = ["Home", "About", "Contact", "Story", "Projects"];
+
+    let s = 0;
+
+    function advance(delta) {
+        s = (s + delta + headerTitles.length) % headerTitles.length;
+        headerDiv.innerHTML = headerTitles[s];
+    }
+    previousButton.addEventListener('click', () => advance(-1));
+    nextButton.addEventListener('click', () => advance(1));
+
+    advance(0);
+</script>
