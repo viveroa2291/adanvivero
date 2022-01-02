@@ -7,7 +7,6 @@
   margin: 5px 2px;
   border-radius: 50%;
 }
-
 .fa:hover {
   opacity: 0.9;
 }
@@ -45,7 +44,8 @@
   color: white;
 }
 #footer{
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     bottom: 0;
     width: 100%;
   }
@@ -59,3 +59,27 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
+  #mainBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #cardBody {
+    width: 500px;
+  }
+  #next-area, #previous-area {
+    margin: auto;
+}
+#next-button, #previous-button{
+    color: white;
+    background: skyblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#next-button:hover, #previous-button:hover{
+  background: cornflowerblue;
+}

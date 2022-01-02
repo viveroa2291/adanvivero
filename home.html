@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="bootstrap.bundle.min.js/bootstrap.bundle.js">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -35,16 +36,17 @@
         <p>This website is for you guys to get to know a little bit about me and where I come from and what my interests are. </p>
         <p>Down below on the footer are a bunch of links that include my social media and links to see my work in regards to computer science. You can also find more in depth on the top navigation bar under <a href="contact.html">'Contact'</a>.</p>
         <p>On the top navigation bar, you can find the <a href="about.html">About</a>, <a href="story.html">Story, </a> <a href="contact.html">Contact</a>, and <a href="projects.html">Projects</a> links.</p>
-        
-        
     </div>
-    <div id="description">
+    <div>
+        <div id="description">
         <div id="previous-area"><button id="previous-button">&#8249;</button> </div>
-            <h2 id="header">This is the header</h2>
+            <a href="" id="header"></a>
             <hr>
             <div id="next-area"><button id="next-button">&#8250;</button></div>
-            <p id="descriptionBody">This is the description</p>
+        </div> 
+    <p id="descriptionBody">This is the description</p>
     </div>
+    
 </div>
     <nav class="navbar navbar-dark bg-dark" id="footer">
         <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook"></a>
@@ -66,13 +68,14 @@
 
     const headerTitles = ["Home", "About", "Contact", "Story", "Projects"];
     const headerDescritpions = ["This is the home page", "This is the about page", "This is the contact page", "This is the story page", "This is the projects page."];
-
+    const linkTitles = ["home.html", "about.html", "contact.html", "story.html", "projects.html"];
     let s = 0;
 
     function advance(delta) {
         s = (s + delta + headerTitles.length) % headerTitles.length;
         descriptionDiv.innerHTML = headerDescritpions[s];
         headerDiv.innerHTML = headerTitles[s];
+        headerDiv.setAttribute("href", linkTitles[s]);
     }
     previousButton.addEventListener('click', () => advance(-1));
     nextButton.addEventListener('click', () => advance(1));

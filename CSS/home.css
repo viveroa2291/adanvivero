@@ -19,6 +19,9 @@
     background: skyblue;
     
 }
+#next-button:hover, #previous-button:hover{
+    background: cornflowerblue;
+  }
 #header{
     text-align: center;
 }
