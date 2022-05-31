@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="home.html" >Home</a>
+            <a class="navbar-brand text-white" href="index.html" >Home</a>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link text-white" href="about.html">About</a>
@@ -53,28 +54,4 @@
     </nav>
 </body>
 </html>
-<script>
-    const feature = document.getElementById('featureTitle');
-    const previousButton = document.getElementById('previous-button');
-    const nextButton = document.getElementById('next-button');
-    const card = document.getElementById('cardTitle');
-    const images = document.getElementById('images');
-    const description = document.getElementById('description');
-
-    const featureTitles = ["Introduction", "Extra"];
-    const imageSource = ["images/schofieldHall.jpeg", "images/doorCounty.jpeg"]
-    const descriptionWords = ["My Name is Adan. I am currently a student at the University of Wisconsin-Eau Claire on my last semester. I am studying to become a Computer Science major.", "The next stuff."];
-    let s = 0;
-
-    function advance(delta) {
-        s = (s + delta + featureTitles.length) % featureTitles.length;
-        feature.innerHTML = featureTitles[s];
-        card.innerHTML = featureTitles[s];
-        description.innerHTML = descriptionWords[s];
-        images.src = imageSource[s];
-    }
-    previousButton.addEventListener('click', () => advance(-1));
-    nextButton.addEventListener('click', () => advance(1));
-
-    advance(0);
-</script>
+<script src="about.js"></script>
