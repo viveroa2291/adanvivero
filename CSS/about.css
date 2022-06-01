@@ -82,4 +82,9 @@
 }
 #next-button:hover, #previous-button:hover{
   background: cornflowerblue;
+  cursor: pointer;
+}
+.about-header {
+  margin: 1rem 0 0 0;
+  font-size: 25px;
 }
