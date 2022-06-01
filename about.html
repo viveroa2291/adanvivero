@@ -6,29 +6,32 @@
     <title>About Page</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
-    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="index.html" >Home</a>
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link text-white" href="about.html">About</a>
-                    <a class="nav-link text-white" href="contact.html" >Contact</a>
-                    <a class="nav-link text-white" href="story.html" >Story</a>
-                    <a class="nav-link text-white" href="projects.html">Projects</a>
-                </div>
-                <div class="navbar-brand" style="margin-left: 500px;">
-                    About Page
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html" >Home</a>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                        <a class="nav-link text-white" href="contact.html" >Contact</a>
+                        <a class="nav-link text-white" href="story.html" >Story</a>
+                        <a class="nav-link text-white" href="projects.html">Projects</a>
+                    </div>
+                    <div class="navbar-brand" style="margin-left: 500px;">
+                        About Page
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div id="mainBody">
+        </nav>
+    </header>
+   <main>
+       <div id="mainBody">
         <div id="previous-area"><button id="previous-button">&#8249;</button> </div>
     <div class="card mb-3 m-auto" id="cardBody">
         <div class="card-header text-center" id="featureTitle"></div>
@@ -42,7 +45,8 @@
       </div>
       <div id="next-area"><button id="next-button">&#8250;</button></div>
     </div>
-    <nav class="navbar navbar-dark bg-dark" id="footer">
+   </main>
+    <footer class="navbar navbar-dark bg-dark bottom-footer">
         <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook"></a>
         <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram"></a>
         <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
@@ -51,7 +55,8 @@
         <i class="fa fa-stack-overflow"></i>
         <i class='fab fa-discord'></i> 
         <a href="#" class="fa fa-google"></a> 
-    </nav>
+        <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
+</footer>
+<script src="about.js"></script>
 </body>
 </html>
-<script src="about.js"></script>

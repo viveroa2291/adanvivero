@@ -1,6 +1,24 @@
-.leftBar{
+.containers {
+  display: flex;
+  flex-direction: row;
+}
+.left-side{
+    width: 20%;
+    padding: 0 1rem;
+}
+.left-details{
     border: solid black 5px;
-    grid-area: leftPanel;
+    padding: 0 1rem;
+}
+.main-side{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.main-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .helloWorld{
     text-align: center;
@@ -23,11 +41,6 @@
   visibility: visible;
   width: 100%;
 }
-.description{
-    grid-area: mainPanel;
-    display: flex;
-    flex-direction: row;
-}
 #next-area, #previous-area {
     margin: auto;
 }
@@ -42,69 +55,3 @@
 #header{
     text-align: center;
 }
-.mainBody{
-    display: grid;
-    grid-template-areas: 
-    'leftPanel mainPanel mainPanel mainPanel mainPanel';
-   grid-gap: 10px;
-}
-.fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 45px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-.fa:hover {
-    opacity: 0.9;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-.fa-instagram {
-    background: #AA5544;
-    color: white;
-  }
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-.fa-stack-overflow {
-    background: orange;
-    color:white;
-  }
-.fa-discord{
-    background: blue;
-    color: white;
-  }
-.fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-#footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-.fab {
-    padding: 10px;
-    font-size: 30px;
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }

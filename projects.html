@@ -6,13 +6,14 @@
     <title>Projects Page</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/project.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
-    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="index.html" >Home</a>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
@@ -28,8 +29,11 @@
             </div>
         </div>
     </nav>
-    <p>Hello World, this is the projects page.</p>
-    <nav class="navbar navbar-dark bg-dark" id="footer">
+    </header>
+    <main>
+        <p>Hello World, this is the projects page.</p>
+    </main>
+    <footer class="navbar navbar-dark bg-dark bottom-footer">
         <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook"></a>
         <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram"></a>
         <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
@@ -38,6 +42,7 @@
         <i class="fa fa-stack-overflow"></i>
         <i class='fab fa-discord'></i> 
         <a href="#" class="fa fa-google"></a> 
-    </nav>
+        <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
+</footer>
 </body>
 </html>
