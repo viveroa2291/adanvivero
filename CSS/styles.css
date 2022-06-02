@@ -1,3 +1,6 @@
+a.footer-links:hover {
+    text-decoration: none;
+}
 .fa {
     padding: 15px;
     font-size: 30px;
@@ -53,11 +56,14 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
-  .bottom-footer {
+.bottom-footer {
     position: fixed;
     bottom: 0;
-   /* width: 100%; */
-    text-align: center;
-    padding: .5rem 1rem;
+    width: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links {
+    margin: 0 2rem 1rem 2rem;
 }

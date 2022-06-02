@@ -23,6 +23,10 @@
 }
 .helloWorld{
     text-align: center;
+    margin-top: .5rem;
+}
+a.home-links:hover {
+  text-decoration: none;
 }
 .home-links { 
   position: relative;
@@ -40,7 +44,8 @@
 }
 .home-links:hover:before {
   visibility: visible;
-  width: 100%;
+  width: 90%;
+  text-decoration: none;
 }
 .next-area, .previous-area {
     margin: 0 1rem;
@@ -56,4 +61,23 @@
   }
 #header{
     text-align: center;
+}
+.dots-wrapper {
+  position: absolute;
+  text-align: center;
+  /* transform: translateX(-50%); */
+  display: flex;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 22px 22px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
 }

@@ -25,7 +25,7 @@
                         <a class="nav-link text-white" href="story.html" >Story</a>
                         <a class="nav-link text-white" href="projects.html">Projects</a>
                     </div>
-                    <div class="navbar-brand" style="margin-left: 450px;">Home Page</div>
+                    <div class="navbar-brand" style="margin-left: 350px;">Home Page</div>
                 </div>
             </div>
         </nav>
@@ -38,7 +38,7 @@
                     <hr></hr>
                     <p>This website is for you guys to get to know a little bit about me and where I come from and what my interests are. </p>
                     <p>Down below on the footer are a bunch of links that include my social media and links to see my work in regards to computer science. You can also find more in depth on the top navigation bar under <a class="home-links" href="contact.html">Contact</a>.</p>
-                    <p>On the top navigation bar, you can find the <a href="about.html" class="home-links">About</a>, <a href="story.html" class="home-links">Story, </a> <a href="contact.html" class="home-links">Contact</a>, and <a href="projects.html" class="home-links">Projects</a> links.</p>
+                    <p>On the top navigation bar, you can find the <a href="about.html" class="home-links">About</a>, <a href="story.html" class="home-links">Story</a>, <a href="contact.html" class="home-links">Contact</a>, and <a href="projects.html" class="home-links">Projects</a> links.</p>
                 </div>
             </section>
             <section class="main-side">
@@ -53,19 +53,28 @@
                     </div>
                 </div> 
                     <p id="descriptionBody"></p>
+                    <div class="dots-wrapper">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                      </div>
             </section>
         </div>
     </main> 
     <footer class="navbar navbar-dark bg-dark bottom-footer">
-            <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram"></a>
-            <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
-            <a href="https://www.youtube.com/channel/UC44ZQ3MDGUBNPA0ZFsY8Lfg" class="fa fa-youtube"></a>
-            <a href="https://www.linkedin.com/in/adan-vivero-a93970156/" class="fa fa-linkedin"></a>
-            <i class="fa fa-stack-overflow"></i>
-            <i class='fab fa-discord'></i> 
-            <a href="#" class="fa fa-google"></a> 
+        <div class="bottom-links">
+            <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook footer-links"></a>
+            <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram footer-links"></a>
+            <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost footer-links"></a>
+            <a href="https://www.youtube.com/channel/UC44ZQ3MDGUBNPA0ZFsY8Lfg" class="fa fa-youtube footer-links"></a>
+            <a href="https://www.linkedin.com/in/adan-vivero-a93970156/" class="fa fa-linkedin footer-links"></a>
+            <i class="fa fa-stack-overflow footer-links"></i>
+            <i class="fab fa-discord footer-links"></i> 
+            <a href="#" class="fa fa-google footer-links"></a> 
+        </div>
+        <div>
             <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
+        </div>
     </footer>
     <script src="home.js"></script>
 </body>
