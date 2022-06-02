@@ -14,16 +14,53 @@
     flex-direction: column;
     align-items: center;
     align-self: center;
-    width: 80%;
+    width: 60%;
 } 
 .main-details {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+.right-side {
+  width: 20%;
+}
+.right-details {
+  border: solid black 3px;
+  padding: .5rem 1rem;
+}
 .helloWorld{
     text-align: center;
     margin-top: .5rem;
+}
+.header{
+    text-align: center;
+}
+.timeline-header {
+  font-size: 16px;
+}
+.timeline {
+  text-align: center;
+  margin-top: .5rem;
+}
+.timeline-under-header {
+  font-size: 14px;
+  color: gray;
+}
+.timeline-images {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prospect-image {
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timeline-description {
+  margin-top: 1rem;
+  font-size: 14px;
 }
 a.home-links:hover {
   text-decoration: none;
@@ -62,15 +99,12 @@ a.home-links:hover {
     background: cornflowerblue;
     cursor: pointer;
   }
-.header{
-    text-align: center;
-}
 .dots-wrapper {
   position: absolute;
   text-align: center;
   /* transform: translateX(-50%); */
   display: flex;
-  bottom: 0;
+  bottom: 1rem;
 }
 .dot {
   cursor: pointer;
