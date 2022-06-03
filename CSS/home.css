@@ -1,3 +1,6 @@
+main {
+  background-color: rgba(235, 245, 245, 90)
+}
 .containers {
   display: flex;
   flex-direction: row;
@@ -92,6 +95,13 @@ a.home-links:hover {
 .next-area, .previous-area {
     margin: 0 1rem;
 }
+.middle-area {
+  display: flex;
+  flex-direction: column;
+}
+.description-body {
+  text-align: center;
+}
 #next-button, #previous-button{
     color: white;
     background: skyblue;
@@ -102,11 +112,10 @@ a.home-links:hover {
     cursor: pointer;
   }
 .dots-wrapper {
-  position: absolute;
+
   text-align: center;
   /* transform: translateX(-50%); */
   display: flex;
-  bottom: 1rem;
 }
 .dot {
   cursor: pointer;
