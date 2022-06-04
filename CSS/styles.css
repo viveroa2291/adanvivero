@@ -6,7 +6,7 @@ a.top-link:hover {
     color: white;
 }
 a.top-link { 
-    position: relative;
+    position: absolute; 
 }
 a.top-link:before {  
       content: "";
@@ -23,6 +23,37 @@ a.top-link:before {
 a.top-link:hover:before {
     visibility: visible;
     transform: scaleX(.75);
+}
+.top-navigation {
+    height: 3rem;
+}
+.home {
+    margin-left: 0;
+}
+.about {
+    margin-left: 4rem;
+}
+.contact {
+    margin-left: 8rem;
+}
+.story {
+    margin-left: 13rem;
+}
+.travel {
+    margin-left: 16.5rem;
+}
+.projects {
+    margin-left: 20.5rem;
+}
+.top-links {
+    width: 100%;
+    align-items: center;
+}
+.title {
+    height: 5px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 a.footer-links:hover {
     text-decoration: none;
