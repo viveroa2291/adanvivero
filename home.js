@@ -10,7 +10,8 @@ const headerDescritpions = ["Welcome to my website. <br> This is the <a class='h
 "This is the story page", 
 "This is the travel page", 
 "This is the projects page."];
-const linkTitles = ["home.html", "about.html", "contact.html", "story.html", "projects.html"];
+const linkTitles = ["home.html", "about.html", "contact.html", "story.html","travel.html", "projects.html"];
+
 let s = 0;
 
 function advance(delta) {
@@ -21,5 +22,11 @@ function advance(delta) {
 }
 previousButton.addEventListener('click', () => advance(-1));
 nextButton.addEventListener('click', () => advance(1));
-
 advance(0);
+
+function dots(delta) {
+    descriptionDiv.innerHTML = headerDescritpions[delta];
+    headerDiv.innerHTML = headerTitles[delta];
+    headerDiv.setAttribute("href", linkTitles[delta]); 
+    s = delta;
+}

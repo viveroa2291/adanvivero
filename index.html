@@ -51,7 +51,7 @@
                         </div>
                         <div class="middle-area">                        
                             <a href="" class="header" id="header"></a>
-                            <img src="images/doorCounty.jpeg" alt="">
+                            <img class="main-image" src="images/doorCounty.jpeg" alt="main-picture">
                             <hr>
                         </div>
                         <div class="next-area">
@@ -60,9 +60,12 @@
                     </div> 
                     <p id="descriptionBody" class="description-body"></p>
                     <div class="dots-wrapper">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="dots(0)"></span>
+                        <span class="dot" onclick="dots(1)"></span>
+                        <span class="dot" onclick="dots(2)"></span>
+                        <span class="dot" onclick="dots(3)"></span>
+                        <span class="dot" onclick="dots(4)"></span>
+                        <span class="dot" onclick="dots(5)"></span>
                     </div>
             </section>
             <section class="right-side">
@@ -99,6 +102,8 @@
             <a class="nav-link text-white footer-link" href="projects.html">Projects</a>
         </div>
         <div>
+            <span class="copyright" onclick="currentSlide(5)">English</span>
+            <span class="copyright" onclick="currentSlide(6)">Spanish</span>
             <span class="copyright">Copyright <script>document.write(new Date().getFullYear());</script></span>
         </div>
     </footer>
