@@ -94,37 +94,359 @@ a.footer-link:hover:before {
     opacity: 0.9;
 }
 .fa-facebook {
-    background: #3B5998;
     color: white;
+}
+.fa-facebook:hover {
+    color: white;
+}
+.fa-facebook::before, .fa-facebook::after {
+    top: 0;
+    left: 0;
+}
+.fa-facebook::before {
+    background: #3B5998;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.fa-facebook:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.10s, border-bottom-color 0.30s linear 0.20s, border-left-color .40s linear .30s;
+}
+.fa-facebook::after {
+    border: 0 solid transparent; 
+}
+.fa-facebook:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-facebook {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-facebook::before, .fa-facebook::after {
+      border-radius: 100%;
 }
 .fa-instagram {
-    background: #AA5544;
+    color: white; 
+}
+.fa-instagram:hover {
     color: white;
 }
+.fa-instagram::before, .fa-instagram::after {
+    top: 0;
+    left: 0;
+}
+.fa-instagram::before {
+    padding: 15px;
+    border: 2px solid transparent;
+    background: #AA5544;
+}
+.fa-instagram:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-instagram::after {
+    border: 0 solid transparent; 
+}
+.fa-instagram:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-instagram {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-instagram::before, .fa-instagram::after {
+      border-radius: 100%;
+}
 .fa-snapchat-ghost {
-    background: #fffc00;
+   
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.fa-youtube {
-    background: #bb0000;
+.fa-snapchat-ghost:hover {
     color: white;
+}
+.fa-snapchat-ghost::before, .fa-snapchat-ghost::after {
+    top: 0;
+    left: 0;
+}
+.fa-snapchat-ghost::before { 
+    background: #fffc00;
+    padding: 15px;
+    border: 3px solid transparent;
+}
+.fa-snapchat-ghost:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-snapchat-ghost::after {
+    border: 0 solid transparent; 
+}
+.fa-snapchat-ghost:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-snapchat-ghost {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-snapchat-ghost::before, .fa-snapchat-ghost::after {
+      border-radius: 100%;
+}
+.fa-youtube {
+    
+    color: white;
+}
+.fa-youtube:hover {
+    color: white;
+}
+.fa-youtube::before, .fa-youtube::after {
+    top: 0;
+    left: 0;
+}
+.fa-youtube::before {
+    background: #bb0000;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.fa-youtube:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-youtube::after {
+    border: 0 solid transparent; 
+}
+.fa-youtube:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-youtube {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-youtube::before, .fa-youtube::after {
+      border-radius: 100%;
 }
 .fa-linkedin {
-    background: #007bb5;
     color: white;
+}
+.fa-linkedin:hover {
+    color: white;
+}
+.fa-linkedin::before, .spin::after {
+    top: 0;
+    left: 0;
+}
+.fa-linkedin::before {
+    background: #007bb5;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.fa-linkedin:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-linkedin::after {
+    border: 0 solid transparent; 
+}
+.fa-linkedin:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-linkedin {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-linkedin::before, .fa-linkedin::after {
+      border-radius: 100%;
 }
 .fa-stack-overflow {
-    background: orange;
     color:white;
 }
-.fa-discord{
-    background: blue;
+.fa-stack-overflow:hover {
     color: white;
 }
-.fa-google {
-    background: #dd4b39;
+.fa-stack-overflow::before, .fa-stack-overflow::after {
+    top: 0;
+    left: 0;
+}
+.fa-stack-overflow::before {
+    background: orange;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.fa-stack-overflow:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-stack-overflow::after {
+    border: 0 solid transparent; 
+}
+.fa-stack-overflow:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-stack-overflow {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-stack-overflow::before, .fa-stack-overflow::after {
+      border-radius: 100%;
+}
+.fa-discord{
     color: white;
+}
+.fa-discord:hover {
+    color: white;
+}
+.fa-discord::before, .fa-discord::after {
+    top: 0;
+    left: 0;
+}
+.fa-discord::before { 
+    background: blue;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.fa-discord:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-discord::after {
+    border: 0 solid transparent; 
+}
+.fa-discord:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-discord {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-discord::before, .fa-discord::after {
+      border-radius: 100%;
+}
+.fa-google {
+    color: white;
+}
+.fa-google:hover {
+    color: white;
+}
+.fa-google::before, .fa-google::after {
+    top: 0;
+    left: 0;
+}
+.fa-google::before {
+    background: #dd4b39;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.fa-google:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.fa-google::after {
+    border: 0 solid transparent; 
+}
+.fa-google:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.fa-google {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.fa-google::before, .fa-google::after {
+      border-radius: 100%;
 }
 .fab {
     padding: 10px;
