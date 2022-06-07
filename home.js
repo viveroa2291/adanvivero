@@ -13,7 +13,7 @@ const headerDescritpions = ["Welcome to my website. <br> This is the <a class='h
 "In the <a class='home-links' href='travel.html'>Travel</a> page, it will show images of my places that I have traveled and some stories. <br> Important to point out, I enjoy traveling a lot and visiting different locations.", 
 "In the <a class='home-links' href='projects.html'>Projects</a> page, it will provide projects that I have been working on <br> and what I plan on working on in the future. <br> I enjoy working on projects of my own in my free time."];
 const linkTitles = ["index.html", "about.html", "contact.html", "story.html","travel.html", "projects.html"];
-const imageSource = ["images/doorCounty.jpeg", "", "", "", "", "home-images/projects.jpeg"];
+const imageSource = ["images/doorCounty.jpeg", "images/doorCountyBoat.jpeg", "", "", "images/schofieldHall.jpeg", "home-images/projects.jpeg"];
 let s = 0;
 
 function advance(delta) {

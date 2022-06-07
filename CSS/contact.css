@@ -7,36 +7,35 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
-  
-  .fa:hover {
+.fa:hover {
     opacity: 0.9;
 }
-.fa-facebook {
+.contact-facebook {
     background: #3B5998;
     color: white;
-  }
-  .fa-instagram {
+}
+.contact-instagram {
     background: #AA5544;
     color: white;
   }
-  .fa-snapchat-ghost {
+.contact-snapchat {
     background: #fffc00;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-  .fa-youtube {
+}
+.contact-youtube {
     background: #bb0000;
     color: white;
-  }
-  .fa-linkedin {
+}
+.contact-linkedin {
     background: #007bb5;
     color: white;
-  }
-  .fa-stack-overflow {
+}
+.contact-stackoverflow {
     background: orange;
     color:white;
-  }
-  .fa-discord{
+}
+.contact-discord{
     /*
     padding: 15px;
     font-size: 30px;
@@ -48,28 +47,28 @@
     */
     background: blue;
     color: white;
-  }
-  .fa-google {
+}
+.contact-google {
     background: #dd4b39;
     color: white;
-  }
-  img{
+}
+img{
     height: 600px;
     border: solid black 5px;
     border-radius: 5%;
-  }
-  #mainBody{
+}
+#mainBody{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-  }
-  #footer{
+}
+#footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  .fab {
+}
+.fab {
     padding: 10px;
     font-size: 30px;
     width: 45px;
@@ -78,8 +77,8 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-  .fas {
+}
+.fas {
     padding: 15px;
     font-size: 30px;
     width: 45px;
@@ -87,4 +86,4 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
+}
