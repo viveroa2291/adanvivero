@@ -25,17 +25,17 @@ img {
     margin-right: auto; 
     z-index: 2;
 }
-.arkansas, .california, .minnesota, .missouri, .utah{
+.arkansas, .california, .florida, .georgia, .illinois, .minnesota, .missouri, .south-dakota, .texas, .utah{
     font-weight: 1000;
 }
-.arkansas:hover, .california:hover, .minnesota:hover, .missouri:hover, .utah:hover{
+.arkansas:hover, .california:hover, .florida:hover, .georgia:hover, .illinois:hover, .minnesota:hover, .missouri:hover, .south-dakota:hover, .texas:hover, .utah:hover{
     background-color: green;
     cursor: pointer;
 }
-.AR, .CA, .MN, .MO, .UT {
+.AR, .CA, .FL, .GA, .IL, .MN, .MO, .SD, .TX, .UT {
     fill: red;
 }
-.AR:hover, .CA:hover, .MN:hover, .MO:hover, .UT:hover {
+.AR:hover, .CA:hover, .FL:hover, .GA:hover, .IL:hover, .MN:hover, .MO:hover, .SD:hover, .TX:hover, .UT:hover {
     z-index: -100;
     fill: green;
     cursor: pointer;
