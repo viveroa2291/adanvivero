@@ -485,11 +485,13 @@ a.footer-link:hover:before {
 .english { 
     position: absolute;
     font-size: 12px; 
+    margin-top: 5px;
 }
 .spanish {
     position: absolute; 
     font-size: 12px;
     margin-left: 4rem;
+    margin-top: 5px;
 }
 .english:before, .spanish:before{  
       content: "";
@@ -506,4 +508,7 @@ a.footer-link:hover:before {
 .english:hover:before, .spanish:hover::before {
     visibility: visible;
     transform: scaleX(.75);
+}
+.english:hover, .spanish:hover {
+    cursor: pointer;
 }

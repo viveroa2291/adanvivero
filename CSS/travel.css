@@ -1,0 +1,42 @@
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ten {
+    background-color: red;
+    border: solid red 5px;
+}
+.ben {
+    border: solid blue 5px;
+}
+.ken {
+    border: solid yellow 5px;
+    background-color: yellow;
+    color: yellow;
+    z-index: 1;
+}
+img {
+    z-index: -1; 
+}
+.united-states-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    z-index: 2;
+}
+.arkansas, .california, .minnesota, .missouri, .utah{
+    font-weight: 1000;
+}
+.arkansas:hover, .california:hover, .minnesota:hover, .missouri:hover, .utah:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.AR, .CA, .MN, .MO, .UT {
+    fill: red;
+}
+.AR:hover, .CA:hover, .MN:hover, .MO:hover, .UT:hover {
+    z-index: -100;
+    fill: green;
+    cursor: pointer;
+}
