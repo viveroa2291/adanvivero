@@ -1,0 +1,30 @@
+.minnesota-top-section {
+}
+.minnesota-header {
+    text-align: center;
+    color: white;
+}
+.city-image {
+    height: 500px;
+    width: 100%;
+    padding: 0 5rem;
+    z-index: -1;
+}
+.body-headers {
+    text-align: center;
+}
+.body-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.minnesota-images {
+    height: 350px;
+    margin: 1rem 3rem;
+}
+.hello {
+    margin-right: 5rem;
+}
+hr {
+    width: 25%;
+}
