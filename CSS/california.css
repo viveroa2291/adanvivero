@@ -1,10 +1,10 @@
-.minnesota-top-section {
-    background-image: url('../minnesota-images/city.jpeg');
+.california-top-section {
+    background-image: url('../california-images/city.jpeg');
     height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.minnesota-header {
+.california-header {
     line-height: 750px;
     text-align: center;
     color: white;
@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: center;
 }
-.minnesota-images {
+.california-images {
     height: 350px;
     margin: .5rem 3rem;
 }
