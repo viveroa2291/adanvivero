@@ -1,0 +1,31 @@
+.michigan-top-section {
+    background-image: url('../michigan-images/ski.jpeg');
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.michigan-header {
+    line-height: 750px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+.body-headers {
+    text-align: center;
+    margin-top: 1rem;
+}
+.body-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.michigan-images {
+    height: 350px;
+    margin: .5rem 3rem;
+}
+.hello {
+    margin-right: 5rem;
+}
+.header-hr {
+    width: 25%;
+}
