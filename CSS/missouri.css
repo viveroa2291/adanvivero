@@ -1,0 +1,31 @@
+.missouri-top-section {
+    background-image: url('../missouri-images/cave2.jpeg');
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.missouri-header {
+    line-height: 750px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+.body-headers {
+    text-align: center;
+    margin-top: 1rem;
+}
+.body-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.missouri-images {
+    height: 350px;
+    margin: .5rem 3rem;
+}
+.hello {
+    margin-right: 5rem;
+}
+.header-hr {
+    width: 25%;
+}
