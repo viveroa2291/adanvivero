@@ -8,12 +8,12 @@
     margin-right: auto; 
     z-index: 2;
 }
-.arkansas, .california, .florida, .georgia, .illinois, .indiana, .michigan, .minnesota, .missouri, .ohio, .south-dakota, .tenessee, .texas, .utah, .washington-dc, .west-virginia, .wisconsin {
+.arkansas, .california, .florida, .georgia, .illinois, .indiana, .michigan, .minnesota, .missouri, .ohio, .south-dakota, .tennessee, .texas, .utah, .washington-dc, .west-virginia, .wisconsin {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     fill: white;
 }
-.arkansas:hover, .california:hover, .florida:hover, .georgia:hover, .illinois:hover, .indiana:hover, .michigan:hover, .minnesota:hover, .missouri:hover, .ohio:hover, .south-dakota:hover, .tenesseee:hover, .texas:hover, .utah:hover, .washington-dc:hover, .west-virginia:hover, .wisconsin:hover {
+.arkansas:hover, .california:hover, .florida:hover, .georgia:hover, .illinois:hover, .indiana:hover, .michigan:hover, .minnesota:hover, .missouri:hover, .ohio:hover, .south-dakota:hover, .tennesseee:hover, .texas:hover, .utah:hover, .washington-dc:hover, .west-virginia:hover, .wisconsin:hover {
     background-color: green;
     cursor: pointer;
 }
