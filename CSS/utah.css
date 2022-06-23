@@ -23,9 +23,30 @@
     height: 350px;
     margin: .5rem 3rem;
 }
-.hello {
-    margin-right: 5rem;
-}
 .header-hr {
     width: 25%;
+}
+@media (max-width: 1000px){
+    .utah-header {
+        font-size: 50px;
+        color: white;
+    }
+    .body-images {
+        flex-direction: column;
+    }
+    .wide {
+        height: 300px;
+        margin: .5rem 1rem;
+    }
+    .not-wide {
+        height: 450px;
+        margin: .5rem 1.5rem;
+    }
+    p {
+        font-size: 14px;
+    }
+    .mid-wide {
+        height: 400px;
+        margin: .5rem 1.75rem;
+    }
 }
