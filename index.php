@@ -43,6 +43,14 @@
                     <p>You can also find a more in depth link to my social media and to get in further contact with me on the on the <a class="home-links" href="contact.html">Contact</a> link.</p>
                     <p>On the top and bottom navigation bar you can find the <a href="about.html" class="home-links">About</a>, <a href="story.html" class="home-links">Story</a>, <a href="travel.html" class="home-links">Travel</a>, <a href="contact.html" class="home-links">Contact</a>, and <a href="projects.html" class="home-links">Projects</a> links.</p>
                 </div>
+                <div class="left-details">
+                    <p>Here are my dividends</p>                        
+                    <label for="dividends">Dividends</label>
+                    <select name="dividends" id="dividends">
+                        <option>Select a type:</option></select></p>
+                    </select>
+                
+                </div>
             </section>
             <section class="main-side">
                     <div class="main-details">
@@ -110,3 +118,6 @@
     <script src="home.js"></script>
 </body>
 </html>
+<?php
+        $connect = mysqli_connect('localhost', 'root','root', 'sandbox');
+?>
