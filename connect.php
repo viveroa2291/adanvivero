@@ -1,12 +1,14 @@
 <?php
-    $dividends = $_POST['dividends'];
+    $dsn = "mysql:host=localhost;dbname=Dividends";
+    $username = "root";
+    $password = "";
 
-    // Database Connection 
-    $conn = new mysqli('localhost', 'root', '9Detroit@', 'test');
-    if($conn->connect_error) {
-        die('Connection Failed : '.$conn->connect_error);
+    try {
+        $db = new PDO($dsn, $username, $password);
+        echo "You have connected!";
+    } catch(PDOException $e) {
+        $error_message = $e->getMessage();
+        echo $error_message;
+        exit();
     }
-    else {
-        $stmt = $conn->prepare("insert into ");
-    }
-?>
+?>  

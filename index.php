@@ -19,12 +19,12 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav top-links">
-                        <a class="navbar-brand text-white top-link home" href="index.html">Home</a>
-                        <a class="nav-link text-white top-link about" href="about.html">About</a>
-                        <a class="nav-link text-white top-link contact" href="contact.html">Contact</a>
-                        <a class="nav-link text-white top-link story" href="story.html">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
-                        <a class="nav-link text-white top-link projects" href="projects.html">Projects</a>
+                        <a class="navbar-brand text-white top-link home" href="index.php">Home</a>
+                        <a class="nav-link text-white top-link about" href="about.php">About</a>
+                        <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
+                        <a class="nav-link text-white top-link story" href="story.php">Story</a>
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
+                        <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Home Page</p>
                     </div>
                 </div>
@@ -47,9 +47,24 @@
                     <p>Here are my dividends</p>                        
                     <label for="dividends">Dividends</label>
                     <select name="dividends" id="dividends">
-                        <option>Select a type:</option></select></p>
+                    <?php 
+                        $connect = mysqli_connect('localhost', 'root', '', 'Dividends'); 
+
+                        $query = 'SELECT id, Ticker, Price FROM Stocks';
+                        $result = mysqli_query($connect, $query);
+
+                        echo mysqli_num_rows(($result));
+                        while($record = mysqli_fetch_assoc($result )) 
+                        {
+                            echo '<pre>';
+                            print_r($record);
+                            echo '</pre>';
+                            
+                            echo '<option>'.$record['Ticker'].'</option>';
+
+                        }
+                    ?>
                     </select>
-                
                 </div>
             </section>
             <section class="main-side">
@@ -82,11 +97,11 @@
                     <hr></hr>
                     <h4 class="timeline-header">May 2022 <br> <p class="timeline-under-header">University of Wisconsin-Eau Claire</p></h4>
                     <img class="timeline-images" src="images/graduation.jpeg" alt="University of Wisconsin-Eau Claire graduation picture">
-                    <p class="timeline-description">Graduated from the University of Wisconsin of Eau Claire with a Bachelors of Science with a Degree in Computer Science. Take a look at the <a href="about.html" class="home-links">About</a> page for more details.</p>
+                    <p class="timeline-description">Graduated from the University of Wisconsin of Eau Claire with a Bachelors of Science with a Degree in Computer Science. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
                     <h4 class="timeline-header">June 2016 <br> <p class="timeline-under-header">Prospect High School</p></h4>
                     <img class="prospect-image" src="images/prospect.jpeg" alt="Prospect High School graduation picture">
-                    <p class="timeline-description">Graduated from Prospect High School with a 2.78 GPA. Take a look at the <a href="about.html" class="home-links">About</a> page for more details.</p>
-                    <p class="timeline-description">On the top navigation bar, you can find the <a href="about.html" class="home-links">About</a>, <a href="story.html" class="home-links">Story</a>, <a href="contact.html" class="home-links">Contact</a>, and <a href="projects.html" class="home-links">Projects</a> links.</p>
+                    <p class="timeline-description">Graduated from Prospect High School with a 2.78 GPA. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
+                    <p class="timeline-description">On the top navigation bar, you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>
                 </div>
             </section>
         </div>
@@ -103,11 +118,11 @@
             <a href="#" class="fa fa-google footer-links google"></a> 
         </div>
         <div class="footer-nav">
-            <a class="nav-link text-white footer-link" href="about.html">About</a>
-            <a class="nav-link text-white footer-link" href="contact.html">Contact</a>
-            <a class="nav-link text-white footer-link" href="story.html">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
-            <a class="nav-link text-white footer-link" href="projects.html">Projects</a>
+            <a class="nav-link text-white footer-link" href="about.php">About</a>
+            <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
+            <a class="nav-link text-white footer-link" href="story.php">Story</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
+            <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>
             <span class="english" onclick="currentSlide(5)">English</span>
@@ -118,6 +133,3 @@
     <script src="home.js"></script>
 </body>
 </html>
-<?php
-        $connect = mysqli_connect('localhost', 'root','root', 'sandbox');
-?>
