@@ -86,7 +86,7 @@
                 <div class="left-details">
                     <h2 class="helloWorld">Guide</h2>
                     <hr></hr>
-                    <p class="left-side-description">This website was created by me using HTML, CSS, and Javascript where it provides information about myself for you guys to get to know a little bit about me and where I come from along with my interests.</p>
+                    <p class="left-side-description">This website was created by me using HTML, CSS, Javascript, and PHP where it provides information about myself for you guys to get to know a little bit about me and where I come from along with my interests.</p>
                     <p class="left-side-description">The page that you are currently on is the <a href="index.php" class="home-links">Home</a> page where it serves as a guide and provides a concise timeline of my life and my most memorable moments on the right. The center provides a glimpse and insight of what the website is about.</p>
                     <p class="left-side-description">Down below on the footer are a variety of links that include links to my social media and links that can also be found on the top navigation. I plan to include a spanish version on the footer where it can provide a Spanish version of the site to expand beyond realms.</p>
                     <p class="left-side-description">You can also find a more in depth link to my social media and to get in further contact with me on the on the <a class="home-links" href="contact.php">Contact</a> link.</p>
