@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>California Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/california.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/california.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -40,7 +44,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
-                        <img class="california-images mid-wide" src="california-images/downtown.jpeg" alt="Los Angeles">
+                        <img class="california-images mid-wide" src="states-images/california-images/downtown.jpeg" alt="Los Angeles">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -50,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
-                        <img class="california-images mid-wide" src="california-images/pbars.jpeg" alt="Los Angeles">
+                        <img class="california-images mid-wide" src="states-images/california-images/pbars.jpeg" alt="Los Angeles">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -66,7 +70,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div> 
-                        <img class="california-images not-wide" src="california-images/disneyland-jon.jpeg" alt="Disneyland">
+                        <img class="california-images not-wide" src="states-images/california-images/disneyland-jon.jpeg" alt="Disneyland">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -76,7 +80,7 @@
                     </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
-                        <img class="california-images not-wide" src="california-images/disneyland-jon2.jpeg" alt="Disneyland">
+                        <img class="california-images not-wide" src="states-images/california-images/disneyland-jon2.jpeg" alt="Disneyland">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -90,7 +94,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
-                        <img class="california-images wide" src="california-images/disneyland-kristin.jpeg" alt="Disneyland">
+                        <img class="california-images wide" src="states-images/california-images/disneyland-kristin.jpeg" alt="Disneyland">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -106,7 +110,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
-                    <img class="california-images not-wide" src="california-images/huntington-jon.jpeg" alt="Huntington Beach">
+                    <img class="california-images not-wide" src="states-images/california-images/huntington-jon.jpeg" alt="Huntington Beach">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -116,7 +120,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
-                    <img class="california-images not-wide" src="california-images/huntington-jon2.jpeg" alt="Huntington Beach">
+                    <img class="california-images not-wide" src="states-images/california-images/huntington-jon2.jpeg" alt="Huntington Beach">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -130,7 +134,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
-                    <img class="california-images not-wide" src="california-images/huntington-karina.jpeg" alt="Huntington Beach">
+                    <img class="california-images not-wide" src="states-images/california-images/huntington-karina.jpeg" alt="Huntington Beach">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -140,7 +144,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
-                        <img class="california-images not-wide" src="california-images/pyramid.jpeg" alt="Huntington Beach">
+                        <img class="california-images not-wide" src="states-images/california-images/pyramid.jpeg" alt="Huntington Beach">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -150,7 +154,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
-                        <img class="california-images not-wide" src="california-images/huntington-holly.jpeg" alt="Huntington Beach">
+                        <img class="california-images not-wide" src="states-images/california-images/huntington-holly.jpeg" alt="Huntington Beach">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>

@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>West Virginia Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/west-virginia.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/west-virginia.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -40,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="west-virginia-images/me.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me.jpeg" alt="Harpers Ferry">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -50,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lewis and Clark sign</div>
-                        <img class="west-virginia-images" src="west-virginia-images/Lewis-and-Clark.jpeg" alt="Lewis and Clark">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" alt="Lewis and Clark">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -60,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="west-virginia-images/me2.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me2.jpeg" alt="Harpers Ferry">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -74,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry Mountain</div>
-                        <img class="west-virginia-images" src="west-virginia-images/mountain.jpeg" alt="Harpers Ferry Mountain">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain.jpeg" alt="Harpers Ferry Mountain">
                     <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -84,7 +88,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="west-virginia-images/alex-sean.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/alex-sean.jpeg" alt="Harpers Ferry">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -99,7 +103,7 @@
                 
                 <div class="card mb-3 mr-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="west-virginia-images/sean.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/sean.jpeg" alt="Harpers Ferry">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -109,7 +113,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="west-virginia-images/mountain2.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain2.jpeg" alt="Harpers Ferry">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -123,7 +127,7 @@
             <div class="body-images">
                 <div class="card mb-5 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry Views</div> 
-                        <img class="west-virginia-images" src="west-virginia-images/views.jpeg" alt="Harpers Ferry Views">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/views.jpeg" alt="Harpers Ferry Views">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>

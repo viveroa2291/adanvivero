@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michigan Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/michigan.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/michigan.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -40,7 +44,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/sami.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/sami.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -50,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/nicole.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/nicole.jpeg" alt="The Dunes">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -60,7 +64,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/sami2.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/sami2.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -74,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Clean mud of The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/nicole-sami.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/nicole-sami.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -88,7 +92,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Beach of the Dunes</div>
-                        <img class="michigan-images" src="michigan-images/gabi-nora.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/gabi-nora.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -98,7 +102,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Beach of the Dunes</div>
-                        <img class="michigan-images" src="michigan-images/sawyer2.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/sawyer2.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -112,7 +116,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/alex.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/alex.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -122,7 +126,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/kaitlin-alex.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/kaitlin-alex.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -136,7 +140,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
-                        <img class="michigan-images" src="michigan-images/sawyer.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/sawyer.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -146,7 +150,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Clean Mud</div>
-                        <img class="michigan-images" src="michigan-images/alex2.jpeg" alt="The Dunes">
+                        <img class="michigan-images" src="states-images/michigan-images/alex2.jpeg" alt="The Dunes">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -162,7 +166,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div> 
-                        <img class="michigan-images" src="michigan-images/nikki.jpeg" alt="Lake Michigan Beach">
+                        <img class="michigan-images" src="states-images/michigan-images/nikki.jpeg" alt="Lake Michigan Beach">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -172,7 +176,7 @@
                     </div>
                     <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div>
-                        <img class="michigan-images" src="michigan-images/nikki-chloe.jpeg" alt="Lake Michigan Beach">
+                        <img class="michigan-images" src="states-images/michigan-images/nikki-chloe.jpeg" alt="Lake Michigan Beach">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -182,7 +186,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div>
-                        <img class="michigan-images" src="michigan-images/nikki2.jpeg" alt="Lake Michigan Beach">
+                        <img class="michigan-images" src="states-images/michigan-images/nikki2.jpeg" alt="Lake Michigan Beach">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -196,7 +200,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Fireworks</div>
-                        <img class="michigan-images" src="michigan-images/fireworks.jpeg" alt="Chloe's Lakehouse">
+                        <img class="michigan-images" src="states-images/michigan-images/fireworks.jpeg" alt="Chloe's Lakehouse">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -212,7 +216,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cabin</div>
-                    <img class="michigan-images" src="michigan-images/cabin.jpeg" alt="Cabin">
+                    <img class="michigan-images" src="states-images/michigan-images/cabin.jpeg" alt="Cabin">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -222,7 +226,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
-                    <img class="michigan-images" src="Michigan-images/wakefield3.jpeg" alt="Wakefield">
+                    <img class="michigan-images" src="states-images/michigan-images/wakefield3.jpeg" alt="Wakefield">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -236,7 +240,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
-                    <img class="michigan-images" src="michigan-images/ski.jpeg" alt="Wakefield">
+                    <img class="michigan-images" src="states-images/michigan-images/ski.jpeg" alt="Wakefield">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -246,7 +250,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
-                        <img class="michigan-images" src="michigan-images/wakefield4.jpeg" alt="Wakefield">
+                        <img class="michigan-images" src="states-images/michigan-images/wakefield4.jpeg" alt="Wakefield">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -260,7 +264,7 @@
             <div class="body-images">
                 <div class="card mb-5 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
-                    <img class="michigan-images" src="michigan-images/wakefield.jpeg" alt="Wakefield">
+                    <img class="michigan-images" src="states-images/michigan-images/wakefield.jpeg" alt="Wakefield">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -270,7 +274,7 @@
                 </div>
                 <div class="card mb-5 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
-                        <img class="michigan-images" src="michigan-images/wakefield2.jpeg" alt="Wakefield">
+                        <img class="michigan-images" src="states-images/michigan-images/wakefield2.jpeg" alt="Wakefield">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -286,7 +290,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">German Event</div>
-                    <img class="michigan-images" src="michigan-images/me.jpeg" alt="On the bus">
+                    <img class="michigan-images" src="states-images/michigan-images/me.jpeg" alt="On the bus">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>

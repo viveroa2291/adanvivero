@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minnesota Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/minnesota.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/minnesota.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -50,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images wide" src="minnesota-images/minneapolis.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis.jpeg" alt="Minneapolis">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -64,7 +68,7 @@
             <div class="body-images">
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="minnesota-images/minneapolis-self2.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self2.jpeg" alt="Minneapolis">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -74,7 +78,7 @@
                 </div>
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">US Bank Stadium Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="minnesota-images/us-bank.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/us-bank.jpeg" alt="Minneapolis">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -84,7 +88,7 @@
                     </div>
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div> 
-                        <img class="minnesota-images not-wide" src="minnesota-images/minneapolis-self3.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self3.jpeg" alt="Minneapolis">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -100,7 +104,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade (Rooftop)</div>
-                        <img class="minnesota-images wide" src="minnesota-images/rooftop.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/rooftop.jpeg" alt="Minneapolis">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -110,7 +114,7 @@
                     </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images wide" src="minnesota-images/arcade.jpeg" alt="Minneapolis">
+                    <img class="minnesota-images wide" src="states-images/minnesota-images/arcade.jpeg" alt="Minneapolis">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -124,7 +128,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images not-wide" src="minnesota-images/arcade-self.jpeg" alt="Minneapolis">
+                    <img class="minnesota-images not-wide" src="states-images/minnesota-images/arcade-self.jpeg" alt="Minneapolis">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -140,7 +144,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mall of America</div>
-                <img class="minnesota-images wide" src="minnesota-images/mallofamerica.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/mallofamerica.jpeg" alt="Minneapolis">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -150,7 +154,7 @@
             </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis</div>
-                        <img class="minnesota-images wide" src="minnesota-images/george-floyd.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/george-floyd.jpeg" alt="Minneapolis">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -164,7 +168,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eden Prarie, Minnesota</div>
-                <img class="minnesota-images wide" src="minnesota-images/minnesota-friends.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/minnesota-friends.jpeg" alt="Minneapolis">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -174,7 +178,7 @@
             </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Afton Alps</div>
-                <img class="minnesota-images wide" src="minnesota-images/skiing.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/skiing.jpeg" alt="Minneapolis">
                 <div class="card-body m-2">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>

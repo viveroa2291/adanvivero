@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utah Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/utah.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/utah.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -40,7 +44,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
-                        <img class="utah-images not-wide" src="utah-images/church-me.jpeg" alt="Salt Lake City Mormon Church">
+                        <img class="utah-images not-wide" src="states-images/utah-images/church-me.jpeg" alt="Salt Lake City Mormon Church">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -50,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
-                        <img class="utah-images not-wide" src="utah-images/church.jpeg" alt="Salt Lake City Mormon Church">
+                        <img class="utah-images not-wide" src="states-images/utah-images/church.jpeg" alt="Salt Lake City Mormon Church">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -60,7 +64,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div> 
-                        <img class="utah-images not-wide" src="utah-images/church-mom.jpeg" alt="Salt Lake City Mormon Church">
+                        <img class="utah-images not-wide" src="states-images/utah-images/church-mom.jpeg" alt="Salt Lake City Mormon Church">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -74,7 +78,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
-                        <img class="utah-images wide" src="utah-images/salt-lake-city2.jpeg" alt="Downtown Salt Lake City">
+                        <img class="utah-images wide" src="states-images/utah-images/salt-lake-city2.jpeg" alt="Downtown Salt Lake City">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -84,7 +88,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Salt Lake City</div>
-                        <img class="utah-images wide" src="utah-images/salt-lake-city3.jpeg" alt="Downtown Salt Lake City">
+                        <img class="utah-images wide" src="states-images/utah-images/salt-lake-city3.jpeg" alt="Downtown Salt Lake City">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -100,7 +104,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park Sign</div> 
-                        <img class="utah-images wide" src="utah-images/arches-sign.jpeg" alt="Arches National Park Sign">
+                        <img class="utah-images wide" src="states-images/utah-images/arches-sign.jpeg" alt="Arches National Park Sign">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -110,7 +114,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div> 
-                        <img class="utah-images wide" src="utah-images/arches2.jpeg" alt="Arches National Park">
+                        <img class="utah-images wide" src="states-images/utah-images/arches2.jpeg" alt="Arches National Park">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -124,7 +128,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                    <img class="utah-images not-wide" src="utah-images/arches.jpeg" alt="Arches National Park">
+                    <img class="utah-images not-wide" src="states-images/utah-images/arches.jpeg" alt="Arches National Park">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -135,7 +139,7 @@
                 
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                        <img class="utah-images not-wide" src="utah-images/big-arch.jpeg" alt="Big Arch">
+                        <img class="utah-images not-wide" src="states-images/utah-images/big-arch.jpeg" alt="Big Arch">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -145,7 +149,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                        <img class="utah-images not-wide" src="utah-images/small-arch.jpeg" alt="Small Arch">
+                        <img class="utah-images not-wide" src="states-images/utah-images/small-arch.jpeg" alt="Small Arch">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -159,7 +163,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                        <img class="utah-images wide" src="utah-images/arch-field.jpeg" alt="Arches Field">
+                        <img class="utah-images wide" src="states-images/utah-images/arch-field.jpeg" alt="Arches Field">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -169,7 +173,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                        <img class="utah-images wide" src="utah-images/arches4.jpeg" alt="Arches National Park">
+                        <img class="utah-images wide" src="states-images/utah-images/arches4.jpeg" alt="Arches National Park">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -184,7 +188,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
-                        <img class="utah-images not-wide" src="utah-images/arches3.jpeg" alt="Arches National Park">
+                        <img class="utah-images not-wide" src="states-images/utah-images/arches3.jpeg" alt="Arches National Park">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -199,7 +203,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
-                    <img class="utah-images wide" src="utah-images/mountains.jpeg" alt="Springville">
+                    <img class="utah-images wide" src="states-images/utah-images/mountains.jpeg" alt="Springville">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -209,7 +213,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
-                    <img class="utah-images wide" src="utah-images/mountains3.jpeg" alt="Springville">
+                    <img class="utah-images wide" src="states-images/utah-images/mountains3.jpeg" alt="Springville">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -223,7 +227,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
-                    <img class="utah-images not-wide" src="utah-images/mountains2.jpeg" alt="Springville">
+                    <img class="utah-images not-wide" src="states-images/utah-images/mountains2.jpeg" alt="Springville">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -233,7 +237,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
-                    <img class="utah-images not-wide" src="utah-images/mountains4.jpeg" alt="Springville">
+                    <img class="utah-images not-wide" src="states-images/utah-images/mountains4.jpeg" alt="Springville">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -243,7 +247,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
-                    <img class="utah-images not-wide" src="utah-images/mountains5.jpeg" alt="Springville">
+                    <img class="utah-images not-wide" src="states-images/utah-images/mountains5.jpeg" alt="Springville">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -259,7 +263,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Draper, Utah</div>
-                    <img class="utah-images not-wide" src="utah-images/draper.jpeg" alt="Draper, Utah">
+                    <img class="utah-images not-wide" src="states-images/utah-images/draper.jpeg" alt="Draper, Utah">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -269,7 +273,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Utah</div>
-                    <img class="utah-images not-wide" src="utah-images/outside.jpeg" alt="Utah">
+                    <img class="utah-images not-wide" src="states-images/utah-images/outside.jpeg" alt="Utah">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -283,7 +287,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Utah</div>
-                    <img class="utah-images wide" src="utah-images/pauls-house.jpeg" alt="Utah">
+                    <img class="utah-images wide" src="states-images/utah-images/pauls-house.jpeg" alt="Utah">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>

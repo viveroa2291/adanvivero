@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indiana Page</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/indiana.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Tennessee Page</title>
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/tennessee.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -24,48 +28,38 @@
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
                         <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
-                        <p class="title">Indiana</p>
+                        <p class="title">Tennessee</p>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="indiana-top-section">
-            <h2 class="indiana-header">Indiana</h2>
+        <section class="tennessee-top-section">
+            <h2 class="tennessee-header">Tennessee</h2>
         </section>
         <section>
-            <h3 class="body-headers">Indiana University</h3>
+            <h3 class="body-headers">Gaitlinburg</h3>
             <hr class="header-hr">
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="indiana-images/nikki-sami.jpeg" alt="Nikki's Dorm">
+                    <div class="card-header text-center" id="featureTitle">Swing Picture</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="Gaitlinburg">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
-                        <p class="card-text" id="description">This is a picture of me and my friends <br> Nikki and Sami inside of Nikki's room at <br> Indiana University for her move in day.</p>
-                        <p class="card-text"><small class="text-muted">August 22, 2019</small></p>
+                        <p class="card-text" id="description">This is a picture of my friend Nikki and I taking a selfie on our way down <br> from the infamous bridge in Gaitlinburg.</p>
+                        <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                     </div>
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="indiana-images/nikki-sami2.jpeg" alt="Indiana University">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/group.jpeg" alt="Gaitlinburg">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
-                            <p class="card-text" id="description">This is the picture of my friends Nikki, <br> Sami, and I standing outside an <br> Indiana University sign.</p>
-                            <p class="card-text"><small class="text-muted">August 22, 2019</small></p>
-                        </div>
-                </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="indiana-images/nikki.jpeg" alt="Nikki's Dorm">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of my friend Nikki and I <br> in a Halloween costume posing before <br> going out to a party.</p>
-                            <p class="card-text"><small class="text-muted">November 1, 2019</small></p>
+                            <p class="card-text" id="description">This is a group picture of my friends in Gaitlinburg.</p>
+                            <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                         </div>
                 </div>
             </div>
@@ -73,37 +67,71 @@
         <section>
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Kelley's School of Business</div> 
-                        <img class="indiana-images" src="indiana-images/kelleys.jpeg" alt="Kelley's School of Business">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg</div> 
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="Gaitlinburg">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
-                            <p class="card-text" id="description">This is a picture of me standing outside of the Kelley's School of Business <br> at Indiana University.</p>
-                            <p class="card-text"><small class="text-muted">May 30, 2020</small></p>
+                            <p class="card-text" id="description">This is a picture of my friend Sami and I <br> in Gaitlinburg.</p>
+                            <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                         </div>
                     </div>
-                    <div class="card mb-2 ml-5 mt-2" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Bear's Place</div>
-                        <img class="indiana-images" src="indiana-images/bears.jpeg" alt="Bear's Place">
+                    <div class="card mb-2 ml-5 mt-2 mr-5" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="Gaitlinburg">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
-                    <p class="card-text" id="description">This is an image of me standing outside of Bear's Place.</p>
-                    <p class="card-text"><small class="text-muted">May 31, 2020</small></p>
+                    <p class="card-text" id="description">This is an image of me in a Gaitlinburg <br> waterfall.</p>
+                    <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
+                </div>
+                </div>
+                <div class="card mb-2 ml-5 mt-2" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="Gaitlinburg">
+                <div class="card-body m-1">
+                    <h5 class="card-title text-center" id="cardTitle"></h5>
+                    <hr>
+                    <p class="card-text" id="description">This is an image of my friends <br> Nikki, Sami, and I in Gaitlinburg.</p>
+                    <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                 </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 m-1" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="indiana-images/sean.jpeg" alt="Indiana University">
+                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie.jpeg" alt="Gaitlinburg">
+                    <div class="card-body m-1">
+                        <h5 class="card-title text-center" id="cardTitle"></h5>
+                        <hr>
+                        <p class="card-text" id="description">This is a group selfie of my friends and I in a Gaitlinburg waterfall.</p>
+                        <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
+                    </div>
+                </div>
+                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie2.jpeg" alt="Gaitlinburg">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
-                            <p class="card-text" id="description">This is an image of my friend Sean <br> and I at Indiana University.</p>
-                            <p class="card-text"><small class="text-muted">May 31, 2020</small></p>
+                            <p class="card-text" id="description">This is a group selfie of my friends and I hiking in Gaitlinburg.</p>
+                            <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card mb-5 m-1" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
+                        <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="Gaitlinburg">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is an image of my friend Mikayla <br> and I in Gaitlinburg by a waterfall.</p>
+                            <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                         </div>
                 </div>
             </div>
