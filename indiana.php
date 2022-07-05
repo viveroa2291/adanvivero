@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="Nikki's Dorm">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends <br> Nikki and Sami inside of Nikki's room at <br> Indiana University for her move in day.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami2.jpeg" alt="Indiana University">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami2.jpeg" alt="This is the picture of my friends Nikki, <br> Sami, and I standing outside an <br> Indiana University sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki.jpeg" alt="Nikki's Dorm">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki.jpeg" alt="This is the picture of my friend Nikki and I <br> in a Halloween costume posing before <br> going out to a party.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Kelley's School of Business</div> 
-                        <img class="indiana-images" src="states-images/indiana-images/kelleys.jpeg" alt="Kelley's School of Business">
+                        <img class="indiana-images" src="states-images/indiana-images/kelleys.jpeg" alt="This is a picture of me standing outside of the Kelley's School of Business <br> at Indiana University.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Bear's Place</div>
-                        <img class="indiana-images" src="states-images/indiana-images/bears.jpeg" alt="Bear's Place">
+                        <img class="indiana-images" src="states-images/indiana-images/bears.jpeg" alt="This is an image of me standing outside of Bear's Place.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -102,7 +102,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="states-images/indiana-images/sean.jpeg" alt="Indiana University">
+                        <img class="indiana-images" src="states-images/indiana-images/sean.jpeg" alt="This is an image of my friend Sean <br> and I at Indiana University.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -137,5 +137,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'indiana.js';
+    ?>
+</script>
 </body>
 </html>

@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Swing Picture</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="This is a picture of my friend Nikki and I taking a selfie on our way down <br> from the infamous bridge in Gaitlinburg.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/group.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/group.jpeg" alt="This is a group picture of my friends in Gaitlinburg.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -68,7 +68,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div> 
-                        <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="This is a picture of my friend Sami and I <br> in Gaitlinburg.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="This is an image of me in a Gaitlinburg <br> waterfall.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="This is an image of my friends <br> Nikki, Sami, and I in Gaitlinburg.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -102,7 +102,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie.jpeg" alt="This is a group selfie of my friends and I in a Gaitlinburg waterfall.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie2.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/group-selfie2.jpeg" alt="This is a group selfie of my friends and I hiking in Gaitlinburg.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -126,7 +126,7 @@
             <div class="body-images">
                 <div class="card mb-5 m-1" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="Gaitlinburg">
+                        <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="This is an image of my friend Mikayla <br> and I in Gaitlinburg by a waterfall.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -161,5 +161,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'tennessee.js';
+    ?>
+</script>
 </body>
 </html>

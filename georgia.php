@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Atlanda</div>
-                        <img class="georgia-images" src="states-images/georgia-images/atlanta.jpeg" alt="Atlanta">
+                        <img class="georgia-images" src="states-images/georgia-images/atlanta.jpeg" alt="This is a picture of me in downtown Atlanta. I really liked the city <br> and what it had to offer.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Atlanta</div>
-                        <img class="georgia-images" src="states-images/georgia-images/atlanta2.jpeg" alt="Atlanta">
+                        <img class="georgia-images" src="states-images/georgia-images/atlanta2.jpeg" alt="This is the picture of me in downtown Atlanta.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -70,21 +70,21 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">CNN Building</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/cnn.jpeg" alt="CNN">
+                        <img class="georgia-images" src="states-images/georgia-images/cnn.jpeg" alt="This is a picture of me standing outside of the CNN building next <br> to the sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
-                            <p class="card-text" id="description">This is a picture of me standing outside of the CNN building next <br> to the sign. <br> <p class="CNN"> <b>Please Note:</b> that I do NOT endorse any views of CNN, I simply went for tourism.</p></p>
+                            <p class="card-text" id="description">This is a picture of me standing outside of the CNN building next <br> to the sign.</p>
                             <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
                         </div>
                     </div>
                     <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside CNN</div>
-                        <img class="georgia-images" src="states-images/georgia-images/cnn2.jpeg" alt="CNN">
+                        <img class="georgia-images" src="states-images/georgia-images/cnn2.jpeg" alt="This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
-                    <p class="card-text" id="description">This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported. <br> <p class="CNN"> <b>Please Note:</b> that I do NOT endorse any views of CNN, I simply went for tourism.</p> </p>
+                    <p class="card-text" id="description">This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.</p>
                     <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
                 </div>
                 </div>
@@ -96,7 +96,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola.jpeg" alt="Coca-Cola">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola.jpeg" alt="This is a picture of me sitting on a couch enjoying a coke drink inside <br> the World of Coca-Cola located in Atlanta.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola3.jpeg" alt="CNN">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola3.jpeg" alt="This is a picture of me inside of the World of Coca-Cola. I thought <br> this looked cool.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -120,7 +120,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1 mb-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Outside of the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola2.jpeg" alt="Coca-Cola">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola2.jpeg" alt="This is an image of me jumping outside <br> of the World of Coca Cola sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -136,7 +136,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Airport</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/airport.jpeg" alt="Airport">
+                        <img class="georgia-images" src="states-images/georgia-images/airport.jpeg" alt="This is a picture of my sister's national team for gymnastics. She is <br> part of the special olympics and I was there to help coach the boys. <br> We took a group picture in the airport and I believe this airport ranks <br> in the United States for being one of the biggest airports in the <br> United States.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Marietta Diner</div>
-                        <img class="georgia-images" src="states-images/georgia-images/dinner.jpeg" alt="Marietta">
+                        <img class="georgia-images" src="states-images/georgia-images/dinner.jpeg" alt="This is a picture of me standing outside of the Marietta Diner <br> which was where we ate for dinner.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -160,7 +160,7 @@
             <div class="body-images">
                 <div class="card mb-3 mr-5 mb-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mirror Picture</div>
-                        <img class="georgia-images" src="states-images/georgia-images/pool.jpeg" alt="Pool">
+                        <img class="georgia-images" src="states-images/georgia-images/pool.jpeg" alt="This is a mirror picture of me in the hotel.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -170,7 +170,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mb-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mirror Picture</div>
-                        <img class="georgia-images" src="states-images/georgia-images/hotel.jpeg" alt="Mirror Picture">
+                        <img class="georgia-images" src="states-images/georgia-images/hotel.jpeg" alt="This is a mirror picture of me in the hotel.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -180,6 +180,23 @@
                 </div>
             </div>
         </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div class="row">
+                    <img class="box-image" src="states-images/california-images/downtown.jpeg" onclick="image(1)" alt="This is a picture of my friends and I in downtown Los Angeles. <br> I was on their shoulders preparing to do an 'L', which is a skill <br> that is performed in mens gymnastics on the parallel bars.">
+                    <img class="box-image" src="states-images/california-images/pbars.jpeg" onclick="image(2)" alt="This is the picture of me doing the 'L' on top of my friends <br> shoulders in downtown Los Angeles.">
+                    <img class="box-image" src="states-images/california-images/disneyland-jon.jpeg" onclick="image(3)" alt="This is a picture of my friend Jon and I at Disneyland.">
+                    <img class="box-image" src="states-images/california-images/disneyland-jon2.jpeg" onclick="image(4)" alt="This is an image of my friend Jon and I at Disneyland in <br> front of the infamous Mickey Mouse roller coaster.">
+                    <img class="box-image" src="states-images/california-images/disneyland-kristin.jpeg" onclick="image(5)" alt="This is an image of my friend Jon and Kristin and I <br>at Disneyland. <br> <br> <b> Fun fact, they are twins.</b>">
+                    <img class="box-image" src="states-images/california-images/huntington-jon.jpeg" onclick="image(6)" alt="This is an image of my friend Jon and I at Huntington Beach.">
+                    <img class="box-image" src="states-images/california-images/huntington-jon2.jpeg" onclick="image(7)" alt="This is an image of my friend Jon and I at Huntington Beach.">
+                    <img class="box-image" src="states-images/california-images/huntington-karina.jpeg" onclick="image(8)" alt="This is an image of my friend Karina and I at Huntington Beach.">
+                    <img class="box-image" src="states-images/california-images/pyramid.jpeg" onclick="image(9)" alt="This is an image of my friends and I attempting to do a pyramid.">
+                    <img class="box-image" src="states-images/california-images/huntington-holly.jpeg" onclick="image(10)" alt="This is an image of my friend Holly and I at Huntington Beach.">
+            </div>
+            <div id="caption"></div>
+        </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">
         <div class="bottom-links">
@@ -205,5 +222,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'georgia.js';
+    ?>
+</script>
 </body>
 </html>

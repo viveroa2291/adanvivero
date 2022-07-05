@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis-self.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis-self.jpeg" alt="This is an image of me in downtown Minneapolis. <br> My friends and I were doing a photoshoot.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis.jpeg" alt="This is an image of my friends and I in downtown Minneapolis <br> during our photoshoot.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -68,7 +68,7 @@
             <div class="body-images">
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self2.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self2.jpeg" alt="This is an image of me in downtown <br>Minneapolis during a photoshoot.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -78,7 +78,7 @@
                 </div>
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">US Bank Stadium Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/us-bank.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/us-bank.jpeg" alt="This is an image of me at U.S Bank Stadium, <br> where the Minnesota Vikings play.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="card mb-3 m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div> 
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self3.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self3.jpeg" alt="This is another image of me in downtown <br> Minneapolis during a walk around the city.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -104,7 +104,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade (Rooftop)</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/rooftop.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/rooftop.jpeg" alt="This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -114,7 +114,7 @@
                     </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images wide" src="states-images/minnesota-images/arcade.jpeg" alt="Minneapolis">
+                    <img class="minnesota-images wide" src="states-images/minnesota-images/arcade.jpeg" alt="This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -128,7 +128,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images not-wide" src="states-images/minnesota-images/arcade-self.jpeg" alt="Minneapolis">
+                    <img class="minnesota-images not-wide" src="states-images/minnesota-images/arcade-self.jpeg" alt="This is an image of me at an arcade in the <br> outskirts of Minneapolis with a wall of art.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -144,7 +144,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mall of America</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/mallofamerica.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/mallofamerica.jpeg" alt="This is an image of me at the Mall of America in Saint Paul <br> Minnesota.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -154,7 +154,7 @@
             </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/george-floyd.jpeg" alt="Minneapolis">
+                        <img class="minnesota-images wide" src="states-images/minnesota-images/george-floyd.jpeg" alt="This is an image of a George Floyd mural located in the <br> outskirts of Minneapolis.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -168,7 +168,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eden Prarie, Minnesota</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/minnesota-friends.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/minnesota-friends.jpeg" alt="This is an image of my friends in Eden Prarie Minnesota. <br> One of my friends is from Ohio and we haven't seen each <br> other in years and was in town, therefore we met up and <br> merged our friend groups together.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -178,7 +178,7 @@
             </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Afton Alps</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/skiing.jpeg" alt="Minneapolis">
+                <img class="minnesota-images wide" src="states-images/minnesota-images/skiing.jpeg" alt="This is an image of me skiing at Afton Alps in Minnesota. <br> I enjoyed skiing here very much and would recommend <br> to give this place a visit if you like to ski or snowboard.">
                 <div class="card-body m-2">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -213,5 +213,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'minnesota.js';
+    ?>
+</script>
 </body>
 </html>

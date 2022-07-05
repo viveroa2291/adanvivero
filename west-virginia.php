@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/me.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me.jpeg" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lewis and Clark sign</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" alt="Lewis and Clark">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" alt="This is a picture of me standing next to <br> the Lewis and Clark sign.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/me2.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me2.jpeg" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry Mountain</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain.jpeg" alt="Harpers Ferry Mountain">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain.jpeg" alt="This is an image of Harpers Ferry mountain.">
                     <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/alex-sean.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/alex-sean.jpeg" alt="This is a picture of my friends and I at Harpers Ferry on our boys trip <br> to Washington D.C.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -103,7 +103,7 @@
                 
                 <div class="card mb-3 mr-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/sean.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/sean.jpeg" alt="This is a picture of my friend Sean and I <br> at Harpers Ferry.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain2.jpeg" alt="Harpers Ferry">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/mountain2.jpeg" alt="This is an image of Harpers Ferry mountain.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -127,7 +127,7 @@
             <div class="body-images">
                 <div class="card mb-5 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry Views</div> 
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/views.jpeg" alt="Harpers Ferry Views">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/views.jpeg" alt="This is a picture of a different view of Harpers Ferry in West Virginia.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -162,5 +162,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'west-virginia.js';
+    ?>
+</script>
 </body>
 </html>
