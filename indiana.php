@@ -112,6 +112,19 @@
                 </div>
             </div>
         </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div class="row">
+                    <img class="box-image" src="states-images/indiana-images/nikki-sami.jpeg" onclick="image(1)"  alt="This is a picture of me and my friends <br> Nikki and Sami inside of Nikki's room at <br> Indiana University for her move in day.">
+                    <img class="box-image" src="states-images/indiana-images/nikki-sami2.jpeg" onclick="image(2)" alt="This is the picture of my friends Nikki, <br> Sami, and I standing outside an <br> Indiana University sign.">
+                    <img class="box-image" src="states-images/indiana-images/nikki.jpeg" onclick="image(3)" alt="This is the picture of my friend Nikki and I <br> in a Halloween costume posing before <br> going out to a party.">
+                    <img class="box-image" src="states-images/indiana-images/kelleys.jpeg" onclick="image(4)" alt="This is a picture of me standing outside of the Kelley's School of Business <br> at Indiana University.">
+                    <img class="box-image" src="states-images/indiana-images/bears.jpeg" onclick="image(5)" alt="This is an image of me standing outside of Bear's Place.">
+                    <img class="box-image" src="states-images/indiana-images/sean.jpeg" onclick="image(6)" alt="This is an image of my friend Sean <br> and I at Indiana University.">
+            </div>
+            <div id="caption"></div>
+        </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">
         <div class="bottom-links">

@@ -187,7 +187,28 @@
                 </div>
             </div>
             </div>
-        </section> 
+        </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div class="row">
+                    <img class="box-image" src="states-images/minnesota-images/minneapolis-self.jpeg" onclick="image(1)" alt="This is an image of me in downtown Minneapolis. <br> My friends and I were doing a photoshoot.">
+                    <img class="box-image" src="states-images/minnesota-images/minneapolis.jpeg" onclick="image(2)" alt="This is an image of my friends and I in downtown Minneapolis <br> during our photoshoot.">
+                    <img class="box-image" src="states-images/minnesota-images/minneapolis-self2.jpeg" onclick="image(3)" alt="This is an image of me in downtown <br>Minneapolis during a photoshoot.">
+                    <img class="box-image" src="states-images/minnesota-images/us-bank.jpeg" onclick="image(4)" alt="This is an image of me at U.S Bank Stadium, <br> where the Minnesota Vikings play.">
+                    <img class="box-image" src="states-images/minnesota-images/minneapolis-self3.jpeg" onclick="image(5)" alt="This is another image of me in downtown <br> Minneapolis during a walk around the city.">
+                    <img class="box-image" src="states-images/minnesota-images/rooftop.jpeg" onclick="image(6)" alt="This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.">
+                    <img class="box-image" src="states-images/minnesota-images/arcade.jpeg" onclick="image(7)" alt="This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.">
+                    <img class="box-image" src="states-images/minnesota-images/arcade-self.jpeg" onclick="image(8)" alt="This is an image of me at an arcade in the <br> outskirts of Minneapolis with a wall of art.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/minnesota-images/mallofamerica.jpeg" onclick="image(9)" alt="This is an image of me at the Mall of America in Saint Paul <br> Minnesota.">
+                    <img class="box-image" src="states-images/minnesota-images/george-floyd.jpeg" onclick="image(10)" alt="This is an image of a George Floyd mural located in the <br> outskirts of Minneapolis.">
+                    <img class="box-image" src="states-images/minnesota-images/minnesota-friends.jpeg" onclick="image(11)" alt="This is an image of my friends in Eden Prarie Minnesota. <br> One of my friends is from Ohio and we haven't seen each <br> other in years and was in town, therefore we met up and <br> merged our friend groups together.">
+                    <img class="box-image" src="states-images/minnesota-images/skiing.jpeg" onclick="image(12)" alt="This is an image of me skiing at Afton Alps in Minnesota. <br> I enjoyed skiing here very much and would recommend <br> to give this place a visit if you like to ski or snowboard.">
+            </div>
+            <div id="caption"></div>
+        </div> 
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">
         <div class="bottom-links">

@@ -184,16 +184,17 @@
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
             <div class="row">
-                    <img class="box-image" src="states-images/california-images/downtown.jpeg" onclick="image(1)" alt="This is a picture of my friends and I in downtown Los Angeles. <br> I was on their shoulders preparing to do an 'L', which is a skill <br> that is performed in mens gymnastics on the parallel bars.">
-                    <img class="box-image" src="states-images/california-images/pbars.jpeg" onclick="image(2)" alt="This is the picture of me doing the 'L' on top of my friends <br> shoulders in downtown Los Angeles.">
-                    <img class="box-image" src="states-images/california-images/disneyland-jon.jpeg" onclick="image(3)" alt="This is a picture of my friend Jon and I at Disneyland.">
-                    <img class="box-image" src="states-images/california-images/disneyland-jon2.jpeg" onclick="image(4)" alt="This is an image of my friend Jon and I at Disneyland in <br> front of the infamous Mickey Mouse roller coaster.">
-                    <img class="box-image" src="states-images/california-images/disneyland-kristin.jpeg" onclick="image(5)" alt="This is an image of my friend Jon and Kristin and I <br>at Disneyland. <br> <br> <b> Fun fact, they are twins.</b>">
-                    <img class="box-image" src="states-images/california-images/huntington-jon.jpeg" onclick="image(6)" alt="This is an image of my friend Jon and I at Huntington Beach.">
-                    <img class="box-image" src="states-images/california-images/huntington-jon2.jpeg" onclick="image(7)" alt="This is an image of my friend Jon and I at Huntington Beach.">
-                    <img class="box-image" src="states-images/california-images/huntington-karina.jpeg" onclick="image(8)" alt="This is an image of my friend Karina and I at Huntington Beach.">
-                    <img class="box-image" src="states-images/california-images/pyramid.jpeg" onclick="image(9)" alt="This is an image of my friends and I attempting to do a pyramid.">
-                    <img class="box-image" src="states-images/california-images/huntington-holly.jpeg" onclick="image(10)" alt="This is an image of my friend Holly and I at Huntington Beach.">
+                    <img class="box-image" src="states-images/georgia-images/atlanta.jpeg" onclick="image(1)" alt="This is a picture of me in downtown Atlanta. I really liked the city <br> and what it had to offer.">
+                    <img class="box-image" src="states-images/georgia-images/atlanta2.jpeg" onclick="image(2)" alt="This is the picture of me in downtown Atlanta.">
+                    <img class="box-image" src="states-images/georgia-images/cnn.jpeg" onclick="image(3)" alt="This is a picture of me standing outside of the CNN building next <br> to the sign.">
+                    <img class="box-image" src="states-images/georgia-images/cnn2.jpeg" onclick="image(4)" alt="This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola.jpeg" onclick="image(5)" alt="This is a picture of me sitting on a couch enjoying a coke drink inside <br> the World of Coca-Cola located in Atlanta.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola3.jpeg" onclick="image(6)" alt="This is a picture of me inside of the World of Coca-Cola. I thought <br> this looked cool.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola2.jpeg" onclick="image(7)" alt="This is an image of me jumping outside <br> of the World of Coca Cola sign.">
+                    <img class="box-image" src="states-images/georgia-images/airport.jpeg" onclick="image(8)" alt="This is a picture of my sister's national team for gymnastics. She is <br> part of the special olympics and I was there to help coach the boys. <br> We took a group picture in the airport and I believe this airport ranks <br> in the United States for being one of the biggest airports in the <br> United States.">
+                    <img class="box-image" src="states-images/georgia-images/dinner.jpeg" onclick="image(9)" alt="This is a picture of me standing outside of the Marietta Diner <br> which was where we ate for dinner.">
+                    <img class="box-image" src="states-images/georgia-images/pool.jpeg" onclick="image(10)" alt="This is a mirror picture of me in the hotel.">
+                    <img class="box-image" src="states-images/georgia-images/hotel.jpeg" onclick="image(11)" alt="This is a mirror picture of me in the hotel.">
             </div>
             <div id="caption"></div>
         </div>

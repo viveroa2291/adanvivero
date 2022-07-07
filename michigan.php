@@ -300,6 +300,36 @@
                 </div>
             </div>
         </section>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div class="row">
+                    <img class="box-image" src="states-images/michigan-images/sami.jpeg" onclick="image(1)" alt="This is the picture of my friend Sami and I <br> sitting on a tree at The Dunes in Sawyer <br> Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/nicole.jpeg" onclick="image(2)" alt="This is the picture of my friend Nicole and I <br> sitting on a tree at The Dunes in Sawyer <br> Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/sami2.jpeg" onclick="image(3)" alt="This is the picture of my friend Sami and I <br> in the clean mud of The Dunes in Sawyer <br> Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/nicole-sami.jpeg" onclick="image(4)" alt="This is the picture of my friends Nicole and Sami in the clean mud of <br> The Dunes in Sawyer Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/gabi-nora.jpeg" onclick="image(5)" alt="This is the picture of my friends Gabi and Nora at the beach in <br> Sawyer Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/sawyer2.jpeg" onclick="image(6)" alt="This is the picture of my friends Alex, Kaitlin, Gabi, and Nora <br> at the beach in Sawyer Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/alex.jpeg" onclick="image(7)" alt="This is the picture of my friend Alex and I sitting on a tree at the Dunes.">
+                    <img class="box-image" src="states-images/michigan-images/kaitlin-alex.jpeg" onclick="image(8)" alt="This is the picture of my friends Alex, Kaitlin, and I sitting on a <br> tree at the Dunes covered in clean mud.">
+                    <img class="box-image" src="states-images/michigan-images/sawyer.jpeg" onclick="image(9)" alt="This is a group picture of my friends and I sitting on a tree at <br> The Dunes.">
+                    <img class="box-image" src="states-images/michigan-images/alex2.jpeg" onclick="image(10)" alt="This is a selfie taken by me of my friend <br> Alex and I covered in clean mud at <br> The Dunes.">
+            </div>        
+            <div class="row">
+                    <img class="box-image" src="states-images/michigan-images/nikki.jpeg" onclick="image(11)" alt="This is a picture of my friend Nikki and I <br> at Lake Michigan Beach on the Fourth <br> of July.">
+                    <img class="box-image" src="states-images/michigan-images/nikki-chloe.jpeg" onclick="image(12)" alt="This is an image of my friends Nikki, Chloe, <br> and I at Lake Michigan Beach on the <br> Fourth of July.">
+                    <img class="box-image" src="states-images/michigan-images/nikki2.jpeg" onclick="image(13)" alt="This is an image of my friends Nikki and I <br> at Lake Michigan Beach on the Fourth <br> of July.">
+                    <img class="box-image" src="states-images/michigan-images/fireworks.jpeg" onclick="image(14)" alt="This is an image of my friends Nikki, Chloe, <br> and I blowing up fireworks outside on the <br> Fourth of July.">
+                    <img class="box-image" src="states-images/michigan-images/cabin.jpeg" onclick="image(15)" alt="This is an image of me sitting inside my <br> cabin before skiing.">
+                    <img class="box-image" src="states-images/michigan-images/wakefield3.jpeg" onclick="image(16)" alt="This is an image of me skiing in Wakefield <br> Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/ski.jpeg" onclick="image(17)" alt="This is an image of where I was skiing in Wakefield Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/wakefield4.jpeg" onclick="image(18)" alt="This is a selfie of me skiing in Wakefield Michigan after I fell <br> and had snow all over my face.">
+                    <img class="box-image" src="states-images/michigan-images/wakefield.jpeg" onclick="image(19)" alt="This is a selfie of me skiing in Wakefield Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/wakefield2.jpeg" onclick="image(20)" alt="This is a selfie of me skiing in Wakefield Michigan.">
+                    <img class="box-image" src="states-images/michigan-images/me.jpeg" onclick="image(21)" alt="This is an image of me sitting inside <br> a bus on a way to a German event.">
+            </div>
+            <div id="caption"></div>
+        </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">
         <div class="bottom-links">
