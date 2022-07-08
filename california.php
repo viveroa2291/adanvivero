@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
-                        <img id="california-image" class="california-images mid-wide" src="states-images/california-images/downtown.jpeg" alt="This is a picture of my friends and I in downtown Los Angeles. <br> I was on their shoulders preparing to do an 'L', which is a skill <br> that is performed in mens gymnastics on the parallel bars.">
+                        <img id="california-image" class="california-images mid-wide" src="states-images/california-images/downtown.jpeg" alt="This is a picture of my friends and I in downtown Los Angeles. I was on their shoulders preparing to do an 'L', which is a skill that is performed in mens gymnastics on the parallel bars.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
-                        <img id="california-image" class="california-images mid-wide" src="states-images/california-images/pbars.jpeg" alt="This is the picture of me doing the 'L' on top of my friends <br> shoulders in downtown Los Angeles.">
+                        <img id="california-image" class="california-images mid-wide" src="states-images/california-images/pbars.jpeg" alt="This is the picture of me doing the 'L' on top of my friends shoulders in downtown Los Angeles.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -80,7 +80,7 @@
                     </div>
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
-                        <img class="california-images not-wide" src="states-images/california-images/disneyland-jon2.jpeg" alt="This is an image of my friend Jon and I at Disneyland in <br> front of the infamous Mickey Mouse roller coaster.">
+                        <img class="california-images not-wide" src="states-images/california-images/disneyland-jon2.jpeg" alt="This is an image of my friend Jon and I at Disneyland in front of the infamous Mickey Mouse roller coaster.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -94,7 +94,7 @@
             <div class="body-images">
                 <div class="card m-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
-                        <img class="california-images wide" src="states-images/california-images/disneyland-kristin.jpeg" alt="This is an image of my friend Jon and Kristin and I <br> at Disneyland. <br><br><b> Fun fact, they are twins.</b>">
+                        <img class="california-images wide" src="states-images/california-images/disneyland-kristin.jpeg" alt="This is an image of my friend Jon and Kristin and I at Disneyland. <br><br><b> Fun fact, they are twins.</b>">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -167,19 +167,19 @@
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
+            <div id="caption"></div>
             <div class="row">
-                    <img class="box-image" src="states-images/california-images/downtown.jpeg" onclick="image(1)" alt="This is a picture of my friends and I in downtown Los Angeles. <br> I was on their shoulders preparing to do an 'L', which is a skill <br> that is performed in mens gymnastics on the parallel bars.">
-                    <img class="box-image" src="states-images/california-images/pbars.jpeg" onclick="image(2)" alt="This is the picture of me doing the 'L' on top of my friends <br> shoulders in downtown Los Angeles.">
+                    <img class="box-image" src="states-images/california-images/downtown.jpeg" onclick="image(1)" alt="This is a picture of my friends and I in downtown Los Angeles. I was on their shoulders preparing to do an 'L', which is a skill that is performed in mens gymnastics on the parallel bars.">
+                    <img class="box-image" src="states-images/california-images/pbars.jpeg" onclick="image(2)" alt="This is the picture of me doing the 'L' on top of my friends shoulders in downtown Los Angeles.">
                     <img class="box-image" src="states-images/california-images/disneyland-jon.jpeg" onclick="image(3)" alt="This is a picture of my friend Jon and I at Disneyland.">
-                    <img class="box-image" src="states-images/california-images/disneyland-jon2.jpeg" onclick="image(4)" alt="This is an image of my friend Jon and I at Disneyland in <br> front of the infamous Mickey Mouse roller coaster.">
-                    <img class="box-image" src="states-images/california-images/disneyland-kristin.jpeg" onclick="image(5)" alt="This is an image of my friend Jon and Kristin and I <br>at Disneyland. <br> <br> <b> Fun fact, they are twins.</b>">
+                    <img class="box-image" src="states-images/california-images/disneyland-jon2.jpeg" onclick="image(4)" alt="This is an image of my friend Jon and I at Disneyland in front of the infamous Mickey Mouse roller coaster.">
+                    <img class="box-image" src="states-images/california-images/disneyland-kristin.jpeg" onclick="image(5)" alt="This is an image of my friend Jon and Kristin and I at Disneyland. <br><br> <b> Fun fact, they are twins.</b>">
                     <img class="box-image" src="states-images/california-images/huntington-jon.jpeg" onclick="image(6)" alt="This is an image of my friend Jon and I at Huntington Beach.">
                     <img class="box-image" src="states-images/california-images/huntington-jon2.jpeg" onclick="image(7)" alt="This is an image of my friend Jon and I at Huntington Beach.">
                     <img class="box-image" src="states-images/california-images/huntington-karina.jpeg" onclick="image(8)" alt="This is an image of my friend Karina and I at Huntington Beach.">
                     <img class="box-image" src="states-images/california-images/pyramid.jpeg" onclick="image(9)" alt="This is an image of my friends and I attempting to do a pyramid.">
                     <img class="box-image" src="states-images/california-images/huntington-holly.jpeg" onclick="image(10)" alt="This is an image of my friend Holly and I at Huntington Beach.">
             </div>
-            <div id="caption"></div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">

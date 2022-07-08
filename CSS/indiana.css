@@ -39,6 +39,7 @@
     flex-direction: row;
     justify-content: center;
     height: 100px;
+    margin-bottom: 1rem;
 }
 .box-image{ 
     height: 100px;
@@ -73,12 +74,16 @@ div.modal {
   #caption {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 95%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
   }
   .modal-content, #caption, .row{  
     -webkit-animation-name: zoom;
@@ -87,17 +92,14 @@ div.modal {
     animation-duration: 0.6s;
     overflow: auto;
   }
-  
   @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
   }
-  
   @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
   }
-  
   /* The Close Button */
   .close {
     position: absolute;

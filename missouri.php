@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami.jpeg" alt="This is a picture of my friend Sami and I <br> at the Mizzou commons.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami.jpeg" alt="This is a picture of my friend Sami and I at the Mizzou commons.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/me.jpeg" alt="This is the picture of me holding a <br> 'Fight Tiger' sign at the commons <br> at the University of Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/me.jpeg" alt="This is the picture of me holding a 'Fight Tiger' sign at the commons at the University of Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/mikayla.jpeg" alt="This is the picture of my friend Mikayla and I <br> at the University of Missouri commons <br> holding a 'Fight Tiger' sign.">
+                        <img class="missouri-images" src="states-images/missouri-images/mikayla.jpeg" alt="This is the picture of my friend Mikayla and I at the University of Missouri commons holding a 'Fight Tiger' sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Rise</div> 
-                        <img class="missouri-images" src="states-images/missouri-images/sami3.jpeg" alt="This is a picture of my friend Sami and I <br> holding a cat inside of her dorm.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami3.jpeg" alt="This is a picture of my friend Sami and I holding a cat inside of her dorm.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -88,7 +88,7 @@
                     </div>
                 <div class="card mb-2 ml-5 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami2.jpeg" alt="This is a picture of my friend Sami and I <br> at the University of Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami2.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Rise</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-rise.jpeg" alt="This is a picture of my friend Sami and I <br> at the University of Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami-rise.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -112,7 +112,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mizzou Stadium</div>
-                        <img class="missouri-images" src="states-images/missouri-images/stadium.jpeg" alt="This is a picture of me standing outside <br> of the University of Missouri football <br> stadium.">
+                        <img class="missouri-images" src="states-images/missouri-images/stadium.jpeg" alt="This is a picture of me standing outside of the University of Missouri football stadium.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -128,7 +128,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave.jpeg" alt="This is a picture of the cave that we went to visit while we were <br> in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/cave.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave2.jpeg" alt="This is a picture of the cave that we went to visit while we were <br> in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/cave2.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -152,7 +152,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-cave.jpeg" alt="This is the picture of my friend Sami and I <br> inside the cave that we went to visit while <br> in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami-cave.jpeg" alt="This is the picture of my friend Sami and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cesar.jpeg" alt="This is the picture of my friend Cesar and I <br> inside the cave that we went to visit while <br> in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/cesar.jpeg" alt="This is the picture of my friend Cesar and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-nikki.jpeg" alt="This is the picture of my friends Nikki, Sami, <br> and I inside the cave that we went to visit <br> while in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/sami-nikki.jpeg" alt="This is the picture of my friends Nikki, Sami, and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -186,7 +186,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/group.jpeg" alt="This is a group picture of my friends Nikki, <br> Sami, Cesar, and I inside the cave that <br> we went to visit while in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/group.jpeg" alt="This is a group picture of my friends Nikki, Sami, Cesar, and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave-red.jpeg" alt="This is the picture of the cave that we went <br> to visit while in Missouri.">
+                        <img class="missouri-images" src="states-images/missouri-images/cave-red.jpeg" alt="This is the picture of the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -208,26 +208,26 @@
         </section>
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div class="row">
-                    <img class="box-image" src="states-images/missouri-images/sami.jpeg" onclick="image(1)" alt="This is a picture of my friend Sami and I <br> at the Mizzou commons.">
-                    <img class="box-image" src="states-images/missouri-images/me.jpeg" onclick="image(2)" alt="This is the picture of me holding a <br> 'Fight Tiger' sign at the commons <br> at the University of Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/mikayla.jpeg" onclick="image(3)" alt="This is the picture of my friend Mikayla and I <br> at the University of Missouri commons <br> holding a 'Fight Tiger' sign.">
-                    <img class="box-image" src="states-images/missouri-images/sami3.jpeg" onclick="image(4)" alt="This is a picture of my friend Sami and I <br> holding a cat inside of her dorm.">
-                    <img class="box-image" src="states-images/missouri-images/sami2.jpeg" onclick="image(5)" alt="This is a picture of my friend Sami and I <br> at the University of Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/sami-rise.jpeg" onclick="image(6)" alt="This is a picture of my friend Sami and I <br> at the University of Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/stadium.jpeg" onclick="image(7)" alt="This is a picture of me standing outside <br> of the University of Missouri football <br> stadium.">
-                    <img class="box-image" src="states-images/missouri-images/cave.jpeg" onclick="image(8)" alt="This is a picture of the cave that we went to visit while we were <br> in Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/cave2.jpeg" onclick="image(9)" alt="This is a picture of the cave that we went to visit while we were <br> in Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/sami-cave.jpeg" onclick="image(10)" alt="This is the picture of my friend Sami and I <br> inside the cave that we went to visit while <br> in Missouri.">         
-            </div>
-            <div class="row">
-                    <img class="box-image" src="states-images/missouri-images/cesar.jpeg" onclick="image(11)" alt="This is the picture of my friend Cesar and I <br> inside the cave that we went to visit while <br> in Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/sami-nikki.jpeg" onclick="image(12)" alt="This is the picture of my friends Nikki, Sami, <br> and I inside the cave that we went to visit <br> while in Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/group.jpeg" onclick="image(13)" alt="This is a group picture of my friends Nikki, <br> Sami, Cesar, and I inside the cave that <br> we went to visit while in Missouri.">
-                    <img class="box-image" src="states-images/missouri-images/cave-red.jpeg" onclick="image(14)" alt="This is the picture of the cave that we went <br> to visit while in Missouri.">
-            </div>
+            <img class="modal-content" id="img01"> 
             <div id="caption"></div>
+            <div class="row">
+                    <img class="box-image" src="states-images/missouri-images/sami.jpeg" onclick="image(1)" alt="This is a picture of my friend Sami and I at the Mizzou commons.">
+                    <img class="box-image" src="states-images/missouri-images/me.jpeg" onclick="image(2)" alt="This is the picture of me holding a 'Fight Tiger' sign at the commons at the University of Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/mikayla.jpeg" onclick="image(3)" alt="This is the picture of my friend Mikayla and I at the University of Missouri commons holding a 'Fight Tiger' sign.">
+                    <img class="box-image" src="states-images/missouri-images/sami3.jpeg" onclick="image(4)" alt="This is a picture of my friend Sami and I holding a cat inside of her dorm.">
+                    <img class="box-image" src="states-images/missouri-images/sami2.jpeg" onclick="image(5)" alt="This is a picture of my friend Sami and I at the University of Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/sami-rise.jpeg" onclick="image(6)" alt="This is a picture of my friend Sami and I at the University of Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/stadium.jpeg" onclick="image(7)" alt="This is a picture of me standing outside of the University of Missouri football stadium.">
+                    <img class="box-image" src="states-images/missouri-images/cave.jpeg" onclick="image(8)" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/cave2.jpeg" onclick="image(9)" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/sami-cave.jpeg" onclick="image(10)" alt="This is the picture of my friend Sami and I inside the cave that we went to visit while in Missouri.">         
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/missouri-images/cesar.jpeg" onclick="image(11)" alt="This is the picture of my friend Cesar and I inside the cave that we went to visit while in Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/sami-nikki.jpeg" onclick="image(12)" alt="This is the picture of my friends Nikki, Sami, and I inside the cave that we went to visit while in Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/group.jpeg" onclick="image(13)" alt="This is a group picture of my friends Nikki, Sami, Cesar, and I inside the cave that we went to visit while in Missouri.">
+                    <img class="box-image" src="states-images/missouri-images/cave-red.jpeg" onclick="image(14)" alt="This is the picture of the cave that we went to visit while in Missouri.">
+            </div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">

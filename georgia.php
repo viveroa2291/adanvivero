@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Atlanda</div>
-                        <img class="georgia-images" src="states-images/georgia-images/atlanta.jpeg" alt="This is a picture of me in downtown Atlanta. I really liked the city <br> and what it had to offer.">
+                        <img class="georgia-images" src="states-images/georgia-images/atlanta.jpeg" alt="This is a picture of me in downtown Atlanta. I really liked the city and what it had to offer.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -70,7 +70,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">CNN Building</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/cnn.jpeg" alt="This is a picture of me standing outside of the CNN building next <br> to the sign.">
+                        <img class="georgia-images" src="states-images/georgia-images/cnn.jpeg" alt="This is a picture of me standing outside of the CNN building next to the sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside CNN</div>
-                        <img class="georgia-images" src="states-images/georgia-images/cnn2.jpeg" alt="This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.">
+                        <img class="georgia-images" src="states-images/georgia-images/cnn2.jpeg" alt="This is a selfie of me inside of the CNN building next to an anchor's chair and table where the news is reported.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -96,7 +96,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola.jpeg" alt="This is a picture of me sitting on a couch enjoying a coke drink inside <br> the World of Coca-Cola located in Atlanta.">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola.jpeg" alt="This is a picture of me sitting on a couch enjoying a coke drink inside the World of Coca-Cola located in Atlanta.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola3.jpeg" alt="This is a picture of me inside of the World of Coca-Cola. I thought <br> this looked cool.">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola3.jpeg" alt="This is a picture of me inside of the World of Coca-Cola. I thought this looked cool.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -120,7 +120,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1 mb-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Outside of the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola2.jpeg" alt="This is an image of me jumping outside <br> of the World of Coca Cola sign.">
+                        <img class="georgia-images" src="states-images/georgia-images/coca-cola2.jpeg" alt="This is an image of me jumping outside of the World of Coca Cola sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -136,7 +136,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Airport</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/airport.jpeg" alt="This is a picture of my sister's national team for gymnastics. She is <br> part of the special olympics and I was there to help coach the boys. <br> We took a group picture in the airport and I believe this airport ranks <br> in the United States for being one of the biggest airports in the <br> United States.">
+                        <img class="georgia-images" src="states-images/georgia-images/airport.jpeg" alt="This is a picture of my sister's national team for gymnastics. She is part of the special olympics and I was there to help coach the boys. We took a group picture in the airport and I believe this airport ranks in the United States for being one of the biggest airports in the United States.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mb-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Marietta Diner</div>
-                        <img class="georgia-images" src="states-images/georgia-images/dinner.jpeg" alt="This is a picture of me standing outside of the Marietta Diner <br> which was where we ate for dinner.">
+                        <img class="georgia-images" src="states-images/georgia-images/dinner.jpeg" alt="This is a picture of me standing outside of the Marietta Diner which was where we ate for dinner.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -183,20 +183,20 @@
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
+            <div id="caption"></div>
             <div class="row">
-                    <img class="box-image" src="states-images/georgia-images/atlanta.jpeg" onclick="image(1)" alt="This is a picture of me in downtown Atlanta. I really liked the city <br> and what it had to offer.">
+                    <img class="box-image" src="states-images/georgia-images/atlanta.jpeg" onclick="image(1)" alt="This is a picture of me in downtown Atlanta. I really liked the city and what it had to offer.">
                     <img class="box-image" src="states-images/georgia-images/atlanta2.jpeg" onclick="image(2)" alt="This is the picture of me in downtown Atlanta.">
-                    <img class="box-image" src="states-images/georgia-images/cnn.jpeg" onclick="image(3)" alt="This is a picture of me standing outside of the CNN building next <br> to the sign.">
-                    <img class="box-image" src="states-images/georgia-images/cnn2.jpeg" onclick="image(4)" alt="This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.">
-                    <img class="box-image" src="states-images/georgia-images/coca-cola.jpeg" onclick="image(5)" alt="This is a picture of me sitting on a couch enjoying a coke drink inside <br> the World of Coca-Cola located in Atlanta.">
-                    <img class="box-image" src="states-images/georgia-images/coca-cola3.jpeg" onclick="image(6)" alt="This is a picture of me inside of the World of Coca-Cola. I thought <br> this looked cool.">
-                    <img class="box-image" src="states-images/georgia-images/coca-cola2.jpeg" onclick="image(7)" alt="This is an image of me jumping outside <br> of the World of Coca Cola sign.">
-                    <img class="box-image" src="states-images/georgia-images/airport.jpeg" onclick="image(8)" alt="This is a picture of my sister's national team for gymnastics. She is <br> part of the special olympics and I was there to help coach the boys. <br> We took a group picture in the airport and I believe this airport ranks <br> in the United States for being one of the biggest airports in the <br> United States.">
-                    <img class="box-image" src="states-images/georgia-images/dinner.jpeg" onclick="image(9)" alt="This is a picture of me standing outside of the Marietta Diner <br> which was where we ate for dinner.">
+                    <img class="box-image" src="states-images/georgia-images/cnn.jpeg" onclick="image(3)" alt="This is a picture of me standing outside of the CNN building next to the sign.">
+                    <img class="box-image" src="states-images/georgia-images/cnn2.jpeg" onclick="image(4)" alt="This is a selfie of me inside of the CNN building next to an anchor's chair and table where the news is reported.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola.jpeg" onclick="image(5)" alt="This is a picture of me sitting on a couch enjoying a coke drink inside the World of Coca-Cola located in Atlanta.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola3.jpeg" onclick="image(6)" alt="This is a picture of me inside of the World of Coca-Cola. I thought this looked cool.">
+                    <img class="box-image" src="states-images/georgia-images/coca-cola2.jpeg" onclick="image(7)" alt="This is an image of me jumping outside of the World of Coca Cola sign.">
+                    <img class="box-image" src="states-images/georgia-images/airport.jpeg" onclick="image(8)" alt="This is a picture of my sister's national team for gymnastics. She is part of the special olympics and I was there to help coach the boys. We took a group picture in the airport and I believe this airport ranks in the United States for being one of the biggest airports in the United States.">
+                    <img class="box-image" src="states-images/georgia-images/dinner.jpeg" onclick="image(9)" alt="This is a picture of me standing outside of the Marietta Diner which was where we ate for dinner.">
                     <img class="box-image" src="states-images/georgia-images/pool.jpeg" onclick="image(10)" alt="This is a mirror picture of me in the hotel.">
                     <img class="box-image" src="states-images/georgia-images/hotel.jpeg" onclick="image(11)" alt="This is a mirror picture of me in the hotel.">
             </div>
-            <div id="caption"></div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">

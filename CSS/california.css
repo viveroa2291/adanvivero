@@ -39,6 +39,7 @@
     flex-direction: row;
     justify-content: center;
     height: 100px;
+    margin-bottom: 1rem;
 }
 .box-image{
     
@@ -74,12 +75,16 @@
   #caption {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 95%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
   }
   .modal-content, #caption, .row{  
     -webkit-animation-name: zoom;

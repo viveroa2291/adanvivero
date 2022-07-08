@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Swing Picture</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="This is a picture of my friend Nikki and I taking a selfie on our way down <br> from the infamous bridge in Gaitlinburg.">
+                        <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="This is a picture of my friend Nikki and I taking a selfie on our way down from the infamous bridge in Gaitlinburg.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -68,7 +68,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div> 
-                        <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="This is a picture of my friend Sami and I <br> in Gaitlinburg.">
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="This is a picture of my friend Sami and I in Gaitlinburg.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="card mb-2 ml-5 mt-2 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="This is an image of me in a Gaitlinburg <br> waterfall.">
+                        <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="This is an image of me in a Gaitlinburg waterfall.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="card mb-2 ml-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="This is an image of my friends <br> Nikki, Sami, and I in Gaitlinburg.">
+                        <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="This is an image of my friends Nikki, Sami, and I in Gaitlinburg.">
                 <div class="card-body m-1">
                     <h5 class="card-title text-center" id="cardTitle"></h5>
                     <hr>
@@ -126,7 +126,7 @@
             <div class="body-images">
                 <div class="card mb-5 m-1" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
-                        <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="This is an image of my friend Mikayla <br> and I in Gaitlinburg by a waterfall.">
+                        <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="This is an image of my friend Mikayla and I in Gaitlinburg by a waterfall.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -139,17 +139,17 @@
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
+            <div id="caption"></div>
             <div class="row">
-                    <img class="box-image" src="states-images/tennessee-images/nikki.jpeg" onclick="image(1)" alt="This is a picture of my friend Nikki and I taking a selfie on our way down <br> from the infamous bridge in Gaitlinburg.">
+                    <img class="box-image" src="states-images/tennessee-images/nikki.jpeg" onclick="image(1)" alt="This is a picture of my friend Nikki and I taking a selfie on our way down from the infamous bridge in Gaitlinburg.">
                     <img class="box-image" src="states-images/tennessee-images/group.jpeg" onclick="image(2)" alt="This is a group picture of my friends in Gaitlinburg.">
-                    <img class="box-image" src="states-images/tennessee-images/sami.jpeg" onclick="image(3)" alt="This is a picture of my friend Sami and I <br> in Gaitlinburg.">
-                    <img class="box-image" src="states-images/tennessee-images/me.jpeg" onclick="image(4)" alt="This is an image of me in a Gaitlinburg <br> waterfall.">
-                    <img class="box-image" src="states-images/tennessee-images/sami-nikki.jpeg" onclick="image(5)" alt="This is an image of my friends <br> Nikki, Sami, and I in Gaitlinburg.">
+                    <img class="box-image" src="states-images/tennessee-images/sami.jpeg" onclick="image(3)" alt="This is a picture of my friend Sami and I in Gaitlinburg.">
+                    <img class="box-image" src="states-images/tennessee-images/me.jpeg" onclick="image(4)" alt="This is an image of me in a Gaitlinburg waterfall.">
+                    <img class="box-image" src="states-images/tennessee-images/sami-nikki.jpeg" onclick="image(5)" alt="This is an image of my friends Nikki, Sami, and I in Gaitlinburg.">
                     <img class="box-image" src="states-images/tennessee-images/group-selfie.jpeg" onclick="image(6)" alt="This is a group selfie of my friends and I in a Gaitlinburg waterfall.">
                     <img class="box-image" src="states-images/tennessee-images/group-selfie2.jpeg" onclick="image(7)" alt="This is a group selfie of my friends and I hiking in Gaitlinburg.">
-                    <img class="box-image" src="states-images/tennessee-images/mikayla.jpeg" onclick="image(8)" alt="This is an image of my friend Mikayla <br> and I in Gaitlinburg by a waterfall.">
+                    <img class="box-image" src="states-images/tennessee-images/mikayla.jpeg" onclick="image(8)" alt="This is an image of my friend Mikayla and I in Gaitlinburg by a waterfall.">
             </div>
-            <div id="caption"></div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">

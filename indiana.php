@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends <br> Nikki and Sami inside of Nikki's room at <br> Indiana University for her move in day.">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends Nikki and Sami inside of Nikki's room at Indiana University for her move in day.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami2.jpeg" alt="This is the picture of my friends Nikki, <br> Sami, and I standing outside an <br> Indiana University sign.">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami2.jpeg" alt="This is the picture of my friends Nikki, Sami, and I standing outside an Indiana University sign.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki.jpeg" alt="This is the picture of my friend Nikki and I <br> in a Halloween costume posing before <br> going out to a party.">
+                        <img class="indiana-images" src="states-images/indiana-images/nikki.jpeg" alt="This is the picture of my friend Nikki and I in a Halloween costume posing before going out to a party.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -78,7 +78,7 @@
             <div class="body-images">
                 <div class="card mb-2 mr-5 mt-2" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Kelley's School of Business</div> 
-                        <img class="indiana-images" src="states-images/indiana-images/kelleys.jpeg" alt="This is a picture of me standing outside of the Kelley's School of Business <br> at Indiana University.">
+                        <img class="indiana-images" src="states-images/indiana-images/kelleys.jpeg" alt="This is a picture of me standing outside of the Kelley's School of Business at Indiana University.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -102,7 +102,7 @@
             <div class="body-images">
                 <div class="card mb-3 m-1" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
-                        <img class="indiana-images" src="states-images/indiana-images/sean.jpeg" alt="This is an image of my friend Sean <br> and I at Indiana University.">
+                        <img class="indiana-images" src="states-images/indiana-images/sean.jpeg" alt="This is an image of my friend Sean and I at Indiana University.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -114,16 +114,16 @@
         </section>
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div class="row">
-                    <img class="box-image" src="states-images/indiana-images/nikki-sami.jpeg" onclick="image(1)"  alt="This is a picture of me and my friends <br> Nikki and Sami inside of Nikki's room at <br> Indiana University for her move in day.">
-                    <img class="box-image" src="states-images/indiana-images/nikki-sami2.jpeg" onclick="image(2)" alt="This is the picture of my friends Nikki, <br> Sami, and I standing outside an <br> Indiana University sign.">
-                    <img class="box-image" src="states-images/indiana-images/nikki.jpeg" onclick="image(3)" alt="This is the picture of my friend Nikki and I <br> in a Halloween costume posing before <br> going out to a party.">
-                    <img class="box-image" src="states-images/indiana-images/kelleys.jpeg" onclick="image(4)" alt="This is a picture of me standing outside of the Kelley's School of Business <br> at Indiana University.">
-                    <img class="box-image" src="states-images/indiana-images/bears.jpeg" onclick="image(5)" alt="This is an image of me standing outside of Bear's Place.">
-                    <img class="box-image" src="states-images/indiana-images/sean.jpeg" onclick="image(6)" alt="This is an image of my friend Sean <br> and I at Indiana University.">
-            </div>
+            <img class="modal-content" id="img01"> 
             <div id="caption"></div>
+            <div class="row">
+                    <img class="box-image" src="states-images/indiana-images/nikki-sami.jpeg" onclick="image(1)"  alt="This is a picture of me and my friends Nikki and Sami inside of Nikki's room at Indiana University for her move in day.">
+                    <img class="box-image" src="states-images/indiana-images/nikki-sami2.jpeg" onclick="image(2)" alt="This is the picture of my friends Nikki, Sami, and I standing outside an Indiana University sign.">
+                    <img class="box-image" src="states-images/indiana-images/nikki.jpeg" onclick="image(3)" alt="This is the picture of my friend Nikki and I in a Halloween costume posing before going out to a party.">
+                    <img class="box-image" src="states-images/indiana-images/kelleys.jpeg" onclick="image(4)" alt="This is a picture of me standing outside of the Kelley's School of Business at Indiana University.">
+                    <img class="box-image" src="states-images/indiana-images/bears.jpeg" onclick="image(5)" alt="This is an image of me standing outside of Bear's Place.">
+                    <img class="box-image" src="states-images/indiana-images/sean.jpeg" onclick="image(6)" alt="This is an image of my friend Sean and I at Indiana University.">
+            </div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">

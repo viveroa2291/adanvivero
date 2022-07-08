@@ -44,7 +44,7 @@
             <div class="body-images">
                 <div class="card mb-3 mt-3 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/me.jpeg" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me.jpeg" alt="This is the picture of me on top of a mountain at Harpers Ferry striking a pose.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lewis and Clark sign</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" alt="This is a picture of me standing next to <br> the Lewis and Clark sign.">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" alt="This is a picture of me standing next to the Lewis and Clark sign.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card mb-3 mt-3 ml-5" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/me2.jpeg" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/me2.jpeg" alt="This is the picture of me on top of a mountain at Harpers Ferry striking a pose.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="card mb-3 ml-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/alex-sean.jpeg" alt="This is a picture of my friends and I at Harpers Ferry on our boys trip <br> to Washington D.C.">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/alex-sean.jpeg" alt="This is a picture of my friends and I at Harpers Ferry on our boys trip to Washington D.C.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -103,7 +103,7 @@
                 
                 <div class="card mb-3 mr-5 mt-3" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Harpers Ferry</div>
-                        <img class="west-virginia-images" src="states-images/west-virginia-images/sean.jpeg" alt="This is a picture of my friend Sean and I <br> at Harpers Ferry.">
+                        <img class="west-virginia-images" src="states-images/west-virginia-images/sean.jpeg" alt="This is a picture of my friend Sean and I at Harpers Ferry.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -140,17 +140,17 @@
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
+            <div id="caption"></div>
             <div class="row">
-                    <img class="box-image" src="states-images/west-virginia-images/me.jpeg" onclick="image(1)" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
-                    <img class="box-image" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" onclick="image(2)" alt="This is a picture of me standing next to <br> the Lewis and Clark sign.">
-                    <img class="box-image" src="states-images/west-virginia-images/me2.jpeg" onclick="image(3)" alt="This is the picture of me on top of a <br> mountain at Harpers Ferry striking a pose.">
+                    <img class="box-image" src="states-images/west-virginia-images/me.jpeg" onclick="image(1)" alt="This is the picture of me on top of a mountain at Harpers Ferry striking a pose.">
+                    <img class="box-image" src="states-images/west-virginia-images/Lewis-and-Clark.jpeg" onclick="image(2)" alt="This is a picture of me standing next to the Lewis and Clark sign.">
+                    <img class="box-image" src="states-images/west-virginia-images/me2.jpeg" onclick="image(3)" alt="This is the picture of me on top of a mountain at Harpers Ferry striking a pose.">
                     <img class="box-image" src="states-images/west-virginia-images/mountain.jpeg" onclick="image(4)" alt="This is an image of Harpers Ferry mountain.">
-                    <img class="box-image" src="states-images/west-virginia-images/alex-sean.jpeg" onclick="image(5)" alt="This is a picture of my friends and I at Harpers Ferry on our boys trip <br> to Washington D.C.">
-                    <img class="box-image" src="states-images/west-virginia-images/sean.jpeg" onclick="image(6)" alt="This is a picture of my friend Sean and I <br> at Harpers Ferry.">
+                    <img class="box-image" src="states-images/west-virginia-images/alex-sean.jpeg" onclick="image(5)" alt="This is a picture of my friends and I at Harpers Ferry on our boys trip to Washington D.C.">
+                    <img class="box-image" src="states-images/west-virginia-images/sean.jpeg" onclick="image(6)" alt="This is a picture of my friend Sean and I at Harpers Ferry.">
                     <img class="box-image" src="states-images/west-virginia-images/mountain2.jpeg" onclick="image(7)" alt="This is an image of Harpers Ferry mountain.">
                     <img class="box-image" src="states-images/west-virginia-images/views.jpeg" onclick="image(8)" alt="This is a picture of a different view of Harpers Ferry in West Virginia.">
             </div>
-            <div id="caption"></div>
         </div>
     </main>
     <footer class="navbar navbar-dark bg-dark bottom-footer">
