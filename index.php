@@ -71,7 +71,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Home Page</p>
                     </div>
@@ -89,7 +89,7 @@
                     <p class="left-side-description">The page that you are currently on is the <a href="index.php" class="home-links">Home</a> page where it serves as a guide and provides a concise timeline of my life and my most memorable moments on the right. The center provides a glimpse and insight of what the website is about.</p>
                     <p class="left-side-description">Down below on the footer are a variety of links that include links to my social media and links that can also be found on the top navigation. I plan to include a spanish version on the footer where it can provide a Spanish version of the site to expand beyond realms.</p>
                     <p class="left-side-description">You can also find a more in depth link to my social media and to get in further contact with me on the on the <a class="home-links" href="contact.php">Contact</a> link.</p>
-                    <p class="left-side-description">On the top and bottom navigation bar you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="travel.php" class="home-links">Travel</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>
+                    <p class="left-side-description">On the top and bottom navigation bar you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="travel.html" class="home-links">Travel</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>
                 </div>
                 <div class="left-details">
                     <h4 class="helloWorld">Leave a comment</h4>
@@ -181,7 +181,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

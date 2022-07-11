@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Page</title>
-    <style>
-        <?php 
-        include 'CSS/bootstrap.min.css';
-        include 'CSS/travel.css';
-        include 'CSS/styles.css';
-         ?>
-    </style>
+    <link rel="stylesheet" href="bootstrap.bundle.min.js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/travel.css" type="text/css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -26,7 +23,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Travel Page</p>
                     </div>
@@ -34,8 +31,99 @@
             </div>
         </nav>
     </header>
-    <main>
-    <h2 class="travel-header">These are the states that I have traveled to.</h2>      
+   <main>
+      <h2>Check out the states that I have traveled to</h2>
+      <section class="arkansas-section under">
+            <h3>Arkansas</h3>
+      </section>
+      <section class="california-section under">
+         <img src="states-images/california-images/disneyland-kristin.jpeg" alt="">
+         <span>
+            <a href="california.php" class="california-link">California</a>
+            <p class="california-description">Check out my California travel and the places I visited which include:</p>
+            <ul class="california-description">
+               <li>Disneyland</li>
+               <li>Los Angeles</li>
+               <li>Huntington Beach</li>
+            </ul>
+         </span>
+      </section> 
+      <section class="dc-section under">
+         <h3>Washington D.C</h3>
+      </section>
+      <section class="florida-section under">
+         <h3>Florida</h3>
+      </section>
+
+      <section class="georgia-section under">
+         <img src="states-images/georgia-images/atlanta2.jpeg" alt="">
+         <span>
+            <a href="georgia.php" class="georgia-link">Georgia</a>
+            <p class="georgia-description">Check out my California travel and the places I visited which include:</p>
+            <ul class="georgia-description">
+               <li>Atlanta</li>
+               <li>CNN</li>
+               <li>World of Coca-Cola</li>
+            </ul>
+         </span>
+      </section>
+
+      <section class="illinois-section under">
+         <h3>Illinois</h3>
+      </section> 
+
+      <section class="indiana-section under">
+         <img src="states-images/indiana-images/bears.jpeg" alt=""> 
+         <a href="indiana.php" class="indiana-link">Indiana</a>
+      </section>
+
+      <section class="michigan-section under">
+         <img src="states-images/michigan-images/ski.jpeg" alt="">
+         <a href="michigan.php" class="michigan-link">Michigan</a>
+      </section>
+
+      <section class="minnesota-section under">
+         <img src="states-images/minnesota-images/city.jpeg" alt="">
+         <a href="minnesota.php" class="minnesota-link">Minnesota</a>
+      </section>
+
+      <section class="missouri-section under">
+         <img src="states-images/missouri-images/cave2.jpeg" alt=""> 
+         <a href="missouri.php" class="missouri-link">Missouri</a>
+      </section>
+
+      <section class="ohio-section under">
+         <h3>Ohio</h3>
+      </section>
+
+      <section class="south-dakota-section under">
+         <h3>South Dakota</h3>
+      </section>
+
+      <section class="tennessee-section under">
+         <img src="states-images/tennessee-images/tenessee.jpeg" alt="">
+         <a href="tennessee.php" class="tennessee-link">Tennessee</a>
+      </section>
+
+      <section class="texas-section under">
+         <h3>Texas</h3>
+      </section>
+
+      <section class="utah-section under">
+         <img src="states-images/utah-images/arches4.jpeg" alt="">  
+         <a href="utah.php" class="utah-link">Utah</a>
+      </section>
+
+      <section class="west-virginia-section under">
+         <img src="states-images/west-virginia-images/mountain.jpeg" alt="">
+         <a href="west-virginia.php" class="west-virginia-link">West Virginia</a>
+      </section>
+      
+      <section class="wisconsin-section under">
+         <h3>Wisconsin</h3>
+      </section>
+   
+    <h2 class="travel-header">These are the states that I have traveled to.</h2>     
     <svg class="united-states-map" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable_background="new 0 0 1000 589" height="589px" pretty_print="False" style="stroke-linejoin: round; stroke:#000; fill: none;" version="1.1" viewBox="0 0 1000 589" width="1000px" id="svg" inkscape:version="0.48.4 r9939" sodipodi:docname="us.svg">
         <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1137" id="namedview69" showgrid="false" inkscape:zoom="0.80893016" inkscape:cx="817.66365" inkscape:cy="409.3738" inkscape:window-x="1192" inkscape:window-y="118" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
             <defs id="defs4">
@@ -379,7 +467,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>
