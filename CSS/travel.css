@@ -3,17 +3,6 @@
     text-align: center;
     position: relative;
 }
-.under {
-    position: sticky;
-    top: 0;
-}
-.wrapper {
-    height: 200vh;
-}
-.over {
-    margin-top: -100vh;
-    position: relative;
-}
 img {
     height: 600px;
 }
@@ -33,13 +22,17 @@ img {
     position: sticky;
     top: 0;
     background-color: #404040;
+    padding: 1rem;
 }
 .california-link {
     color: white;
     font-size: 50px;
+    margin-left: 1.5rem;
 }
 .california-description {
     color: white;
+    margin-left: 1.5rem;
+    font-size: 18px;
 }
 .georgia-section {
     display: flex;
@@ -47,62 +40,143 @@ img {
     position: sticky;
     top: 0;
     background-color: #d9d9d9;
+    padding: 1rem;
 }
 .georgia-link {
     color: black;
     font-size: 50px;
+    margin-left: 1.5rem;
 }
 .georgia-description {
     color: black;
+    margin-left: 1.5rem;
+    font-size: 18px;
 }
 .indiana-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: lightslategray;
+    background-color: #404040;
+    padding: 1rem;
+}
+.indiana-link {
+    color: white;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.indiana-description {
+    color: white;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .michigan-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: bisque;
+    background-color: #d9d9d9;
+    padding: 1rem;
+}
+.michigan-link {
+    color: black;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.michigan-description {
+    color: black;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .minnesota-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: coral;
+    background-color: #404040;
+    padding: 1rem;
+}
+.minnesota-link{
+    color: white;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.minnesota-description {
+    color: white;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .missouri-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: lightgoldenrodyellow;
+    background-color: #d9d9d9;
+    padding: 1rem;
+}
+.missouri-link {
+    color: black;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.missouri-description {
+    color: black;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .tennessee-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: darkolivegreen;
+    background-color: #404040;
+    padding: 1rem;
+}
+.tennessee-link {
+    color: white;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.tennessee-description {
+    color: white;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .utah-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: navajowhite;
+    background-color: #d9d9d9;
+    padding: 1rem;
+}
+.utah-link {
+    color: black;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.utah-description {
+    color: black;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .west-virginia-section {
     display: flex;
     flex-direction: row;
     position: sticky;
     top: 0;
-    background-color: blue;
+    background-color: #404040;
+    padding: 1rem;
+}
+.west-virginia-link {
+    color: white;
+    font-size: 50px;
+    margin-left: 1.5rem;
+}
+.west-virginia-description {
+    color: white;
+    font-size: 18px;
+    margin-left: 1.5rem;
 }
 .arkansas, .california, .florida, .georgia, .illinois, .indiana, .michigan, .minnesota, .missouri, .ohio, .south-dakota, .tennessee, .texas, .utah, .washington-dc, .west-virginia, .wisconsin {
     font-family: Georgia, 'Times New Roman', Times, serif;
