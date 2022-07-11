@@ -42,14 +42,15 @@
     margin-bottom: 1rem;
 }
 .box-image{
-    
     height: 100px;
     cursor: pointer;
     transition: .3s;
+    margin-left: 2px;
 }
 .box-image:hover
 {
     opacity: .7;
+    border: white solid 1px;
 }
 div.modal {
     display: none; /* Hidden by default */
