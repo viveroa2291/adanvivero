@@ -63,17 +63,31 @@
 </head>
 <body>
     <header>
+        <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
+            <hr class="hr1">
+            <hr class="hr2">
+            <hr class="hr3">
+        </div>
+        <div class="minimize" id="minimize">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="story.php">Story</a>
+            <a href="travel.html">Travel</a>
+            <a href="projects.php">Projects</a>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
+            
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav top-links">
-                        <a class="navbar-brand text-white top-link home" href="index.php">Home</a>
-                        <a class="nav-link text-white top-link about" href="about.php">About</a>
-                        <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
-                        <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
-                        <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
-                        <p class="title">Home Page</p>
+                            <a class="navbar-brand text-white top-link home" href="index.php">Home</a>
+                            <a class="nav-link text-white top-link about" href="about.php">About</a>
+                            <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
+                            <a class="nav-link text-white top-link story" href="story.php">Story</a>
+                            <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                            <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
+                            <p class="title">Home Page</p>   
                     </div>
                 </div>
             </div>
@@ -106,7 +120,6 @@
                         <br>
                         <input class="submit-button" type="submit" value="Submit">
                     </form>
-                    
                 </div>
             </section>
             <section class="main-side">

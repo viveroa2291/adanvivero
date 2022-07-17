@@ -18,6 +18,19 @@
 </head>
 <body>
     <header>
+        <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
+            <hr class="hr1">
+            <hr class="hr2">
+            <hr class="hr3">
+        </div>
+        <div class="minimize" id="minimize">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="story.php">Story</a>
+            <a href="travel.html">Travel</a>
+            <a href="projects.php">Projects</a>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -84,3 +97,4 @@
 </footer>
 </body>
 </html>
+<script src="projects.js"></script>

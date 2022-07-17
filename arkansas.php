@@ -18,6 +18,19 @@
 </head>
 <body>
     <header>
+        <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
+            <hr class="hr1">
+            <hr class="hr2">
+            <hr class="hr3">
+        </div>
+        <div class="minimize" id="minimize">
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="story.php">Story</a>
+            <a href="travel.html">Travel</a>
+            <a href="projects.php">Projects</a>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -49,7 +62,7 @@
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
                         <p class="card-text" id="description">This is a mirror picture that I took in my <br> cousins newly remodeled bathroom and <br> was a time when taking mirror pictures <br> was popular on the iphone.</p>
-                        <p class="card-text"><small class="text-muted">December 29, 2012</small></p>
+                        <p class="card-text arkansas-date"><small class="text-muted arkansas-date">December 29, 2012</small></p>
                     </div>
                 </div>
                 <div class="card m-5" id="cardBody">
@@ -59,7 +72,7 @@
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
                             <p class="card-text" id="description">This is an image of me holding a hunting <br> rifle at my cousins house where we <br> went target shooting on their land <br> <b>safely</b>. It was a fun experience and <br> learned information on gun safety.</p>
-                            <p class="card-text"><small class="text-muted">December 28, 2015</small></p>
+                            <p class="card-text arkansas-date"><small class="text-muted">December 28, 2015</small></p>
                         </div>
                 </div>
                 <div class="card m-5" id="cardBody">
@@ -69,7 +82,7 @@
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
                             <p class="card-text" id="description">This is an image of goats eating their <br> food in my cousins farm.</p>
-                            <p class="card-text"><small class="text-muted">December 31, 2015</small></p>
+                            <p class="card-text arkansas-date"><small class="text-muted">December 31, 2015</small></p>
                         </div>
                 </div>
             </div>

@@ -4,6 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.arkansas-date {
+  bottom: 0;
+}
 .arkansas-header {
     line-height: 750px;
     text-align: center;
@@ -123,7 +126,7 @@
     }
   }
 @media (max-width: 1000px){
-    .california-header {
+    .arkansas-header {
         font-size: 50px;
         color: white;
         font-weight: 200;

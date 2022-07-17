@@ -512,3 +512,60 @@ a.footer-link:hover:before {
 .english:hover, .spanish:hover {
     cursor: pointer;
 }
+.hamburger {
+    display: none;
+}
+.minimize {
+    display: none;
+}
+@media (max-width: 1050px) {
+    .hamburger {
+        display: block;
+        width: 40px;
+        padding: .5rem;
+    }
+    .hamburger hr {
+        margin: .45rem 0;
+        border: 2px solid black;
+    }
+    .minimize {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0;
+    }
+    .hr1, .hr2, .hr3 {
+        transition: 1s;
+    }
+    .change .hr1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+    .change .hr2 {
+        opacity: 0;
+    } 
+    .change .hr3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    header .minimize {
+        background-color: black;
+        position: fixed; 
+        width: 100%;
+        top: 4.75rem;
+        right: 100%;
+        transition-property: right;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+    }
+    .minimize a {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+    }
+    .minimize.show {
+        right: 0;
+    }
+    .top-navigation {
+        display: none;
+    }
+}
