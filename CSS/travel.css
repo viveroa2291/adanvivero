@@ -37,7 +37,6 @@ img {
 .arkansas-link:hover {
     text-decoration: none;
 }
-
 .arkansas-link:before {  
     content: "";
     position: absolute;
@@ -264,4 +263,46 @@ img {
     z-index: -100;
     fill: green;
     cursor: pointer;
+}
+@media (max-width: 1000px){
+    .travel-header {
+        font-size: 24px;
+    }
+    .united-states-map {
+        height: 350px;
+        width: 500px;
+    }
+    img {
+        height: 300px;
+    }
+    .wrapper {
+        height: 650vh;
+    }
+    .state-hr {
+        width: 80%;
+        margin-left: .5rem;
+        line-height: 1px;
+    }
+    .arkansas-section, .florida-section, .illinois-section, .michigan-section, .missouri-section{
+        flex-direction: column;
+    }
+    .arkansas-link, .florida-link, .michigan-link, .missouri-link {
+        font-size: 24px;
+        margin-left: .5rem;
+    }
+    .california-link, .georgia-link, .indiana-link, .minnesota-link, .tennessee-link, .utah-link, .west-virginia-link {
+        font-size: 24px;
+        margin-left: .5rem;
+    }
+    .arkansas-description, .florida-description, .michigan-description, .missouri-description {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+    .california-description, .georgia-description, .indiana-description, .minnesota-description, .tennessee-description, .utah-description, .west-virginia-description {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+    .california-section, .georgia-section, .indiana-section, .minnesota-section, .tennessee-section, .utah-section, .west-virginia-section {
+        flex-direction: column;
+    }
 }

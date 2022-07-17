@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Missouri</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">University of Missouri</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
                         <img class="missouri-images" src="states-images/missouri-images/sami.jpeg" alt="This is a picture of my friend Sami and I at the Mizzou commons.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">August 20, 2020</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
                         <img class="missouri-images" src="states-images/missouri-images/me.jpeg" alt="This is the picture of me holding a 'Fight Tiger' sign at the commons at the University of Missouri.">
                         <div class="card-body m-1">
@@ -75,7 +75,7 @@
                             <p class="card-text"><small class="text-muted">August 20, 2020</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
                         <img class="missouri-images" src="states-images/missouri-images/mikayla.jpeg" alt="This is the picture of my friend Mikayla and I at the University of Missouri commons holding a 'Fight Tiger' sign.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-2 mr-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Rise</div> 
                         <img class="missouri-images" src="states-images/missouri-images/sami3.jpeg" alt="This is a picture of my friend Sami and I holding a cat inside of her dorm.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">August 22, 2020</small></p>
                         </div>
                     </div>
-                <div class="card mb-2 ml-5 mr-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">University of Missouri</div>
                         <img class="missouri-images" src="states-images/missouri-images/sami2.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
                         <div class="card-body m-1">
@@ -109,7 +109,7 @@
                             <p class="card-text"><small class="text-muted">September 12, 2020</small></p>
                         </div>
                 </div>
-                <div class="card mb-2 ml-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Rise</div>
                         <img class="missouri-images" src="states-images/missouri-images/sami-rise.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
                         <div class="card-body m-1">
@@ -123,7 +123,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 m-1" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mizzou Stadium</div>
                         <img class="missouri-images" src="states-images/missouri-images/stadium.jpeg" alt="This is a picture of me standing outside of the University of Missouri football stadium.">
                         <div class="card-body m-1">
@@ -139,7 +139,7 @@
             <h3 class="body-headers">Eldon Caves</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/cave.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
                     <div class="card-body m-1">
@@ -149,7 +149,7 @@
                         <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/cave2.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
                         <div class="card-body m-1">
@@ -163,7 +163,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/sami-cave.jpeg" alt="This is the picture of my friend Sami and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
@@ -173,7 +173,7 @@
                             <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/cesar.jpeg" alt="This is the picture of my friend Cesar and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
@@ -183,7 +183,7 @@
                             <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/sami-nikki.jpeg" alt="This is the picture of my friends Nikki, Sami, and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
@@ -197,7 +197,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/group.jpeg" alt="This is a group picture of my friends Nikki, Sami, Cesar, and I inside the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
@@ -207,7 +207,7 @@
                             <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
                         <img class="missouri-images" src="states-images/missouri-images/cave-red.jpeg" alt="This is the picture of the cave that we went to visit while in Missouri.">
                         <div class="card-body m-1">
@@ -258,7 +258,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

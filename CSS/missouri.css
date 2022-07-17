@@ -123,3 +123,11 @@ div.modal {
       width: 100%;
     }
   }
+@media (max-width: 1000px) {
+    br {
+        display: none;
+    }
+    .body-images {
+        flex-direction: column;
+    }
+}

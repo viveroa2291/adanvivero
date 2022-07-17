@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Minnesota</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Minneapolis</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
                         <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis-self.jpeg" alt="This is an image of me in downtown Minneapolis. My friends and I were doing a photoshoot.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
                         <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis.jpeg" alt="This is an image of my friends and I in downtown Minneapolis during our photoshoot.">
                         <div class="card-body m-1">
@@ -79,7 +79,7 @@
         </section>
         <section>
             <div class="body-images">
-                    <div class="card mb-3 m-5" id="cardBody">
+                    <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
                         <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self2.jpeg" alt="This is an image of me in downtown Minneapolis during a photoshoot.">
                 <div class="card-body m-1">
@@ -89,7 +89,7 @@
                     <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
                 </div>
                 </div>
-                    <div class="card mb-3 m-5" id="cardBody">
+                    <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">US Bank Stadium Minneapolis</div>
                         <img class="minnesota-images not-wide" src="states-images/minnesota-images/us-bank.jpeg" alt="This is an image of me at U.S Bank Stadium, where the Minnesota Vikings play.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
                         </div>
                     </div>
-                    <div class="card mb-3 m-5" id="cardBody">
+                    <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div> 
                         <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self3.jpeg" alt="This is another image of me in downtown Minneapolis during a walk around the city.">
                         <div class="card-body m-1">
@@ -115,7 +115,7 @@
             <h3 class="body-headers">Minneapolis Arcade</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade (Rooftop)</div>
                         <img class="minnesota-images wide" src="states-images/minnesota-images/rooftop.jpeg" alt="This is an image of my friends and I at an arcade in the outskirts of Minneapolis.">
                         <div class="card-body m-1">
@@ -125,7 +125,7 @@
                             <p class="card-text"><small class="text-muted">November 6, 2021</small></p>
                         </div>
                     </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
                     <img class="minnesota-images wide" src="states-images/minnesota-images/arcade.jpeg" alt="This is an image of my friends and I at an arcade in the outskirts of Minneapolis.">
                     <div class="card-body m-1">
@@ -139,7 +139,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
                     <img class="minnesota-images not-wide" src="states-images/minnesota-images/arcade-self.jpeg" alt="This is an image of me at an arcade in the outskirts of Minneapolis with a wall of art.">
                     <div class="card-body m-1">
@@ -155,7 +155,7 @@
             <h3 class="body-headers">Other Minnesota</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mall of America</div>
                 <img class="minnesota-images wide" src="states-images/minnesota-images/mallofamerica.jpeg" alt="This is an image of me at the Mall of America in Saint Paul Minnesota.">
                 <div class="card-body m-1">
@@ -165,7 +165,7 @@
                     <p class="card-text"><small class="text-muted">April 20, 2019</small></p>
                 </div>
             </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Minneapolis</div>
                         <img class="minnesota-images wide" src="states-images/minnesota-images/george-floyd.jpeg" alt="This is an image of a George Floyd mural located in the outskirts of Minneapolis.">
                         <div class="card-body m-1">
@@ -179,7 +179,7 @@
         </section> 
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Eden Prarie, Minnesota</div>
                 <img class="minnesota-images wide" src="states-images/minnesota-images/minnesota-friends.jpeg" alt="This is an image of my friends in Eden Prarie Minnesota. One of my friends is from Ohio and we haven't seen each other in years and was in town, therefore we met up and merged our friend groups together.">
                 <div class="card-body m-1">
@@ -189,7 +189,7 @@
                     <p class="card-text"><small class="text-muted">June 19, 2021</small></p>
                 </div>
             </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Afton Alps</div>
                 <img class="minnesota-images wide" src="states-images/minnesota-images/skiing.jpeg" alt="This is an image of me skiing at Afton Alps in Minnesota. I enjoyed skiing here very much and would recommend to give this place a visit if you like to ski or snowboard.">
                 <div class="card-body m-2">
@@ -238,7 +238,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

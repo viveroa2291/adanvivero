@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">California</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Los Angeles</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto mid-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
                         <img id="california-image" class="california-images mid-wide" src="states-images/california-images/downtown.jpeg" alt="This is a picture of my friends and I in downtown Los Angeles. I was on their shoulders preparing to do an 'L', which is a skill that is performed in mens gymnastics on the parallel bars.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">August 6, 2015</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto mid-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Los Angeles</div>
                         <img id="california-image" class="california-images mid-wide" src="states-images/california-images/pbars.jpeg" alt="This is the picture of me doing the 'L' on top of my friends shoulders in downtown Los Angeles.">
                         <div class="card-body m-1">
@@ -81,7 +81,7 @@
             <h3 class="body-headers">Disneyland</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div> 
                         <img id="california-image" class="california-images not-wide" src="states-images/california-images/disneyland-jon.jpeg" alt="This is a picture of my friend Jon and I at Disneyland.">
                         <div class="card-body m-1">
@@ -91,7 +91,7 @@
                             <p class="card-text"><small class="text-muted">August 7, 2015</small></p>
                         </div>
                     </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
                         <img class="california-images not-wide" src="states-images/california-images/disneyland-jon2.jpeg" alt="This is an image of my friend Jon and I at Disneyland in front of the infamous Mickey Mouse roller coaster.">
                 <div class="card-body m-1">
@@ -105,7 +105,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyland</div>
                         <img class="california-images wide" src="states-images/california-images/disneyland-kristin.jpeg" alt="This is an image of my friend Jon and Kristin and I at Disneyland. <br><br><b> Fun fact, they are twins.</b>">
                         <div class="card-body m-1">
@@ -121,7 +121,7 @@
             <h3 class="body-headers">Huntington Beach</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                     <img class="california-images not-wide" src="states-images/california-images/huntington-jon.jpeg" alt="This is an image of my friend Jon and I at Huntington Beach.">
                     <div class="card-body m-1">
@@ -131,7 +131,7 @@
                         <p class="card-text"><small class="text-muted">August 10, 2015</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                     <img class="california-images not-wide" src="states-images/california-images/huntington-jon2.jpeg" alt="This is an image of my friend Jon and I at Huntington Beach.">
                     <div class="card-body m-1">
@@ -145,7 +145,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                     <img class="california-images not-wide" src="states-images/california-images/huntington-karina.jpeg" alt="This is an image of my friend Karina and I at Huntington Beach.">
                     <div class="card-body m-1">
@@ -155,7 +155,7 @@
                         <p class="card-text"><small class="text-muted">August 10, 2015</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                         <img class="california-images not-wide" src="states-images/california-images/pyramid.jpeg" alt="This is an image of my friends and I attempting to do a pyramid.">
                         <div class="card-body m-1">
@@ -165,7 +165,7 @@
                             <p class="card-text"><small class="text-muted">August 10, 2015</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                         <img class="california-images not-wide" src="states-images/california-images/huntington-holly.jpeg" alt="This is an image of my friend Holly and I at Huntington Beach.">
                         <div class="card-body m-1">
@@ -210,7 +210,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

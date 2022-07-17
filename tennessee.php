@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Tennessee</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Gaitlinburg</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Swing Picture</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/nikki.jpeg" alt="This is a picture of my friend Nikki and I taking a selfie on our way down from the infamous bridge in Gaitlinburg.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/group.jpeg" alt="This is a group picture of my friends in Gaitlinburg.">
                         <div class="card-body m-1">
@@ -79,7 +79,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-2 mr-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div> 
                         <img class="tennessee-images" src="states-images/tennessee-images/sami.jpeg" alt="This is a picture of my friend Sami and I in Gaitlinburg.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
                             <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                         </div>
                     </div>
-                    <div class="card mb-2 ml-5 mt-2 mr-5" id="cardBody">
+                    <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/me.jpeg" alt="This is an image of me in a Gaitlinburg waterfall.">
                 <div class="card-body m-1">
@@ -99,7 +99,7 @@
                     <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                 </div>
                 </div>
-                <div class="card mb-2 ml-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/sami-nikki.jpeg" alt="This is an image of my friends Nikki, Sami, and I in Gaitlinburg.">
                 <div class="card-body m-1">
@@ -113,7 +113,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg Waterfall</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/group-selfie.jpeg" alt="This is a group selfie of my friends and I in a Gaitlinburg waterfall.">
                     <div class="card-body m-1">
@@ -123,7 +123,7 @@
                         <p class="card-text"><small class="text-muted">October 13, 2020</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/group-selfie2.jpeg" alt="This is a group selfie of my friends and I hiking in Gaitlinburg.">
                         <div class="card-body m-1">
@@ -137,7 +137,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-5 m-1" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Gaitlinburg</div>
                         <img class="tennessee-images" src="states-images/tennessee-images/mikayla.jpeg" alt="This is an image of my friend Mikayla and I in Gaitlinburg by a waterfall.">
                         <div class="card-body m-1">
@@ -180,7 +180,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

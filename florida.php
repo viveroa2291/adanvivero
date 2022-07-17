@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Florida</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Disneyworld</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Epcot</div>
                         <img id="florida-image" class="florida-images" src="states-images/florida-images/epcot.jpeg" alt="This is a picture of me standing outside of Epcot. I did not have a chance to go into Epcot, but wanted to take a picture since I found the entrance very cool.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">March 20, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Walt Disney Statue</div>
                         <img id="florida-image" class="florida-images mid-wide" src="states-images/florida-images/disney.jpeg" alt="This is a picture of a statue of Walt Disney and Mickey Mouse at the Disneyworld Magic Kingdom park.">
                         <div class="card-body m-1">
@@ -75,7 +75,7 @@
                             <p class="card-text"><small class="text-muted">March 20, 2017</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Magic Kingdom Entrance</div>
                         <img id="florida-image" class="florida-images mid-wide" src="states-images/florida-images/disney-family.jpeg" alt="This is a picture of my family and I at the entrance of Disneyworld's Magic Kingdom park.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Castle</div> 
                         <img id="florida-image" class="florida-images" src="states-images/florida-images/castle.jpeg" alt="This is a picture of me posing in front of the castle in Disneyworld's Magic Kingdom park.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">March 20, 2017</small></p>
                         </div>
                     </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Hall of Presidents</div>
                         <img class="florida-images not-wide" src="states-images/florida-images/president.jpeg" alt="This is an image of the outside of the Hall of Presidents display. At the time, we could not enter as they were undergoing changes.">
                 <div class="card-body m-1">
@@ -109,7 +109,7 @@
                     <p class="card-text"><small class="text-muted">March 20, 2017</small></p>
                 </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Disneyworld</div>
                         <img class="florida-images not-wide" src="states-images/florida-images/disney2.jpeg" alt="This is an image of me taking pictures by the area we were eating.">
                 <div class="card-body m-1">
@@ -125,7 +125,7 @@
             <h3 class="body-headers">Universal Studios</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Jurassic Park</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/jurassic.jpeg" alt="This is an image of me looking up at the Jurassic Park sign.">
                     <div class="card-body m-1">
@@ -135,7 +135,7 @@
                         <p class="card-text"><small class="text-muted">March 22, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">NBC Tonights Show</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/nbc.jpeg" alt="This is an image of me outside of the NBC building after watching a 'Tonight's Show'.">
                     <div class="card-body m-1">
@@ -145,7 +145,7 @@
                         <p class="card-text"><small class="text-muted">March 22, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Jurassic Park</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/jurassic2.jpeg" alt="This is an image of me looking at the dinosaur acting in shock. I thought the display was very well done and was my favorite park.">
                     <div class="card-body m-1">
@@ -159,7 +159,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Hogwarts</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/harrypotter.jpeg" alt="This is a picture of me standing outside of Hogwarts.">
                     <div class="card-body m-1">
@@ -169,7 +169,7 @@
                         <p class="card-text"><small class="text-muted">March 22, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Universal Sign</div>
                         <img class="florida-images not-wide" src="states-images/florida-images/universal-sign.jpeg" alt="This is an image of me standing outside of the Universal Studios sign that rotates 360 degrees.">
                         <div class="card-body m-1">
@@ -183,7 +183,7 @@
         </section>
         <section>
             <div class="body-images">
-            <div class="card m-5" id="cardBody">
+            <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Huntington Beach</div>
                         <img class="florida-images not-wide" src="states-images/florida-images/universal.jpeg" alt="This is an image of me taking a look at the view of the Universal Studios park.">
                         <div class="card-body m-1">
@@ -199,7 +199,7 @@
             <h3 class="body-headers">Seaworld</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Sea World Lake</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/seaworld2.jpeg" alt="This is an image of me standing by the Seaworld lake of the theme park.">
                     <div class="card-body m-1">
@@ -209,7 +209,7 @@
                         <p class="card-text"><small class="text-muted">March 19, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Penguin Exhibit</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/penguin.jpeg" alt="This is an image of penguins inside a penguin exhibit.">
                     <div class="card-body m-1">
@@ -219,7 +219,7 @@
                         <p class="card-text"><small class="text-muted">March 19, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Penguin Exhibit</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/penguin-me.jpeg" alt="This is an image of me interacting with a penguin from the glass. I thought it was pretty cool that the penguin came up to me and made eye contact.">
                     <div class="card-body m-1">
@@ -233,7 +233,7 @@
         </section>
         <section>
             <div class="body-images">
-            <div class="card m-5" id="cardBody">
+            <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Shamu Stadium</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/orca.jpeg" alt="This is an image of an orca swimming around its tank.">
                     <div class="card-body m-1">
@@ -243,7 +243,7 @@
                         <p class="card-text"><small class="text-muted">March 19, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Shamu Stadium</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/orcas-glass.jpeg" alt="This is an image of orcas and their trainers providing information about orcas to the visitors.">
                     <div class="card-body m-1">
@@ -253,7 +253,7 @@
                         <p class="card-text"><small class="text-muted">March 19, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Seaworld</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/seaworld-green.jpeg" alt="This is an image of me in an unknown area of Seaworld's park. It was pretty empty but had nice theming and was surrounded with a lot colorful flowers.">
                     <div class="card-body m-1">
@@ -267,7 +267,7 @@
         </section>
         <section>
             <div class="body-images">
-            <div class="card m-5" id="cardBody">
+            <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Seaworld Sign</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/seaworld.jpeg" alt="This is an image of me sitting by the Seaworld sign.">
                     <div class="card-body m-1">
@@ -277,7 +277,7 @@
                         <p class="card-text"><small class="text-muted">March 21, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Fish</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/fish.jpeg" alt="This is a picture of a fish that I took at Seaworld.">
                     <div class="card-body m-1">
@@ -287,7 +287,7 @@
                         <p class="card-text"><small class="text-muted">March 23, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Seahorses</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/seahorses.jpeg" alt="This is an picture of seahorses that I took at Seaworld.">
                     <div class="card-body m-1">
@@ -303,7 +303,7 @@
             <h3 class="body-headers">Other Florida</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Hotel</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/hotel.jpeg" alt="This is an image of me standing outside of my hotel.">
                     <div class="card-body m-1">
@@ -313,7 +313,7 @@
                         <p class="card-text"><small class="text-muted">March 19, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Penguin Exhibit</div>
                     <img class="florida-images not-wide" src="states-images/florida-images/bathroom.jpeg" alt="This is a bathroom picture that I took in the bathroom of the hotel I was staying at.">
                     <div class="card-body m-1">
@@ -375,7 +375,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

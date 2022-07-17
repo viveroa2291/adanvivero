@@ -123,7 +123,10 @@
     }
   }
 @media (max-width: 1000px){
-    .california-header {
+    br {
+      display: none;
+    }
+    .florida-header {
         font-size: 50px;
         color: white;
         font-weight: 200;

@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Michigan</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Sawyer (The Dunes)</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/sami.jpeg" alt="This is the picture of my friend Sami and I sitting on a tree at The Dunes in Sawyer Michigan.">
                         <div class="card-body m-1">
@@ -65,7 +65,7 @@
                             <p class="card-text"><small class="text-muted">July 14, 2019</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/nicole.jpeg" alt="This is the picture of my friend Nicole and I sitting on a tree at The Dunes in Sawyer Michigan.">
                     <div class="card-body m-1">
@@ -75,7 +75,7 @@
                         <p class="card-text"><small class="text-muted">July 14, 2019</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/sami2.jpeg" alt="This is the picture of my friend Sami and I in the clean mud of The Dunes in Sawyer Michigan.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Clean mud of The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/nicole-sami.jpeg" alt="This is the picture of my friends Nicole and Sami in the clean mud of The Dunes in Sawyer Michigan.">
                         <div class="card-body m-1">
@@ -103,7 +103,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Beach of the Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/gabi-nora.jpeg" alt="This is the picture of my friends Gabi and Nora at the beach in Sawyer Michigan.">
                         <div class="card-body m-1">
@@ -113,7 +113,7 @@
                             <p class="card-text"><small class="text-muted">August 10, 2019</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Beach of the Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/sawyer2.jpeg" alt="This is the picture of my friends Alex, Kaitlin, Gabi, and Nora at the beach in Sawyer Michigan.">
                         <div class="card-body m-1">
@@ -127,7 +127,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/alex.jpeg" alt="This is the picture of my friend Alex and I sitting on a tree at the Dunes.">
                         <div class="card-body m-1">
@@ -137,7 +137,7 @@
                             <p class="card-text"><small class="text-muted">August 10, 2019</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/kaitlin-alex.jpeg" alt="This is the picture of my friends Alex, Kaitlin, and I sitting on a tree at the Dunes covered in clean mud.">
                         <div class="card-body m-1">
@@ -151,7 +151,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">The Dunes</div>
                         <img class="michigan-images" src="states-images/michigan-images/sawyer.jpeg" alt="This is a group picture of my friends and I sitting on a tree at The Dunes.">
                         <div class="card-body m-1">
@@ -161,7 +161,7 @@
                             <p class="card-text"><small class="text-muted">August 10, 2019</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Clean Mud</div>
                         <img class="michigan-images" src="states-images/michigan-images/alex2.jpeg" alt="This is a selfie taken by me of my friend Alex and I covered in clean mud at The Dunes.">
                         <div class="card-body m-1">
@@ -177,7 +177,7 @@
             <h3 class="body-headers">Lake Michigan Beach (Friends Lakehouse)</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div> 
                         <img class="michigan-images" src="states-images/michigan-images/nikki.jpeg" alt="This is a picture of my friend Nikki and I at Lake Michigan Beach on the Fourth of July.">
                         <div class="card-body m-1">
@@ -187,7 +187,7 @@
                             <p class="card-text"><small class="text-muted">July 4, 2020</small></p>
                         </div>
                     </div>
-                    <div class="card m-5" id="cardBody">
+                    <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div>
                         <img class="michigan-images" src="states-images/michigan-images/nikki-chloe.jpeg" alt="This is an image of my friends Nikki, Chloe, and I at Lake Michigan Beach on the Fourth of July.">
                 <div class="card-body m-1">
@@ -197,7 +197,7 @@
                     <p class="card-text"><small class="text-muted">July 4, 2020</small></p>
                 </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake Michigan Beach</div>
                         <img class="michigan-images" src="states-images/michigan-images/nikki2.jpeg" alt="This is an image of my friends Nikki and I at Lake Michigan Beach on the Fourth of July.">
                 <div class="card-body m-1">
@@ -211,7 +211,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 m-1 mt-3" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Fireworks</div>
                         <img class="michigan-images" src="states-images/michigan-images/fireworks.jpeg" alt="This is an image of my friends Nikki, Chloe, and I blowing up fireworks outside on the Fourth of July.">
                         <div class="card-body m-1">
@@ -227,7 +227,7 @@
             <h3 class="body-headers">Wakefield</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cabin</div>
                     <img class="michigan-images" src="states-images/michigan-images/cabin.jpeg" alt="This is an image of me sitting inside my cabin before skiing.">
                     <div class="card-body m-1">
@@ -237,7 +237,7 @@
                         <p class="card-text"><small class="text-muted">January 22, 2022</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
                     <img class="michigan-images" src="states-images/michigan-images/wakefield3.jpeg" alt="This is an image of me skiing in Wakefield Michigan.">
                     <div class="card-body m-1">
@@ -251,7 +251,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
                     <img class="michigan-images" src="states-images/michigan-images/ski.jpeg" alt="This is an image of where I was skiing in Wakefield Michigan.">
                     <div class="card-body m-1">
@@ -261,7 +261,7 @@
                         <p class="card-text"><small class="text-muted">January 22, 2022</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
                         <img class="michigan-images" src="states-images/michigan-images/wakefield4.jpeg" alt="This is a selfie of me skiing in Wakefield Michigan after I fell and had snow all over my face.">
                         <div class="card-body m-1">
@@ -275,7 +275,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-5 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
                     <img class="michigan-images" src="states-images/michigan-images/wakefield.jpeg" alt="This is a selfie of me skiing in Wakefield Michigan.">
                     <div class="card-body m-1">
@@ -285,7 +285,7 @@
                         <p class="card-text"><small class="text-muted">January 23, 2022</small></p>
                     </div>
                 </div>
-                <div class="card mb-5 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Wakefield</div>
                         <img class="michigan-images" src="states-images/michigan-images/wakefield2.jpeg" alt="This is a selfie of me skiing in Wakefield Michigan.">
                         <div class="card-body m-1">
@@ -301,7 +301,7 @@
             <h3 class="body-headers">Detroit</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">German Event</div>
                     <img class="michigan-images" src="states-images/michigan-images/me.jpeg" alt="This is an image of me sitting inside a bus on a way to a German event.">
                     <div class="card-body m-1">
@@ -359,7 +359,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

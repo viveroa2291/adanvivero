@@ -55,7 +55,7 @@
     opacity: .7;
     border: white solid 1px;
 }
-  div.modal {
+div.modal {
     display: none; /* Hidden by default */
     position: fixed;
     top: 0;
@@ -68,7 +68,7 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+}
   .modal-content {
     margin: auto;
     margin-bottom: 3px;
@@ -120,33 +120,72 @@
     text-decoration: none;
     cursor: pointer;
   }
-@media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-@media (max-width: 1000px){
-    .arkansas-header {
-        font-size: 50px;
-        color: white;
-        font-weight: 200;
+  @media (max-width: 1300px)
+  {
+    br {
+      display: none;
     }
     .body-images {
-        flex-direction: column;
+      flex-direction: column;
     }
-    .wide {
-        height: 300px;
-        margin: .5rem 1rem;
+    .not-wide-card {
+      width: 325px;
     }
     .not-wide {
-        height: 450px;
-        margin: .5rem 1.5rem;
+      height: 400px;
+      margin: .5rem;
     }
-    p {
-        font-size: 14px;
-    }
-    .mid-wide {
-        height: 400px;
-        margin: .5rem 1.75rem;
-    }
+  }
+@media (max-width: 700px) {
+  .arkansas-header {
+      font-size: 50px;
+      color: white;
+      font-weight: 200;
+  }
+  .body-images {
+      flex-direction: column;
+  }
+  .not-wide-card {
+      width: 300px;
+  }
+  .wide {
+      height: 375px;
+      margin: .5rem;
+  }
+  .not-wide {
+      height: 300px;
+      margin: .5rem;
+  }
+  p {
+      font-size: 14px;
+  }
+  .mid-wide {
+      height: 400px;
+      margin: .5rem;
+  }
+}
+@media (max-width: 650px) {
+  .arkansas-header {
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+  }
+  .body-images {
+    flex-direction: column;
+  }
+  .wide {
+    height: 275px;
+    margin: .5rem;
+  }
+  .not-wide {
+    height: 350px;
+    margin: .5rem;
+  }
+  p {
+      font-size: 13px;
+  }
+  .mid-wide {
+      height: 400px;
+      margin: .5rem;
+  }
 }

@@ -121,6 +121,9 @@ div.modal {
     }
   }
 @media (max-width: 1000px){
+    br {
+        display: none;
+    }
     .utah-header {
         font-size: 50px;
         color: white;

@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Page</title>
+    <style>
+        <?php 
+        include 'CSS/bootstrap.min.css';
+        include 'CSS/travel.css';
+        include 'CSS/styles.css';
+         ?>
+    </style>
     <link rel="stylesheet" href="bootstrap.bundle.min.js/bootstrap.bundle.js">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/travel.css" type="text/css">
-    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--Works with all of the fa, fab, and fas classes. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Works for all of the fa classes NOT Discord or the Phone Icon-->
@@ -28,7 +32,7 @@
          <a href="about.php">About</a>
          <a href="contact.php">Contact</a>
          <a href="story.php">Story</a>
-         <a href="travel.html">Travel</a>
+         <a href="travel.php">Travel</a>
          <a href="projects.php">Projects</a>
       </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +43,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Travel Page</p>
                     </div>
@@ -215,9 +219,8 @@
             <h3>Wisconsin</h3>
          </section>
       </div>
-      
    
-    <h2 class="travel-header">These are the states that I have traveled to.</h2>     
+    <h2 class="travel-header">Here is a map of the states that I have visited shaded in red.</h2>     
     <svg class="united-states-map" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable_background="new 0 0 1000 589" height="589px" pretty_print="False" style="stroke-linejoin: round; stroke:#000; fill: none;" version="1.1" viewBox="0 0 1000 589" width="1000px" id="svg" inkscape:version="0.48.4 r9939" sodipodi:docname="us.svg">
         <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1137" id="namedview69" showgrid="false" inkscape:zoom="0.80893016" inkscape:cx="817.66365" inkscape:cy="409.3738" inkscape:window-x="1192" inkscape:window-y="118" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
             <defs id="defs4">
@@ -562,7 +565,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>
@@ -571,6 +574,10 @@
             <span class="copyright">© Copyright <script>document.write(new Date().getFullYear());</script> by Adan Vivero</span>
         </div>
 </footer>
+<script>
+    <?php 
+        include 'travel.js';
+    ?>
+</script>
 </body>
 </html>
-<script src="travel.js"></script>

@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Arkansas</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Vandervoort</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Bathroom</div>
                         <img id="arkansas-image" class="arkansas-images not-wide" src="states-images/arkansas-images/me.jpeg" alt="This is a mirror picture that I took in my cousins newly remodeled bathroom and was a time when taking mirror pictures was popular on the iphone.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text arkansas-date"><small class="text-muted arkansas-date">December 29, 2012</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Land</div>
                         <img id="arkansas-image" class="arkansas-images not-wide" src="states-images/arkansas-images/hunting.jpeg" alt="This is an image of me holding a hunting rifle at my cousins house where we went target shooting on their land <b>safely</b>. It was a fun experience and learned information on gun safety.">
                         <div class="card-body m-1">
@@ -75,7 +75,7 @@
                             <p class="card-text arkansas-date"><small class="text-muted">December 28, 2015</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Farm</div>
                         <img id="arkansas-image" class="arkansas-images not-wide" src="states-images/arkansas-images/goats.jpeg" alt="This is an image of goats eating their food in my cousins farm.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Farm</div> 
                         <img id="arkansas-image" class="arkansas-images not-wide" src="states-images/arkansas-images/cows.jpeg" alt="This is an image of the cows on my cousin's farm.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">December 31, 2015</small></p>
                         </div>
                     </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Lake</div>
                         <img class="arkansas-images not-wide" src="states-images/arkansas-images/lake-me.jpeg" alt="This is an image of me at the lake that my cousins took me to.">
                     <div class="card-body m-1">
@@ -109,7 +109,7 @@
                         <p class="card-text"><small class="text-muted">June 15, 2016</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Farm</div>
                         <img id="arkansas-image" class="arkansas-images not-wide" src="states-images/arkansas-images/goat-me2.jpeg" alt="This is an image of me holding a baby goat on my cousin's farm.">
                         <div class="card-body m-1">
@@ -123,7 +123,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Farm</div>
                         <img class="arkansas-images wide" src="states-images/arkansas-images/goat-me.jpeg" alt="This is an image of me and one of my cousin's goat on his farm.">
                         <div class="card-body m-1">
@@ -133,9 +133,9 @@
                             <p class="card-text"><small class="text-muted">Janurary 1, 2016</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Cousin's Farm</div>
-                        <img class="arkansas-images wide" src="states-images/arkansas-images/cow-me.jpeg" alt="This is an image of me taking a picture with one of my cousin's cow.">
+                        <img class="arkansas-images not-wide" src="states-images/arkansas-images/cow-me.jpeg" alt="This is an image of me taking a picture with one of my cousin's cow.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -149,7 +149,7 @@
             <h3 class="body-headers">Ozark</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">On The Road</div>
                     <img class="arkansas-images not-wide" src="states-images/arkansas-images/view.jpeg" alt="This is a picture of me on the side of the road. We were driving and decided to take a picture of the view which is difficult to see with the barricade in the way.">
                     <div class="card-body m-1">
@@ -159,9 +159,9 @@
                         <p class="card-text"><small class="text-muted">August 16, 2017</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Mexican Restaurant</div>
-                    <img class="arkansas-images not-wide" src="states-images/arkansas-images/restaurant.jpeg" alt="This is a picture of me outside of one of my favorite Mexican restaurant when visiting my cousins. They provide very delicious food and give you large portions.">
+                    <img class="arkansas-images wide" src="states-images/arkansas-images/restaurant.jpeg" alt="This is a picture of me outside of one of my favorite Mexican restaurant when visiting my cousins. They provide very delicious food and give you large portions.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>
@@ -175,7 +175,7 @@
             <h3 class="body-headers">Henderson State University</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                         <div class="card-header text-center" id="featureTitle">Henderson State University</div>
                         <img class="arkansas-images not-wide" src="states-images/arkansas-images/university.jpeg" alt="This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school.">
                         <div class="card-body m-1">
@@ -185,7 +185,7 @@
                             <p class="card-text"><small class="text-muted">December 31, 2020</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                         <div class="card-header text-center" id="featureTitle">Henderson State University</div>
                         <img class="arkansas-images not-wide" src="states-images/arkansas-images/university2.jpeg" alt="This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school.">
                         <div class="card-body m-1">
@@ -201,7 +201,7 @@
             <h3 class="body-headers">Other Parts of Arkansas</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Altus (Cousin's House)</div>
                     <img class="arkansas-images not-wide" src="states-images/arkansas-images/cousins.jpeg" alt="This is a picture of my cousins and I at their house.">
                     <div class="card-body m-1">
@@ -211,7 +211,7 @@
                         <p class="card-text"><small class="text-muted">January 1, 2016</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Clarksville Lake</div>
                         <img class="arkansas-images not-wide" src="states-images/arkansas-images/lake-me2.jpeg" alt="This is an image of me at a Lake Horsehead in Clarksville Arkansas.">
                         <div class="card-body m-1">
@@ -221,9 +221,9 @@
                             <p class="card-text"><small class="text-muted">June 20, 2016</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Waldron</div>
-                        <img class="arkansas-images not-wide" src="states-images/arkansas-images/cousins2.jpeg" alt="This is an image of my cousins and I a year and a half later from the image on the left.">
+                        <img class="arkansas-images wide" src="states-images/arkansas-images/cousins2.jpeg" alt="This is an image of my cousins and I a year and a half later from the image on the left.">
                         <div class="card-body m-1">
                             <h5 class="card-title text-center" id="cardTitle"></h5>
                             <hr>
@@ -273,7 +273,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

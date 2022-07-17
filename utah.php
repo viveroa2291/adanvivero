@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Utah</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Salt Lake City</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
                         <img class="utah-images not-wide" src="states-images/utah-images/church-me.jpeg" alt="This is a picture of me in front of a mormon church in Salt Lake City.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">March 22, 2018</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
                         <img class="utah-images not-wide" src="states-images/utah-images/church.jpeg" alt="This is an image of a mormon church in Salt Lake City.">
                         <div class="card-body m-1">
@@ -75,7 +75,7 @@
                             <p class="card-text"><small class="text-muted">March 22, 2018</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div> 
                         <img class="utah-images not-wide" src="states-images/utah-images/church-mom.jpeg" alt="This is a picture of my mother and I at a mormon church in Salt Lake City.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Salt Lake City Mormon Church</div>
                         <img class="utah-images wide" src="states-images/utah-images/salt-lake-city2.jpeg" alt="This is an image of a mormon church in downtown Salt Lake City.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">March 22, 2018</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown Salt Lake City</div>
                         <img class="utah-images wide" src="states-images/utah-images/salt-lake-city3.jpeg" alt="This is an image of downtown Salt Lake City.">
                         <div class="card-body m-1">
@@ -115,7 +115,7 @@
             <h3 class="body-headers">Arches National Park</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park Sign</div> 
                         <img class="utah-images wide" src="states-images/utah-images/arches-sign.jpeg" alt="This is an image of me on the sign of the Arches National Park.">
                         <div class="card-body m-1">
@@ -125,7 +125,7 @@
                             <p class="card-text"><small class="text-muted">March 24, 2018</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div> 
                         <img class="utah-images wide" src="states-images/utah-images/arches2.jpeg" alt="This is an image of me at the Arches National Park.">
                         <div class="card-body m-1">
@@ -139,7 +139,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/arches.jpeg" alt="This is an image of me at the Arches National Park.">
                     <div class="card-body m-1">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                         <img class="utah-images not-wide" src="states-images/utah-images/big-arch.jpeg" alt="This is an image of me at the heart of the arch of the Arches National Park.">
                         <div class="card-body m-1">
@@ -160,7 +160,7 @@
                             <p class="card-text"><small class="text-muted">March 24, 2018</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                         <img class="utah-images not-wide" src="states-images/utah-images/small-arch.jpeg" alt="This is an image of me inside a small arch <br> with a view of the big arch at the Arches National Park.">
                         <div class="card-body m-1">
@@ -174,7 +174,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                         <img class="utah-images wide" src="states-images/utah-images/arch-field.jpeg" alt="This is an image of me looking at a field at the Arches National Park. It was a gigantic field and it was pretty cool.">
                         <div class="card-body m-1">
@@ -184,7 +184,7 @@
                             <p class="card-text"><small class="text-muted">March 24, 2018</small></p>
                         </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                         <img class="utah-images wide" src="states-images/utah-images/arches4.jpeg" alt="This is an image of me at the Arches National Park.">
                         <div class="card-body m-1">
@@ -199,7 +199,7 @@
         <section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Arches National Park</div>
                         <img class="utah-images not-wide" src="states-images/utah-images/arches3.jpeg" alt="This is an image of me at an open area at the Arches National Park.">
                         <div class="card-body m-1">
@@ -214,7 +214,7 @@
             <h3 class="body-headers">Springville, Utah</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
                     <img class="utah-images wide" src="states-images/utah-images/mountains.jpeg" alt="This is an image of me at Springville Utah standing at the middle of a mountain.">
                     <div class="card-body m-1">
@@ -224,7 +224,7 @@
                         <p class="card-text"><small class="text-muted">March 25, 2018</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
                     <img class="utah-images wide" src="states-images/utah-images/mountains3.jpeg" alt="This is an image of me at Springville Utah standing at the middle of a mountain.">
                     <div class="card-body m-1">
@@ -238,7 +238,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/mountains2.jpeg" alt="This is an image of me at Springville Utah standing at the bottom of the mountains.">
                     <div class="card-body m-1">
@@ -248,7 +248,7 @@
                         <p class="card-text"><small class="text-muted">March 25, 2018</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/mountains4.jpeg" alt="This is an image of me at Springville Utah standing at the center of the mountains.">
                     <div class="card-body m-1">
@@ -258,7 +258,7 @@
                         <p class="card-text"><small class="text-muted">March 25, 2018</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Springville, Utah</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/mountains5.jpeg" alt="This is an image of me at Springville Utah standing at the bottom of the mountains.">
                     <div class="card-body m-1">
@@ -274,7 +274,7 @@
             <h3 class="body-headers">Other images in Utah</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Draper, Utah</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/draper.jpeg" alt="This is an image of me at Draper, Utah which was a nice view of the city.">
                     <div class="card-body m-1">
@@ -284,7 +284,7 @@
                         <p class="card-text"><small class="text-muted">March 23, 2018</small></p>
                     </div>
                 </div>
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Utah</div>
                     <img class="utah-images not-wide" src="states-images/utah-images/outside.jpeg" alt="This is an image of me standing outside of my cousins house in Utah. I really like the cool view of the mountains.">
                     <div class="card-body m-1">
@@ -298,7 +298,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card m-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Utah</div>
                     <img class="utah-images wide" src="states-images/utah-images/pauls-house.jpeg" alt="This is an image of me standing outside my other cousins house in Utah. Again, I really find the mountains a view cool view right outside their house.">
                     <div class="card-body m-1">
@@ -356,7 +356,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>

@@ -28,7 +28,7 @@
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
             <a href="story.php">Story</a>
-            <a href="travel.html">Travel</a>
+            <a href="travel.php">Travel</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -39,7 +39,7 @@
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
-                        <a class="nav-link text-white top-link travel" href="travel.html">Travel</a> 
+                        <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Indiana</p>
                     </div>
@@ -55,7 +55,7 @@
             <h3 class="body-headers">Indiana University</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card mb-3 mt-3 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
                         <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends Nikki and Sami inside of Nikki's room at Indiana University for her move in day.">
                     <div class="card-body m-1">
@@ -65,7 +65,7 @@
                         <p class="card-text"><small class="text-muted">August 22, 2019</small></p>
                     </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5 mr-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
                         <img class="indiana-images" src="states-images/indiana-images/nikki-sami2.jpeg" alt="This is the picture of my friends Nikki, Sami, and I standing outside an Indiana University sign.">
                         <div class="card-body m-1">
@@ -75,7 +75,7 @@
                             <p class="card-text"><small class="text-muted">August 22, 2019</small></p>
                         </div>
                 </div>
-                <div class="card mb-3 mt-3 ml-5" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
                         <img class="indiana-images" src="states-images/indiana-images/nikki.jpeg" alt="This is the picture of my friend Nikki and I in a Halloween costume posing before going out to a party.">
                         <div class="card-body m-1">
@@ -89,7 +89,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-2 mr-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Kelley's School of Business</div> 
                         <img class="indiana-images" src="states-images/indiana-images/kelleys.jpeg" alt="This is a picture of me standing outside of the Kelley's School of Business at Indiana University.">
                         <div class="card-body m-1">
@@ -99,7 +99,7 @@
                             <p class="card-text"><small class="text-muted">May 30, 2020</small></p>
                         </div>
                     </div>
-                    <div class="card mb-2 ml-5 mt-2" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Bear's Place</div>
                         <img class="indiana-images" src="states-images/indiana-images/bears.jpeg" alt="This is an image of me standing outside of Bear's Place.">
                 <div class="card-body m-1">
@@ -113,7 +113,7 @@
         </section>
         <section>
             <div class="body-images">
-                <div class="card mb-3 m-1" id="cardBody">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Indiana University</div>
                         <img class="indiana-images" src="states-images/indiana-images/sean.jpeg" alt="This is an image of my friend Sean and I at Indiana University.">
                         <div class="card-body m-1">
@@ -154,7 +154,7 @@
             <a class="nav-link text-white footer-link" href="about.php">About</a>
             <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
             <a class="nav-link text-white footer-link" href="story.php">Story</a>
-            <a class="nav-link text-white footer-link" href="travel.html">Travel</a>
+            <a class="nav-link text-white footer-link" href="travel.php">Travel</a>
             <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
         </div>
         <div>
