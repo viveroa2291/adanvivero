@@ -45,6 +45,17 @@ a.top-link:hover:before {
 .projects {
     margin-left: 20.5rem;
 }
+.login {
+    right: 5rem;
+}
+.signup {
+    right: 0;
+}
+.slash {
+    color: white;
+    height: 10px;
+    margin-right: 2.5rem;
+}
 .top-links {
     width: 100%;
     align-items: center;
