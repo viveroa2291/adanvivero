@@ -69,7 +69,7 @@
             <?php 
                 $connect = mysqli_connect('localhost', 'root', '', 'Dividends'); 
 
-                $query = 'SELECT id, Ticker, Price FROM Stocks';
+                $query = 'SELECT id, Ticker, Price FROM Stock';
                 $result = mysqli_query($connect, $query);
 
                 echo mysqli_num_rows(($result));

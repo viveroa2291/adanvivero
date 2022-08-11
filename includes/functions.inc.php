@@ -46,7 +46,7 @@ function pwdMatch($pwd, $pwdRepeat) {
     return $result;
 }
 function uidExists($conn, $username, $email) {
-    $sql = "SELECT * FROM users WHERE userUid = ? OR userEmail = ?;";
+    $sql = "SELECT * FROM usersProfiles WHERE userUid = ? OR usersEmail = ?;";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../signup.php?error=stmtfailed");
@@ -70,7 +70,7 @@ function uidExists($conn, $username, $email) {
     mysqli_stmt_close($stmt); 
 }
 function createUser($conn, $name, $email, $username, $pwd) {
-    $sql = "INSERT INTO users (userName, userEmail, userUid, usersPwd) VALUES (?, ?, ?, ?);";
+    $sql = "INSERT INTO usersProfiles (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../signup.php?error=stmtfailed");
@@ -113,7 +113,7 @@ function loginUser($conn, $username, $pwd) {
      else if ($checkedPwd === true) {
          session_start();
          $_SESSION["userid"] = $uidExists["usersId"];
-         $_SESSION["useruid"] = $uidExists["userUid"];
+         $_SESSION["useruid"] = $uidExists["usersUid"];
          header("location: ../index.php");
          exit();
      }

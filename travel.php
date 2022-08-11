@@ -67,6 +67,7 @@
     </header>
    <main>
       <h1 class="travel-header">Check out the states that I have traveled to</h1>
+      <hr class="travel-hr">
       <div class="wrapper">
 
          <section class="arkansas-section under">
@@ -87,6 +88,7 @@
             <img src="states-images/california-images/city.jpeg" class="states-images" alt="">
             <span>
                <a href="california.php" class="california-link">California</a>
+               <hr class="state-hr">
                <p class="california-description">Check out my California travel and the places I visited which include:</p>
                <ul class="california-description">
                   <li>Disneyland</li>
@@ -100,6 +102,7 @@
             <img src="states-images/florida-images/seaworld-green2.jpeg" class="states-images" alt="">
             <span>
                <a href="florida.php" class="florida-link">Florida</a>
+               <hr class="state-hr">
                <p class="florida-description">Check out my Florida travel page and the places that I visited which include:</p>
                <ul class="florida-description">
                   <li>Seaworld</li>
@@ -113,6 +116,7 @@
             <img src="states-images/georgia-images/atlanta2.jpeg" class="states-images" alt="">
             <span>
                <a href="georgia.php" class="georgia-link">Georgia</a>
+               <hr class="state-hr">
                <p class="georgia-description">Check out my Georgia travel and the places I visited which include:</p>
                <ul class="georgia-description">
                   <li>Atlanta</li>
@@ -130,6 +134,7 @@
             <img src="states-images/indiana-images/kelleys.jpeg" class="states-images" alt=""> 
             <span>
                <a href="indiana.php" class="indiana-link">Indiana</a>
+               <hr class="state-hr">
                <p class="indiana-description">Check out my Indiana travel and the places I visited which include:</p>
                <ul class="indiana-description">
                   <li>Bloomington Indiana</li>
@@ -142,6 +147,7 @@
             <img src="states-images/michigan-images/ski.jpeg" class="states-images" alt="">
             <span>
                <a href="michigan.php" class="michigan-link">Michigan</a>
+               <hr class="state-hr">
                <p class="michigan-description">Check out Michigan travel page and the places I visited which include:</p>
                <ul class="michigan-description">
                   <li>Sawyer Michigan (Michigan Dunes)</li>
@@ -156,6 +162,7 @@
             <img src="states-images/minnesota-images/city.jpeg" alt="">
             <span>
                <a href="minnesota.php" class="minnesota-link">Minnesota</a>
+               <hr class="state-hr">
                <p class="minnesota-description">Check out my Minnesota travel page and the places I visited which include:</p>
                <ul class="minnesota-description">
                   <li>Minneapolis</li>
@@ -170,6 +177,7 @@
             <img src="states-images/missouri-images/cave2.jpeg" class="states-images" alt=""> 
             <span>
                <a href="missouri.php" class="missouri-link">Missouri</a>
+               <hr class="state-hr">
                <p class="missouri-description">Check out my Missouri travel page and the places I visited which include:</p>
                <ul class="missouri-description">
                   <li>University of Missouri</li>
@@ -190,6 +198,7 @@
             <img src="states-images/tennessee-images/tenessee.jpeg" class="states-images" alt="">
             <span>
                <a href="tennessee.php" class="tennessee-link">Tennessee</a>
+               <hr class="state-hr">
                <p class="tennessee-description">Check out my Tennessee travel page and the places I visited which include:</p>
                <ul class="tennessee-description">
                   <li>Gaitlinburg</li>
@@ -205,6 +214,7 @@
             <img src="states-images/utah-images/salt-lake-city.jpeg" class="states-images" alt="">  
             <span>
                <a href="utah.php" class="utah-link">Utah</a>
+               <hr class="state-hr">
                <p class="utah-description">Check out my Utah travel page and the places I visited which include:</p>
                <ul class="utah-description">
                   <li>Salt Lake City</li>
@@ -222,6 +232,7 @@
             <img src="states-images/west-virginia-images/mountain.jpeg" class="states-images" alt="">
             <span>
                <a href="west-virginia.php" class="west-virginia-link">West Virginia</a>
+               <hr class="state-hr">
                <p class="west-virginia-description">Check out my West Virginia travel page and the places I visited which include:</p>
                <ul class="west-virginia-description">
                   <li>Harpers Ferry</li>

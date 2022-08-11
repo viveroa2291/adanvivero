@@ -23,7 +23,7 @@
         }
         if($errors == 0)
         {
-            $query = 'INSERT INTO Comments (name, comments) VALUES ("'.addslashes($name).'", "'.addslashes($comment).'")';
+            $query = 'INSERT INTO Comment (name, comments) VALUES ("'.addslashes($name).'", "'.addslashes($comment).'")';
 
             $message = 'You have received a new comment on your home page: 
             Name: '.$name.'
@@ -180,7 +180,7 @@
                     <?php 
                         $connect = mysqli_connect('localhost', 'root', '', 'Home'); 
 
-                        $query = 'SELECT name, comments, date FROM Comments';
+                        $query = 'SELECT name, comments, date FROM Comment';
                         $result = mysqli_query($connect, $query);
 
                         while($record = mysqli_fetch_assoc($result )) 
