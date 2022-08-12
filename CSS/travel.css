@@ -15,7 +15,7 @@ img {
     margin-top: 1rem;
 }
 .wrapper {
-    height: 750vh;
+    height: 800vh;
 }
 .state-hr {
     width: 50%;
@@ -25,7 +25,7 @@ img {
     width: 45%;
     border-top: 2px solid black;
 }
-.arkansas-section, .florida-section, .michigan-section, .missouri-section {
+.arkansas-section, .florida-section, .michigan-section, .missouri-section, .texas-section {
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -33,17 +33,17 @@ img {
     background-color: #f2f2f2;
     padding: 1rem;
 }
-.arkansas-link, .florida-link, .michigan-link, .missouri-link {
+.arkansas-link, .florida-link, .michigan-link, .missouri-link, .texas-link {
     color: black;
     font-size: 50px;
     margin-left: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
-.arkansas-link:hover, .florida-link:hover, .michigan-link:hover, .missouri-link:hover {
+.arkansas-link:hover, .florida-link:hover, .michigan-link:hover, .missouri-link:hover, .texas-link:hover {
     text-decoration: none;
     animation: color-change 1s infinite;
 }
-.arkansas-link:before, .florida-link:before, .michigan-link:before, .missouri-link:before{  
+.arkansas-link:before, .florida-link:before, .michigan-link:before, .missouri-link:before, .texas-link:before {  
     content: "";
     position: absolute;
     width: 25%;
@@ -54,11 +54,11 @@ img {
     transform: scaleX(0);
     transition: all 0.5s ease-in-out;
 }
-.arkansas-link:hover:before, .florida-link:hover:before, .michigan-link:hover:before, .missouri-link:hover:before {
+.arkansas-link:hover:before, .florida-link:hover:before, .michigan-link:hover:before, .missouri-link:hover:before, .texas-link:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
-.arkansas-description, .florida-description, .michigan-description, .missouri-description {
+.arkansas-description, .florida-description, .michigan-description, .missouri-description, .texas-description {
     color: black;
     margin-left: 1.5rem;
     font-size: 18px;
