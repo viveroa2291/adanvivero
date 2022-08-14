@@ -62,7 +62,7 @@
         </nav>
     </header>
     <main>
-        <section class="tennessee-top-section">
+        <section class="tennessee-top-section" id="top">
             <h2 class="tennessee-header">Tennessee</h2>
         </section>
         <section>
@@ -163,8 +163,16 @@
                 </div>
             </div>
         </section>
+        <section class="bottom-section">
+            <span><a class="previous-state" href="south-dakota.php">&#60;</a></span>
+            <p class="other-states"><b>Check out the other states</b></p>
+            <span><a class="next-state" href="texas.php">&#62;</a></span>
+        </section>
+        <section class="top" >
+             <a href="#top"><b>TOP</b></a>
+        </section>
         <div id="myModal" class="modal">
-            <span class="close">&times;</span>
+            <span class="close" style="font-size: 50px; color: white;">&times;</span>
             <img class="modal-content" id="img01">
             <div id="caption"></div>
             <div class="row">

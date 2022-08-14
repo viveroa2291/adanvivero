@@ -1,6 +1,8 @@
+// When minimized, it will do an animation with the hamburger feature
 function myRotate(x) {    
   x.classList.toggle("change");
 }   
+// When minimized, it will display the hamburger feature 
 function toggleNav() {    
   let elements = document.getElementsByClassName('minimize');
   if(document.getElementById('hamburger').style.marginBottom === "11rem") {
@@ -13,7 +15,7 @@ function toggleNav() {
       elements[i].classList.toggle('show');
   }
 }
-
+// This block of code is when an image is clicked, it expands the image. 
 var modal = document.getElementById("myModal");
 
 var img = document.getElementsByClassName("arkansas-images");

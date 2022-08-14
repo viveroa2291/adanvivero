@@ -12,10 +12,12 @@
     text-align: center;
     color: white;
     font-size: 75px;
+    animation: color-change 30s infinite;
 }
 .body-headers {
     text-align: center;
     margin-top: 1rem;
+    animation: body-color-change 30s infinite;
 }
 .body-images {
     display: flex;
@@ -25,7 +27,7 @@
 .arkansas-images {
     height: 350px;
     margin: .5rem 3rem;
-    cursor: pointer;
+    cursor: zoom-in;
     transition: .3s;
 }
 .arkansas-images:hover {
@@ -69,14 +71,14 @@ div.modal {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-  .modal-content {
+.modal-content {
     margin: auto;
     margin-bottom: 3px;
     display: block;
     width: 80%;
     max-width: 700px; 
-  }
-  #caption {
+}
+#caption {
     margin: auto;
     display: block;
     width: 95%;
@@ -89,30 +91,97 @@ div.modal {
     color: black;
     border-radius: 5px;
     font-size: 18px;
-  }
-  .modal-content, #caption, .row{  
+}
+.modal-content, #caption, .row{  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
     overflow: auto;
-  }
-  @-webkit-keyframes zoom {
+}
+.other-states {
+  text-align: center;
+  color: rgb(74, 74, 74);
+  font-size: 25px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-self: flex-end;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.previous-state, .next-state {
+  font-size: 45px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+}
+.previous-state:hover, .next-state:hover {
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.top {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 1rem;
+}
+.top a {
+  color: black;
+}
+.top a:hover {
+  text-decoration: none;
+}
+@-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
-  } 
-  @keyframes zoom {
+} 
+@keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
+}
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+    33% {
+        color: brown;
+    }
+    66% {
+        color: black;
+    }
+    100% {
+      color: white;
+    }
+}
+@keyframes body-color-change {
+  0% {
+      color: black;
   }
+  33% {
+      color: brown;
+  }
+  66% {
+      color: skyblue;
+  }
+  100% {
+    color: black;
+  }
+}
   /* The Close Button */
   .close {
-    position: absolute;
+    position: absolute; 
     top: 15px;
     right: 35px;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
     transition: 0.3s;
   }
   .close:hover, .close:focus {
