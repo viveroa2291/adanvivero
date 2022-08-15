@@ -136,6 +136,50 @@
                             <p class="card-text"><small class="text-muted">May 31, 2020</small></p>
                         </div>
                 </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Upstairs Pub (Indiana University)</div>
+                        <img class="indiana-images" src="states-images/indiana-images/upstairs.jpeg" alt="This is a picture of me at the Upstairs Pub located in Bloomington Indiana. My friend who attends school there took me out after a long day of helping her move out.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of me at the Upstairs <br> Pub located in Bloomington Indiana. <br> My friend who attends school there <br> took me out after a long day of helping <br> her move out. </p>
+                            <p class="card-text"><small class="text-muted">July 21, 2022</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Bloomington Indiana</div>
+                        <img class="indiana-images" src="states-images/indiana-images/street.jpeg" alt="This is a picture of me on the street in Bloomington Indiana. I thought the scenery was good, however it appears that it looks better in person than on camera.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of me on the street in <br> Bloomington Indiana. I thought the <br> scenery was good, however it appears <br> that it looks better in person than on <br> camera.</p>
+                            <p class="card-text"><small class="text-muted">July 21, 2022</small></p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">La Una Cantina</div>
+                        <img class="indiana-images" src="states-images/indiana-images/la-una.jpeg" alt="This is an image inside of a restaurant in Bloomington with cool wall art and a sign that says 'Make Tacos Not War', which is a message I enjoy.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is an image inside of a restaurant <br> in Bloomington with cool wall art and <br> a sign that says 'Make Tacos Not War', <br> which is a message I enjoy.</p>
+                            <p class="card-text"><small class="text-muted">July 21, 2022</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">La Una Cantina</div>
+                        <img class="indiana-images" src="states-images/indiana-images/la-una2.jpeg" alt="This is a picture of me standing in front of a grassy wall art that I always wanted to take in my lifetime. I was never able to find a place that had such thing, but found it inside La Una Cantina and had the urge to make my friend take a picture of me.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of me standing in front <br> of a grassy wall art that I always wanted <br> to take in my lifetime. I was never able to <br> find a place that had such thing, but <br> found it inside La Una Cantina and had <br> the urge to make my friend take a picture <br> of me.</p>
+                            <p class="card-text"><small class="text-muted">July 21, 2022</small></p>
+                        </div>
+                </div>   
             </div>
         </section>
         <section class="bottom-section">
@@ -157,6 +201,10 @@
                     <img class="box-image" src="states-images/indiana-images/kelleys.jpeg" onclick="image(4)" alt="This is a picture of me standing outside of the Kelley's School of Business at Indiana University.">
                     <img class="box-image" src="states-images/indiana-images/bears.jpeg" onclick="image(5)" alt="This is an image of me standing outside of Bear's Place.">
                     <img class="box-image" src="states-images/indiana-images/sean.jpeg" onclick="image(6)" alt="This is an image of my friend Sean and I at Indiana University.">
+                    <img class="box-image" src="states-images/indiana-images/upstairs.jpeg" onclick="image(7)" alt="This is a picture of me at the Upstairs Pub located in Bloomington Indiana. My friend who attends school there took me out after a long day of helping her move out.">
+                    <img class="box-image" src="states-images/indiana-images/street.jpeg" onclick="image(8)" alt="This is a picture of me on the street in Bloomington Indiana. I thought the scenery was good, however it appears that it looks better in person than on camera.">
+                    <img class="box-image" src="states-images/indiana-images/la-una.jpeg" onclick="image(9)" alt="This is an image inside of a restaurant in Bloomington with cool wall art and a sign that says 'Make Tacos Not War', which is a message I enjoy.">
+                    <img class="box-image" src="states-images/indiana-images/la-una2.jpeg" onclick="image(10)" alt="This is a picture of me standing in front of a grassy wall art that I always wanted to take in my lifetime. I was never able to find a place that had such thing, but found it inside La Una Cantina and had the urge to make my friend take a picture of me.">
             </div>
         </div>
     </main>
