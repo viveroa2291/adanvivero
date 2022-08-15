@@ -397,6 +397,30 @@
         <section>
             <div class="body-images">
                 <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Alamo</div>
+                        <img class="texas-images" src="states-images/texas-images/alamo.jpeg" alt="This is a picture of me at the Alamo in San Antonio, Texas.">
+                <div class="card-body m-1">
+                    <h5 class="card-title text-center" id="cardTitle"></h5>
+                    <hr>
+                    <p class="card-text" id="description">This is a picture of me at the Alamo in San Antonio, Texas.</p>
+                    <p class="card-text"><small class="text-muted">July 2, 2017</small></p>
+                </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Alamo</div>
+                        <img class="texas-images" src="states-images/texas-images/alamo-selfie.jpeg" alt="This is a selfie of me taken of the Alamo in San Antonio, Texas.">
+                <div class="card-body m-1">
+                    <h5 class="card-title text-center" id="cardTitle"></h5>
+                    <hr>
+                    <p class="card-text" id="description">This is a selfie of me taken of the Alamo <br> in San Antonio, Texas.</p>
+                    <p class="card-text"><small class="text-muted">July 2, 2017</small></p>
+                </div>
+                </div>  
+            </div> 
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Downtown San Antonio</div>
                         <img class="texas-images" src="states-images/texas-images/san-antonio.jpeg" alt="This is a picture of a section in downtown San Antonio.">
                 <div class="card-body m-1">
@@ -510,14 +534,17 @@
                     <img class="box-image" src="states-images/texas-images/river-walk.jpeg" onclick="image(25)" alt="This is a picture of me in San Antonio's river walk in the middle of a tour.">
                     <img class="box-image" src="states-images/texas-images/city.jpeg" onclick="image(26)" alt="This is a picture of me by the San Antonio River Walk.">
                     <img class="box-image" src="states-images/texas-images/san-antonio2.jpeg" onclick="image(27)" alt="This is a picture of inside a building that is next to the River Walk in San Antonio.">
-                    <img class="box-image" src="states-images/texas-images/san-antonio.jpeg" onclick="image(28)" alt="This is a picture of a section in downtown San Antonio.">
-                    <img class="box-image" src="states-images/texas-images/art4.jpeg" onclick="image(29)" alt="This is a picture of traditional tables hanging with books holding the tables up inside an art cultural display in downtown San Antonio.">
-                    <img class="box-image" src="states-images/texas-images/art2.jpeg" onclick="image(30)" alt="This is an image of what seems to be soccer balls hanging inside a culutarly display in downtown San Antonio.">
+                    <img class="box-image" src="states-images/texas-images/alamo.jpeg" onclick="image(28)" alt="This is a picture of me at the Alamo in San Antonio, Texas.">
+                    <img class="box-image" src="states-images/texas-images/alamo-selfie.jpeg" onclick="image(29)" alt="This is a selfie of me taken of the Alamo in San Antonio, Texas.">
+                    <img class="box-image" src="states-images/texas-images/san-antonio.jpeg" onclick="image(30)" alt="This is a picture of a section in downtown San Antonio.">
+                    
             </div>
             <div class="row">
-                    <img class="box-image" src="states-images/texas-images/art.jpeg" onclick="image(31)" alt="This is a picture of a script that makes the comparison with the invention of corn and invention of fire.">
-                    <img class="box-image" src="states-images/texas-images/art3.jpeg" onclick="image(32)" alt="This is a picture of corn surrounding a tire inside the San Antonio cultural art display.">
-                    <img class="box-image" src="states-images/texas-images/musuem.jpeg" onclick="image(33)" alt="This is a picture of me taking a picture of myself off a round mirror inside the cultural art display in downtown San Antonio.">
+                    <img class="box-image" src="states-images/texas-images/art4.jpeg" onclick="image(31)" alt="This is a picture of traditional tables hanging with books holding the tables up inside an art cultural display in downtown San Antonio.">
+                    <img class="box-image" src="states-images/texas-images/art2.jpeg" onclick="image(32)" alt="This is an image of what seems to be soccer balls hanging inside a culutarly display in downtown San Antonio.">
+                    <img class="box-image" src="states-images/texas-images/art.jpeg" onclick="image(33)" alt="This is a picture of a script that makes the comparison with the invention of corn and invention of fire.">
+                    <img class="box-image" src="states-images/texas-images/art3.jpeg" onclick="image(34)" alt="This is a picture of corn surrounding a tire inside the San Antonio cultural art display.">
+                    <img class="box-image" src="states-images/texas-images/musuem.jpeg" onclick="image(35)" alt="This is a picture of me taking a picture of myself off a round mirror inside the cultural art display in downtown San Antonio.">
             </div>
         </div>
     </main>
