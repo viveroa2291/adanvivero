@@ -63,7 +63,7 @@ img {
     margin-left: 1.5rem;
     font-size: 18px;
 }
-.california-section, .georgia-section, .indiana-section, .minnesota-section, .tennessee-section, .utah-section, .west-virginia-section {
+.california-section, .georgia-section, .indiana-section, .minnesota-section, .ohio-section, .tennessee-section, .utah-section, .west-virginia-section {
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -71,17 +71,17 @@ img {
     background-color: #404040;
     padding: 1rem;
 }
-.california-link, .georgia-link, .indiana-link, .minnesota-link, .tennessee-link, .utah-link, .west-virginia-link{
+.california-link, .georgia-link, .indiana-link, .minnesota-link, .ohio-link, .tennessee-link, .utah-link, .west-virginia-link{
     color: white;
     font-size: 50px;
     margin-left: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
-.california-link:hover, .georgia-link:hover, .indiana-link:hover, .minnesota-link:hover, .tennessee-link:hover, .utah-link:hover, .west-virginia-link:hover {
+.california-link:hover, .georgia-link:hover, .indiana-link:hover, .minnesota-link:hover, .ohio-link:hover, .tennessee-link:hover, .utah-link:hover, .west-virginia-link:hover {
     text-decoration: none;
     animation: dark-color-change 1.5s infinite;
 }
-.california-link:before, .georgia-link:before, .indiana-link:before, .minnesota-link:before, .tennessee-link:before, .utah-link:before, .west-virginia-link:before {  
+.california-link:before, .georgia-link:before, .indiana-link:before, .minnesota-link:before, .ohio-link:before, .tennessee-link:before, .utah-link:before, .west-virginia-link:before {  
     content: "";
     position: absolute;
     width: 25%;
@@ -92,11 +92,11 @@ img {
     transform: scaleX(0);
     transition: all 0.5s ease-in-out;
 }
-.california-link:hover:before, .georgia-link:hover:before, .indiana-link:hover:before, .minnesota-link:hover:before, .tennessee-link:hover:before, .utah-link:hover:before, .west-virginia-link:hover:before {
+.california-link:hover:before, .georgia-link:hover:before, .indiana-link:hover:before, .minnesota-link:hover:before, .ohio-link:hover:before, .tennessee-link:hover:before, .utah-link:hover:before, .west-virginia-link:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
-.california-description, .georgia-description, .indiana-description, .minnesota-description, .tennessee-description, .utah-description, .west-virginia-description {
+.california-description, .georgia-description, .indiana-description, .minnesota-description, .ohio-description, .tennessee-description, .utah-description, .west-virginia-description {
     color: white;
     margin-left: 1.5rem;
     font-size: 18px;

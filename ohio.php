@@ -59,15 +59,160 @@
         </nav>
     </header>
     <main>
-    <h1>Ohio coming soon</h1>
-    <section class="bottom-section">
+    <section class="ohio-top-section" id="top">
+            <h2 class="ohio-header">Ohio</h2>
+        </section>
+        <section>
+            <h3 class="body-headers">Sandusky</h3>
+            <hr class="header-hr">
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2015-beach.jpeg" alt="This is a picture of me by the beach of Cedar Point enjoying a photoshoot.">
+                    <div class="card-body m-1">
+                        <h5 class="card-title text-center" id="cardTitle"></h5>
+                        <hr>
+                        <p class="card-text" id="description">This is a picture of me by the beach <br> of Cedar Point enjoying a photoshoot.</p>
+                        <p class="card-text"><small class="text-muted">July 27, 2015</small></p>
+                    </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/handstand.jpeg" alt="This is the picture of me doing a handstand at the beach in Cedar Point.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is the picture of me doing a <br> handstand at the beach in Cedar Point.</p>
+                            <p class="card-text"><small class="text-muted">July 28, 2015</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Water Park</div>
+                        <img class="ohio-images" src="states-images/ohio-images/sean-pool.jpeg" alt="This is a picture of my friend sean and I in front of a water park of Cedar Point.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of my friend sean <br> and I in front of a water park of Cedar Point.</p>
+                            <p class="card-text"><small class="text-muted">July 29, 2015</small></p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Water Park</div> 
+                        <img class="ohio-images" src="states-images/ohio-images/sean-pool2.jpeg" alt="This is a picture of Sean and I at the water park in Cedar Point.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of Sean and I at the water park in Cedar Point.</p>
+                            <p class="card-text"><small class="text-muted">July 28, 2015</small></p>
+                        </div>
+                    </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/sean-beach.jpeg" alt="This is a picture of my friend Sean and I at the beach of Cedar Point on our last day of our vacation.">
+                <div class="card-body m-1">
+                    <h5 class="card-title text-center" id="cardTitle"></h5>
+                    <hr>
+                    <p class="card-text" id="description">This is a picture of my friend Sean and I at the beach of Cedar Point on <br> our last day of our vacation.</p>
+                    <p class="card-text"><small class="text-muted">July 29, 2015</small></p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Millennium Force</div>
+                        <img class="ohio-images" src="states-images/ohio-images/sean-millennium.jpeg" alt="This is a picture of my friend Sean and I in front of the Millennium Force ride. It was also my first time riding the ride, meanwhile Sean has ridden the ride before.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of my friend Sean and I <br> in front of the Millennium Force ride. <br> It was also my first time riding the ride, <br> meanwhile Sean has ridden the ride before.</p>
+                            <p class="card-text"><small class="text-muted">July 27, 2015</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/thumbs-up3.jpeg" alt="This is a picture of me posing in some Cedar Point sign with my thumbs up where I would do the same thing in later years to come.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of me posing in some <br> Cedar Point sign with my thumbs up <br> where I would do the same thing in later <br> years to come.</p>
+                            <p class="card-text"><small class="text-muted">July 27, 2015</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/sean-dinner.jpeg" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of Sean and I standing <br> outside of a restaurant where we ate <br> dinner at.</p>
+                            <p class="card-text"><small class="text-muted">July 28, 2015</small></p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Top Thrill Dragster</div>
+                        <img class="ohio-images" src="states-images/ohio-images/hotel-view.jpeg" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture from our hotel view of <br> the Top Thrill Dragster ride.</p>
+                            <p class="card-text"><small class="text-muted">July 29, 2015</small></p>
+                        </div>
+                </div>
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Hotel Breakers</div>
+                        <img class="ohio-images" src="states-images/ohio-images/hotel2.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 29, 2015</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section class="bottom-section">
             <span><a class="previous-state" href="missouri.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>
             <span><a class="next-state" href="south-dakota.php">&#62;</a></span>
         </section>
+        <section class="top" >
+             <a href="#top"><b>TOP</b></a>
+        </section>
+        <div id="myModal" class="modal">
+            <span class="close" style="font-size: 50px; color: white;">&times;</span>
+            <img class="modal-content" id="img01"> 
+            <div id="caption"></div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/2015-beach.jpeg" onclick="image(1)"  alt="This is a picture of me by the beach of Cedar Point enjoying a photoshoot.">
+                    <img class="box-image" src="states-images/ohio-images/handstand.jpeg" onclick="image(2)" alt="This is the picture of me doing a handstand at the beach in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/sean-pool.jpeg" onclick="image(3)" alt="This is a picture of my friend sean and I in front of a water park of Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/sean-pool2.jpeg" onclick="image(4)" alt="This is a picture of Sean and I at the water park in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/sean-beach.jpeg" onclick="image(5)" alt="This is a picture of my friend Sean and I at the beach of Cedar Point on our last day of our vacation.">
+                    <img class="box-image" src="states-images/ohio-images/sean-millennium.jpeg" onclick="image(6)" alt="This is a picture of my friend Sean and I in front of the Millennium Force ride. It was also my first time riding the ride, meanwhile Sean has ridden the ride before.">
+                    <img class="box-image" src="states-images/ohio-images/thumbs-up3.jpeg" onclick="image(7)" alt="This is a picture of me posing in some Cedar Point sign with my thumbs up where I would do the same thing in later years to come.">
+                    <img class="box-image" src="states-images/ohio-images/sean-dinner.jpeg" onclick="image(8)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
+                    <img class="box-image" src="states-images/ohio-images/hotel-view.jpeg" onclick="image(9)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
+                    <img class="box-image" src="states-images/ohio-images/hotel2.jpeg" onclick="image(10)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+            </div>
+        </div>
     </main>
     <?php 
         include_once 'footer.php';
     ?> 
+    <script>
+    <?php 
+        include 'ohio.js';
+    ?>
+</script>
 </body>
 </html>
