@@ -180,6 +180,324 @@
                 </div>   
             </div>
         </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/cedar-point.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>    
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Entrance</div>
+                        <img class="ohio-images" src="states-images/ohio-images/dinosaur.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Entrance</div>
+                        <img class="ohio-images" src="states-images/ohio-images/dinosaur-group.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+            <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2017-cedar-point-sign.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Millennium Force</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2017-millennium.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Top Thrill Dragster</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2017-top-thrill.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2017-thumbs-up.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 10, 2017</small></p>
+                        </div>
+                </div>    
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2018-cedar-point-sign.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2018-thumbs-up.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Valravn</div>
+                        <img class="ohio-images" src="states-images/ohio-images/valravn.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Millennium Force</div>
+                        <img class="ohio-images" src="states-images/ohio-images/millennium.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Top Thrill Dragster</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2018-top-thrill.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2018-beach.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 14, 2018</small></p>
+                        </div>
+                </div>      
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2019-thumbs-up.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Top Thrill Dragster</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2019-top-thrill.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>       
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Valravn</div>
+                        <img class="ohio-images" src="states-images/ohio-images/valravn-group.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point</div>
+                        <img class="ohio-images" src="states-images/ohio-images/alex-sean.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Maverick</div>
+                        <img class="ohio-images" src="states-images/ohio-images/maverick.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Steel of Vegeance</div>
+                        <img class="ohio-images" src="states-images/ohio-images/steel.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/beach.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 8, 2019</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2021-beach4.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2021-beach2.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2021-beach3.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/beach-view.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="body-images">
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/2021-beach.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/jetski2.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+                <div class="card m-5 mx-sm-auto" id="cardBody">
+                    <div class="card-header text-center" id="featureTitle">Cedar Point Beach</div>
+                        <img class="ohio-images" src="states-images/ohio-images/jetski.jpeg" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+                        <div class="card-body m-1">
+                            <h5 class="card-title text-center" id="cardTitle"></h5>
+                            <hr>
+                            <p class="card-text" id="description">This is a picture of our hotel that we <br> stayed at in Cedar Point. It was a <br> very nice hotel.</p>
+                            <p class="card-text"><small class="text-muted">July 2, 2021</small></p>
+                        </div>
+                </div>    
+            </div>
+        </section>
         <section class="bottom-section">
             <span><a class="previous-state" href="missouri.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>
@@ -203,6 +521,42 @@
                     <img class="box-image" src="states-images/ohio-images/sean-dinner.jpeg" onclick="image(8)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
                     <img class="box-image" src="states-images/ohio-images/hotel-view.jpeg" onclick="image(9)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
                     <img class="box-image" src="states-images/ohio-images/hotel2.jpeg" onclick="image(10)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/cedar-point.jpeg" onclick="image(11)"  alt="This is a picture of me by the beach of Cedar Point enjoying a photoshoot.">
+                    <img class="box-image" src="states-images/ohio-images/dinosaur.jpeg" onclick="image(12)" alt="This is the picture of me doing a handstand at the beach in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/dinosaur-group.jpeg" onclick="image(13)" alt="This is a picture of my friend sean and I in front of a water park of Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2017-cedar-point-sign.jpeg" onclick="image(14)" alt="This is a picture of Sean and I at the water park in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2017-millennium.jpeg" onclick="image(15)" alt="This is a picture of my friend Sean and I at the beach of Cedar Point on our last day of our vacation.">
+                    <img class="box-image" src="states-images/ohio-images/2017-top-thrill.jpeg" onclick="image(16)" alt="This is a picture of my friend Sean and I in front of the Millennium Force ride. It was also my first time riding the ride, meanwhile Sean has ridden the ride before.">
+                    <img class="box-image" src="states-images/ohio-images/2017-thumbs-up.jpeg" onclick="image(17)" alt="This is a picture of me posing in some Cedar Point sign with my thumbs up where I would do the same thing in later years to come.">
+                    <img class="box-image" src="states-images/ohio-images/2018-cedar-point-sign.jpeg" onclick="image(18)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
+                    <img class="box-image" src="states-images/ohio-images/2018-thumbs-up.jpeg" onclick="image(19)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
+                    <img class="box-image" src="states-images/ohio-images/valravn.jpeg" onclick="image(20)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/millennium.jpeg" onclick="image(21)"  alt="This is a picture of me by the beach of Cedar Point enjoying a photoshoot.">
+                    <img class="box-image" src="states-images/ohio-images/2018-top-thrill.jpeg" onclick="image(22)" alt="This is the picture of me doing a handstand at the beach in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2018-beach.jpeg" onclick="image(23)" alt="This is a picture of my friend sean and I in front of a water park of Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2019-thumbs-up.jpeg" onclick="image(24)" alt="This is a picture of Sean and I at the water park in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2019-top-thrill.jpeg" onclick="image(25)" alt="This is a picture of my friend Sean and I at the beach of Cedar Point on our last day of our vacation.">
+                    <img class="box-image" src="states-images/ohio-images/valravn-group.jpeg" onclick="image(26)" alt="This is a picture of my friend Sean and I in front of the Millennium Force ride. It was also my first time riding the ride, meanwhile Sean has ridden the ride before.">
+                    <img class="box-image" src="states-images/ohio-images/alex-sean.jpeg" onclick="image(27)" alt="This is a picture of me posing in some Cedar Point sign with my thumbs up where I would do the same thing in later years to come.">
+                    <img class="box-image" src="states-images/ohio-images/maverick.jpeg" onclick="image(28)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
+                    <img class="box-image" src="states-images/ohio-images/steel.jpeg" onclick="image(29)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
+                    <img class="box-image" src="states-images/ohio-images/beach.jpeg" onclick="image(30)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/2021-beach4.jpeg" onclick="image(31)"  alt="This is a picture of me by the beach of Cedar Point enjoying a photoshoot.">
+                    <img class="box-image" src="states-images/ohio-images/2021-beach2.jpeg" onclick="image(32)" alt="This is the picture of me doing a handstand at the beach in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2021-beach3.jpeg" onclick="image(33)" alt="This is a picture of my friend sean and I in front of a water park of Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/beach-view.jpeg" onclick="image(34)" alt="This is a picture of Sean and I at the water park in Cedar Point.">
+                    <img class="box-image" src="states-images/ohio-images/2021-beach.jpeg" onclick="image(35)" alt="This is a picture of my friend Sean and I at the beach of Cedar Point on our last day of our vacation.">
+                    <img class="box-image" src="states-images/ohio-images/jetski2.jpeg" onclick="image(36)" alt="This is a picture of my friend Sean and I in front of the Millennium Force ride. It was also my first time riding the ride, meanwhile Sean has ridden the ride before.">
+                    <img class="box-image" src="states-images/ohio-images/jetski.jpeg" onclick="image(37)" alt="This is a picture of me posing in some Cedar Point sign with my thumbs up where I would do the same thing in later years to come.">
+                    <img class="box-image" src="states-images/ohio-images/maverick.jpeg" onclick="image(38)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
+                    <img class="box-image" src="states-images/ohio-images/steel.jpeg" onclick="image(39)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
+                    <img class="box-image" src="states-images/ohio-images/beach.jpeg" onclick="image(40)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
             </div>
         </div>
     </main>
