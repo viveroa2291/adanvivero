@@ -84,6 +84,7 @@
             ?>
             </select>
         </div>
+        <a href="https://viveroa2291.github.io/Cancun/home.html">This is my Cancun Page</a>
     </main>
     <?php 
         include_once 'footer.php';

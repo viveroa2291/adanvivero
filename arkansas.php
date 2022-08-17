@@ -66,6 +66,18 @@
             <h2 class="arkansas-header">Arkansas</h2>
         </section>
         <section>
+            <form action="">
+                <label for="">Choose a section of Arkansas:</label>
+                <select name="arkansas-areas" id="area-selector" onchange="sectionSelected();">
+                    <option value="Vandervoort">Vandervoort</option>
+                    <option value="Ozark">Ozark</option>
+                    <option value="Henderson">Henderson State University</option>
+                    <option value="Other">Other</option>
+                </select>
+            </form>
+            <p id="demo"></p>
+        </section>
+        <section>
             <h3 class="body-headers">Vandervoort</h3>
             <hr class="header-hr">
             <div class="body-images">
@@ -159,57 +171,13 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="ozark">
             <h3 class="body-headers">Ozark</h3>
             <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">On The Road</div>
-                    <img class="arkansas-images not-wide" src="states-images/arkansas-images/view.jpeg" alt="This is a picture of me on the side of the road. We were driving and decided to take a picture of the view which is difficult to see with the barricade in the way.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is a picture of me on the side of the road. <br> We were driving and decided to take a picture <br> of the view which is difficult to see with the <br> barricade in the way.</p>
-                        <p class="card-text"><small class="text-muted">August 16, 2017</small></p>
-                    </div>
-                </div>
-                <div class="card m-5 mx-sm-auto wide-card" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Mexican Restaurant</div>
-                    <img class="arkansas-images wide" src="states-images/arkansas-images/restaurant.jpeg" alt="This is a picture of me outside of one of my favorite Mexican restaurant when visiting my cousins. They provide very delicious food and give you large portions.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is a picture of me outside of one of my favorite Mexican <br> restaurant when visiting my cousins. They provide very delicious <br> food and give you large portions.</p>
-                        <p class="card-text"><small class="text-muted">August 16, 2017</small></p>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section>
+        <section id="henderson">
             <h3 class="body-headers">Henderson State University</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
-                        <div class="card-header text-center" id="featureTitle">Henderson State University</div>
-                        <img class="arkansas-images not-wide" src="states-images/arkansas-images/university.jpeg" alt="This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of me at my cousin's <br> undergrad and graduate school. He <br> took me in for a tour of where he works <br> and where he went to school.</p>
-                            <p class="card-text"><small class="text-muted">December 31, 2020</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
-                        <div class="card-header text-center" id="featureTitle">Henderson State University</div>
-                        <img class="arkansas-images not-wide" src="states-images/arkansas-images/university2.jpeg" alt="This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of me at my cousin's <br> undergrad and graduate school. He <br> took me in for a tour of where he works <br> and where he went to school.</p>
-                            <p class="card-text"><small class="text-muted">December 31, 2020</small></p>
-                        </div>
-                </div>
-            </div>
+            <hr class="header-hr">    
         </section>
         <section>
             <h3 class="body-headers">Other Parts of Arkansas</h3>
