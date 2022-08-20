@@ -214,8 +214,7 @@ for (var a = 0; a < ozarkImages.length; a++) {
   if(ozarkImageWidth[a] != "wide") {
     var ozark_content_element = document.createElement("div");
     ozark_content_element.classList.add('card', 'm-5', 'mx-sm-auto', 'not-wide-card');
-    ozark_div_element.appendChild(ozark_content_element);
-    
+    ozark_div_element.appendChild(ozark_content_element); 
 
     ozark_card_element = document.createElement("div");
     ozark_card_element.classList.add('card-header', 'text-center');
