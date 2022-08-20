@@ -65,35 +65,28 @@
         <section class="arkansas-top-section" id="top">
             <h2 class="arkansas-header">Arkansas</h2>
         </section>
-        <section>
-            <form action="">
-                <label for="">Choose a section of Arkansas:</label>
-                <select name="arkansas-areas" id="area-selector" onchange="sectionSelected();">
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a section of Arkansas:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected();">
+                    <option value="all">All</option>
                     <option value="Vandervoort">Vandervoort</option>
                     <option value="Ozark">Ozark</option>
                     <option value="Henderson">Henderson State University</option>
                     <option value="Other">Other</option>
                 </select>
             </form>
-            <p id="demo"></p>
+            
         </section>
-        <section id="vandervoort">
-            <h3 class="body-headers">Vandervoort</h3>
-            <hr class="header-hr">
+        <section id="demo">
+            <section id="vandervoort"></section>
+            <section id="ozark"></section>
+            <section id="henderson"></section>
+            <section id="other"></section>
         </section>
-        <section id="ozark">
-            <h3 class="body-headers">Ozark</h3>
-            <hr class="header-hr">
-        </section>
-        <section id="henderson">
-            <h3 class="body-headers">Henderson State University</h3>
-            <hr class="header-hr">    
-        </section>
-        <section id="other">
-            <h3 class="body-headers">Other Parts of Arkansas</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-        </section>
+        
+
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>
