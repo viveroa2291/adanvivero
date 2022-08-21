@@ -77,15 +77,8 @@
                     <option value="Other">Other</option>
                 </select>
             </form>
-            
         </section>
         <section id="demo"></section>
-        <!--
-            <section id="vandervoort"></section>
-            <section id="ozark"></section>
-            <section id="henderson"></section>
-            <section id="other"></section>
-                        -->
 
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>

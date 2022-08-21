@@ -65,11 +65,21 @@
         <section class="california-top-section" id="top">
             <h2 class="california-header">California</h2>
         </section>
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a section of California:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                    <option value="all">All</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Disneyland">Disneyland</option>
+                    <option value="Huntington">Huntington Beach</option>
+                </select>
+            </form>
+            
+        </section>
+        <section id="demo"></section>
 
-        <section id="los-angeles"></section>
-        <section id="disneyland"></section>
-        <section id="huntington"> </section>
-        
         <section class="bottom-section">
             <span><a class="previous-state" href="arkansas.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>

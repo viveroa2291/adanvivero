@@ -14,10 +14,50 @@ function toggleNav() {
   }
 }
 
-let count = 0.0;
+losAngeles();
+disneyland();
+huntington();
+function sectionSelected() {
+  var x = document.getElementById("area-selector").value;
+  if(x == "Los Angeles") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    } 
+    document.getElementById("demo").appendChild(losAngeles()); 
+  }
+  else if(x == "Disneyland") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(disneyland()); 
+  }
+  else if(x == "Huntington") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(huntington()); 
+
+  }
+  else if(x == "all") {
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    losAngeles();
+    disneyland();
+    huntington();
+
+  }
+}
+
+
 
 // ------------------------------------------------------------------------------
-const losAngelesSection = document.getElementById('los-angeles');
+function losAngeles() {
+let count = 0.0;
 const losAngelesImages = ["states-images/california-images/downtown.jpeg", "states-images/california-images/pbars.jpeg"];
 const losAngelesImagesAlt = ["This is a picture of my friends and I in downtown Los Angeles. I was on their shoulders preparing to do an 'L', which is a skill that is performed in mens gymnastics on the parallel bars.",
 "This is the picture of me doing the 'L' on top of my friends shoulders in downtown Los Angeles."];
@@ -33,12 +73,12 @@ losAngeles_text.innerHTML = 'Los Angeles';
 
 var losAngeles_hr = document.createElement("hr");
 losAngeles_hr.classList.add('header-hr');
-document.getElementById("los-angeles").appendChild(losAngeles_text);
-document.getElementById("los-angeles").appendChild(losAngeles_hr);
+document.getElementById("demo").appendChild(losAngeles_text);
+document.getElementById("demo").appendChild(losAngeles_hr);
 
 var losAngeles_div = document.createElement("div");
 losAngeles_div.classList.add('body-images');
-document.getElementById("los-angeles").appendChild(losAngeles_div);
+document.getElementById("demo").appendChild(losAngeles_div);
 
 var losAngeles_image;
 var losAngeles_card;
@@ -52,7 +92,7 @@ for(var a = 0; a < losAngelesImages.length; a++) {
   if(count > 4.0) {
     losAngeles_div = document.createElement("div");
     losAngeles_div.classList.add('body-images');
-    document.getElementById("los-angeles").appendChild(losAngeles_div);
+    document.getElementById("demo").appendChild(losAngeles_div);
     count = 0.0;
   }
   if(losAngelesImageWidth[a] != "wide") {
@@ -126,10 +166,10 @@ for(var a = 0; a < losAngelesImages.length; a++) {
     count = count + 2.0;
   }
 }
-
+}
 // ------------------------------------------------------------------------------
-
-const disneylandSection = document.getElementById('disneyland');
+function disneyland() {
+let count = 0.0;
 const disneylandImages = ["states-images/california-images/disneyland-jon.jpeg", "states-images/california-images/disneyland-jon2.jpeg", "states-images/california-images/disneyland-kristin.jpeg"];
 const disneylandImagesAlt = ["This is a picture of my friend Jon and I at Disneyland.",
 "This is an image of my friend Jon and I at Disneyland in front of the infamous Mickey Mouse roller coaster.",
@@ -147,12 +187,12 @@ disneyland_text.innerHTML = 'Disneyland';
 
 var disneyland_hr = document.createElement("hr");
 disneyland_hr.classList.add('header-hr');
-document.getElementById("disneyland").appendChild(disneyland_text);
-document.getElementById("disneyland").appendChild(disneyland_hr);
+document.getElementById("demo").appendChild(disneyland_text);
+document.getElementById("demo").appendChild(disneyland_hr);
 
 var disneyland_div = document.createElement("div");
 disneyland_div.classList.add('body-images');
-document.getElementById("disneyland").appendChild(disneyland_div);
+document.getElementById("demo").appendChild(disneyland_div);
 
 var disneyland_image;
 var disneyland_card;
@@ -167,7 +207,7 @@ for(var b = 0; b < disneylandImages.length; b++) {
   if(count > 2.9) {
     disneyland_div = document.createElement("div");
     disneyland_div.classList.add('body-images');
-    document.getElementById("disneyland").appendChild(disneyland_div);
+    document.getElementById("demo").appendChild(disneyland_div);
     count = 0.0;
   }
   if(disneylandImageWidth[b] != "wide") {
@@ -241,10 +281,10 @@ for(var b = 0; b < disneylandImages.length; b++) {
     count = count + 2.0;
   }
 }
-
+}
 // ------------------------------------------------------------------------------
-
-const huntingtonSection = document.getElementById('huntington');
+function huntington() {
+let count = 0.0;
 const huntingtonImages = ["states-images/california-images/huntington-jon.jpeg", "states-images/california-images/huntington-jon2.jpeg", "states-images/california-images/huntington-karina.jpeg", "states-images/california-images/pyramid.jpeg", "states-images/california-images/huntington-holly.jpeg"];
 const huntingtonImagesAlt = ["This is an image of my friend Jon and I at Huntington Beach.",
 "This is an image of my friend Jon and I at Huntington Beach.",
@@ -266,12 +306,12 @@ huntington_text.innerHTML = 'Huntington Beach';
 
 var huntington_hr = document.createElement("hr");
 huntington_hr.classList.add('header-hr');
-document.getElementById("huntington").appendChild(huntington_text);
-document.getElementById("huntington").appendChild(huntington_hr);
+document.getElementById("demo").appendChild(huntington_text);
+document.getElementById("demo").appendChild(huntington_hr);
 
 var huntington_div = document.createElement("div");
 huntington_div.classList.add('body-images');
-document.getElementById("huntington").appendChild(huntington_div);
+document.getElementById("demo").appendChild(huntington_div);
 
 var huntington_image;
 var huntington_card;
@@ -286,7 +326,7 @@ for(var c = 0; c < huntingtonImages.length; c++) {
   if(count > 4.0) {
     huntington_div = document.createElement("div");
     huntington_div.classList.add('body-images');
-    document.getElementById("huntington").appendChild(huntington_div);
+    document.getElementById("demo").appendChild(huntington_div);
     count = 0.0;
   }
   if(huntingtonImageWidth[c] != "wide") {
@@ -324,6 +364,7 @@ for(var c = 0; c < huntingtonImages.length; c++) {
     huntington_card_body.appendChild(huntington_date);
     count = count + 1.5;
   }
+}
 }
 // ------------------------------------------------------------------------------
 

@@ -26,14 +26,14 @@ henderson();
 other();
 function sectionSelected() {
   var x = document.getElementById("area-selector").value;
-  if(x =="Vandervoort" && vandervoortCount === 0) 
+  if(x =="Vandervoort") 
   {
     while(document.getElementById("demo").firstChild) {
       document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
     } 
     document.getElementById("demo").appendChild(vandervoort()); 
   }
-  else if(x == "Ozark" && ozarkCount == 0) 
+  else if(x == "Ozark") 
   {
     while(document.getElementById("demo").firstChild) {
       document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
@@ -66,7 +66,6 @@ function sectionSelected() {
     other(); 
 
   }
-  // document.getElementById("demo").innerHTML = x;
 }
 
 // ------------------------------------------------------------------------------
