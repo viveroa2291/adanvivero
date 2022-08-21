@@ -69,7 +69,7 @@
             <form  action="">
                 <label for="">Choose a section of Arkansas:  </label>
                 <br>
-                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected();">
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
                     <option value="all">All</option>
                     <option value="Vandervoort">Vandervoort</option>
                     <option value="Ozark">Ozark</option>
@@ -79,13 +79,13 @@
             </form>
             
         </section>
-        <section id="demo">
+        <section id="demo"></section>
+        <!--
             <section id="vandervoort"></section>
             <section id="ozark"></section>
             <section id="henderson"></section>
             <section id="other"></section>
-        </section>
-        
+                        -->
 
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>

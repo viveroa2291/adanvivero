@@ -69,6 +69,7 @@
         <section id="los-angeles"></section>
         <section id="disneyland"></section>
         <section id="huntington"> </section>
+        
         <section class="bottom-section">
             <span><a class="previous-state" href="arkansas.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>

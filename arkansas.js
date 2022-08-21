@@ -19,39 +19,61 @@ function toggleNav() {
 /**
  * Area Selected 
  */
+
+vandervoort();
+ozark();
+henderson();
+other();
 function sectionSelected() {
   var x = document.getElementById("area-selector").value;
-  if(x == "Vandervoort") 
+  if(x =="Vandervoort" && vandervoortCount === 0) 
   {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    } 
     document.getElementById("demo").appendChild(vandervoort()); 
-    document.getElementById("demo").removeChild(ozark());
-    document.getElementById("demo").removeChild(henderson());
-    document.getElementById("demo").removeChild(other());
   }
-  else if(x == "Ozark") 
+  else if(x == "Ozark" && ozarkCount == 0) 
   {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
     document.getElementById("demo").appendChild(ozark()); 
   }
   else if(x == "Henderson") 
   {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
     document.getElementById("demo").appendChild(henderson()); 
+
   }
   else if(x == "Other") 
   {
-    document.getElementById("demo").appendChild(other()); 
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(other());
   }
   else if(x == "all") {
-    document.getElementById("demo").appendChild(vandervoort());
-    document.getElementById("demo").appendChild(ozark()); 
-    document.getElementById("demo").appendChild(henderson()); 
-    document.getElementById("demo").appendChild(other());  
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    vandervoort();
+    ozark();
+    henderson();
+    other(); 
+
   }
   // document.getElementById("demo").innerHTML = x;
 }
-let count = 0.0;
 
 // ------------------------------------------------------------------------------
-const vandervoortSection = document.getElementById('vandervoort');
+
+function vandervoort() {
+var count = 0.0;
+
 const vandervoortImages = ["states-images/arkansas-images/me.jpeg", "states-images/arkansas-images/hunting.jpeg", "states-images/arkansas-images/goats.jpeg", "states-images/arkansas-images/cows.jpeg", "states-images/arkansas-images/lake-me.jpeg", "states-images/arkansas-images/goat-me2.jpeg", "states-images/arkansas-images/goat-me.jpeg", "states-images/arkansas-images/cow-me.jpeg"];
 const vandervoortImagesAlt = ["This is a mirror picture that I took in my cousins newly remodeled bathroom and was a time when taking mirror pictures was popular on the iphone.", 
 "This is an image of me holding a hunting rifle at my cousins house where we went target shooting on their land <b>safely</b>. It was a fun experience and learned information on gun safety.",
@@ -72,17 +94,17 @@ const vandervoortDescription = ["This is a mirror picture that I took in my <br>
 "This is an image of me taking a <br> picture with one of my cousin's cow."];
 const vandervoortTitle = ["Cousin's Bathroom", "Cousin's Land", "Cousin's Farm", "Cousin's Farm", "Lake", "Cousin's Farm", "Cousin's Farm", "Cousin's Farm"];
 const vandervoortImageWidth = ["not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "wide", "not-wide"];
-// function vandervoort() {
+
 var vandervoort_text = document.createElement("h3");
 vandervoort_text.classList.add('body-headers');
 vandervoort_text.innerHTML = 'Vandervoort';
 var vandervoort_hr = document.createElement("hr");
 vandervoort_hr.classList.add('header-hr');
-document.getElementById("vandervoort").appendChild(vandervoort_text);
-document.getElementById("vandervoort").appendChild(vandervoort_hr);
+document.getElementById("demo").appendChild(vandervoort_text);
+document.getElementById("demo").appendChild(vandervoort_hr);
 var vandervoort_div_element = document.createElement("div");
 vandervoort_div_element.classList.add('body-images');
-document.getElementById("vandervoort").appendChild(vandervoort_div_element);
+document.getElementById("demo").appendChild(vandervoort_div_element);
 
 var vandervoort_image_element;
 var vandervoort_card_element;
@@ -96,7 +118,7 @@ for (var b = 0; b < vandervoortImages.length; b++) {
   if(count > 4.0) {
     vandervoort_div_element = document.createElement("div");
     vandervoort_div_element.classList.add('body-images');
-    document.getElementById("vandervoort").appendChild(vandervoort_div_element);
+    document.getElementById("demo").appendChild(vandervoort_div_element);
     count = 0.0;
   }
     if(vandervoortImageWidth[b] != "wide") {
@@ -172,9 +194,10 @@ for (var b = 0; b < vandervoortImages.length; b++) {
       count = count + 2.0; 
     }
   }    
- // }
+  }
 // ------------------------------------------------------------------------------
-const ozarkSection = document.getElementById('ozark');
+function ozark() {
+var count = 0.0;
 const ozarkImages = ["states-images/arkansas-images/view.jpeg", "states-images/arkansas-images/restaurant.jpeg"];
 const ozarkImagesAlt = ["This is a picture of me on the side of the road. We were driving and decided to take a picture of the view which is difficult to see with the barricade in the way.", 
 "This is a picture of me outside of one of my favorite Mexican restaurant when visiting my cousins. They provide very delicious food and give you large portions."];
@@ -183,17 +206,17 @@ const ozarkDescription = ["This is a picture of me on the side of the road. <br>
 "This is a picture of me outside of one of my favorite Mexican <br> restaurant when visiting my cousins. They provide very delicious <br> food and give you large portions."];
 const ozarkTitle = ["On The Road", "Mexican Restaurant"];
 const ozarkImageWidth = ["not-wide", "wide"];
-// function ozark() {
+
 var ozark_text = document.createElement("h3");
 ozark_text.classList.add('body-headers');
 ozark_text.innerHTML = "Ozark";
 var ozark_hr = document.createElement("hr");
 ozark_hr.classList.add('header-hr');
-document.getElementById("ozark").appendChild(ozark_text);
-document.getElementById("ozark").appendChild(ozark_hr);
+document.getElementById("demo").appendChild(ozark_text);
+document.getElementById("demo").appendChild(ozark_hr);
 var ozark_div_element = document.createElement("div");
 ozark_div_element.classList.add('body-images');
-document.getElementById("ozark").appendChild(ozark_div_element);
+document.getElementById("demo").appendChild(ozark_div_element);
 
 var ozark_image_element;
 var ozark_card_element;
@@ -202,13 +225,12 @@ var ozark_card_text;
 var ozark_card_date;
 var ozark_card_date_small;
 var ozark_card_body_element;
-count = 0.0;
 
 for (var a = 0; a < ozarkImages.length; a++) {
   if(count > 4.0) {
     ozark_div_element = document.createElement("div");
     ozark_div_element.classList.add('body-images');
-    document.getElementById("ozark").appendChild(ozark_div_element);
+    document.getElementById("demo").appendChild(ozark_div_element);
     count = 0.0;
   }
   if(ozarkImageWidth[a] != "wide") {
@@ -283,9 +305,10 @@ for (var a = 0; a < ozarkImages.length; a++) {
     count = count + 2.0; 
   }
   }      
- // }
+}
 // ------------------------------------------------------------------------------
-const hendersonSection = document.getElementById('henderson');
+function henderson() {
+var count = 0.0;
 
 const hendersonImages = ["states-images/arkansas-images/university.jpeg", "states-images/arkansas-images/university2.jpeg"];
 const hendersonImagesAlt = ["This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school.", "This is a picture of me at my cousin's undergrad and graduate school. He took me in for a tour of where he works and where he went to school."];
@@ -297,13 +320,13 @@ const hendersonTitle = ["Henderson State University", "Henderson State Universit
 var henderson_text = document.createElement("h3");
 henderson_text.classList.add('body-headers');
 henderson_text.innerHTML = "Henderson State University";
-document.getElementById("henderson").appendChild(henderson_text);
+document.getElementById("demo").appendChild(henderson_text);
 var henderson_hr = document.createElement("hr");
 henderson_hr.classList.add('header-hr');
-document.getElementById("henderson").appendChild(henderson_hr);
+document.getElementById("demo").appendChild(henderson_hr);
 var div_element = document.createElement("div");
 div_element.classList.add('body-images');
-document.getElementById("henderson").appendChild(div_element);
+document.getElementById("demo").appendChild(div_element);
 
 
 var henderson_image_element;
@@ -314,7 +337,7 @@ var henderson_card_date;
 var henderson_card_date_small;
 var henderson_card_body_element;
 
-//  function henderson() {
+
    for (var i = 0; i < hendersonImages.length; i++) {
     var henderson_content_element = document.createElement("div");
     henderson_content_element.classList.add('card', 'm-5', 'mx-sm-auto', 'not-wide-card');
@@ -350,8 +373,11 @@ var henderson_card_body_element;
 
     henderson_card_body_element.appendChild(henderson_card_date);
     }      
-//   }
+}
 // ------------------------------------------------------------------------------
+function other() {
+var count = 0.0;
+
 const arkansasImages = ["states-images/arkansas-images/cousins.jpeg", "states-images/arkansas-images/lake-me2.jpeg", "states-images/arkansas-images/cousins2.jpeg"];
 const arkansasImageAlt = ["This is a picture of my cousins and I at their house.", 
 "This is an image of me at a Lake Horsehead in Clarksville Arkansas.",
@@ -368,11 +394,11 @@ other_hr.classList.add('header-hr');
 var arkansas_text = document.createElement("h3");
 arkansas_text.classList.add('body-headers');
 arkansas_text.innerHTML = "Other parts of Arkansas";
-document.getElementById("other").appendChild(arkansas_text);
-document.getElementById("other").appendChild(other_hr);
+document.getElementById("demo").appendChild(arkansas_text);
+document.getElementById("demo").appendChild(other_hr);
 var arkansas_div_element = document.createElement("div");
 arkansas_div_element.classList.add('body-images');
-document.getElementById("other").appendChild(arkansas_div_element);
+document.getElementById("demo").appendChild(arkansas_div_element);
 
 
 var arkansas_image_element;
@@ -381,14 +407,12 @@ var arkansas_card_body_element;
 var arkansas_card_text;
 var arkansas_card_date;
 var arkansas_card_date_small;
-var arkansas_card_body_element;
-count = 0.0;
-// function other() {
+
 for (var c = 0; c < arkansasImages.length; c++) {
   if(count > 4.0) {
     arkansas_div_element = document.createElement("div");
     arkansas_div_element.classList.add('body-images');
-    document.getElementById("other").appendChild(arkansas_div_element);
+    document.getElementById("demo").appendChild(arkansas_div_element);
     count = 0.0;
   }
   if(arkansasImageWidth[c] != "wide") {
@@ -441,7 +465,7 @@ for (var c = 0; c < arkansasImages.length; c++) {
     arkansas_image_element = document.createElement("img");
     arkansas_image_element.classList.add('arkansas-images', 'wide');
     arkansas_image_element.src = arkansasImages[c];
-    arkansas_image_element.alt = ozarkImagesAlt[c];
+    arkansas_image_element.alt = arkansasImageAlt[c];
     arkansas_content_element.appendChild(arkansas_image_element);
 
     arkansas_card_body_element = document.createElement("div");
@@ -464,7 +488,7 @@ for (var c = 0; c < arkansasImages.length; c++) {
     count = count + 2.0; 
   }
   }      
-// }
+}
 // ------------------------------------------------------------------------------
 
 // This block of code is when an image is clicked, it expands the image. 
