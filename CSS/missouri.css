@@ -129,6 +129,16 @@ div.modal {
 .top a:hover {
     text-decoration: none;
 }
+.section-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .area-selector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 .modal-content, #caption, .row{  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;

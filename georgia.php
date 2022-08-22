@@ -65,148 +65,22 @@
         <section class="georgia-top-section" id="top">
             <h2 class="georgia-header">Georgia</h2>
         </section>
-        <section>
-            <h3 class="body-headers">Atlanta</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Atlanda</div>
-                        <img class="georgia-images" src="states-images/georgia-images/atlanta.jpeg" alt="This is a picture of me in downtown Atlanta. I really liked the city and what it had to offer.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is a picture of me in downtown Atlanta. I really liked the city <br> and what it had to offer.</p>
-                        <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                    </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Atlanta</div>
-                        <img class="georgia-images" src="states-images/georgia-images/atlanta2.jpeg" alt="This is the picture of me in downtown Atlanta.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of me in downtown Atlanta.</p>
-                            <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                        </div>
-                </div>
-            </div>
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a Section of Georgia:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                    <option value="all">All</option>
+                    <option value="Atlanta">Atlanta</option>
+                    <option value="Cnn">CNN</option>
+                    <option value="Coca">World of Coca-Cola</option>
+                    <option value="Other">Other Georgia Pictures</option>
+                </select>
+            </form>
         </section>
-        <section>
-            <h3 class="body-headers">CNN</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-3 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">CNN Building</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/cnn.jpeg" alt="This is a picture of me standing outside of the CNN building next to the sign.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of me standing outside of the CNN building next <br> to the sign.</p>
-                            <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                        </div>
-                    </div>
-                    <div class="card m-3 mx-sm-auto" id="cardBody">
-                <div class="card-header text-center" id="featureTitle">Inside CNN</div>
-                    <img class="georgia-images" src="states-images/georgia-images/cnn2.jpeg" alt="This is a selfie of me inside of the CNN building next to an anchor's chair and table where the news is reported.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is a selfie of me inside of the CNN building next to an <br> anchor's chair and table where the news is reported.</p>
-                    <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h3 class="body-headers">World of Coca-Cola</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola.jpeg" alt="This is a picture of me sitting on a couch enjoying a coke drink inside the World of Coca-Cola located in Atlanta.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of me sitting on a couch enjoying a coke drink inside <br> the World of Coca-Cola located in Atlanta.</p>
-                            <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                        </div>
-                    </div>
-                    <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Inside the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola3.jpeg" alt="This is a picture of me inside of the World of Coca-Cola. I thought this looked cool.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is a picture of me inside of the World of Coca-Cola. I thought <br> this looked cool.</p>
-                    <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Outside of the World of Coca-Cola</div>
-                        <img class="georgia-images" src="states-images/georgia-images/coca-cola2.jpeg" alt="This is an image of me jumping outside of the World of Coca Cola sign.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is an image of me jumping outside <br> of the World of Coca Cola sign.</p>
-                            <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h3 class="body-headers">Other Georgia</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Airport</div> 
-                        <img class="georgia-images" src="states-images/georgia-images/airport.jpeg" alt="This is a picture of my sister's national team for gymnastics. She is part of the special olympics and I was there to help coach the boys. We took a group picture in the airport and I believe this airport ranks in the United States for being one of the biggest airports in the United States.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of my sister's national team for gymnastics. She is <br> part of the special olympics and I was there to help coach the boys. <br> We took a group picture in the airport and I believe this airport ranks <br> in the United States for being one of the biggest airports in the <br> United States.</p>
-                            <p class="card-text"><small class="text-muted">May 04, 2018</small></p>
-                        </div>
-                    </div>
-                    <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Marietta Diner</div>
-                        <img class="georgia-images" src="states-images/georgia-images/dinner.jpeg" alt="This is a picture of me standing outside of the Marietta Diner which was where we ate for dinner.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is a picture of me standing outside of the Marietta Diner <br> which was where we ate for dinner.</p>
-                    <p class="card-text"><small class="text-muted">May 04, 2018</small></p>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Mirror Picture</div>
-                        <img class="georgia-images" src="states-images/georgia-images/pool.jpeg" alt="This is a mirror picture of me in the hotel.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a mirror picture of me in the hotel.</p>
-                            <p class="card-text"><small class="text-muted">May 04, 2018</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Mirror Picture</div>
-                        <img class="georgia-images" src="states-images/georgia-images/hotel.jpeg" alt="This is a mirror picture of me in the hotel.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a mirror picture of me in the hotel.</p>
-                            <p class="card-text"><small class="text-muted">May 06, 2018</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
+
+        <section id="demo"></section>
+
         <section class="bottom-section">
             <span><a class="previous-state" href="florida.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>

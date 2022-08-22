@@ -28,3 +28,13 @@
     cursor: pointer;
     text-decoration: none;
   }
+  .section-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .area-selector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }

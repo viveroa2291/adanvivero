@@ -94,14 +94,14 @@ div.modal {
     margin-left: 1rem;
     margin-right: 1rem;
     align-self: flex-end;
-  }
-  .bottom-section {
+}
+.bottom-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 1rem;
-  }
-  .previous-state, .next-state {
+}
+.previous-state, .next-state {
     font-size: 45px;
     color: black;
     border: 2px solid black;
@@ -109,14 +109,24 @@ div.modal {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: .5rem;
-  }
-  .previous-state:hover, .next-state:hover {
+}
+.previous-state:hover, .next-state:hover {
     background-color: black;
     color: white;
     border: solid 2px white;
     cursor: pointer;
     text-decoration: none;
-  }
+}
+.section-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.area-selector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .top {
     text-align: center;
     font-size: 25px;
@@ -153,8 +163,7 @@ div.modal {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-}
-  
+}  
 .close:hover, .close:focus {
     color: #bbb;
     text-decoration: none;
@@ -164,7 +173,7 @@ div.modal {
     .modal-content {
       width: 100%;
     }
-  }
+}
 @media (max-width: 1000px)
 {
     br {

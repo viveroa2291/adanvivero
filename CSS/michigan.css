@@ -136,6 +136,16 @@ div.modal {
 .top a:hover {
     text-decoration: none;
 }
+.section-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .area-selector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
