@@ -68,9 +68,9 @@
             <h3 class="body-headers">Indiana University</h3>
             <hr class="header-hr">
             <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
+                <div class="card m-5 mx-sm-auto not-wide-card" id="cardBody">
                     <div class="card-header text-center" id="featureTitle">Nikki's Dorm</div>
-                        <img class="indiana-images" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends Nikki and Sami inside of Nikki's room at Indiana University for her move in day.">
+                        <img class="indiana-images not-wide" src="states-images/indiana-images/nikki-sami.jpeg" alt="This is a picture of me and my friends Nikki and Sami inside of Nikki's room at Indiana University for her move in day.">
                     <div class="card-body m-1">
                         <h5 class="card-title text-center" id="cardTitle"></h5>
                         <hr>

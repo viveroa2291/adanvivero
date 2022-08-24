@@ -72,11 +72,25 @@ div.modal {
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 .modal-content {
+  margin: auto;
+  margin-bottom: 3px;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+.wide-click {
     margin: auto;
     margin-bottom: 3px;
     display: block;
     width: 80%;
-    max-width: 700px; 
+    max-width: 700px;
+}
+.not-wide {
+  margin: auto;
+  margin-bottom: 3px;
+  display: block;
+  width: 80%;
+  max-width: 450px;  
 }
 #caption {
     margin: auto;

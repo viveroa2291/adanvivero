@@ -14,6 +14,12 @@ function toggleNav() {
   }
 }
 
+var modal = document.getElementById("myModal");
+var img = document.getElementsByClassName("georgia-images");
+var image = document.getElementsByClassName("box-image");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
 atlanta();
 cnn();
 coca();
@@ -170,6 +176,26 @@ for(var a = 0; a < atlantaImages.length; a++) {
     count = count + 2.0;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
 
@@ -281,6 +307,26 @@ for(var b = 0; b < cnnImages.length; b++) {
     cnn_card_body.appendChild(cnn_date);
     count = count + 2.0;
   }
+}
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
 }
 }
 // ------------------------------------------------------------------------------
@@ -394,6 +440,26 @@ for(var c = 0; c < cocaImages.length; c++) {
     coca_card_body.appendChild(coca_date);
     count = count + 2.0;
   }
+}
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
 }
 }
 // ------------------------------------------------------------------------------
@@ -510,14 +576,29 @@ for(var d = 0; d < georgiaImages.length; d++) {
     count = count + 2.0;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
-var modal = document.getElementById("myModal");
 
-var img = document.getElementsByClassName("georgia-images");
-var image = document.getElementsByClassName("box-image");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 function images(){
   modal.style.display = "block";
   modalImg.src = this.src;

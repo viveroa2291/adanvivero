@@ -15,6 +15,15 @@ function toggleNav() {
       elements[i].classList.toggle('show');
   }
 }
+
+var modal = document.getElementById("myModal");
+var notWideImg = document.getElementsByClassName("arkansas-images not-wide");
+var wideImg = document.getElementsByClassName("arkansas-images wide");
+var img = document.getElementsByClassName("arkansas-images");
+var image = document.getElementsByClassName("box-image");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
 // ------------------------------------------------------------------------------
 /**
  * Area Selected 
@@ -191,9 +200,36 @@ for (var b = 0; b < vandervoortImages.length; b++) {
 
       vandervoort_card_body_element.appendChild(vandervoort_card_date);
       count = count + 2.0; 
-    }
-  }    
+  }   
   }
+  function images() {
+    modal.style.display = "block";
+    if(modalImg.classList.contains('wide')) 
+    {
+      alert("Hello");
+    }
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  for(var i = 0; i < img.length; i++)
+  { 
+    if(img[i].classList.contains('wide'))
+    {
+      img[i].classList.add('wide');
+    }
+        img[i].onclick = images;
+  }
+  for(var j = 0; j < img.length; j++)
+  {
+      image[j].onclick = images;
+      
+  }
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+}
 // ------------------------------------------------------------------------------
 function ozark() {
 var count = 0.0;
@@ -304,6 +340,25 @@ for (var a = 0; a < ozarkImages.length; a++) {
     count = count + 2.0; 
   }
   }      
+  function images() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  for(var i = 0; i < img.length; i++)
+  {
+      img[i].onclick = images;
+  }
+  for(var j = 0; j < img.length; j++)
+  {
+      image[j].onclick = images;
+      
+  }
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
 }
 // ------------------------------------------------------------------------------
 function henderson() {
@@ -371,7 +426,27 @@ var henderson_card_body_element;
     henderson_card_date.appendChild(henderson_card_date_small);
 
     henderson_card_body_element.appendChild(henderson_card_date);
-    }      
+    }     
+    function images() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    for(var i = 0; i < img.length; i++)
+    {
+        img[i].onclick = images;
+        
+    }
+    for(var j = 0; j < img.length; j++)
+    {
+        image[j].onclick = images;
+        
+    }
+    var span = document.getElementsByClassName("close")[0];
+    
+    span.onclick = function() { 
+      modal.style.display = "none";
+    } 
 }
 // ------------------------------------------------------------------------------
 function other() {
@@ -486,18 +561,34 @@ for (var c = 0; c < arkansasImages.length; c++) {
     arkansas_card_body_element.appendChild(arkansas_card_date);
     count = count + 2.0; 
   }
-  }      
+  }     
+  function images() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  for(var i = 0; i < img.length; i++)
+  {
+      img[i].onclick = images;
+      
+  }
+  for(var j = 0; j < img.length; j++)
+  {
+      image[j].onclick = images;
+      
+  }
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+   
 }
 // ------------------------------------------------------------------------------
 
 // This block of code is when an image is clicked, it expands the image. 
-var modal = document.getElementById("myModal");
 
-var img = document.getElementsByClassName("arkansas-images");
-var image = document.getElementsByClassName("box-image");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-function images(){
+function images() {
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;

@@ -27,12 +27,12 @@ function images(){
 }
 for(var i = 0; i < img.length; i++)
 {
-    img[i].onclick = images;
+    img[i].onclick = images; // indiana-images
     
 }
 for(var j = 0; j < img.length; j++)
 {
-    image[j].onclick = images;
+    image[j].onclick = images; // box-image
     
 }
 

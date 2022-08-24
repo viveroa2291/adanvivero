@@ -13,6 +13,13 @@ function toggleNav() {
       elements[i].classList.toggle('show');
   }
 }
+
+var modal = document.getElementById("myModal");
+var img = document.getElementsByClassName("florida-images");
+var image = document.getElementsByClassName("box-image");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
 disneyworld();
 universal();
 seaworld();
@@ -178,6 +185,26 @@ for(var a = 0; a < disneyworldImages.length; a++) {
     count = count + 2.0;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
 function universal() {
@@ -296,6 +323,26 @@ for(var b = 0; b < universalImages.length; b++) {
     universal_card_body.appendChild(universal_date);
     count = count + 2.0;
   }
+}
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
 }
 }
 // ------------------------------------------------------------------------------
@@ -422,6 +469,26 @@ function seaworld() {
       count = count + 2.0;
     }
   } 
+  function images() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  for(var i = 0; i < img.length; i++)
+  {
+      img[i].onclick = images;
+      
+  }
+  for(var j = 0; j < img.length; j++)
+  {
+      image[j].onclick = images;
+      
+  }
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
 }
 // ------------------------------------------------------------------------------
 
@@ -533,14 +600,28 @@ function other() {
       count = count + 2.0;
     }
   } 
+  function images() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  for(var i = 0; i < img.length; i++)
+  {
+      img[i].onclick = images;
+      
+  }
+  for(var j = 0; j < img.length; j++)
+  {
+      image[j].onclick = images;
+      
+  }
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
 }
 
-var modal = document.getElementById("myModal");
-
-var img = document.getElementsByClassName("florida-images");
-var image = document.getElementsByClassName("box-image");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 function images(){
   modal.style.display = "block";
   modalImg.src = this.src;

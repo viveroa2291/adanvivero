@@ -14,6 +14,13 @@ function toggleNav() {
   }
 }
 
+var modal = document.getElementById("myModal");
+
+var img = document.getElementsByClassName("california-images");
+var image = document.getElementsByClassName("box-image");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
 losAngeles();
 disneyland();
 huntington();
@@ -166,6 +173,26 @@ for(var a = 0; a < losAngelesImages.length; a++) {
     count = count + 2.0;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
 function disneyland() {
@@ -281,6 +308,26 @@ for(var b = 0; b < disneylandImages.length; b++) {
     count = count + 2.0;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
 function huntington() {
@@ -365,15 +412,29 @@ for(var c = 0; c < huntingtonImages.length; c++) {
     count = count + 1.5;
   }
 }
+function images() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+for(var i = 0; i < img.length; i++)
+{
+    img[i].onclick = images;
+    
+}
+for(var j = 0; j < img.length; j++)
+{
+    image[j].onclick = images;
+    
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 }
 // ------------------------------------------------------------------------------
 
-var modal = document.getElementById("myModal");
-
-var img = document.getElementsByClassName("california-images");
-var image = document.getElementsByClassName("box-image");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 function images(){
   modal.style.display = "block";
   modalImg.src = this.src;
