@@ -65,174 +65,18 @@
         <section class="missouri-top-section" id="top">
             <h2 class="missouri-header">Missouri</h2>
         </section>
-        <section>
-            <h3 class="body-headers">University of Missouri</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami.jpeg" alt="This is a picture of my friend Sami and I at the Mizzou commons.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is a picture of my friend Sami and I <br> at the Mizzou commons.</p>
-                        <p class="card-text"><small class="text-muted">August 20, 2020</small></p>
-                    </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/me.jpeg" alt="This is the picture of me holding a 'Fight Tiger' sign at the commons at the University of Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of me holding a <br> 'Fight Tiger' sign at the commons <br> at the University of Missouri.</p>
-                            <p class="card-text"><small class="text-muted">August 20, 2020</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/mikayla.jpeg" alt="This is the picture of my friend Mikayla and I at the University of Missouri commons holding a 'Fight Tiger' sign.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of my friend Mikayla and I <br> at the University of Missouri commons <br> holding a 'Fight Tiger' sign.</p>
-                            <p class="card-text"><small class="text-muted">August 20, 2020</small></p>
-                        </div>
-                </div>
-            </div>
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a Section of Michigan:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                    <option value="all">All</option>
+                    <option value="Mizzou">University of Missouri</option>
+                    <option value="Eldon">Eldon Caves</option>
+                </select>
+            </form>
         </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">The Rise</div> 
-                        <img class="missouri-images" src="states-images/missouri-images/sami3.jpeg" alt="This is a picture of my friend Sami and I holding a cat inside of her dorm.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of my friend Sami and I <br> holding a cat inside of her dorm.</p>
-                            <p class="card-text"><small class="text-muted">August 22, 2020</small></p>
-                        </div>
-                    </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">University of Missouri</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami2.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of my friend Sami and I <br> at the University of Missouri.</p>
-                            <p class="card-text"><small class="text-muted">September 12, 2020</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">The Rise</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-rise.jpeg" alt="This is a picture of my friend Sami and I at the University of Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of my friend Sami and I <br> at the University of Missouri.</p>
-                            <p class="card-text"><small class="text-muted">September 12, 2020</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Mizzou Stadium</div>
-                        <img class="missouri-images" src="states-images/missouri-images/stadium.jpeg" alt="This is a picture of me standing outside of the University of Missouri football stadium.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of me standing outside <br> of the University of Missouri football <br> stadium.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h3 class="body-headers">Eldon Caves</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is a picture of the cave that we went to visit while we were <br> in Missouri.</p>
-                        <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                    </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave2.jpeg" alt="This is a picture of the cave that we went to visit while we were in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a picture of the cave that we went to visit while we were <br> in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-cave.jpeg" alt="This is the picture of my friend Sami and I inside the cave that we went to visit while in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of my friend Sami and I <br> inside the cave that we went to visit while <br> in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cesar.jpeg" alt="This is the picture of my friend Cesar and I inside the cave that we went to visit while in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of my friend Cesar and I <br> inside the cave that we went to visit while <br> in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/sami-nikki.jpeg" alt="This is the picture of my friends Nikki, Sami, and I inside the cave that we went to visit while in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of my friends Nikki, Sami, <br> and I inside the cave that we went to visit <br> while in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/group.jpeg" alt="This is a group picture of my friends Nikki, Sami, Cesar, and I inside the cave that we went to visit while in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is a group picture of my friends Nikki, <br> Sami, Cesar, and I inside the cave that <br> we went to visit while in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eldon Caves</div>
-                        <img class="missouri-images" src="states-images/missouri-images/cave-red.jpeg" alt="This is the picture of the cave that we went to visit while in Missouri.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is the picture of the cave that we went <br> to visit while in Missouri.</p>
-                            <p class="card-text"><small class="text-muted">May 11, 2021</small></p>
-                        </div>
-                </div>
-            </div>
-        </section>
+        <section id="demo"> </section>
         <section class="bottom-section">
             <span><a class="previous-state" href="minnesota.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>
