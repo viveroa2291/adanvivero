@@ -79,7 +79,6 @@
             </form>
         </section>
         <section id="demo"></section>
-
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>
