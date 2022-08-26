@@ -55,7 +55,7 @@ const ozarkImages = ["states-images/arkansas-images/view.jpeg", "states-images/a
 const ozarkImagesAlt = ["This is a picture of me on the side of the road. We were driving and decided to take a picture of the view which is difficult to see with the barricade in the way.", 
 "This is a picture of me outside of one of my favorite Mexican restaurant when visiting my cousins. They provide very delicious food and give you large portions."];
 const ozarkDates = ["August 16, 2017", "August 16, 2017"];
-const ozarkDescription = ["This is a picture of me on the side of the road. <br> We were driving and decided to take a picture <br> of the view which is difficult to see with the <br> barricade in the way.",
+const ozarkDescription = ["This is a picture of me on the side of <br> the road. We were driving and decided <br> to take a picture of the view which is <br> difficult to see with the barricade in <br> the way.",
 "This is a picture of me outside of one of my favorite Mexican <br> restaurant when visiting my cousins. They provide very delicious <br> food and give you large portions."];
 const ozarkTitle = ["On The Road", "Mexican Restaurant"];
 const ozarkImageWidth = ["not-wide", "wide"];
@@ -81,7 +81,7 @@ const arkansasImageAlt = ["This is a picture of my cousins and I at their house.
 "This is an image of my cousins and I a year and a half later from the image on the left."];
 const arkansasDates = ["January 1, 2016", "June 20, 2016", "August 17, 2017"];
 const arkansasDescription = ["This is a picture of my cousins and I <br> at their house.", 
-"This is an image of me at a Lake Horsehead <br> in Clarksville Arkansas.", 
+"This is an image of me at a Lake <br> Horsehead in Clarksville Arkansas.", 
 "This is an image of my cousins and I a year and a half later <br> from the image on the left."];
 const arkansasTitle = ["Altus (Cousin's House", "Clarksville Lake", "Waldron"];
 const arkansasImageWidth = ["not-wide", "not-wide", "wide"];
