@@ -120,7 +120,6 @@ function sectionSelected() {
     sections("Other Georgia Pictures", georgiaImages, georgiaImagesAlt, georgiaDates, georgiaDescription, georgiaTitle, georgiaImageWidth);
   }
 }
-// ------------------------------------------------------------------------------
 function sections(section, image, imageAlt, dates, description, title, imageWidth) {
 let count = 0.0;
   
@@ -240,7 +239,6 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 }
-// ------------------------------------------------------------------------------
 function images(){
   modal.style.display = "block";
   modalImg.src = this.src;
