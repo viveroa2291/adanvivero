@@ -82,7 +82,7 @@ const wakefieldDescription = ["This is an image of me sitting inside my <br> cab
 "This is a selfie of me skiing in Wakefield Michigan.",
 "This is a selfie of me skiing in Wakefield Michigan."];
 const wakefieldTitle = ["Cabin", "Wakefield", "Wakefield", "Wakefield", "Wakefield", "Wakefield"];
-const wakefieldImageWidth = ["not-wide", "not-wide", "mid-wide", "mid-wide", "mid-wide", "mid-wide"];
+const wakefieldImageWidth = ["not-wide", "not-wide", "wide", "mid-wide", "mid-wide", "mid-wide"];
 
 sections("Wakefield", wakefieldImages, wakefieldImagesAlt, wakefieldDates, wakefieldDescription, wakefieldTitle, wakefieldImageWidth);
 /**
@@ -169,7 +169,7 @@ for(var a = 0; a < image.length; a++) {
     document.getElementById("demo").appendChild(element_div);
     count = 0.0;
   }
-  if(imageWidth[a] != "mid-wide") {
+  if(imageWidth[a] === "not-wide") {
     var element_content = document.createElement("div");
     element_content.classList.add('card', 'm-5', 'mx-sm-auto', 'not-wide-card');
     element_div.appendChild(element_content);
@@ -202,7 +202,13 @@ for(var a = 0; a < image.length; a++) {
     element_date.appendChild(element_date_small);
 
     element_card_body.appendChild(element_date);
-    count = count + 1.5;
+    if(imageWidth[a+1] === "wide" || imageWidth[a+1] === "ultra-wide") 
+      {
+        count = count + 4.0;
+      }
+      else {
+         count = count + 1.5;
+      }
   }
   if(imageWidth[a] === "mid-wide") {
     var element_content = document.createElement("div");
@@ -216,6 +222,41 @@ for(var a = 0; a < image.length; a++) {
 
     element_image = document.createElement("img");
     element_image.classList.add('michigan-images', 'mid-wide');
+    element_image.src = image[a];
+    element_image.alt = imageAlt[a];
+    element_content.appendChild(element_image);
+
+    element_card_body = document.createElement("div");
+    element_card_body.classList.add('card-body', 'm-1');
+    element_content.append(element_card_body);
+
+    element_text = document.createElement("p");
+    element_text.classList.add('card-text');
+    element_text.innerHTML = description[a];
+    element_card_body.appendChild(element_text);
+
+    element_date = document.createElement("p");
+    element_date.classList.add('card-text');
+    element_date_small = document.createElement("small");
+    element_date_small.classList.add('text-muted');
+    element_date_small.innerHTML = dates[a];
+    element_date.appendChild(element_date_small);
+
+    element_card_body.appendChild(element_date);
+    count = count + 2.0;
+  }
+  if(imageWidth[a] === "wide") {
+    var element_content = document.createElement("div");
+    element_content.classList.add('card', 'm-5', 'mx-sm-auto', 'wide-card');
+    element_div.appendChild(element_content);
+    
+    element_card = document.createElement("div");
+    element_card.classList.add('card-header', 'text-center');
+    element_card.innerHTML = title[a];
+    element_content.appendChild(element_card);
+
+    element_image = document.createElement("img");
+    element_image.classList.add('michigan-images', 'wide');
     element_image.src = image[a];
     element_image.alt = imageAlt[a];
     element_content.appendChild(element_image);

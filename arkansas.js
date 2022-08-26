@@ -199,7 +199,13 @@ for (var b = 0; b < image.length; b++) {
       element_card_date.appendChild(element_card_date_small);
 
       element_card_body_element.appendChild(element_card_date);
-      count = count + 1.5;
+      if((imageWidth[b+1] === "wide" || imageWidth[b+1] === "ultra-wide") && count >= 1.5) 
+      {
+        count = count + 4.0;
+      }
+      else {
+         count = count + 1.5;
+      }
     }
     if(imageWidth[b] === "wide") {
       var element_content_element = document.createElement("div");
