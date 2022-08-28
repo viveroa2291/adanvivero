@@ -65,156 +65,19 @@
         <section class="minnesota-top-section" id="top">
             <h2 class="minnesota-header">Minnesota</h2>
         </section>
-        <section>
-            <h3 class="body-headers">Minneapolis</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis-self.jpeg" alt="This is an image of me in downtown Minneapolis. My friends and I were doing a photoshoot.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is an image of me in downtown Minneapolis. <br> My friends and I were doing a photoshoot.</p>
-                        <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
-                    </div>
-                </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/minneapolis.jpeg" alt="This is an image of my friends and I in downtown Minneapolis during our photoshoot.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is an image of my friends and I in downtown Minneapolis <br> during our photoshoot.</p>
-                            <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
-                        </div>
-                    </div>
-            </div>
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a section of Minnesota:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                    <option value="all">All</option>
+                    <option value="Minneapolis">Minneapolis</option>
+                    <option value="Arcade">Minneapolis Arcade</option>
+                    <option value="Other">Other Minnesota Parts</option>
+                </select>
+            </form> 
         </section>
-        <section>
-            <div class="body-images">
-                    <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self2.jpeg" alt="This is an image of me in downtown Minneapolis during a photoshoot.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is an image of me in downtown <br>Minneapolis during a photoshoot.</p>
-                    <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
-                </div>
-                </div>
-                    <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">US Bank Stadium Minneapolis</div>
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/us-bank.jpeg" alt="This is an image of me at U.S Bank Stadium, where the Minnesota Vikings play.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is an image of me at U.S Bank Stadium, <br> where the Minnesota Vikings play.</p>
-                            <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
-                        </div>
-                    </div>
-                    <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Downtown Minneapolis</div> 
-                        <img class="minnesota-images not-wide" src="states-images/minnesota-images/minneapolis-self3.jpeg" alt="This is another image of me in downtown Minneapolis during a walk around the city.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is another image of me in downtown <br> Minneapolis during a walk around the city.</p>
-                            <p class="card-text"><small class="text-muted">June 12, 2021</small></p>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <section>
-            <h3 class="body-headers">Minneapolis Arcade</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Minneapolis Arcade (Rooftop)</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/rooftop.jpeg" alt="This is an image of my friends and I at an arcade in the outskirts of Minneapolis.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.</p>
-                            <p class="card-text"><small class="text-muted">November 6, 2021</small></p>
-                        </div>
-                    </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images wide" src="states-images/minnesota-images/arcade.jpeg" alt="This is an image of my friends and I at an arcade in the outskirts of Minneapolis.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is an image of my friends and I at an arcade in the <br> outskirts of Minneapolis.</p>
-                        <p class="card-text"><small class="text-muted">April 29, 2022</small></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Minneapolis Arcade</div>
-                    <img class="minnesota-images not-wide" src="states-images/minnesota-images/arcade-self.jpeg" alt="This is an image of me at an arcade in the outskirts of Minneapolis with a wall of art.">
-                    <div class="card-body m-1">
-                        <h5 class="card-title text-center" id="cardTitle"></h5>
-                        <hr>
-                        <p class="card-text" id="description">This is an image of me at an arcade in the <br> outskirts of Minneapolis with a wall of art.</p>
-                        <p class="card-text"><small class="text-muted">April 29, 2022</small></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h3 class="body-headers">Other Minnesota</h3>
-            <hr class="header-hr">
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Mall of America</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/mallofamerica.jpeg" alt="This is an image of me at the Mall of America in Saint Paul Minnesota.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is an image of me at the Mall of America in Saint Paul <br> Minnesota.</p>
-                    <p class="card-text"><small class="text-muted">April 20, 2019</small></p>
-                </div>
-            </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Minneapolis</div>
-                        <img class="minnesota-images wide" src="states-images/minnesota-images/george-floyd.jpeg" alt="This is an image of a George Floyd mural located in the outskirts of Minneapolis.">
-                        <div class="card-body m-1">
-                            <h5 class="card-title text-center" id="cardTitle"></h5>
-                            <hr>
-                            <p class="card-text" id="description">This is an image of a George Floyd mural located in the <br> outskirts of Minneapolis.</p>
-                            <p class="card-text"><small class="text-muted">August 15, 2020</small></p>
-                        </div>
-                    </div>
-            </div>
-        </section> 
-        <section>
-            <div class="body-images">
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Eden Prarie, Minnesota</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/minnesota-friends.jpeg" alt="This is an image of my friends in Eden Prarie Minnesota. One of my friends is from Ohio and we haven't seen each other in years and was in town, therefore we met up and merged our friend groups together.">
-                <div class="card-body m-1">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is an image of my friends in Eden Prarie Minnesota. <br> One of my friends is from Ohio and we haven't seen each <br> other in years and was in town, therefore we met up and <br> merged our friend groups together.</p>
-                    <p class="card-text"><small class="text-muted">June 19, 2021</small></p>
-                </div>
-            </div>
-                <div class="card m-5 mx-sm-auto" id="cardBody">
-                    <div class="card-header text-center" id="featureTitle">Afton Alps</div>
-                <img class="minnesota-images wide" src="states-images/minnesota-images/skiing.jpeg" alt="This is an image of me skiing at Afton Alps in Minnesota. I enjoyed skiing here very much and would recommend to give this place a visit if you like to ski or snowboard.">
-                <div class="card-body m-2">
-                    <h5 class="card-title text-center" id="cardTitle"></h5>
-                    <hr>
-                    <p class="card-text" id="description">This is an image of me skiing at Afton Alps in Minnesota. <br> I enjoyed skiing here very much and would recommend <br> to give this place a visit if you like to ski or snowboard.</p>
-                    <p class="card-text"><small class="text-muted">December 18, 2021</small></p>
-                </div>
-            </div>
-            </div>
-        </section>
+        <section id="demo"></section>
         <section class="bottom-section">
             <span><a class="previous-state" href="michigan.php">&#60;</a></span>
             <p class="other-states"><b>Check out the other states</b></p>

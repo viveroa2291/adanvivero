@@ -75,8 +75,7 @@
                     <option value="Disneyland">Disneyland</option>
                     <option value="Huntington">Huntington Beach</option>
                 </select>
-            </form>
-            
+            </form> 
         </section>
         <section id="demo"></section>
 
