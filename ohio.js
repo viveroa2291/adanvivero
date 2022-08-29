@@ -109,8 +109,131 @@ const cedarImageWidth = ["not-wide", "not-wide", "not-wide", "mid-wide", "mid-wi
 "not-wide", "mid-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "not-wide", "mid-wide", "not-wide", "not-wide", "wide",
 "not-wide", "not-wide", "not-wide", "wide", 
 "not-wide", "not-wide", "not-wide"];
-
 sections("Sandusky (Cedar Point)", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+
+/**
+ * Akron Lists
+ */
+
+const akronImage = ["states-images/ohio-images/akron.jpeg", "states-images/ohio-images/akron-downtown.jpeg", "states-images/ohio-images/akron2.jpeg", "states-images/ohio-images/group.jpeg", "states-images/ohio-images/jon.jpeg"];
+const akronImageAlt = ["This is an image of me putting up the peace sign outside a church in Akron.", 
+"This is a low quality picture of downtown Akron.",
+"This is a picture of me by the Akron river.",
+"This is a group picture of my friends and I at a campsite.",
+"This is a picture of my friend Jon and I by the pond at the campsite."];
+const akronDates = ["July 7, 2017", "July 7, 2017", "July 7, 2017", "July 8, 2017", "July 9, 2017"];
+const akronDescription = ["This is an image of me putting up the <br> peace sign outside a church in Akron.", 
+"This is a low quality picture of downtown <br> Akron.",
+"This is a picture of me by the Akron river.",
+"This is a group picture of my friends and I at a campsite.",
+"This is a picture of my friend Jon and I <br>by the pond at the campsite."];
+const akronTitle = ["Akron Church", "Downtown Akron", "Akron", "Campsite", "Campsite"];
+const akronImageWidth = ["not-wide", "not-wide", "not-wide", "mid-wide", "not-wide"];
+
+sections("Akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+
+/**
+ * Cleveland Lists
+ */
+const clevelandImage = ["states-images/ohio-images/jim-brown.jpeg", "states-images/ohio-images/downtown-cleveland.jpeg", "states-images/ohio-images/cleveland-sign2.jpeg", "states-images/ohio-images/musuem.jpeg", "states-images/ohio-images/michael-jackson.jpeg","states-images/ohio-images/elvis.jpeg",  "states-images/ohio-images/michael-jackson2.jpeg", "states-images/ohio-images/golf.jpeg",
+"states-images/ohio-images/browns-practice.jpeg", 
+"states-images/ohio-images/cleveland-cliffs.jpeg", 
+"states-images/ohio-images/cleveland-sign-group.jpeg", 
+"states-images/ohio-images/cleveland-sign.jpeg"
+];
+const clevelandImageAlt = ["This is a picture of me outside the Browns stadium next to the Jim Brown statue.",
+"This is a picture of me standing outside in downtown Cleveland.",
+"This is a picture of my friend Nikki and I at the Cleveland sign.", 
+"This is a picture of my friend Nikki and I at the Rock and Roll Hall of Fame in Cleveland Ohio.", 
+"This is a picture of me in the Michael Jackson section in the Rock & Roll Hall of Fame. Michael Jackson is one of my favorite artists that I grew up listening to.",
+"This is a picture of the Elvis section in the Rock & Roll Hall of Fame.",
+"This is a picture of Michael Jackson name on the wall. In order to qualify to be on the wall of the Rock & Roll Hall of Fame, the artist must at least have been in the music industry for over 25 years and an influence.", 
+"This is a picture of me in the suburbs of Cleveland mini golfing.", 
+"This is a picture of me outside of the Cleveland Browns practice center.",
+"This is a picture of in downtown Cleveland by the Cleveland Cliffs cruiser which I know own 2 shares of stocks in it.",
+"This is a group picture of my friend Alex and Sean in front of Cleveland sign.",
+"This is a picture of me sitting in front of the Cleveland sign."];
+const clevelandDates = ["July 13, 2018", "July, 13, 2018", "July 13, 2018", "July 13, 2018", "July 13, 2018","July 13, 2018", "July 13, 2018", "July 13, 2018", "July 16, 2018", "July 7, 2019", "July 7, 2019", "July 7, 2019"];
+const clevelandDescription = ["This is a picture of me outside the Browns <br>stadium next to the Jim Brown statue.", 
+"This is a picture of me standing outside in downtown Cleveland.",
+"This is a picture of my friend Nikki and I at the Cleveland sign.",
+"This is a picture of my friend Nikki and I at the Rock and Roll Hall of Fame <br> in Cleveland Ohio.",
+"This is a picture of me in the Michael Jackson section in the <br>Rock & Roll Hall of Fame. Michael Jackson is one of my <br>favorite artists that I grew up listening to.",
+"This is a picture of the Elvis section in the Rock & Roll Hall of Fame.",
+"This is a picture of Michael Jackson <br> name on the wall. In order to qualify <br> to be on the wall of the Rock & Roll <br> Hall of Fame, the artist must at least <br>have been in the music industry for <br> over 25 years and an influence.",
+"This is a picture of me in the suburbs <br>of Cleveland mini golfing.", 
+"This is a picture of me outside of the <br>Cleveland Browns practice center.",
+"This is a picture of in downtown Cleveland by the Cleveland Cliffs <br> cruiser which I know own 2 shares of stocks in it.",
+"This is a group picture of my friend Alex and Sean in front of <br>Cleveland sign.",
+"This is a picture of me sitting in front of the Cleveland sign."];
+const clevelandTitle = ["Jim Brown Statue", "Downtown Cleveland", "Cleveland Sign", "Rock & Roll Hall of Fame", "Michael Jackson Section", "Elvis Section", "Michael Jackson", "Mini Golfing", "Cleveland Browns Practice Center", "Cleveland Cliffs", "Downtown Cleveland", "Downtown Cleveland"];
+const clevelandImageWidth = ["not-wide", "mid-wide", "mid-wide", "mid-wide", "mid-wide", "mid-wide", "not-wide", "not-wide", "not-wide", "mid-wide", "mid-wide", "mid-wide"];
+
+sections("Cleveland", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+
+/**
+ * Cincinnati Lists 
+ */
+
+const cincinnatiImage = ["states-images/ohio-images/hotel3.jpeg", "states-images/ohio-images/labor-day.jpeg", "states-images/ohio-images/maria.jpeg", "states-images/ohio-images/hotel.jpeg"];
+const cincinnatiImageAlt = ["This is a picture of me taking a mirror picture in my hotel.", 
+"This is a group picture of my friends Evan, Jonathan, and Rachel at the event.",
+"This is a picture of Maria and I at the labor day event.",
+"This is a picture of Alexa and Emily in the hotel we were staying at."];
+const cincinnatiDates = ["September 2, 2017", "September 3, 2017", "September 3, 2017", "September 4, 2017"];
+const cincinnatiDescription = ["This is a picture of me taking a mirror <br>picture in my hotel.",
+"This is a group picture of my friends <br>Evan, Jonathan, and Rachel at the event.",
+"This is a picture of Maria and I at the <br>labor day event.",
+"This is a picture of Alexa and Emily in the <br>hotel we were staying at."];
+const cincinnatiTitle = ["Cincinnati Hotel", "Labor Day Event", "Labor Day Event", "Cincinnati Hotel"];
+const cincinnatiImageWidth = ["not-wide", "not-wide", "not-wide", "not-wide"];
+
+sections("Cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+function sectionSelected() {
+  var x = document.getElementById("area-selector").value;
+  if(x == "Cedar") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    } 
+    document.getElementById("demo").appendChild(sections("Sandusky (Cedar Point)", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth)); 
+  }
+  else if(x == "Akron") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(sections("Akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth)); 
+  }
+  else if(x == "Cleveland") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(sections("Cleveland", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth)); 
+  }
+  else if(x == "Cincinnati") 
+  {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    document.getElementById("demo").appendChild(sections("Cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth)); 
+
+  }
+  else if(x == "all") {
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    sections("Sandusky (Cedar Point)", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    sections("Akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    sections("Cleveland", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    sections("Cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+  }
+}
+
 function sections(section, image, imageAlt, dates, description, title, imageWidth) {
   let count = 0.0;
   
@@ -216,7 +339,7 @@ function sections(section, image, imageAlt, dates, description, title, imageWidt
       element_date.appendChild(element_date_small);
   
       element_card_body.appendChild(element_date);
-      if(imageWidth[a+1] === "wide") 
+      if((imageWidth[a+1] === "mid-wide" || imageWidth[a+1] === "wide") && count >= 1.5) 
         {
           count = count + 4.0;
         }

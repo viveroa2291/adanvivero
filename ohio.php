@@ -62,6 +62,19 @@
     <section class="ohio-top-section" id="top">
             <h2 class="ohio-header">Ohio</h2>
         </section>
+        <section class="section-selection">
+            <form  action="">
+                <label for="">Choose a Section of Utah:  </label>
+                <br>
+                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                    <option value="all">All</option>
+                    <option value="Cedar">Sandusky (Cedar Point)</option>
+                    <option value="Akron">Akron</option>
+                    <option value="Cleveland">Cleveland</option>
+                    <option value="Cincinnati">Cincinnati</option>
+                </select>
+            </form>
+        </section>
         <section id="demo"></section>
         <section class="bottom-section">
             <span><a class="previous-state" href="missouri.php">&#60;</a></span>
@@ -122,6 +135,31 @@
                     <img class="box-image" src="states-images/ohio-images/maverick.jpeg" onclick="image(38)" alt="This is a picture of Sean and I standing outside of a restaurant where we ate dinner at.">
                     <img class="box-image" src="states-images/ohio-images/steel.jpeg" onclick="image(39)" alt="This is a picture from our hotel view of the Top Thrill Dragster ride.">
                     <img class="box-image" src="states-images/ohio-images/beach.jpeg" onclick="image(40)" alt="This is a picture of our hotel that we stayed at in Cedar Point. It was a very nice hotel.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/akron.jpeg" onclick="image(41)"  alt="This is an image of me putting up the peace sign outside a church in Akron.">
+                    <img class="box-image" src="states-images/ohio-images/akron-downtown.jpeg" onclick="image(42)" alt="This is a low quality picture of downtown Akron.">
+                    <img class="box-image" src="states-images/ohio-images/akron2.jpeg" onclick="image(43)" alt="This is a picture of me by the Akron river.">
+                    <img class="box-image" src="states-images/ohio-images/group.jpeg" onclick="image(44)" alt="This is a group picture of my friends and I at a campsite.">
+                    <img class="box-image" src="states-images/ohio-images/jon.jpeg" onclick="image(45)" alt="This is a picture of my friend Jon and I by the pond at the campsite.">
+                    <img class="box-image" src="states-images/ohio-images/browns-practice.jpeg" onclick="image(46)" alt="This is a picture of me outside the Browns stadium next to the Jim Brown statue.">
+                    <img class="box-image" src="states-images/ohio-images/cleveland-cliffs.jpeg" onclick="image(47)" alt="This is a picture of me standing outside in downtown Cleveland.">
+                    <img class="box-image" src="states-images/ohio-images/cleveland-sign-group.jpeg" onclick="image(48)" alt="This is a picture of my friend Nikki and I at the Cleveland sign.">
+                    <img class="box-image" src="states-images/ohio-images/cleveland-sign.jpeg" onclick="image(49)" alt="This is a picture of my friend Nikki and I at the Rock and Roll Hall of Fame in Cleveland Ohio.">
+                    <img class="box-image" src="states-images/ohio-images/cleveland-sign2.jpeg" onclick="image(50)" alt="This is a picture of me in the Michael Jackson section in the Rock & Roll Hall of Fame. Michael Jackson is one of my favorite artists that I grew up listening to.">
+            </div>
+            <div class="row">
+                    <img class="box-image" src="states-images/ohio-images/downtown-cleveland.jpeg" onclick="image(51)"  alt="This is a picture of the Elvis section in the Rock & Roll Hall of Fame.">
+                    <img class="box-image" src="states-images/ohio-images/elvis.jpeg" onclick="image(52)" alt="This is a picture of Michael Jackson name on the wall. In order to qualify to be on the wall of the Rock & Roll Hall of Fame, the artist must at least have been in the music industry for over 25 years and an influence.">
+                    <img class="box-image" src="states-images/ohio-images/golf.jpeg" onclick="image(53)" alt="This is a picture of me in the suburbs of Cleveland mini golfing.">
+                    <img class="box-image" src="states-images/ohio-images/jim-brown.jpeg" onclick="image(54)" alt="This is a picture of me outside of the Cleveland Browns practice center.">
+                    <img class="box-image" src="states-images/ohio-images/michael-jackson.jpeg" onclick="image(55)" alt="This is a picture of in downtown Cleveland by the Cleveland Cliffs cruiser which I know own 2 shares of stocks in it.">
+                    <img class="box-image" src="states-images/ohio-images/michael-jackson2.jpeg" onclick="image(56)" alt="This is a group picture of my friend Alex and Sean in front of Cleveland sign.">
+                    <img class="box-image" src="states-images/ohio-images/musuem.jpeg" onclick="image(57)" alt="This is a picture of me sitting in front of the Cleveland sign.">
+                    <img class="box-image" src="states-images/ohio-images/hotel.jpeg" onclick="image(58)" alt="This is a picture of me taking a mirror picture in my hotel.">
+                    <img class="box-image" src="states-images/ohio-images/hotel3.jpeg" onclick="image(59)" alt="This is a group picture of my friends Evan, Jonathan, and Rachel at the event.">
+                    <img class="box-image" src="states-images/ohio-images/labor-day.jpeg" onclick="image(60)" alt="This is a picture of Maria and I at the labor day event.">
+                    <img class="box-image" src="states-images/ohio-images/maria.jpeg" onclick="image(61)" alt="This is a picture of Alexa and Emily in the hotel we were staying at.">
             </div>
         </div>
     </main>
