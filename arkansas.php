@@ -94,7 +94,21 @@
                 </form>
             </div>
         </section>
-        <section id="about"></section>
+        <section class="about" id="about">
+            <div class="arkansas-about">
+                <div class="brief-overview">
+                    <h3 id="arkansas">Arkansas</h3>
+                    <button class="hide-section" id="hide-section" onclick="hide()">Hide</button>
+                </div>
+                <div id="brief">
+                    <hr>
+                    <p>I have been traveling to the state of Arkansas since I was a young boy, primarily due to the fact that I have family members down there that I go visit.</p>
+                    <p>Coming from the suburbs of Chicago, it is nice to get away from the big city and visit rural parts of America. I enjoy the outdoors and being on a farm with the animals.</p>
+                    <p>It is nice to have family members that own a lot of land and be able to visit their farm and be able to pet their farm animals and see what farm work is like.</p>
+                    <p>Aside from being in the rural areas, we would go to town and enjoy a nice movie at the movie theatres and have a chance to visit where my cousin went to college.</p>
+                </div>
+            </div>
+        </section>
         <section id="demo"></section>
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>

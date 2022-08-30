@@ -16,6 +16,25 @@ function toggleNav() {
   }
 }
 
+
+function hide() {
+  var z = document.getElementById("hide-section");
+  var overview = document.getElementById("brief");
+  var ar = document.getElementById("arkansas");
+  if(overview.style.display === "none") {
+    z.innerHTML = "Hide";
+    z.classList.remove("button-center");
+    overview.style.display = "block";
+    ar.style.display = "block";
+  }
+  else {
+    z.innerHTML = "Show";
+    z.classList.add("button-center");
+    overview.style.display = "none";
+    ar.style.display = "none";
+  }
+}
+
 var modal = document.getElementById("myModal");
 var notWideImg = document.getElementsByClassName("arkansas-images not-wide");
 var wideImg = document.getElementsByClassName("arkansas-images wide");

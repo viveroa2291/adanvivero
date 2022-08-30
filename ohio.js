@@ -439,10 +439,10 @@ function yearSelected() {
     while(document.getElementById("demo").firstChild) {
       document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
     }
-    sections("cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
-    sections("akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
-    sections("cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
-    sections("Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+    sections("Sandusky (Cedar Point)", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    sections("Akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    sections("Cleveland", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    sections("Cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
   }
 } 
 function yearCollections(year, ySection, yImage, yImageAlt, yDates, yDescription, yTitle, yImageWidth) {
