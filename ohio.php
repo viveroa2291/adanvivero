@@ -63,6 +63,21 @@
             <h2 class="ohio-header">Ohio</h2>
         </section>
         <section class="section-selection">
+            <div class="year">
+                <form action="">
+                    <label for="">Filter by Year</label>
+                    <br>
+                    <select name="missouri-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                        <option value="all">All</option>
+                        <option value="2015">2015</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </form>
+            </div>
+        <div class="ohio-section">
             <form  action="">
                 <label for="">Choose a Section of Utah:  </label>
                 <br>
@@ -74,6 +89,7 @@
                     <option value="Cincinnati">Cincinnati</option>
                 </select>
             </form>
+        </div>
         </section>
         <section id="demo"></section>
         <section class="bottom-section">

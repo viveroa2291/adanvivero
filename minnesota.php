@@ -66,16 +66,31 @@
             <h2 class="minnesota-header">Minnesota</h2>
         </section>
         <section class="section-selection">
-            <form  action="">
-                <label for="">Choose a section of Minnesota:  </label>
-                <br>
-                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
-                    <option value="all">All</option>
-                    <option value="Minneapolis">Minneapolis</option>
-                    <option value="Arcade">Minneapolis Arcade</option>
-                    <option value="Other">Other Minnesota Parts</option>
-                </select>
-            </form> 
+            <div class="year">
+                <form action="">
+                    <label for="">Filter by Year</label>
+                    <br>
+                    <select name="michigan-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                        <option value="all">All</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </form>
+            </div>
+            <div class="minnesota-section">
+                <form  action="">
+                    <label for="">Choose a section of Minnesota:  </label>
+                    <br>
+                    <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                        <option value="all">All</option>
+                        <option value="Minneapolis">Minneapolis</option>
+                        <option value="Arcade">Minneapolis Arcade</option>
+                        <option value="Other">Other Minnesota Parts</option>
+                    </select>
+                </form> 
+            </div>
         </section>
         <section id="demo"></section>
         <section class="bottom-section">

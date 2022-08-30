@@ -233,7 +233,247 @@ function sectionSelected() {
 
   }
 }
+function yearSelected() {
+  var y = document.getElementById("year-selector").value; 
+  if(y =="2015") 
+  {
+    var cedarYear =  yearCollections(y, "cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    var akronYear =  yearCollections(y, "akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    var clevelandYear = yearCollections(y, "cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    var cincinnatiYear = yearCollections(y, "Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
 
+    const yearImages = cedarYear[1];
+    const yearImageAlt = cedarYear[2];
+    const yearDates = cedarYear[3];
+    const yearDescription = cedarYear[4];
+    const yearTitle = cedarYear[5];
+    const yearImageWidth = cedarYear[6];
+
+    yearImages.push(...akronYear[1]);
+    yearImageAlt.push(...akronYear[2]);
+    yearDates.push(...akronYear[3]);
+    yearDescription.push(...akronYear[4]);
+    yearTitle.push(...akronYear[5]);
+    yearImageWidth.push(...akronYear[6]);
+  
+    yearImages.push(...clevelandYear[1]);
+    yearImageAlt.push(...clevelandYear[2]);
+    yearDates.push(...clevelandYear[3]);
+    yearDescription.push(...clevelandYear[4]);
+    yearTitle.push(...clevelandYear[5]);
+    yearImageWidth.push(...clevelandYear[6]);
+
+    yearImages.push(...cincinnatiYear[1]);
+    yearImageAlt.push(...cincinnatiYear[2]);
+    yearDates.push(...cincinnatiYear[3]);
+    yearDescription.push(...cincinnatiYear[4]);
+    yearTitle.push(...cincinnatiYear[5]);
+    yearImageWidth.push(...cincinnatiYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }  
+  yearSections(yearImages, yearImageAlt, yearDates, yearDescription, yearTitle, yearImageWidth); 
+  }
+  else if(y == "2017") 
+  {
+    var cedarYear =  yearCollections(y, "cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    var akronYear =  yearCollections(y, "akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    var clevelandYear = yearCollections(y, "cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    var cincinnatiYear = yearCollections(y, "Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+    const yearImages = cedarYear[1];
+    const yearImageAlt = cedarYear[2];
+    const yearDates = cedarYear[3];
+    const yearDescription = cedarYear[4];
+    const yearTitle = cedarYear[5];
+    const yearImageWidth = cedarYear[6];
+
+    yearImages.push(...akronYear[1]);
+    yearImageAlt.push(...akronYear[2]);
+    yearDates.push(...akronYear[3]);
+    yearDescription.push(...akronYear[4]);
+    yearTitle.push(...akronYear[5]);
+    yearImageWidth.push(...akronYear[6]);
+  
+    yearImages.push(...clevelandYear[1]);
+    yearImageAlt.push(...clevelandYear[2]);
+    yearDates.push(...clevelandYear[3]);
+    yearDescription.push(...clevelandYear[4]);
+    yearTitle.push(...clevelandYear[5]);
+    yearImageWidth.push(...clevelandYear[6]);
+
+    yearImages.push(...cincinnatiYear[1]);
+    yearImageAlt.push(...cincinnatiYear[2]);
+    yearDates.push(...cincinnatiYear[3]);
+    yearDescription.push(...cincinnatiYear[4]);
+    yearTitle.push(...cincinnatiYear[5]);
+    yearImageWidth.push(...cincinnatiYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearImages, yearImageAlt, yearDates, yearDescription, yearTitle, yearImageWidth); 
+  }
+  else if(y == "2018") 
+  {
+    var cedarYear =  yearCollections(y, "cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    var akronYear =  yearCollections(y, "akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    var clevelandYear = yearCollections(y, "cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    var cincinnatiYear = yearCollections(y, "Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+    const yearImages = cedarYear[1];
+    const yearImageAlt = cedarYear[2];
+    const yearDates = cedarYear[3];
+    const yearDescription = cedarYear[4];
+    const yearTitle = cedarYear[5];
+    const yearImageWidth = cedarYear[6];
+
+    yearImages.push(...akronYear[1]);
+    yearImageAlt.push(...akronYear[2]);
+    yearDates.push(...akronYear[3]);
+    yearDescription.push(...akronYear[4]);
+    yearTitle.push(...akronYear[5]);
+    yearImageWidth.push(...akronYear[6]);
+  
+    yearImages.push(...clevelandYear[1]);
+    yearImageAlt.push(...clevelandYear[2]);
+    yearDates.push(...clevelandYear[3]);
+    yearDescription.push(...clevelandYear[4]);
+    yearTitle.push(...clevelandYear[5]);
+    yearImageWidth.push(...clevelandYear[6]);
+
+    yearImages.push(...cincinnatiYear[1]);
+    yearImageAlt.push(...cincinnatiYear[2]);
+    yearDates.push(...cincinnatiYear[3]);
+    yearDescription.push(...cincinnatiYear[4]);
+    yearTitle.push(...cincinnatiYear[5]);
+    yearImageWidth.push(...cincinnatiYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearImages, yearImageAlt, yearDates, yearDescription, yearTitle, yearImageWidth); 
+  }
+  else if(y == "2019") 
+  {
+    var cedarYear =  yearCollections(y, "cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    var akronYear =  yearCollections(y, "akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    var clevelandYear = yearCollections(y, "cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    var cincinnatiYear = yearCollections(y, "Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+    const yearVImages = cedarYear[1];
+    const yearVImageAlt = cedarYear[2];
+    const yearVDates = cedarYear[3];
+    const yearVDescription = cedarYear[4];
+    const yearVTitle = cedarYear[5];
+    const yearVImageWidth = cedarYear[6];
+
+    yearVImages.push(...akronYear[1]);
+    yearVImageAlt.push(...akronYear[2]);
+    yearVDates.push(...akronYear[3]);
+    yearVDescription.push(...akronYear[4]);
+    yearVTitle.push(...akronYear[5]);
+    yearVImageWidth.push(...akronYear[6]);
+  
+    yearVImages.push(...clevelandYear[1]);
+    yearVImageAlt.push(...clevelandYear[2]);
+    yearVDates.push(...clevelandYear[3]);
+    yearVDescription.push(...clevelandYear[4]);
+    yearVTitle.push(...clevelandYear[5]);
+    yearVImageWidth.push(...clevelandYear[6]);
+
+    yearVImages.push(...cincinnatiYear[1]);
+    yearVImageAlt.push(...cincinnatiYear[2]);
+    yearVDates.push(...cincinnatiYear[3]);
+    yearVDescription.push(...cincinnatiYear[4]);
+    yearVTitle.push(...cincinnatiYear[5]);
+    yearVImageWidth.push(...cincinnatiYear[6]);
+  
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "2021") 
+  {
+    var cedarYear =  yearCollections(y, "cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    var akronYear =  yearCollections(y, "akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    var clevelandYear = yearCollections(y, "cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    var cincinnatiYear = yearCollections(y, "Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+
+    const yearVImages = cedarYear[1];
+    const yearVImageAlt = cedarYear[2];
+    const yearVDates = cedarYear[3];
+    const yearVDescription = cedarYear[4];
+    const yearVTitle = cedarYear[5];
+    const yearVImageWidth = cedarYear[6];
+
+    yearVImages.push(...akronYear[1]);
+    yearVImageAlt.push(...akronYear[2]);
+    yearVDates.push(...akronYear[3]);
+    yearVDescription.push(...akronYear[4]);
+    yearVTitle.push(...akronYear[5]);
+    yearVImageWidth.push(...akronYear[6]);
+  
+    yearVImages.push(...clevelandYear[1]);
+    yearVImageAlt.push(...clevelandYear[2]);
+    yearVDates.push(...clevelandYear[3]);
+    yearVDescription.push(...clevelandYear[4]);
+    yearVTitle.push(...clevelandYear[5]);
+    yearVImageWidth.push(...clevelandYear[6]);
+
+    yearVImages.push(...cincinnatiYear[1]);
+    yearVImageAlt.push(...cincinnatiYear[2]);
+    yearVDates.push(...cincinnatiYear[3]);
+    yearVDescription.push(...cincinnatiYear[4]);
+    yearVTitle.push(...cincinnatiYear[5]);
+    yearVImageWidth.push(...cincinnatiYear[6]);
+  
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "all") {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    sections("cedar", cedarImages, cedarImageAlt, cedarDates, cedarDescription, cedarTitle, cedarImageWidth);
+    sections("akron", akronImage, akronImageAlt, akronDates, akronDescription, akronTitle, akronImageWidth);
+    sections("cleveland State University", clevelandImage, clevelandImageAlt, clevelandDates, clevelandDescription, clevelandTitle, clevelandImageWidth);
+    sections("Other Parts of cincinnati", cincinnatiImage, cincinnatiImageAlt, cincinnatiDates, cincinnatiDescription, cincinnatiTitle, cincinnatiImageWidth);
+  }
+} 
+function yearCollections(year, ySection, yImage, yImageAlt, yDates, yDescription, yTitle, yImageWidth) {
+  let str;
+  var sect; 
+  let yCount = 0;
+  const yearImage = [];
+  const yearImageAlt = [];
+  const yearDates = [];
+  const yearDescription = [];
+  const yearTitle = [];
+  const yearImageWidth = [];
+  
+  for(var i = 0; i < yDates.length; i++) {
+    str = yDates[i].substring(yDates[i].length-4);   
+    // area.innerHTML += str + " ";
+    if(str == year) {
+      sect = ySection;
+      yearImage[yCount] = yImage[i];
+      yearImageAlt[yCount] = yImageAlt[i];
+      yearDates[yCount] = yDates[i];
+      yearDescription[yCount] = yDescription[i];
+      yearTitle[yCount] = yTitle[i];
+      yearImageWidth[yCount] = yImageWidth[i];
+      yCount++;
+     
+    }
+    str = "";
+  }
+    return[sect, yearImage, yearImageAlt, yearDates, yearDescription, yearTitle, yearImageWidth];
+  }
 function sections(section, image, imageAlt, dates, description, title, imageWidth) {
   let count = 0.0;
   
@@ -346,7 +586,6 @@ function sections(section, image, imageAlt, dates, description, title, imageWidt
         else {
           count = count + 2.0;
         }
-      
     }
     if(imageWidth[a] === "wide") {
       var element_content = document.createElement("div");
@@ -402,7 +641,165 @@ function sections(section, image, imageAlt, dates, description, title, imageWidt
     modal.style.display = "none";
   }
   }
-
+  function yearSections(image, imageAlt, dates, description, title, imageWidth) {
+    let count = 0.0;
+    var element_div = document.createElement("div");
+    element_div.classList.add('body-images');
+    document.getElementById("demo").appendChild(element_div);
+    
+    var element_image;
+    var element_card;
+    var element_card_body;
+    var element_text;
+    var element_date;
+    var element_date_small;
+    var element_card_body;
+    
+    for(var a = 0; a < image.length; a++) {
+      if(count >= 4.0) {
+        element_div = document.createElement("div");
+        element_div.classList.add('body-images');
+        document.getElementById("demo").appendChild(element_div);
+        count = 0.0;
+      }
+      if(imageWidth[a] === "not-wide") {
+        var element_content = document.createElement("div");
+        element_content.classList.add('card', 'm-5', 'mx-sm-auto', 'not-wide-card');
+        element_div.appendChild(element_content);
+    
+        element_card = document.createElement("div");
+        element_card.classList.add('card-header', 'text-center');
+        element_card.innerHTML = title[a];
+        element_content.appendChild(element_card);
+    
+        element_image = document.createElement("img");
+        element_image.classList.add('ohio-images', 'not-wide');
+        element_image.src = image[a];
+        element_image.alt = imageAlt[a];
+        element_content.appendChild(element_image);
+    
+        element_card_body = document.createElement("div");
+        element_card_body.classList.add('card-body', 'm-1');
+        element_content.append(element_card_body);
+    
+        element_text = document.createElement("p");
+        element_text.classList.add('card-text');
+        element_text.innerHTML = description[a];
+        element_card_body.appendChild(element_text);
+    
+        element_date = document.createElement("p");
+        element_date.classList.add('card-text');
+        element_date_small = document.createElement("small");
+        element_date_small.classList.add('text-muted');
+        element_date_small.innerHTML = dates[a];
+        element_date.appendChild(element_date_small);
+    
+        element_card_body.appendChild(element_date);
+        if((imageWidth[a+1] === "mid-wide" || imageWidth[a+1] === "wide") && count >= 1.5) 
+          {
+            count = count + 4.0;
+          }
+          else {
+             count = count + 1.5;
+          }
+      }
+      if(imageWidth[a] === "mid-wide") {
+        var element_content = document.createElement("div");
+        element_content.classList.add('card', 'm-5', 'mx-sm-auto', 'mid-wide-card');
+        element_div.appendChild(element_content);
+        
+        element_card = document.createElement("div");
+        element_card.classList.add('card-header', 'text-center');
+        element_card.innerHTML = title[a];
+        element_content.appendChild(element_card);
+    
+        element_image = document.createElement("img");
+        element_image.classList.add('ohio-images', 'mid-wide');
+        element_image.src = image[a];
+        element_image.alt = imageAlt[a];
+        element_content.appendChild(element_image);
+    
+        element_card_body = document.createElement("div");
+        element_card_body.classList.add('card-body', 'm-1');
+        element_content.append(element_card_body);
+    
+        element_text = document.createElement("p");
+        element_text.classList.add('card-text');
+        element_text.innerHTML = description[a];
+        element_card_body.appendChild(element_text);
+    
+        element_date = document.createElement("p");
+        element_date.classList.add('card-text');
+        element_date_small = document.createElement("small");
+        element_date_small.classList.add('text-muted');
+        element_date_small.innerHTML = dates[a];
+        element_date.appendChild(element_date_small);
+    
+        element_card_body.appendChild(element_date);
+        if((imageWidth[a+1] === "mid-wide" || imageWidth[a+1] === "wide") && count >= 1.5) 
+        {
+          count = count + 4.0;
+        }
+        else {
+          count = count + 2.0;
+        }
+      }
+      if(imageWidth[a] === "wide") {
+        var element_content = document.createElement("div");
+        element_content.classList.add('card', 'm-5', 'mx-sm-auto', 'wide-card');
+        element_div.appendChild(element_content);
+        
+        element_card = document.createElement("div");
+        element_card.classList.add('card-header', 'text-center');
+        element_card.innerHTML = title[a];
+        element_content.appendChild(element_card);
+    
+        element_image = document.createElement("img");
+        element_image.classList.add('ohio-images', 'wide');
+        element_image.src = image[a];
+        element_image.alt = imageAlt[a];
+        element_content.appendChild(element_image);
+    
+        element_card_body = document.createElement("div");
+        element_card_body.classList.add('card-body', 'm-1');
+        element_content.append(element_card_body);
+    
+        element_text = document.createElement("p");
+        element_text.classList.add('card-text');
+        element_text.innerHTML = description[a];
+        element_card_body.appendChild(element_text);
+    
+        element_date = document.createElement("p");
+        element_date.classList.add('card-text');
+        element_date_small = document.createElement("small");
+        element_date_small.classList.add('text-muted');
+        element_date_small.innerHTML = dates[a];
+        element_date.appendChild(element_date_small);
+    
+        element_card_body.appendChild(element_date);
+        count = count + 4.0;
+      }
+    
+      }
+      function images() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      for(var i = 0; i < img.length; i++)
+      { 
+            img[i].onclick = images;
+      }
+      for(var j = 0; j < img.length; j++)
+      {
+          boxImage[j].onclick = images;
+      }
+      var span = document.getElementsByClassName("close")[0];
+      
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+    }  
   function images(){
     modal.style.display = "block";
     modalImg.src = this.src;

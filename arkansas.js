@@ -135,6 +135,251 @@ function sectionSelected() {
     sections("Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
   }
 }
+
+
+function yearSelected() {
+  var y = document.getElementById("year-selector").value; 
+  if(y =="2012") 
+  {
+    var vandervoortYear =  yearCollections(y, "Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    var ozarkYear =  yearCollections(y, "Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    var hendersonYear = yearCollections(y, "Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    var arkansasYear = yearCollections(y, "Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+
+    const yearVImages = vandervoortYear[1];
+    const yearVImageAlt = vandervoortYear[2];
+    const yearVDates = vandervoortYear[3];
+    const yearVDescription = vandervoortYear[4];
+    const yearVTitle = vandervoortYear[5];
+    const yearVImageWidth = vandervoortYear[6];
+
+    yearVImages.push(...ozarkYear[1]);
+    yearVImageAlt.push(...ozarkYear[2]);
+    yearVDates.push(...ozarkYear[3]);
+    yearVDescription.push(...ozarkYear[4]);
+    yearVTitle.push(...ozarkYear[5]);
+    yearVImageWidth.push(...ozarkYear[6]);
+  
+    yearVImages.push(...hendersonYear[1]);
+    yearVImageAlt.push(...hendersonYear[2]);
+    yearVDates.push(...hendersonYear[3]);
+    yearVDescription.push(...hendersonYear[4]);
+    yearVTitle.push(...hendersonYear[5]);
+    yearVImageWidth.push(...hendersonYear[6]);
+
+    yearVImages.push(...arkansasYear[1]);
+    yearVImageAlt.push(...arkansasYear[2]);
+    yearVDates.push(...arkansasYear[3]);
+    yearVDescription.push(...arkansasYear[4]);
+    yearVTitle.push(...arkansasYear[5]);
+    yearVImageWidth.push(...arkansasYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }  
+   sections("Vandervoort", yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "2015") 
+  {
+    var vandervoortYear =  yearCollections(y, "Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    var ozarkYear =  yearCollections(y, "Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    var hendersonYear = yearCollections(y, "Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    var arkansasYear = yearCollections(y, "Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+
+    const yearVImages = vandervoortYear[1];
+    const yearVImageAlt = vandervoortYear[2];
+    const yearVDates = vandervoortYear[3];
+    const yearVDescription = vandervoortYear[4];
+    const yearVTitle = vandervoortYear[5];
+    const yearVImageWidth = vandervoortYear[6];
+
+    yearVImages.push(...ozarkYear[1]);
+    yearVImageAlt.push(...ozarkYear[2]);
+    yearVDates.push(...ozarkYear[3]);
+    yearVDescription.push(...ozarkYear[4]);
+    yearVTitle.push(...ozarkYear[5]);
+    yearVImageWidth.push(...ozarkYear[6]);
+  
+    yearVImages.push(...hendersonYear[1]);
+    yearVImageAlt.push(...hendersonYear[2]);
+    yearVDates.push(...hendersonYear[3]);
+    yearVDescription.push(...hendersonYear[4]);
+    yearVTitle.push(...hendersonYear[5]);
+    yearVImageWidth.push(...hendersonYear[6]);
+
+    yearVImages.push(...arkansasYear[1]);
+    yearVImageAlt.push(...arkansasYear[2]);
+    yearVDates.push(...arkansasYear[3]);
+    yearVDescription.push(...arkansasYear[4]);
+    yearVTitle.push(...arkansasYear[5]);
+    yearVImageWidth.push(...arkansasYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "2016") 
+  {
+    var vandervoortYear =  yearCollections(y, "Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    var ozarkYear =  yearCollections(y, "Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    var hendersonYear = yearCollections(y, "Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    var arkansasYear = yearCollections(y, "Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+
+    const yearVImages = vandervoortYear[1];
+    const yearVImageAlt = vandervoortYear[2];
+    const yearVDates = vandervoortYear[3];
+    const yearVDescription = vandervoortYear[4];
+    const yearVTitle = vandervoortYear[5];
+    const yearVImageWidth = vandervoortYear[6];
+
+    yearVImages.push(...ozarkYear[1]);
+    yearVImageAlt.push(...ozarkYear[2]);
+    yearVDates.push(...ozarkYear[3]);
+    yearVDescription.push(...ozarkYear[4]);
+    yearVTitle.push(...ozarkYear[5]);
+    yearVImageWidth.push(...ozarkYear[6]);
+  
+    yearVImages.push(...hendersonYear[1]);
+    yearVImageAlt.push(...hendersonYear[2]);
+    yearVDates.push(...hendersonYear[3]);
+    yearVDescription.push(...hendersonYear[4]);
+    yearVTitle.push(...hendersonYear[5]);
+    yearVImageWidth.push(...hendersonYear[6]);
+
+    yearVImages.push(...arkansasYear[1]);
+    yearVImageAlt.push(...arkansasYear[2]);
+    yearVDates.push(...arkansasYear[3]);
+    yearVDescription.push(...arkansasYear[4]);
+    yearVTitle.push(...arkansasYear[5]);
+    yearVImageWidth.push(...arkansasYear[6]);
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "2017") 
+  {
+    var vandervoortYear =  yearCollections(y, "Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    var ozarkYear =  yearCollections(y, "Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    var hendersonYear = yearCollections(y, "Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    var arkansasYear = yearCollections(y, "Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+
+    const yearVImages = vandervoortYear[1];
+    const yearVImageAlt = vandervoortYear[2];
+    const yearVDates = vandervoortYear[3];
+    const yearVDescription = vandervoortYear[4];
+    const yearVTitle = vandervoortYear[5];
+    const yearVImageWidth = vandervoortYear[6];
+
+    yearVImages.push(...ozarkYear[1]);
+    yearVImageAlt.push(...ozarkYear[2]);
+    yearVDates.push(...ozarkYear[3]);
+    yearVDescription.push(...ozarkYear[4]);
+    yearVTitle.push(...ozarkYear[5]);
+    yearVImageWidth.push(...ozarkYear[6]);
+  
+    yearVImages.push(...hendersonYear[1]);
+    yearVImageAlt.push(...hendersonYear[2]);
+    yearVDates.push(...hendersonYear[3]);
+    yearVDescription.push(...hendersonYear[4]);
+    yearVTitle.push(...hendersonYear[5]);
+    yearVImageWidth.push(...hendersonYear[6]);
+
+    yearVImages.push(...arkansasYear[1]);
+    yearVImageAlt.push(...arkansasYear[2]);
+    yearVDates.push(...arkansasYear[3]);
+    yearVDescription.push(...arkansasYear[4]);
+    yearVTitle.push(...arkansasYear[5]);
+    yearVImageWidth.push(...arkansasYear[6]);
+  
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "2020") {
+    var vandervoortYear =  yearCollections(y, "Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    var ozarkYear =  yearCollections(y, "Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    var hendersonYear = yearCollections(y, "Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    var arkansasYear = yearCollections(y, "Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+
+    const yearVImages = vandervoortYear[1];
+    const yearVImageAlt = vandervoortYear[2];
+    const yearVDates = vandervoortYear[3];
+    const yearVDescription = vandervoortYear[4];
+    const yearVTitle = vandervoortYear[5];
+    const yearVImageWidth = vandervoortYear[6];
+
+    yearVImages.push(...ozarkYear[1]);
+    yearVImageAlt.push(...ozarkYear[2]);
+    yearVDates.push(...ozarkYear[3]);
+    yearVDescription.push(...ozarkYear[4]);
+    yearVTitle.push(...ozarkYear[5]);
+    yearVImageWidth.push(...ozarkYear[6]);
+  
+    yearVImages.push(...hendersonYear[1]);
+    yearVImageAlt.push(...hendersonYear[2]);
+    yearVDates.push(...hendersonYear[3]);
+    yearVDescription.push(...hendersonYear[4]);
+    yearVTitle.push(...hendersonYear[5]);
+    yearVImageWidth.push(...hendersonYear[6]);
+
+    yearVImages.push(...arkansasYear[1]);
+    yearVImageAlt.push(...arkansasYear[2]);
+    yearVDates.push(...arkansasYear[3]);
+    yearVDescription.push(...arkansasYear[4]);
+    yearVTitle.push(...arkansasYear[5]);
+    yearVImageWidth.push(...arkansasYear[6]);
+    
+
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    } 
+    yearSections(yearVImages, yearVImageAlt, yearVDates, yearVDescription, yearVTitle, yearVImageWidth); 
+  }
+  else if(y == "all") {
+    while(document.getElementById("demo").firstChild) {
+      document.getElementById("demo").removeChild(document.getElementById("demo").firstChild);
+    }
+    sections("Vandervoort", vandervoortImages, vandervoortImagesAlt, vandervoortDates, vandervoortDescription, vandervoortTitle, vandervoortImageWidth);
+    sections("Ozark", ozarkImages, ozarkImagesAlt, ozarkDates, ozarkDescription, ozarkTitle, ozarkImageWidth);
+    sections("Henderson State University", hendersonImages, hendersonImagesAlt, hendersonDates, hendersonDescription, hendersonTitle, hendersonImageWidth);
+    sections("Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
+  }
+}
+var area = document.getElementById("about");
+function yearCollections(year, ySection, yImage, yImageAlt, yDates, yDescription, yTitle, yImageWidth) {
+let str;
+var sect; 
+let yCount = 0;
+const yearImage = [];
+const yearImageAlt = [];
+const yearDates = [];
+const yearDescription = [];
+const yearTitle = [];
+const yearImageWidth = [];
+
+for(var i = 0; i < yDates.length; i++) {
+  str = yDates[i].substring(yDates[i].length-4);   
+  // area.innerHTML += str + " ";
+  if(str == year) {
+    sect = ySection;
+    yearImage[yCount] = yImage[i];
+    yearImageAlt[yCount] = yImageAlt[i];
+    yearDates[yCount] = yDates[i];
+    yearDescription[yCount] = yDescription[i];
+    yearTitle[yCount] = yTitle[i];
+    yearImageWidth[yCount] = yImageWidth[i];
+    yCount++;
+   
+  }
+  str = "";
+}
+  return[sect, yearImage, yearImageAlt, yearDates, yearDescription, yearTitle, yearImageWidth];
+}
 function sections(section, image, imageAlt, dates, description, title, imageWidth) {
 let count = 0.0;
 
@@ -262,7 +507,127 @@ for (var b = 0; b < image.length; b++) {
   span.onclick = function() { 
     modal.style.display = "none";
   }
-}  
+}
+function yearSections(image, imageAlt, dates, description, title, imageWidth) {
+  let count = 0.0;
+ 
+  var element_div_element = document.createElement("div");
+  element_div_element.classList.add('body-images');
+  document.getElementById("demo").appendChild(element_div_element);
+  
+  var element_image_element;
+  var element_card_element;
+  var element_card_body_element;
+  var element_card_text;
+  var element_card_date;
+  var element_card_date_small;
+  var element_card_body_element;
+  count = 0.0;
+  for (var b = 0; b < image.length; b++) {
+    if(count >= 4.0) {
+      element_div_element = document.createElement("div");
+      element_div_element.classList.add('body-images');
+      document.getElementById("demo").appendChild(element_div_element);
+      count = 0.0;
+    }
+      if(imageWidth[b] != "wide") {
+        var element_content_element = document.createElement("div");
+        element_content_element.classList.add('card', 'm-5', 'mx-sm-auto', 'not-wide-card');
+        element_div_element.appendChild(element_content_element);
+        
+  
+        element_card_element = document.createElement("div");
+        element_card_element.classList.add('card-header', 'text-center');
+        element_card_element.innerHTML = title[b];
+        element_content_element.appendChild(element_card_element);
+  
+        element_image_element = document.createElement("img");
+        element_image_element.classList.add('arkansas-images', 'not-wide');
+        element_image_element.src = image[b];
+        element_image_element.alt = imageAlt[b];
+        element_content_element.appendChild(element_image_element);
+  
+        element_card_body_element = document.createElement("div");
+        element_card_body_element.classList.add('card-body', 'm-1');
+        element_content_element.append(element_card_body_element);
+  
+        element_card_text = document.createElement("p");
+        element_card_text.classList.add('card-text');
+        element_card_text.innerHTML = description[b];
+        element_card_body_element.appendChild(element_card_text);
+  
+        element_card_date = document.createElement("p");
+        element_card_date.classList.add('card-text');
+        element_card_date_small = document.createElement("small");
+        element_card_date_small.classList.add('text-muted');
+        element_card_date_small.innerHTML = dates[b];
+        element_card_date.appendChild(element_card_date_small);
+  
+        element_card_body_element.appendChild(element_card_date);
+        if((imageWidth[b+1] === "wide" || imageWidth[b+1] === "ultra-wide") && count >= 1.5) 
+        {
+          count = count + 4.0;
+        }
+        else {
+           count = count + 1.5;
+        }
+      }
+      if(imageWidth[b] === "wide") {
+        var element_content_element = document.createElement("div");
+        element_content_element.classList.add('card', 'm-5', 'mx-sm-auto', 'wide-card');
+        element_div_element.appendChild(element_content_element);
+        
+  
+        element_card_element = document.createElement("div");
+        element_card_element.classList.add('card-header', 'text-center');
+        element_card_element.innerHTML = title[b];
+        element_content_element.appendChild(element_card_element);
+  
+        element_image_element = document.createElement("img");
+        element_image_element.classList.add('arkansas-images', 'wide');
+        element_image_element.src = image[b];
+        element_image_element.alt = imageAlt[b];
+        element_content_element.appendChild(element_image_element);
+  
+        element_card_body_element = document.createElement("div");
+        element_card_body_element.classList.add('card-body', 'm-1');
+        element_content_element.append(element_card_body_element);
+  
+        element_card_text = document.createElement("p");
+        element_card_text.classList.add('card-text');
+        element_card_text.innerHTML = description[b];
+        element_card_body_element.appendChild(element_card_text);
+  
+        element_card_date = document.createElement("p");
+        element_card_date.classList.add('card-text');
+        element_card_date_small = document.createElement("small");
+        element_card_date_small.classList.add('text-muted');
+        element_card_date_small.innerHTML = dates[b];
+        element_card_date.appendChild(element_card_date_small);
+  
+        element_card_body_element.appendChild(element_card_date);
+        count = count + 2.0; 
+    }   
+    }
+    function images() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    for(var i = 0; i < img.length; i++)
+    { 
+          img[i].onclick = images;
+    }
+    for(var j = 0; j < img.length; j++)
+    {
+        boxImage[j].onclick = images;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  }  
 // This block of code is when an image is clicked, it expands the image. 
 function images() {
   modal.style.display = "block";

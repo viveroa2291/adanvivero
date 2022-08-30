@@ -157,11 +157,21 @@ div.modal {
 }
 .section-selection {
   display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+  flex-direction: row;
 }
 .area-selector {
   text-align: center;
+}
+.year {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.arkansas-section {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
 }
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 

@@ -116,8 +116,7 @@ div.modal {
   }
   .section-selection {
     display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+    flex-direction: row;
   }
   .area-selector {
     text-align: center;
@@ -135,6 +134,17 @@ div.modal {
 }
 .top a:hover {
     text-decoration: none;
+}
+.year {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.minnesota-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
 }
 .modal-content, #caption, .row{  
     -webkit-animation-name: zoom;

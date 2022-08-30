@@ -131,14 +131,24 @@ div.modal {
 }
 .section-selection {
     display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  .area-selector {
+    flex-direction: row;
+}
+.area-selector {
     text-align: center;
     display: flex;
     justify-content: center;
-  }
+}
+.year {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.missouri-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
 .modal-content, #caption, .row{  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;

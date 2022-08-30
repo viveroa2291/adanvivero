@@ -66,18 +66,35 @@
             <h2 class="arkansas-header">Arkansas</h2>
         </section>
         <section class="section-selection">
-            <form  action="">
-                <label for="">Choose a section of Arkansas:  </label>
-                <br>
-                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
-                    <option value="all">All</option>
-                    <option value="Vandervoort">Vandervoort</option>
-                    <option value="Ozark">Ozark</option>
-                    <option value="Henderson">Henderson State University</option>
-                    <option value="Other">Other</option>
-                </select>
-            </form>
+            <div class="year">
+                <form action="">
+                    <label for="">Filter by Year</label>
+                    <br>
+                    <select name="arkansas-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                        <option value="all">All</option>
+                        <option value="2012">2012</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </form>
+            </div>
+            <div class="arkansas-section">
+                <form  action="">
+                    <label for="">Choose a section of Arkansas:  </label>
+                    <br>
+                    <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                        <option value="all">All</option>
+                        <option value="Vandervoort">Vandervoort</option>
+                        <option value="Ozark">Ozark</option>
+                        <option value="Henderson">Henderson State University</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </form>
+            </div>
         </section>
+        <section id="about"></section>
         <section id="demo"></section>
         <section class="bottom-section">
             <span><a class="previous-state" href="wisconsin.php">&#60;</a></span>

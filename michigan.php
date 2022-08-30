@@ -66,17 +66,32 @@
             <h2 class="michigan-header">Michigan</h2>
         </section>
         <section class="section-selection">
-            <form  action="">
-                <label for="">Choose a Section of Michigan:  </label>
-                <br>
-                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
-                    <option value="all">All</option>
-                    <option value="Sawyer">Sawyer</option>
-                    <option value="Lakehouse">Lakehouse</option>
-                    <option value="Wakefield">Wakefield</option>
-                    <option value="Detroit">Detroit</option>
-                </select>
-            </form>
+            <div class="year">
+                <form action="">
+                    <label for="">Filter by Year</label>
+                    <br>
+                    <select name="michigan-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                        <option value="all">All</option>
+                        <option value="2013">2013</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </form>
+            </div>
+            <div class="michigan-section">
+                <form  action="">
+                    <label for="">Choose a Section of Michigan:  </label>
+                    <br>
+                    <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                        <option value="all">All</option>
+                        <option value="Sawyer">Sawyer</option>
+                        <option value="Lakehouse">Lakehouse</option>
+                        <option value="Wakefield">Wakefield</option>
+                        <option value="Detroit">Detroit</option>
+                    </select>
+                </form>
+            </div>
         </section>
         <section id="demo"></section>
         <section class="bottom-section">

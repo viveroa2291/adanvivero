@@ -138,14 +138,25 @@ div.modal {
 }
 .section-selection {
     display: flex;
-    justify-content: center;
+    flex-direction: center;
     margin-top: 1rem;
   }
-  .area-selector {
+.area-selector {
     text-align: center;
     display: flex;
-    justify-content: center;
-  }
+    justify-content: row;
+}
+.year {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.michigan-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
@@ -164,7 +175,6 @@ div.modal {
     font-weight: bold;
     transition: 0.3s;
 }
-  
 .close:hover, .close:focus {
     color: #bbb;
     text-decoration: none;

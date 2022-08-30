@@ -66,15 +66,28 @@
             <h2 class="missouri-header">Missouri</h2>
         </section>
         <section class="section-selection">
-            <form  action="">
-                <label for="">Choose a Section of Michigan:  </label>
-                <br>
-                <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
-                    <option value="all">All</option>
-                    <option value="Mizzou">University of Missouri</option>
-                    <option value="Eldon">Eldon Caves</option>
-                </select>
-            </form>
+            <div class="year">
+                <form action="">
+                    <label for="">Filter by Year</label>
+                    <br>
+                    <select name="missouri-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                        <option value="all">All</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </form>
+            </div>
+            <div class="missouri-section">
+                <form  action="">
+                    <label for="">Choose a Section of Michigan:  </label>
+                    <br>
+                    <select name="arkansas-areas" class="area-selector" id="area-selector" onchange="sectionSelected()">
+                        <option value="all">All</option>
+                        <option value="Mizzou">University of Missouri</option>
+                        <option value="Eldon">Eldon Caves</option>
+                    </select>
+                </form>
+            </div>
         </section>
         <section id="demo"> </section>
         <section class="bottom-section">

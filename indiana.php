@@ -64,6 +64,18 @@
         <section class="indiana-top-section" id="top">
             <h2 class="indiana-header">Indiana</h2>
         </section>
+        <section class="section-selection">
+            <form action="">
+                <label for="">Filter by Year</label>
+                <br>
+                <select name="arkansas-years" class="year-selector" id="year-selector" onchange="yearSelected()">
+                    <option value="all">All</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2022">2022</option>
+                </select>
+            </form>
+        </section>
         <section id="demo"></section>
         <section class="bottom-section">
             <span><a class="previous-state" href="illinois.php">&#60;</a></span>
