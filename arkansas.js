@@ -16,7 +16,6 @@ function toggleNav() {
   }
 }
 
-
 function hide() {
   var z = document.getElementById("hide-section");
   var overview = document.getElementById("brief");
@@ -154,7 +153,6 @@ function sectionSelected() {
     sections("Other Parts of Arkansas", arkansasImages, arkansasImageAlt, arkansasDates, arkansasDescription, arkansasTitle, arkansasImageWidth);
   }
 }
-
 
 function yearSelected() {
   var y = document.getElementById("year-selector").value; 

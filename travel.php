@@ -99,7 +99,7 @@
          </section> 
 
          <section class="florida-section under">
-            <img src="states-images/florida-images/seaworld-green2.jpeg" class="states-images" alt="">
+            <img src="states-images/florida-images/seaworld-green2.jpeg" class="florida-image" alt="">
             <span>
                <a href="florida.php" class="florida-link">Florida</a>
                <hr class="state-hr">
@@ -187,7 +187,7 @@
          </section>
 
          <section class="ohio-section under">
-            <img src="states-images/ohio-images/beach-view.jpeg" class="states-images" alt="">
+            <img src="states-images/ohio-images/beach-view.jpeg" class="ohio-image" alt="">
             <span>
                <a href="ohio.php" class="ohio-link">Ohio</a>
                <hr class="state-hr">
@@ -203,7 +203,17 @@
          </section>
 
          <section class="south-dakota-section under">
-            <h3>South Dakota</h3>
+            <img src="states-images/south-dakota-images/heads-eagle.jpeg" class="states-images" alt="">
+            <span>
+               <a href="south-dakota.php" class="south-dakota-link">South Dakota</a>
+               <hr class="state-hr">
+               <p class="south-dakota-description">Check out my South Dakota travel page and the places that I visited which include:</p>
+               <ul>
+                  <li>Mount Rushmore</li>
+                  <li>Downtown Rapid City</li>
+                  <li>Custer State Park</li>
+               </ul>
+            </span>
          </section>
 
          <section class="tennessee-section under">
@@ -219,7 +229,7 @@
          </section>
 
          <section class="texas-section under">
-            <img src="states-images/texas-images/san-antonio.jpeg" class="states-images" alt="">
+            <img src="states-images/texas-images/san-antonio.jpeg" class="texas-image" alt="">
             <span>
                <a href="texas.php" class="texas-link">Texas</a>
                <hr class="state-hr">
@@ -427,7 +437,7 @@
   <path inkscape:connector-curvature="0" class="SD" id="SD" data-name="South Dakota" data-id="SD"
      d="m 566.89455,135.57949 -16.40367,0.48532 -39.50469,0.29119 -42.80484,-1.16476 -3.78546,-0.19413 -0.0971,2.23246 -0.38825,8.83274 -0.29119,6.69736 -0.0971,1.35888 -0.29119,0 -0.0971,2.52364 -0.97063,20.38326 -0.7765,15.14184 -0.0971,2.62071 2.9119,0.0971 32.90439,1.06769 27.85712,0.29119 19.12143,-0.19412 6.11498,3.88252 5.14435,-1.45594 3.39721,0.0971 10.57988,3.10602 3.00895,3.00895 1.8442,0.19413 0,-0.67944 -2.13539,-3.20308 1.35889,-5.14435 -1.65008,-10.77401 2.03833,-0.0971 -0.19413,-4.4649 -4.85315,-34.16622 -2.52364,-4.27078 3.88252,-6.40616 0.0971,-0.29119 -3.30014,0.19412 z"
      style="stroke-width:0.97063118000000004;"/>
-     <text class="south-dakota" x="505" y="175">SD</text>
+     <a href="south-dakota.php"><text class="south-dakota" x="505" y="175">SD</text></a>
   <path
      inkscape:connector-curvature="0"
      id="LA"
