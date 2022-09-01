@@ -1,5 +1,4 @@
 <?php session_start();
-
     $connect = mysqli_connect('localhost', 'root', '', 'Home');
 
     $name = isset($_POST['name']) ? $_POST['name'] : '';
@@ -90,7 +89,7 @@
                             <?php
                                 if (isset($_SESSION["useruid"])) {
                                     echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>";
-                                    echo "<a class='nav-link text-white top-link logout' href='logout.inc.php'>Log Out</a>";
+                                    echo "<a class='nav-link text-white top-link logout' href='includes/logout.inc.php'>Log Out</a>";
                                 }
                                 else {
                                     echo "<a class='nav-link text-white top-link signup' href='signup.php'>Sign Up</a>";
@@ -103,7 +102,7 @@
                 </div>
             </div>
         </nav>
-        <?php
+        <?php session_start();
             if(isset($_SESSION["useruid"])) {
                 echo "<p>Hello there " . $_SESSION["useruid"] . "</p>";
             }

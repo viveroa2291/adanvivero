@@ -45,10 +45,10 @@ a.top-link:hover:before {
 .projects {
     margin-left: 20.5rem;
 }
-.login {
+.login, .profile {
     right: 5rem;
 }
-.signup {
+.signup, .logout {
     right: 0;
 }
 .slash {

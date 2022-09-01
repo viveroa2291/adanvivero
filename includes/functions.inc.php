@@ -46,7 +46,7 @@ function pwdMatch($pwd, $pwdRepeat) {
     return $result;
 }
 function uidExists($conn, $username, $email) {
-    $sql = "SELECT * FROM usersProfiles WHERE userUid = ? OR usersEmail = ?;";
+    $sql = "SELECT * FROM usersProfiles WHERE usersUid = ? OR usersEmail = ?;";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../signup.php?error=stmtfailed");
@@ -106,11 +106,11 @@ function loginUser($conn, $username, $pwd) {
      $pwdHashed = $uidExists["usersPwd"];
      $checkPwd = password_verify($pwd, $pwdHashed);
 
-     if($checkPwd === false) {
+    if($checkPwd === false) {
         header("location: ../login.php?error=wronglogin");
         exit();
      }
-     else if ($checkedPwd === true) {
+     else if ($checkPwd === true) {
          session_start();
          $_SESSION["userid"] = $uidExists["usersId"];
          $_SESSION["useruid"] = $uidExists["usersUid"];

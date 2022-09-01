@@ -1,6 +1,6 @@
 <?php 
 
-if (isset($_POST["submit"])) {
+if(isset($_POST["submit"])) {
     $username = $_POST["uid"];
     $pwd = $_POST["pwd"];
 
@@ -16,5 +16,5 @@ if (isset($_POST["submit"])) {
 }
 else {
     header("location: ../index.php");
-    exit(); 
+    exit();
 }
