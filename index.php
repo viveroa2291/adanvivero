@@ -109,19 +109,64 @@
         ?>
     </header>
     <main>
-        <div class="containers">
-            <section class="left-side">
-                <div class="left-details">
-                    <h2 class="helloWorld">Guide</h2>
-                    <hr></hr>
-                    <p class="left-side-description">This website was created by me using HTML, CSS, Javascript, and PHP where it provides information about myself for you guys to get to know a little bit about me and where I come from along with my interests.</p>
-                    <p class="left-side-description">The page that you are currently on is the <a href="index.php" class="home-links">Home</a> page where it serves as a guide and provides a concise timeline of my life and my most memorable moments on the right. The center provides a glimpse and insight of what the website is about.</p>
-                    <p class="left-side-description">Down below on the footer are a variety of links that include links to my social media and links that can also be found on the top navigation. I plan to include a spanish version on the footer where it can provide a Spanish version of the site to expand beyond realms.</p>
-                    <p class="left-side-description">You can also find a more in depth link to my social media and to get in further contact with me on the on the <a class="home-links" href="contact.php">Contact</a> link.</p>
-                    <p class="left-side-description">On the top and bottom navigation bar you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="travel.php" class="home-links">Travel</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>
+        <section class="index-top-section">
+            <h2 class="index-header">Welcome</h2>
+        </section>
+        <section class="welcome">
+            <div class="welcome-header">
+                <h2>Welcome To My Website</h2>
+                <hr class="header-hr">
+            </div>
+            <div class="index-welcome">
+                <p>Big welcome to my website. My plans for this website keeps changing the more I put on here. Initially, I thought about making a website all about me, but as I was doing that, I was thinking about expanding it to others. In doing so, I think I have to split it up into a different project to not lose the sole purpose of what this website was intended to be, which is a portfolio site.</p>
+                <p>That being said, this is the <a class='home-links' href='index.php'>Home</a> page with a <b><a href="#guide" class="home-links">Guide</a></b> down below this section. The <b><a href="#guide" class="home-links">Guide</a></b> provides an overview about the website of a concise details of each webpage is. </p>
+            </div> 
+        </section>
+        <section class="guide" id="guide">
+            <div class="guide-header">
+                <h3>Guide</h3>
+                <hr class="header-hr">
+            </div>
+            <div class="index-guide">
+                <p class="left-side-description">This website was created by me using HTML, CSS, Javascript, and PHP where it provides information about myself for you guys to get to know a little bit about me and where I come from along with my interests.</p>
+                <p class="left-side-description">The page that you are currently on is the <a href="index.php" class="home-links">Home</a> page where it serves as a guide and provides a concise timeline of my life and my most memorable moments.</p>
+                <p class="left-side-description">On the top and bottom navigation bar you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="travel.php" class="home-links">Travel</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>                
+                <p class="left-side-description">On the other hand, the <b>Timeline</b> is a display of my achievements throughout my life.</p>  
+                <p class="left-side-description">I created a comment section where you can leave a comment if you wish to do so.</p>
+                <p class="left-side-description">Down below on the <b><a href="#footer" class="top-links">Footer</a></b> are a variety of links that include links to my social media and links that can also be found on the top navigation. I plan to include a Spanish translation on this site where everything can be translated into Spanish.</p>
+            </div>
+        </section>
+        <section class="main-side">
+            <div class="sites-header">
+                <h3>Check out the other pages</h3>
+                <hr class="header-hr">
+            </div>
+            <div class="main-details">
+                <div class="previous-area">
+                    <button id="previous-button">&#8249;</button> 
                 </div>
+                <div class="middle-area">                        
+                    <a href="" class="header" id="header"></a>
+                    <img src="" class="main-image" id="main-image" alt="main-picture">
+                    <hr>
+                </div>
+                <div class="next-area">
+                    <button id="next-button">&#8250;</button>
+                </div>
+            </div> 
+                <p id="descriptionBody" class="description-body"></p>
+                <div class="dots-wrapper">
+                    <span class="dot" onclick="dots(0)"></span>
+                    <span class="dot" onclick="dots(1)"></span>
+                    <span class="dot" onclick="dots(2)"></span>
+                    <span class="dot" onclick="dots(3)"></span>
+                    <span class="dot" onclick="dots(4)"></span>
+                    <span class="dot" onclick="dots(5)"></span>
+                </div>
+         </section>
+         <section class="comment-section">
                 <div class="left-details">
-                    <h4 class="helloWorld">Leave a comment</h4>
+                    <h4 class="helloWorld">Drop a Comment</h4>
                     <hr>
                     <form method="post">
                         <label for="name">Enter Name: </label> <?php echo '<b style="color: red;">'.$name_error; echo '</b>' ?>
@@ -130,48 +175,11 @@
                         
                         <label for="comment">Comment: </label> <?php echo '<b style="color: red;">'.$comment_error; echo '</b >' ?>
                         <br>
-                        <textarea class="comment-section" name="comment" id="" cols="30" rows="10" <?php echo $comment; ?>></textarea>
+                        <textarea class="comments" name="comment" id="" cols="50" rows="10" <?php echo $comment; ?>></textarea>
                         
                         <br>
                         <input class="submit-button" type="submit" value="Submit">
                     </form>
-                </div>
-            </section>
-            <section class="main-side">
-                    <div class="main-details">
-                        <div class="previous-area">
-                            <button id="previous-button">&#8249;</button> 
-                        </div>
-                        <div class="middle-area">                        
-                            <a href="" class="header" id="header"></a>
-                            <img src="" class="main-image" id="main-image" alt="main-picture">
-                            <hr>
-                        </div>
-                        <div class="next-area">
-                            <button id="next-button">&#8250;</button>
-                        </div>
-                    </div> 
-                    <p id="descriptionBody" class="description-body"></p>
-                    <div class="dots-wrapper">
-                        <span class="dot" onclick="dots(0)"></span>
-                        <span class="dot" onclick="dots(1)"></span>
-                        <span class="dot" onclick="dots(2)"></span>
-                        <span class="dot" onclick="dots(3)"></span>
-                        <span class="dot" onclick="dots(4)"></span>
-                        <span class="dot" onclick="dots(5)"></span>
-                    </div>
-            </section>
-            <section class="right-side">
-                <div class="right-details">
-                    <h3 class="timeline">Timeline</h3>
-                    <hr></hr>
-                    <h4 class="timeline-header">May 2022 <br> <p class="timeline-under-header">University of Wisconsin-Eau Claire</p></h4>
-                    <img class="timeline-images" src="images/graduation.jpeg" alt="University of Wisconsin-Eau Claire graduation picture">
-                    <p class="timeline-description">Graduated from the University of Wisconsin of Eau Claire with a Bachelors of Science with a Degree in Computer Science. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
-                    <h4 class="timeline-header">June 2016 <br> <p class="timeline-under-header">Prospect High School</p></h4>
-                    <img class="prospect-image" src="images/prospect.jpeg" alt="Prospect High School graduation picture">
-                    <p class="timeline-description">Graduated from Prospect High School with a 2.78 GPA. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
-                    <p class="timeline-description">On the top navigation bar, you can find the <a href="about.php" class="home-links">About</a>, <a href="story.php" class="home-links">Story</a>, <a href="contact.php" class="home-links">Contact</a>, and <a href="projects.php" class="home-links">Projects</a> links.</p>
                 </div>
                 <div class="right-details">
                     <h3 class="timeline">Comment Section</h3>
@@ -191,7 +199,14 @@
                         }
                     ?>
                 </div>
-            </section>
+         </section>
+        
+       <div class="index-welcome">
+                 <h3 class="timeline">About</h3>
+                    <hr class="header-hr">
+                    <h4 class="timeline-header">May 2022 <br> <p class="timeline-under-header">University of Wisconsin-Eau Claire</p></h4>
+                    <img class="timeline-images" src="images/graduation.jpeg" alt="University of Wisconsin-Eau Claire graduation picture">
+                    <p class="timeline-description">Graduated from the University of Wisconsin of Eau Claire with a Bachelors of Science with a Degree in Computer Science. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
         </div>
     </main>
     <?php 

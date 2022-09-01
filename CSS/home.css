@@ -1,12 +1,57 @@
 main {
   background-color: white;
 }
-.containers {
-  display: flex;
-  flex-direction: row;
+.index-top-section {
+  background-image: url(states-images/south-dakota-images/custer-me.jpeg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.left-side{
-    width: 20%;
+.index-header {
+  line-height: 750px;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  animation: color-change 30s infinite;
+}
+.header-hr {
+  width: 25%;
+}   
+.guide {
+  padding-top: 1.5rem;
+}
+.welcome {
+  background-color: #c1c1c1;
+  font-family: 'Times New Roman', Times, serif;
+}
+.welcome-header {
+  padding-top: 2rem;
+  text-align: center;
+}
+.guide-header {
+  text-align: center;
+}
+.index-welcome {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-bottom: 2rem;
+  font-size: 16px;
+}
+.index-guide {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-bottom: 1.5rem;
+}
+.comment-section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  width: 50%;
 }
 .left-details{
     border: solid black 1px;
@@ -18,20 +63,17 @@ main {
   font-size: 14px;
 }
 .main-side{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   /* align-self: center; */
-   margin-top: 1rem;
-    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 } 
 .main-details {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-}
-.right-side {
-  width: 25%;
 }
 .right-details {
   border: solid black 1px;
@@ -43,7 +85,12 @@ main {
   text-align: left;
   color: #20d0fc;
 }
-.comment {
+.comments {
+  /*
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  */
   font-size: 12px;
 }
 .date {
@@ -142,19 +189,20 @@ a.home-links:hover {
     cursor: pointer;
   }
 .dots-wrapper {
-
+  display: flex;
   text-align: center;
   /* transform: translateX(-50%); */
-  display: flex;
 }
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 22px 22px;
+  margin: 22px;
   background-color: #bbb;
   border-radius: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   transition: background-color 0.3s ease;
 }
 .active, .dot:hover {
@@ -165,4 +213,21 @@ a.home-links:hover {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
+}
+@keyframes color-change {
+  0% {
+      color: white;
+  }
+  25% {
+      color: brown;
+  }
+  50% {
+      color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: white;
+  }
 }

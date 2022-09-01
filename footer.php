@@ -1,4 +1,4 @@
-<footer class="navbar navbar-dark bg-dark bottom-footer"> 
+<footer class="navbar navbar-dark bg-dark bottom-footer" id="footer"> 
     <div class="bottom-links">
         <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook footer-links facebook"></a>
         <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram footer-links instagram"></a>
