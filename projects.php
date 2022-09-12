@@ -84,7 +84,9 @@
             ?>
             </select>
         </div>
-        <a href="https://viveroa2291.github.io/Cancun/home.html">This is my Cancun Page</a>
+        <a href="https://viveroa2291.github.io/Cancun/home.html" target="_blank">This is my Cancun Page</a>
+        <br>
+        <a href="https://viveroa2291.github.io/adansLinkTree/" target="_blank">This is my Linktree Page</a>
     </main>
     <?php 
         include_once 'footer.php';

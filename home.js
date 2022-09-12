@@ -19,26 +19,32 @@ const nextButton = document.getElementById('next-button'); // The next button
 const headerDiv = document.getElementById('header');
 const descriptionDiv = document.getElementById('descriptionBody');
 const dot = document.getElementsByClassName('dot');
-const images = document.getElementById('main-image');
+var images = document.getElementById('main-image');
 
-const headerTitles = ["Welcome", "About", "Contact", "Story", "Travel", "Projects"];
-const headerDescritpions = ["Welcome to my website. <br> This is the <a class='home-links' href='index.php'>Home</a> page where there is a <b>Guide</b> on the left and a <b>Timeline</b> on the right. <br> The <b>Guide</b> provides an overview about the website of a concise details of each webpage is. <br> On the other hand, the <b>Timeline</b> is a display of my achievements throughout my life. <br> Down below is a footer with my social media accounts and can translate the page into <b>Spanish</b> if you wish to do so. <br> You can click through the arrows or the dots below to see what each page is about in a brief statement.",
-"In the <a class='home-links' href='about.php'>About</a> page, it dives into further detail of my life, where you can read about me and my upbringings. <br> It talks about my upbringings, who I am, my interests, my involvements, and a timeline of my life. <br> It can be reference as a biography.", 
-"In the <a class='home-links' href='contact.php'>Contact</a> page, it provides my social media platforms that can also be found in the footer. <br> The only difference is that you can see my usernames versus just having it linked.", 
-"In the <a class='home-links' href='story.php'>Story</a> page, it provides an overview of my story as a programmer and what the hardships that I endured in programming. <br> It also provides an overview of what I have been working on <br> and an in depth about me.", 
-"In the <a class='home-links' href='travel.php'>Travel</a> page, it will show images of my places that I have traveled and some stories. <br> Important to point out, I enjoy traveling a lot and visiting different locations.", 
+const headerTitles = ["Welcome Page", "About", "Contact", "Story", "Travel", "Projects"];
+const headerDescritpions = ["This is the <a class='home-links' href='index.php'>Home</a> page. Feel free to leave a commment down below. <br> <br> Down below is a footer with my social media accounts and will add a feature in the future to translate the page into <b>Spanish</b>. <br> <br>You can click through the arrows or the dots below to see what each page is about.",
+"I enjoy programming a lot. In particular, I enjoy web and app development. <br> <br> Aside from programming, I enjoy working out, running, traveling, and market watches. <br> <br>Check out the <a class='home-links' href='about.php'>About</a> page to read more about me.", 
+"Reach out to me on the <a class='home-links' href='contact.php'>Contact</a> page. <br> <br> It provides my social media platforms that can also be found in the footer.", 
+"The <a class='home-links' href='story.php'>Story</a> page is intended to be a page about me.", 
+"In the <a class='home-links' href='travel.php'>Travel</a> page, it will show images of my places that I have traveled and some descriptions. <br> <br> Important to point out, I enjoy traveling a lot and visiting different locations.", 
 "In the <a class='home-links' href='projects.php'>Projects</a> page, it will provide projects that I have been working on <br> and what I plan on working on in the future. <br> I enjoy working on projects of my own in my free time."];
 const linkTitles = ["index.php", "about.php", "contact.php", "story.php", "travel.php", "projects.php"];
 const imageSource = ["images/doorCounty.jpeg", "images/doorCountyBoat.jpeg", "home-images/dock.jpeg", "images/schofieldHall.jpeg","home-images/moab.jpeg", "home-images/projects.jpeg"];
+const imageWidth = ["not-wide", "not-wide", "not-wide", "wide", "not-wide", "not-wide"]
 let s = 0;
 
 function advance(delta) {
+    images.classList.remove("wide");
     var i;
     s = (s + delta + headerTitles.length) % headerTitles.length;
+    
     descriptionDiv.innerHTML = headerDescritpions[s];
     headerDiv.innerHTML = headerTitles[s];
     headerDiv.setAttribute("href", linkTitles[s]);
     images.src = imageSource[s];
+    if(imageWidth[s] == "wide") {
+        images.classList.add("wide");
+    }
     dot[s].className += " active"; 
     for(i = 0; i < s; ++i)
     {

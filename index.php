@@ -1,38 +1,77 @@
 <?php session_start();
     $connect = mysqli_connect('localhost', 'root', '', 'Home');
 
-    $name = isset($_POST['name']) ? $_POST['name'] : '';
-    $comment = isset($_POST['comment']) ? $_POST['comment'] : ''; 
+    if(isset($_SESSION["username"])) {
+        $name = $_SESSION["username"];
+        $comment = isset($_POST['comment']) ? $_POST['comment'] : '';
+        
+        $name_error = '';
+        $comment_error = '';
 
-    $name_error = '';
-    $comment_error = '';
+        if (count($_POST)) {
+            $errors = 0;
 
-    if (count($_POST)) {
-        $errors = 0;
+            if($name == '')
+            {
+                $errors ++;
+                $name_error = 'Please enter a name';
+            }
+            if($comment == '')
+            {
+                $errors ++;
+                $comment_error = 'Please enter a comment';
+            }
+            if($errors == 0)
+            {
+                $query = 'INSERT INTO Comment (name, comments) VALUES ("'.addslashes($name).'", "'.addslashes($comment).'")';
 
-        if($name == '')
-        {
-            $errors ++;
-            $name_error = 'Please enter a name';
-        }
-        if($comment == '')
-        {
-            $errors ++;
-            $comment_error = 'Please enter a comment';
-        }
-        if($errors == 0)
-        {
-            $query = 'INSERT INTO Comment (name, comments) VALUES ("'.addslashes($name).'", "'.addslashes($comment).'")';
-
-            $message = 'You have received a new comment on your home page: 
-            Name: '.$name.'
-            Comment: '.$comment;
-            
-            mail('adxadan@gmail.com', 'Comment submitted', $commment);
+                $message = 'You have received a new comment on your home page: 
+                Name: '.$name.'
+                Comment: '.$comment;
                 
-            mysqli_query($connect, $query);
-            header('Location: index.php');
-            die();
+                mail('adxadan@gmail.com', 'Comment submitted', $commment);
+                    
+                mysqli_query($connect, $query);
+                header('Location: index.php');
+                die();
+            }
+        }
+    } 
+    else 
+    {
+        $name = isset($_POST['name']) ? $_POST['name'] : '';
+        $comment = isset($_POST['comment']) ? $_POST['comment'] : ''; 
+
+        $name_error = '';
+        $comment_error = '';
+
+        if (count($_POST)) {
+            $errors = 0;
+
+            if($name == '')
+            {
+                $errors ++;
+                $name_error = 'Please enter a name';
+            }
+            if($comment == '')
+            {
+                $errors ++;
+                $comment_error = 'Please enter a comment';
+            }
+            if($errors == 0)
+            {
+                $query = 'INSERT INTO Comment (name, comments) VALUES ("'.addslashes($name).'", "'.addslashes($comment).'")';
+
+                $message = 'You have received a new comment on your home page: 
+                Name: '.$name.'
+                Comment: '.$comment;
+                
+                mail('adxadan@gmail.com', 'Comment submitted', $commment);
+                    
+                mysqli_query($connect, $query);
+                header('Location: index.php');
+                die();
+            }
         }
     }
 ?>
@@ -103,9 +142,15 @@
             </div>
         </nav>
         <?php session_start();
+        if(isset($_SESSION["username"])) {
+            echo "<p class='welcome-message'>Welcome " . $_SESSION["username"] . "</p>";
+        } 
+        /*
+        session_start();
             if(isset($_SESSION["useruid"])) {
                 echo "<p>Hello there " . $_SESSION["useruid"] . "</p>";
             }
+        */
         ?>
     </header>
     <main>
@@ -138,7 +183,7 @@
         </section>
         <section class="main-side">
             <div class="sites-header">
-                <h3>Check out the other pages</h3>
+                <h3 class="check">Check Out the Other Pages</h3>
                 <hr class="header-hr">
             </div>
             <div class="main-details">
@@ -169,13 +214,24 @@
                     <h4 class="helloWorld">Drop a Comment</h4>
                     <hr>
                     <form method="post">
-                        <label for="name">Enter Name: </label> <?php echo '<b style="color: red;">'.$name_error; echo '</b>' ?>
+                    <?php
+                                if (isset($_SESSION["useruid"])) {
+                                    
+                                }
+                                else {
+                                    echo "<label for='name'>Enter Name: </label><b style='color: red;'>$name_error </b> <br>
+                    
+                                    <input class='enter-name' type='text' name='name' value='$name'> <br>";
+                                }
+                        ?>
+                        <!-- 
+                        <label for="name">Enter Name: </label> <?php /* echo '<b style="color: red;">'.$name_error; echo '</b>' */ ?>
                         <br>
-                        <input type="text" name="name" value="<?php echo $name; ?>"> <br>
-                        
+                        <input class="enter-name" type="text" name="name" value="<?php /* echo $name; */?>"> <br>
+                        -->
                         <label for="comment">Comment: </label> <?php echo '<b style="color: red;">'.$comment_error; echo '</b >' ?>
                         <br>
-                        <textarea class="comments" name="comment" id="" cols="50" rows="10" <?php echo $comment; ?>></textarea>
+                        <textarea class="comments" name="comment" id="" cols="50" rows="10" width="1%" <?php echo $comment; ?>></textarea>
                         
                         <br>
                         <input class="submit-button" type="submit" value="Submit">
@@ -184,6 +240,7 @@
                 <div class="right-details">
                     <h3 class="timeline">Comment Section</h3>
                     <hr>
+                    
                     <?php 
                         $connect = mysqli_connect('localhost', 'root', '', 'Home'); 
 
@@ -200,7 +257,7 @@
                     ?>
                 </div>
          </section>
-        
+        <!--
        <div class="index-welcome">
                  <h3 class="timeline">About</h3>
                     <hr class="header-hr">
@@ -208,6 +265,7 @@
                     <img class="timeline-images" src="images/graduation.jpeg" alt="University of Wisconsin-Eau Claire graduation picture">
                     <p class="timeline-description">Graduated from the University of Wisconsin of Eau Claire with a Bachelors of Science with a Degree in Computer Science. Take a look at the <a href="about.php" class="home-links">About</a> page for more details.</p>
         </div>
+                    -->
     </main>
     <?php 
         include_once 'footer.php';

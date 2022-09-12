@@ -24,6 +24,10 @@ main {
   background-color: #c1c1c1;
   font-family: 'Times New Roman', Times, serif;
 }
+.welcome-message {
+  text-align: center;
+  margin-top: 1rem;
+}
 .welcome-header {
   padding-top: 2rem;
   text-align: center;
@@ -67,7 +71,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    text-align: center;
 } 
 .main-details {
   display: flex;
@@ -84,6 +87,13 @@ main {
 .name {
   text-align: left;
   color: #20d0fc;
+}
+.enter-name {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 50%;
 }
 .comments {
   /*
@@ -178,6 +188,12 @@ a.home-links:hover {
 }
 .description-body {
   text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.check {
+  text-align: center;
 }
 #next-button, #previous-button{
     color: white;
@@ -214,6 +230,13 @@ a.home-links:hover {
   margin-right: auto;
   margin-bottom: 1rem;
 }
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}
 @keyframes color-change {
   0% {
       color: white;
@@ -222,12 +245,39 @@ a.home-links:hover {
       color: brown;
   }
   50% {
-      color: green;
+      color: gray;
   }
   75% {
-    color: blue;
+    color: black;
   }
   100% {
     color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .description-body {
+    margin: auto;
+    width: 100%;
+  } 
+  .header-hr {
+    width: 65% ;
+  }
+  .wide {
+    height: 275px; 
+  }
+  .enter-name {
+    width: 100%;
+}
+  .comment-section {
+    width: 75%;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+  .left-details {
+    margin-bottom: 1rem;
+  }
+  .check {
+    font-size: 20px;
   }
 }
