@@ -65,7 +65,6 @@
                            else {
                                echo "<a class='nav-link text-white top-link signup' href='signup.php'>Sign Up</a>";
                                echo "<a class='nav-link text-white top-link login' href='login.php'>Log In</a>";
-                               echo "<p class='title'>Travel Page</p>";
                            }
                         ?>
                         <p class="title">Contacts Page</p>
