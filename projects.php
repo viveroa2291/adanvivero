@@ -55,7 +55,7 @@
                             }
                         ?>
                         <p class="title">Projects Page</p>
-                        <p class="slash">/</p>
+                        <p class="slash">|</p>
                     </div>
                 </div>
             </div>

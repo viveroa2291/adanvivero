@@ -42,7 +42,7 @@
                             }
                         ?>
                         <p class="title">Story Page</p>
-                        <p class="slash">/</p>
+                        <p class="slash">|</p>
                     </div>
                 </div>
             </div>

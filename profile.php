@@ -51,9 +51,12 @@
                         <?php
                             if (isset($_SESSION["useruid"])) {
                                 echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
-                                <div class='dropdown-content'>
-                                    <a class='nav-link text-white top-link settings' href='settings.php'>Settings</a>
-                                </div>";
+                                        <div class='nav-link text-white top-link dropdown-content'>
+                                            <a class='nav-link bg-dark text-white top-link settings' href='settings.php'>Settings</a>
+                                        </div>";
+                            if(isset($_SESSION["username"])) {
+                                    echo "<p class='title'>" . $_SESSION["username"] . "'s Page</p>";
+                            } 
                               /*
                                 echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>";
                                 echo "<a class='nav-link text-white top-link settings' href='settings.php'>Settings</a>";
@@ -63,230 +66,16 @@
                             else {
                                 echo "<a class='nav-link text-white top-link signup' href='signup.php'>Sign Up</a>";
                                 echo "<a class='nav-link text-white top-link login' href='login.php'>Log In</a>";
+                                echo "<p class='title'>Travel Page</p>";
                             }
                         ?>
-                        <p class="title">Travel Page</p>
-                        <p class="slash">/</p>
+                        <p class="slash">|</p>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
    <main>
-      <h1 class="travel-header">Check out the states that I have traveled to</h1>
-      <hr class="travel-hr">
-      <div class="wrapper">
-
-         <section class="arkansas-section under">
-            <img src="states-images/arkansas-images/lake.jpeg" class="states-images" alt="">
-            <span>
-               <a href="arkansas.php" class="arkansas-link">Arkansas</a>
-               <hr class="state-hr">
-               <p class="arkansas-description">Check out my Arkansas travel page and the places that I visited which include:</p>
-               <ul class="arkansas-description">
-                  <li>Vandervoort</li>
-                  <li>Waldron</li>
-                  <li>Clarksville</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="california-section under">
-            <img src="states-images/california-images/city.jpeg" class="states-images" alt="">
-            <span>
-               <a href="california.php" class="california-link">California</a>
-               <hr class="state-hr">
-               <p class="california-description">Check out my California travel and the places I visited which include:</p>
-               <ul class="california-description">
-                  <li>Disneyland</li>
-                  <li>Los Angeles</li>
-                  <li>Huntington Beach</li>
-               </ul>
-            </span>
-         </section> 
-
-         <section class="florida-section under">
-            <img src="states-images/florida-images/seaworld-green2.jpeg" class="florida-image" alt="">
-            <span>
-               <a href="florida.php" class="florida-link">Florida</a>
-               <hr class="state-hr">
-               <p class="florida-description">Check out my Florida travel page and the places that I visited which include:</p>
-               <ul class="florida-description">
-                  <li>Seaworld</li>
-                  <li>Disneyworld</li>
-                  <li>Universal Studios</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="georgia-section under">
-            <img src="states-images/georgia-images/atlanta2.jpeg" class="states-images" alt="">
-            <span>
-               <a href="georgia.php" class="georgia-link">Georgia</a>
-               <hr class="state-hr">
-               <p class="georgia-description">Check out my Georgia travel and the places I visited which include:</p>
-               <ul class="georgia-description">
-                  <li>Atlanta</li>
-                  <li>CNN</li>
-                  <li>World of Coca-Cola</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="illinois-section under">
-            <h3>Illinois</h3>
-         </section> 
-
-         <section class="indiana-section under">
-            <img src="states-images/indiana-images/kelleys.jpeg" class="states-images" alt=""> 
-            <span>
-               <a href="indiana.php" class="indiana-link">Indiana</a>
-               <hr class="state-hr">
-               <p class="indiana-description">Check out my Indiana travel and the places I visited which include:</p>
-               <ul class="indiana-description">
-                  <li>Bloomington Indiana</li>
-                  <li>Indiana University</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="michigan-section under">
-            <img src="states-images/michigan-images/ski.jpeg" class="states-images" alt="">
-            <span>
-               <a href="michigan.php" class="michigan-link">Michigan</a>
-               <hr class="state-hr">
-               <p class="michigan-description">Check out Michigan travel page and the places I visited which include:</p>
-               <ul class="michigan-description">
-                  <li>Sawyer Michigan (Michigan Dunes)</li>
-                  <li>Wakefield</li>
-                  <li>Lake Michigan Beach</li>
-                  <li>Detroit</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="minnesota-section under">
-            <img src="states-images/minnesota-images/city.jpeg" alt="">
-            <span>
-               <a href="minnesota.php" class="minnesota-link">Minnesota</a>
-               <hr class="state-hr">
-               <p class="minnesota-description">Check out my Minnesota travel page and the places I visited which include:</p>
-               <ul class="minnesota-description">
-                  <li>Minneapolis</li>
-                  <li>Mall of America</li>
-                  <li>Eden Prarie</li>
-                  <li>Afton Alps</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="missouri-section under">
-            <img src="states-images/missouri-images/cave2.jpeg" class="states-images" alt=""> 
-            <span>
-               <a href="missouri.php" class="missouri-link">Missouri</a>
-               <hr class="state-hr">
-               <p class="missouri-description">Check out my Missouri travel page and the places I visited which include:</p>
-               <ul class="missouri-description">
-                  <li>University of Missouri</li>
-                  <li>Eldon Caves</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="ohio-section under">
-            <img src="states-images/ohio-images/beach-view.jpeg" class="ohio-image" alt="">
-            <span>
-               <a href="ohio.php" class="ohio-link">Ohio</a>
-               <hr class="state-hr">
-               <p class="ohio-description">Check out my Ohio travel page and the places I visited which include:</p>
-               <ul class="ohio-description">
-                  <li>Akron</li> 
-                  <li>Cedar Point</li>
-                  <li>Cleveland</li>
-                  <li>Cincinnati</li>
-                  <li>Sandusky</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="south-dakota-section under">
-            <img src="states-images/south-dakota-images/heads-eagle.jpeg" class="states-images" alt="">
-            <span>
-               <a href="south-dakota.php" class="south-dakota-link">South Dakota</a>
-               <hr class="state-hr">
-               <p class="south-dakota-description">Check out my South Dakota travel page and the places that I visited which include:</p>
-               <ul>
-                  <li>Mount Rushmore</li>
-                  <li>Downtown Rapid City</li>
-                  <li>Custer State Park</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="tennessee-section under">
-            <img src="states-images/tennessee-images/tenessee.jpeg" class="states-images" alt="">
-            <span>
-               <a href="tennessee.php" class="tennessee-link">Tennessee</a>
-               <hr class="state-hr">
-               <p class="tennessee-description">Check out my Tennessee travel page and the places I visited which include:</p>
-               <ul class="tennessee-description">
-                  <li>Gaitlinburg</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="texas-section under">
-            <img src="states-images/texas-images/san-antonio.jpeg" class="texas-image" alt="">
-            <span>
-               <a href="texas.php" class="texas-link">Texas</a>
-               <hr class="state-hr">
-               <p class="texas-description">Check out my Texas travel page and the places I visited which include:</p>
-               <ul class="texas-description">
-                  <li>SeaWorld San Antonio</li> 
-                  <li>Discovery Cove</li>
-                  <li>Six Flags Fiesta Texas</li>
-                  <li>San Antonio's River Walk</li>
-                  <li>The Alamo</li>
-                  <li>Instituto Cultural De Mexico</li>
-               </ul>
-            </span>
-         </section>
-
-         <section class="utah-section under">
-            <img src="states-images/utah-images/salt-lake-city.jpeg" class="states-images" alt="">  
-            <span>
-               <a href="utah.php" class="utah-link">Utah</a>
-               <hr class="state-hr">
-               <p class="utah-description">Check out my Utah travel page and the places I visited which include:</p>
-               <ul class="utah-description">
-                  <li>Salt Lake City</li>
-                  <li>Arches National Park</li>
-                  <li>Springville</li>
-               </ul>
-            </span>
-         </section>
-         
-         <section class="dc-section under">
-            <h3>Washington D.C</h3>
-         </section>
-
-         <section class="west-virginia-section under">
-            <img src="states-images/west-virginia-images/mountain.jpeg" class="states-images" alt="">
-            <span>
-               <a href="west-virginia.php" class="west-virginia-link">West Virginia</a>
-               <hr class="state-hr">
-               <p class="west-virginia-description">Check out my West Virginia travel page and the places I visited which include:</p>
-               <ul class="west-virginia-description">
-                  <li>Harpers Ferry</li>
-               </ul>
-            </span>
-         </section>
-         
-         <section class="wisconsin-section under">
-            <h3>Wisconsin</h3>
-         </section>
-      </div>
-   
     <h2 class="travel-header">Here is a map of the states that I have visited shaded in red.</h2>     
     <svg class="united-states-map" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable_background="new 0 0 1000 589" height="589px" pretty_print="False" style="stroke-linejoin: round; stroke:#000; fill: none;" version="1.1" viewBox="0 0 1000 589" width="1000px" id="svg" inkscape:version="0.48.4 r9939" sodipodi:docname="us.svg">
         <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1137" id="namedview69" showgrid="false" inkscape:zoom="0.80893016" inkscape:cx="817.66365" inkscape:cy="409.3738" inkscape:window-x="1192" inkscape:window-y="118" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
