@@ -1,8 +1,12 @@
 .travel-header {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 1rem;
     text-align: center;
     position: relative;
     animation: color-change 1s infinite;
+    width: 70%;
 }
 img {
     height: 500px;

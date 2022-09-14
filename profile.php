@@ -50,17 +50,17 @@
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <?php
                             if (isset($_SESSION["useruid"])) {
-                                echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
-                                        <div class='nav-link text-white top-link dropdown-content'>
-                                            <a class='nav-link bg-dark text-white top-link settings' href='settings.php'>Settings</a>
-                                        </div>";
+                                 echo "<div class='profile'>
+                                       <a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
+                                           <div class='bg-dark settings'> 
+                                             <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
+                                             <a class='text-white tos-link' href='tos.php'>Terms of Service</a> <br>
+                                             <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
+                                           </div>
+                                       </div>";
                             if(isset($_SESSION["username"])) {
-                                    echo "<p class='title'>" . $_SESSION["username"] . "'s Page</p>";
+                                 echo "<p class='title'>" . $_SESSION["username"] . "'s Page</p>";
                             } 
-                              /*
-                                echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>";
-                                echo "<a class='nav-link text-white top-link settings' href='settings.php'>Settings</a>";
-                                */
                                 echo "<a class='nav-link text-white top-link logout' href='includes/logout.inc.php'>Log Out</a>";
                             }
                             else {
@@ -77,6 +77,7 @@
     </header>
    <main>
     <h2 class="travel-header">Here is a map of the states that I have visited shaded in red.</h2>     
+    
     <svg class="united-states-map" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable_background="new 0 0 1000 589" height="589px" pretty_print="False" style="stroke-linejoin: round; stroke:#000; fill: none;" version="1.1" viewBox="0 0 1000 589" width="1000px" id="svg" inkscape:version="0.48.4 r9939" sodipodi:docname="us.svg">
         <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1137" id="namedview69" showgrid="false" inkscape:zoom="0.80893016" inkscape:cx="817.66365" inkscape:cy="409.3738" inkscape:window-x="1192" inkscape:window-y="118" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
             <defs id="defs4">

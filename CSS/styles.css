@@ -45,8 +45,11 @@ a.top-link:hover:before {
 .projects {
     margin-left: 20.5rem;
 }
-.login, .profile, .settings {
+.login, .profile {
     right: 5rem;
+}
+.profile {
+    top: 5px;
 }
 .signup, .logout {
     right: 0;
@@ -60,20 +63,22 @@ a.top-link:hover:before {
     width: 100%;
     align-items: center;
 }
-.dropdown-content {
-    display: none;
-}
-.dropdown-content a {
-    display: none;
-}
-.dropdown-content .profile:hover {
-    display: block; 
-    right: 5rem;
+.settings {
+    /* display: none; cannot animate with display */ 
+    height: 0;
+    overflow: hidden;
     position: absolute;
-    margin-top: 3rem;
-    padding: 1px 10px 5px 10px;
-    text-decoration: none;
-    display: block;
+    padding: 0 1rem;
+    right: 2rem;
+    margin-top: 1.5rem;
+    transition: height 0s;
+    transition-delay: .15s;
+} 
+.profile:hover .settings {
+    /* display: flex; cannot animate with display */ 
+    height: 75px;
+    flex-direction: column;
+    transition-delay: 0s;
 }
 .title {
     height: 5px;
