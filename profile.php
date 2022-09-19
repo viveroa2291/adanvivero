@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
         <?php 
         include 'CSS/bootstrap.min.css';
-        include 'CSS/travel.css';
+        include 'CSS/profile.css';
         include 'CSS/styles.css';
          ?>
     </style>
@@ -53,9 +54,9 @@
                                  echo "<div class='profile'>
                                        <a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
                                            <div class='bg-dark settings'> 
+                                             <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
                                              <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
                                              <a class='text-white tos-link' href='tos.php'>Terms of Service</a> <br>
-                                             <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
                                            </div>
                                        </div>";
                             if(isset($_SESSION["username"])) {
@@ -76,8 +77,49 @@
         </nav>
     </header>
    <main>
+      <button class="edit-button" onclick="edit()">Edit</button>
+      <section id="profile-header" class="profile-header">
+         <span>
+            <p class="edit-mode" id="edit-mode"></p>
+         </span>
+         <div class="profile-picture">
+            <img id="picture" class="picture" src="states-images/minnesota-images/city.jpeg" alt="Picture of me">
+         </div>
+         <form id="upload-pic" class="upload-pic" action="upload.php" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <br>
+            <br>
+            <button type="submit" name="submit">Upload</button>
+         </form>
+
+         <?php
+            if(isset($_SESSION["username"])) {
+               echo "<p class='header-name'>" . $_SESSION["username"] . "</p>";
+            } 
+         ?>
+         <hr class="header-hr">
+         <p class="bio">Bio</p>
+         <div class="biography-section">
+            <textarea class="biography" name="" id="biography" cols="50" rows="5"></textarea>
+            <button id="biography-post" class="biography-post" type="submit" name="submit">Post</button>
+         </div>
+         <div class="user-view">
+            <button class="view-selection">Map View</button>
+            <button class="view-selection">States View</button>
+         </div>
+      </section>
+      
     <h2 class="travel-header">Here is a map of the states that I have visited shaded in red.</h2>     
-    
+
+    <!-- Testing -->
+    <!--
+    <div class="bg-img"></div>
+   <p>
+    <input type="text" id="data"/>
+   </p>
+         -->
+   <!-- End of Testing -->
+    <section id="demo"></section>
     <svg class="united-states-map" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable_background="new 0 0 1000 589" height="589px" pretty_print="False" style="stroke-linejoin: round; stroke:#000; fill: none;" version="1.1" viewBox="0 0 1000 589" width="1000px" id="svg" inkscape:version="0.48.4 r9939" sodipodi:docname="us.svg">
         <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1137" id="namedview69" showgrid="false" inkscape:zoom="0.80893016" inkscape:cx="817.66365" inkscape:cy="409.3738" inkscape:window-x="1192" inkscape:window-y="118" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
             <defs id="defs4">
@@ -104,10 +146,16 @@
      data-id="MA"
      d="m 956.31178,153.05085 -0.29118,-0.19412 0,0.29119 0.29118,-0.0971 z m -2.91189,-2.6207 0.67944,-0.29119 0,-0.38825 -0.67944,0.67944 z m 12.03583,-7.57092 -0.0971,-1.35889 -0.19412,-0.7765 0.29119,2.13539 z m -42.41659,-9.9975 -0.67944,0.29119 -5.5326,1.65007 -1.94126,0.67944 -2.23245,0.67944 -0.7765,0.29119 0,0.29119 0.29118,5.04728 0.29119,4.65903 0.29119,4.27078 0.48532,0.29119 1.74714,-0.48532 7.86211,-2.32951 0.19412,0.48531 13.97709,-5.33847 0.0971,0.19413 1.26182,-0.48532 4.4649,-1.74713 4.27078,5.14434 0,0 0.58238,-0.48531 0.29119,-1.45595 -0.0971,2.32952 0,0 0.97063,0 0.29119,1.16475 0.87357,1.65008 0,0 4.56197,-5.5326 3.78546,1.26182 0.87357,-1.94126 6.21204,-3.30015 -2.62071,-5.14435 0.67945,3.30015 -3.20309,2.42658 -3.59133,0.29119 -7.18267,-7.66799 -3.20309,-4.85315 3.20309,-3.39721 -3.30015,-0.19413 -1.35888,-3.20308 -0.0971,-0.19413 -5.53259,6.01791 -12.22996,4.07666 -3.97959,1.26182 0,0 z"
      style="stroke-width:0.97063118000000004;fill:#f9f9f9"/> 
-     
-  <path inkscape:connector-curvature="0" class="MN" id="MN" data-name="Minnesota" data-id="MN"
+
+         <defs>
+         <pattern id="img1" patternUnits="userSpaceOnUse" width="450" height="1000">
+            <image href="states-images/minnesota-images/city.jpeg" x="100" y="-350" width="150" height="950" />
+         </pattern>
+   </defs>
+  <path inkscape:connector-curvature="0" class="MN" id="MN" data-name="Minnesota" data-id="MN" fill="url(#img1)" 
      d="m 558.54712,73.847349 1.94126,6.891482 4.07665,24.848159 1.94126,9.90044 0.58238,8.73568 2.23246,5.24141 0.48531,4.4649 0.38825,1.45595 -0.0971,0.29119 -3.88252,6.40616 2.52364,4.27078 4.85315,34.16622 0.19413,4.4649 4.85315,-0.29119 19.12144,-1.06769 47.75505,-3.97959 4.7561,-0.48532 0,-0.48531 -1.35889,-7.47386 -5.92085,-3.00896 -4.65903,-4.85315 -7.37679,-4.46491 -2.32952,-0.19412 -3.59133,-2.71777 0.97063,-13.39471 -3.39721,-3.10602 1.16476,-5.43554 6.21204,-5.62966 -1.0677,-11.64757 2.23245,-2.52364 0,0 7.57093,-7.95918 8.63861,-11.065195 3.30015,-2.329514 5.82379,-2.814831 6.11497,-4.561967 -4.07665,0.776505 -2.42658,-1.844199 -9.31806,1.261821 -1.45594,-1.747136 -8.34743,3.397209 -6.69736,-2.814831 -1.84419,-2.232452 -5.33848,0.388253 -3.59133,-1.844199 1.16476,-1.358884 -4.56197,-1.455947 -4.07665,0 -6.50323,2.814831 -1.26182,-1.941263 -10.28869,-1.455947 -3.49427,-8.73568 -0.38826,-2.620705 -4.4649,-1.26182 0.38825,7.47386 -11.8417,0.873568 -14.65653,0.582379 -0.97063,0.09706 z"
-     style="stroke-width:0.97063118000000004;"/>
+     style="stroke-width:0.97063118000000004;" 
+    />
      <a href="minnesota.php"><text class="minnesota" x="585" y="140">MN</text></a>
 
   <path
@@ -412,7 +460,7 @@
     ?> 
 <script>
     <?php 
-        include 'travel.js';
+        include 'profile.js';
     ?>
 </script>
 </body>

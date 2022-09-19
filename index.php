@@ -130,9 +130,9 @@
                                 echo "<div class='profile'>
                                       <a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
                                           <div class='bg-dark settings'> 
+                                            <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
                                             <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
                                             <a class='text-white tos-link' href='tos.php'>Terms of Service</a> <br>
-                                            <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
                                           </div>
                                       </div>";
                                echo "<a class='nav-link text-white top-link logout' href='includes/logout.inc.php'>Log Out</a>";

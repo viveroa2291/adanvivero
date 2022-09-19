@@ -50,8 +50,8 @@
                                        <a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
                                            <div class='bg-dark settings'> 
                                             <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
-                                            <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
-                                            <a class='text-white tos-link' href='tos.php'>Terms of Service</a> <br>
+                                             <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
+                                             <a class='text-white tos-link' href='tos.php'>Terms of Service</a> <br>
                                            </div>
                                        </div>";
                                 echo "<a class='nav-link text-white top-link logout' href='includes/logout.inc.php'>Log Out</a>";
@@ -69,20 +69,7 @@
         </nav>
     </header>
    <main>
-       <div id="mainBody">
-        <div id="previous-area"><button id="previous-button">&#8249;</button> </div>
-    <div class="card mb-3 m-auto" id="cardBody">
-        <div class="card-header text-center" id="featureTitle"></div>
-        <img src="" class="card-img-top" alt="..." id="images">
-        <div class="card-body">
-          <h5 class="card-title text-center" id="cardTitle"></h5>
-          <hr>
-          <p class="card-text" id="description"></p>
-          <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
-        </div>
-      </div>
-      <div id="next-area"><button id="next-button">&#8250;</button></div>
-    </div>
+       <h1 style="text-align: center;">Coming Soon</h1>
    </main>
    <?php 
         include_once 'footer.php';

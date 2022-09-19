@@ -1,0 +1,111 @@
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.profile-picture img {
+    margin-top: -102rem;
+    margin-left: -94rem;
+}
+.header-hr {
+    width: 25%;
+}
+.edit-button {
+   margin-left: 1rem;
+   margin-top: 5px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   border-radius: 5px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.edit-button:hover {
+    cursor: pointer;
+    background-color: rgb(213, 243, 255);
+}
+.edit-mode {
+    display: none;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+.biography-post {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.bio {
+    text-align: center;
+}
+.header-name {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.travel-header {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    text-align: center;
+    position: relative;
+    animation: color-change 1s infinite;
+    width: 70%;
+}
+.view-selection {
+background-color: white;
+color: black;
+padding-left: 1rem;
+padding-right: 1rem;
+border: none;
+}
+.view-selection:hover {
+    color: gray;
+    cursor: pointer;
+}
+.user-view {
+    text-align: center;
+}
+.upload-pic {
+    text-align: center;
+    display: none;
+}
+input[type='file'] {
+    color: transparent;
+}
+.biography {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+/* Testing 
+div.bg-img {
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/9/91/Flexopecten_ponticus_2008_G1.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-color: blue;
+    border: 1px solid #aaa;
+    width: 250px;
+    height: 250px;
+    margin: 25px auto;
+}
+p, #data {
+    text-align: center;
+}
+#data {
+    background: red;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    font-size: 1.4em;
+    border: 1px solid #ddd;
+}
+End of testing */
