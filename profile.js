@@ -21,17 +21,132 @@ function myRotate(x) {
     var profileSection = document.getElementById("profile-header");
     var postButton = document.getElementById("biography-post");
 
+    // States Declaration 
+    var alabama = document.getElementById("AL"); 
+    var alaska = document.getElementById("AK");
+    var arizona = document.getElementById("AZ");
+    var arkansas = document.getElementById("AR");
+    var california = document.getElementById("CA");
+    var colorado = document.getElementById("CO");
+    var connecticut = document.getElementById("CT");
+    var delaware = document.getElementById("DE");
+    var idaho = document.getElementById("ID");
+    var illinois = document.getElementById("IL");
+    var indiana = document.getElementById("IN");
+    var iowa = document.getElementById("IA");
+    var florida = document.getElementById("FL");
+    var georgia = document.getElementById("GA");
+    var hawaii = document.getElementById("HI");
+    var kansas = document.getElementById("KS");
+    var kentucky = document.getElementById("KY");
+    var louisiana = document.getElementById("LA");
+    var maine = document.getElementById("ME");
+    var maryland = document.getElementById("MD");
+    var massachusetts = document.getElementById("MA");
+    var michigan = document.getElementById("MI");
+    var minnesota = document.getElementById("MN");
+    var mississippi = document.getElementById("MS");
+    var missouri = document.getElementById("MO");
+    var montana = document.getElementById("MT");
+    var nebraska = document.getElementById("NE");
+    var nevada = document.getElementById("NV");
+    var newHampshire = document.getElementById("NH");
+    var newJersey = document.getElementById("NJ");
+    var newMexico = document.getElementById("NM");
+    var newYork = document.getElementById("NY");
+    var northCarolina = document.getElementById("NC");
+    var northDakota = document.getElementById("ND");    
+    var ohio = document.getElementById("OH");
+    var oklahoma = document.getElementById("OK");
+    var oregon = document.getElementById("OR");
+    var pennsylvania = document.getElementById("PA");
+    var rhodeIsland = document.getElementById("RI");
+    var southCarolina = document.getElementById("SC");
+    var southDakota = document.getElementById("SD");
+    var tennessee = document.getElementById("TN");
+    var texas = document.getElementById("TX");
+    var utah = document.getElementById("UT");
+    var vermont = document.getElementById("VT");
+    var virginia = document.getElementById("VA");
+    var washington = document.getElementById("WA");
+    var washingtonDC = document.getElementById("DC");
+    var westVirginia = document.getElementById("WV");
+    var wisconsin = document.getElementById("WI");
+    var wyoming = document.getElementById("WY");
+
     if(uploadProfilePic.style.display === "none" && biography.style.display === "none") {
         profileSection.style.backgroundColor = "rgb(242, 242, 242)";
         profileSection.style.paddingTop = "2rem";
         profileSection.style.paddingBottom = "2rem";
-        
+
         editMode.style.display = "block";
         editMode.innerHTML ="Edit Mode On";
 
         biography.style.display = "block";
         uploadProfilePic.style.display = "block";
         postButton.style.display = "block";
+
+        alabama.classList.add('edit-states');
+        alaska.classList.add('edit-states');
+        arizona.classList.add('edit-states');
+        arkansas.classList.add('edit-states');
+        california.classList.add('edit-states');
+
+        colorado.classList.add('edit-states');
+        connecticut.classList.add('edit-states');
+        delaware.classList.add('edit-states');
+        idaho.classList.add('edit-states');
+        
+        illinois.classList.add('edit-states');
+        indiana.classList.add('edit-states');
+        iowa.classList.add('edit-states');
+        florida.classList.add('edit-states');
+        georgia.classList.add('edit-states');
+        /*
+        hawaii = docu
+        kansas = docu
+        kentucky = do
+        louisiana = d
+        maine = docum
+        maryland = do
+        massachusetts
+        */
+        michigan.classList.add('edit-states');
+        minnesota.classList.add('edit-states');
+        // mississippi =
+        missouri.classList.add('edit-states');
+        /*
+        montana = doc
+        nebraska = do
+        nevada = docu
+        newHampshire 
+        newJersey = d
+        newMexico = d
+        newYork = doc
+        northCarolina
+        northDakota =
+        */
+        ohio.classList.add('edit-states');
+        /*
+        oklahoma = do
+        oregon = docu
+        pennsylvania 
+        rhodeIsland =
+        southCarolina
+        southDakota =
+        */
+        tennessee.classList.add('edit-states');
+        texas.classList.add('edit-states');
+        utah.classList.add('edit-states');
+        /*
+        vermont = doc
+        virginia = do
+        washington = 
+        */
+        washingtonDC.classList.add('edit-states');
+        westVirginia.classList.add('edit-states');
+        wisconsin.classList.add('edit-states');
+        // wyoming = doc
     }
     else {
         profileSection.style.backgroundColor = "transparent";

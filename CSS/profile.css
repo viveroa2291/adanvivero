@@ -12,6 +12,13 @@
     margin-top: -102rem;
     margin-left: -94rem;
 }
+.united-states-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    z-index: 2;
+    margin-top: 1rem;
+}
 .header-hr {
     width: 25%;
 }
@@ -77,14 +84,36 @@ border: none;
     text-align: center;
     display: none;
 }
+/*
 input[type='file'] {
     color: transparent;
 }
+*/
 .biography {
     display: none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+}
+.edit-states {
+    fill: transparent;
+}
+.edit-states:hover {
+    z-index: -100;
+    fill: green;
+    cursor: pointer;
+}
+.connecticut {
+    font-size: 5px;
+}
+.connecticut:hover {
+    font-size: 10px;
+}
+.delaware {
+    font-size: 6px;
+}
+.delaware:hover {
+    font-size: 11px;
 }
 /* Testing 
 div.bg-img {
@@ -109,3 +138,10 @@ p, #data {
     border: 1px solid #ddd;
 }
 End of testing */
+
+@media (max-width: 1000px){
+    .united-states-map {
+        height: 350px;
+        width: 500px;
+    }
+}
