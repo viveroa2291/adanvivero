@@ -103,6 +103,7 @@ input[type='file'] {
     fill: green;
     cursor: pointer;
 }
+/* Small States CSS */
 .connecticut {
     font-size: 5px;
 }
@@ -115,6 +116,55 @@ input[type='file'] {
 .delaware:hover {
     font-size: 11px;
 }
+.hawaii {
+    font-size: 11px;
+}
+.hawaii:hover {
+    font-size: 14px;
+}
+.maryland {
+    font-size: 9px;
+}
+.maryland:hover {
+    font-size: 13px;
+}
+.massachusetts {
+    font-size: 10px;
+}
+.massachusetts:hover {
+    font-size: 14px;
+}
+.new-hampshire {
+    font-size: 10px;
+}
+.new-hampshire:hover {
+    font-size: 14px;
+}
+.new-jersey {
+    font-size: 9px;
+}
+.new-jersey:hover {
+    font-size: 14px;
+}
+.rhode-island {
+    font-size: 5px;
+}
+.rhode-island:hover {
+    font-size: 14px;
+}
+.vermont {
+    font-size: 11px;
+}
+.vermont:hover {
+    font-size: 14px;
+}
+.washington-dc {
+    font-size: 10px;
+}
+.washington-dc:hover {
+    font-size: 14px;
+}
+/* End of small states CSS */
 /* Testing 
 div.bg-img {
     background-image: url(http://upload.wikimedia.org/wikipedia/commons/9/91/Flexopecten_ponticus_2008_G1.jpg);

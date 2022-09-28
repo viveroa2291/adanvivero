@@ -102,51 +102,51 @@ function myRotate(x) {
         iowa.classList.add('edit-states');
         florida.classList.add('edit-states');
         georgia.classList.add('edit-states');
-        /*
-        hawaii = docu
-        kansas = docu
-        kentucky = do
-        louisiana = d
-        maine = docum
-        maryland = do
-        massachusetts
-        */
+        
+        hawaii.classList.add('edit-states');
+        kansas.classList.add('edit-states');
+        kentucky.classList.add('edit-states');
+        louisiana.classList.add('edit-states');
+        maine.classList.add('edit-states');
+        maryland.classList.add('edit-states');
+        massachusetts.classList.add('edit-states');
+    
         michigan.classList.add('edit-states');
         minnesota.classList.add('edit-states');
-        // mississippi =
+        mississippi.classList.add('edit-states');
         missouri.classList.add('edit-states');
-        /*
-        montana = doc
-        nebraska = do
-        nevada = docu
-        newHampshire 
-        newJersey = d
-        newMexico = d
-        newYork = doc
-        northCarolina
-        northDakota =
-        */
+        
+        montana.classList.add('edit-states');
+        nebraska.classList.add('edit-states');
+        nevada.classList.add('edit-states');
+        newHampshire.classList.add('edit-states');
+        newJersey.classList.add('edit-states');
+        newMexico.classList.add('edit-states');
+        newYork.classList.add('edit-states');
+        northCarolina.classList.add('edit-states');
+        northDakota.classList.add('edit-states');
+        
         ohio.classList.add('edit-states');
-        /*
-        oklahoma = do
-        oregon = docu
-        pennsylvania 
-        rhodeIsland =
-        southCarolina
-        southDakota =
-        */
+        
+        oklahoma.classList.add('edit-states');
+        oregon.classList.add('edit-states');
+        pennsylvania.classList.add('edit-states');
+        rhodeIsland.classList.add('edit-states');
+        southCarolina.classList.add('edit-states');
+        
+        southDakota.classList.add('edit-states');
         tennessee.classList.add('edit-states');
         texas.classList.add('edit-states');
         utah.classList.add('edit-states');
-        /*
-        vermont = doc
-        virginia = do
-        washington = 
-        */
+    
+        vermont.classList.add('edit-states');
+        virginia.classList.add('edit-states');
+        washington.classList.add('edit-states');
+    
         washingtonDC.classList.add('edit-states');
         westVirginia.classList.add('edit-states');
         wisconsin.classList.add('edit-states');
-        // wyoming = doc
+        wyoming.classList.add('edit-states');
     }
     else {
         profileSection.style.backgroundColor = "transparent";
@@ -156,6 +156,68 @@ function myRotate(x) {
         uploadProfilePic.style.display = "none";
         editMode.style.display = "none";
         postButton.style.display = "none";
+
+        alabama.classList.remove('edit-states');
+        alaska.classList.remove('edit-states');
+        arizona.classList.remove('edit-states');
+        arkansas.classList.remove('edit-states');
+        california.classList.remove('edit-states');
+
+        colorado.classList.remove('edit-states');
+        connecticut.classList.remove('edit-states');
+        delaware.classList.remove('edit-states');
+        idaho.classList.remove('edit-states');
+        
+        illinois.classList.remove('edit-states');
+        indiana.classList.remove('edit-states');
+        iowa.classList.remove('edit-states');
+        florida.classList.remove('edit-states');
+        georgia.classList.remove('edit-states');
+        
+        hawaii.classList.remove('edit-states');
+        kansas.classList.remove('edit-states');
+        kentucky.classList.remove('edit-states');
+        louisiana.classList.remove('edit-states');
+        maine.classList.remove('edit-states');
+        maryland.classList.remove('edit-states');
+        massachusetts.classList.remove('edit-states');
+    
+        michigan.classList.remove('edit-states');
+        minnesota.classList.remove('edit-states');
+        mississippi.classList.remove('edit-states');
+        missouri.classList.remove('edit-states');
+        
+        montana.classList.remove('edit-states');
+        nebraska.classList.remove('edit-states');
+        nevada.classList.remove('edit-states');
+        newHampshire.classList.remove('edit-states');
+        newJersey.classList.remove('edit-states');
+        newMexico.classList.remove('edit-states');
+        newYork.classList.remove('edit-states');
+        northCarolina.classList.remove('edit-states');
+        northDakota.classList.remove('edit-states');
+        
+        ohio.classList.remove('edit-states');
+
+        oklahoma.classList.remove('edit-states');
+        oregon.classList.remove('edit-states');
+        pennsylvania.classList.remove('edit-states');
+        rhodeIsland.classList.remove('edit-states');
+        southCarolina.classList.remove('edit-states');
+        
+        southDakota.classList.remove('edit-states');
+        tennessee.classList.remove('edit-states');
+        texas.classList.remove('edit-states');
+        utah.classList.remove('edit-states');
+    
+        vermont.classList.remove('edit-states');
+        virginia.classList.remove('edit-states');
+        washington.classList.remove('edit-states');
+    
+        washingtonDC.classList.remove('edit-states');
+        westVirginia.classList.remove('edit-states');
+        wisconsin.classList.remove('edit-states');
+        wyoming.classList.remove('edit-states');
     }
   }
   // Code on getting height and width for the images 
