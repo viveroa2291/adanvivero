@@ -128,13 +128,6 @@
             if(isset($_SESSION["username"])) {
                echo "<p class='header-name'>" . $_SESSION["username"] . "</p>";
             } 
-         ?>
-         <?php
-
-         if(isset($_SESSION['userid'])) {
-            if ($_SESSION['userid'] == 1) {
-                  echo "<p style='text-align: center'>Hello Adan</p>";
-            }
             /*
             // $sql = "SELECT * FROM user";
                $sql = "SELECT * FROM usersProfiles";
@@ -157,20 +150,21 @@
                   }
                }
                */
-            }    
+            
          ?>
          <hr class="header-hr">
       
          <?php 
             $connect = mysqli_connect('localhost', 'root', '', 'my-website-login'); 
 
-            $query = 'SELECT biography FROM userBiography';
-            $result = mysqli_query($connect, $query);
+            $name = $_SESSION["username"];
+            $bioExists = "SELECT biography FROM userBiography WHERE userNames='$name'";      
 
-               if($record = mysqli_fetch_assoc($result )) 
-               {
-                  echo '<p class="bio">'.$record['biography'].'</p>';
-               }
+            $result = mysqli_query($connect, $bioExists);
+
+            if($record = mysqli_fetch_assoc($result )) {
+               echo '<p class="bio">'.$record['biography'].'</p>';
+            }
          ?>
          <form method="post">
             <div class="biography-section">
