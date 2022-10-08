@@ -220,6 +220,13 @@ function myRotate(x) {
         wyoming.classList.remove('edit-states');
     }
   }
+  // This is to get the picture to preview a display. 
+  imgInp.onchange = evt => {
+    const [file] = imgInp.files
+    if (file) {
+      blah.src = URL.createObjectURL(file)
+    }
+  }
   // Code on getting height and width for the images 
 /*
     var biography = document.getElementById("biography");

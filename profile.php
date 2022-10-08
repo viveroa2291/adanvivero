@@ -1,9 +1,36 @@
 <?php
-   session_start();
+   /**
+    * Session variables solve this problem by storing user information to be used across multiple pages (e.g. username, favorite color, etc). By default, session variables last until the user closes the browser.
+    * So; Session variables hold information about one single user, and are available to all pages in one application.
+*/
+   session_start(); 
    /*
    include_once 'dbh.inc.php';
    include_once 'dbh.php';
    */
+  // $connect = mysqli_connect('localhost', 'root', '', 'Home');
+   $connect = mysqli_connect('localhost', 'root', '', 'my-website-login');
+   if(isset($_SESSION["username"])) { // isset() checks whether a variable is set, which means it has to be declared and not NULL. In this case, the username has to be set. 
+        $name = $_SESSION["username"];
+        $biography = isset($_POST['biography']) ? $_POST['biography'] : ''; // $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post".
+        $bioExists = mysqli_query($connect, "SELECT userNames FROM userBiography WHERE userNames='$name'");      
+
+        if (count($_POST)) {       
+             if(mysqli_num_rows($bioExists) == 0) {
+               $query = 'INSERT INTO userBiography (userNames, biography) VALUES ("'.addslashes($name).'","'.addslashes($biography).'")';
+               mysqli_query($connect, $query);
+               header('Location: profile.php');
+               die();
+            }
+            else {
+               $query = "UPDATE userBiography SET biography='$biography' WHERE userNames ='$name'";
+                mysqli_query($connect, $query);
+                header('Location: profile.php');
+               die();
+            }
+            
+        }
+      }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -89,15 +116,14 @@
          </span>
          
          <div class="profile-picture">
-            <img id="picture" class="picture" src="states-images/minnesota-images/city.jpeg" alt="Picture of me">
-         </div>
-         <form id="upload-pic" class="upload-pic" action="upload.php" method="POST" enctype="multipart/form-data">
-            <input id="files" type="file" name="file"/>
+           <img id="blah" class="picture" src="#" alt="Picture of me">
+         </div> 
+         <form  runat="server" id="upload-pic" class="upload-pic" action="upload.php" method="POST" enctype="multipart/form-data">
+            <input accept="image/*" type='file' id="imgInp" name="file"/> 
             <br>
             <br>
             <button type="submit" name="submit">Upload</button>
          </form>
-         
          <?php
             if(isset($_SESSION["username"])) {
                echo "<p class='header-name'>" . $_SESSION["username"] . "</p>";
@@ -134,15 +160,30 @@
             }    
          ?>
          <hr class="header-hr">
-         <p class="bio">Bio</p>
-         <div class="biography-section">
-            <textarea class="biography" name="" id="biography" cols="50" rows="5"></textarea>
-            <button id="biography-post" class="biography-post" type="submit" name="submit">Post</button>
-         </div>
+      
+         <?php 
+            $connect = mysqli_connect('localhost', 'root', '', 'my-website-login'); 
+
+            $query = 'SELECT biography FROM userBiography';
+            $result = mysqli_query($connect, $query);
+
+               if($record = mysqli_fetch_assoc($result )) 
+               {
+                  echo '<p class="bio">'.$record['biography'].'</p>';
+               }
+         ?>
+         <form method="post">
+            <div class="biography-section">
+              <textarea class="biography" name="biography" id="biography" cols="50" rows="5" <?php echo $biography; ?>></textarea>
+              <button id="biography-post" class="biography-post" type="submit" name="submit">Post</button>
+            </div>
+         </form>
+         
          <div class="user-view">
             <button class="view-selection">Map View</button>
             <button class="view-selection">States View</button>
          </div>
+        
       </section>
       <?php
          if(isset($_SESSION["username"])) {
