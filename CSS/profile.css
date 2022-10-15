@@ -7,10 +7,15 @@
     width: 200px;
     border-radius: 50%;
     overflow: hidden; 
+    border: 1px black solid;
 }
 .profile-picture img {
+    /*
     margin-top: -102rem;
     margin-left: -94rem;
+    */
+    max-width: 100%;
+    
 }
 .united-states-map {
     display: block;
@@ -48,7 +53,10 @@
     margin-bottom: 1rem;
 }
 .bio {
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
+    width: 25%;
 }
 .header-name {
     margin-top: 1rem;

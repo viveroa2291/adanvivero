@@ -30,7 +30,32 @@
             }
             
         }
-      }
+         
+error_reporting(0);
+ 
+$msg = "";
+ 
+// If upload button is clicked ...
+if (isset($_POST['upload'])) {
+ 
+    $filename = $_FILES["file"]["name"];
+    $tempname = $_FILES["file"]["tmp_name"];
+    $folder = "./image/" . $filename;
+
+    // Get all the submitted data from the form
+    $sql = "INSERT INTO profileimages (filename) VALUES ('$filename')";
+ 
+    // Execute query
+    mysqli_query($connect, $sql);
+ 
+    // Now let's move the uploaded image into the folder: image
+    if (move_uploaded_file($tempname, $folder)) {
+        echo "<h3>  Image uploaded successfully!</h3>";
+    } else {
+        echo "<h3>  Failed to upload image!</h3>";
+    }
+}
+   }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,6 +81,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
+   <?php 
+   /*
+   $connect = mysqli_connect('localhost', 'root', '', 'my-website-login');
+
+            $sql = "SELECT * FROM usersProfiles";
+            $result = mysqli_query($connect, $sql);
+
+            if(mysqli_num_row($result) > 0) {
+               while ($row = mysqli_fetch_assoc($result)) {
+                  $id = $row['id'];
+                  $sqlImg = "SELECT * FROM profileimages WHERE userid='$id'";
+                  $resultImg = mysqli_query($connect, $sqlImg); 
+                  while ($rowImg = mysqli_fetch_assoc($resultImg)) {
+                     echo "<div>";
+                        if($rowImg['status'] == 0) {
+                           echo "<img src='images/profile".$id.".jpeg>"; 
+                        }
+                        else {
+                           echo "<img src='images/doorCounty.jpeg'>";
+                        }
+                        echo $row['username'];
+                     echo "</div>";
+                  }
+               }
+            }
+            else {
+               echo "There are no users yet!";
+            }
+            */
+   ?>
     <header>
       <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
          <hr class="hr1">
@@ -118,39 +173,28 @@
          <div class="profile-picture">
            <img id="blah" class="picture" src="#" alt="Picture of me">
          </div> 
-         <form  runat="server" id="upload-pic" class="upload-pic" action="upload.php" method="POST" enctype="multipart/form-data">
-            <input accept="image/*" type='file' id="imgInp" name="file"/> 
-            <br>
-            <br>
-            <button type="submit" name="submit">Upload</button>
-         </form>
          <?php
+
             if(isset($_SESSION["username"])) {
+
+               echo  "<form  runat='server' id='upload-pic' class='upload-pic' action='upload.php' method='POST' enctype='multipart/form-data'>";
+               echo  "<input accept='image/*' type='file' id='imgInp' name='file'/>";
+               echo  "<br> <br>";
+               echo  "<button class='btn btn-primary' type='submit' name='submit'>Upload</button>";
+               echo  "</form>";
+
                echo "<p class='header-name'>" . $_SESSION["username"] . "</p>";
             } 
-            /*
-            // $sql = "SELECT * FROM user";
-               $sql = "SELECT * FROM usersProfiles";
-               $result = mysqli_query($conn, $sql);
-               if(mysqli_num_row($result) > 0) {
-                  while ($row = mysqli_fetch_assoc($result)) {
-                     $id = $row['id'];
-                     $sqlImg = "SELECT * FROM profileimages WHERE userid='$id'";
-                     $resultImg = mysqli_query($conn, $sqlImg); 
-                     while ($rowImg = mysqli_fetch_assoc($resultImg)) {
-                        echo "<div>";
-                           if($rowImg['status'] == 0) {
-                              echo "<img src='images/profile".$id.".jpeg>"; 
-                           }
-                           else {
-                              echo "<img src='images/doorCounty.jpeg'>";
-                           }
-                        echo "</div>";
-                     }
-                  }
-               }
-               */
-            
+         ?>
+         <?php
+            $query = " SELECT * FROM profileimages";
+            $result = mysqli_query($connect, $query);
+            while ($data = mysqli_fetch_assoc($result)) {
+
+         ?>
+               <img src="./image/<?php echo $data['filename']; ?>">
+         <?php
+            }
          ?>
          <hr class="header-hr">
       
