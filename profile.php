@@ -3,28 +3,27 @@
     * Session variables solve this problem by storing user information to be used across multiple pages (e.g. username, favorite color, etc). By default, session variables last until the user closes the browser.
     * So; Session variables hold information about one single user, and are available to all pages in one application.
 */
-   session_start(); 
+   session_start();
+   include_once 'dbh.php';
    /*
    include_once 'dbh.inc.php';
-   include_once 'dbh.php';
    */
   // $connect = mysqli_connect('localhost', 'root', '', 'Home');
-   $connect = mysqli_connect('localhost', 'root', '', 'my-website-login');
    if(isset($_SESSION["username"])) { // isset() checks whether a variable is set, which means it has to be declared and not NULL. In this case, the username has to be set. 
         $name = $_SESSION["username"];
         $biography = isset($_POST['biography']) ? $_POST['biography'] : ''; // $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post".
-        $bioExists = mysqli_query($connect, "SELECT userNames FROM userBiography WHERE userNames='$name'");      
+        $bioExists = mysqli_query($conn, "SELECT userNames FROM userBiography WHERE userNames='$name'");      
 
         if (count($_POST)) {       
              if(mysqli_num_rows($bioExists) == 0) {
                $query = 'INSERT INTO userBiography (userNames, biography) VALUES ("'.addslashes($name).'","'.addslashes($biography).'")';
-               mysqli_query($connect, $query);
+               mysqli_query($conn, $query);
                header('Location: profile.php');
                die();
             }
             else {
                $query = "UPDATE userBiography SET biography='$biography' WHERE userNames ='$name'";
-                mysqli_query($connect, $query);
+                mysqli_query($conn, $query);
                 header('Location: profile.php');
                die();
             }
@@ -46,7 +45,7 @@ if (isset($_POST['upload'])) {
     $sql = "INSERT INTO profileimages (filename) VALUES ('$filename')";
  
     // Execute query
-    mysqli_query($connect, $sql);
+    mysqli_query($conn, $sql);
  
     // Now let's move the uploaded image into the folder: image
     if (move_uploaded_file($tempname, $folder)) {
@@ -82,34 +81,30 @@ if (isset($_POST['upload'])) {
 </head>
 <body>
    <?php 
-   /*
-   $connect = mysqli_connect('localhost', 'root', '', 'my-website-login');
-
-            $sql = "SELECT * FROM usersProfiles";
-            $result = mysqli_query($connect, $sql);
-
-            if(mysqli_num_row($result) > 0) {
-               while ($row = mysqli_fetch_assoc($result)) {
-                  $id = $row['id'];
-                  $sqlImg = "SELECT * FROM profileimages WHERE userid='$id'";
-                  $resultImg = mysqli_query($connect, $sqlImg); 
-                  while ($rowImg = mysqli_fetch_assoc($resultImg)) {
-                     echo "<div>";
-                        if($rowImg['status'] == 0) {
-                           echo "<img src='images/profile".$id.".jpeg>"; 
-                        }
-                        else {
-                           echo "<img src='images/doorCounty.jpeg'>";
-                        }
-                        echo $row['username'];
+      $sql = "SELECT * FROM usersProfiles";
+      $result = mysqli_query($conn, $sql); 
+      
+         if(mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+               $id = $row['id'];
+               $sqlImg = "SELECT * FROM profileimg WHERE userid='$id'";
+               $resultImg = mysqli_query($conn, $sqlImg); 
+               while ($rowImg = mysqli_fetch_assoc($resultImg)) {
+                  echo "<div>";
+                     if($rowImg['status'] == 0) {
+                        echo "<img src='uploads/profile".$id.".jpeg>"; 
+                     }
+                     else {
+                        echo "<img src='uploads/default.jpeg'>";
+                     }
+                     echo $row['username'];
                      echo "</div>";
-                  }
                }
             }
-            else {
-               echo "There are no users yet!";
-            }
-            */
+         }
+         else {
+            echo "There are no users yet!";
+         }
    ?>
     <header>
       <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
@@ -187,8 +182,8 @@ if (isset($_POST['upload'])) {
             } 
          ?>
          <?php
-            $query = " SELECT * FROM profileimages";
-            $result = mysqli_query($connect, $query);
+            $query = " SELECT * FROM profileimg";
+            $result = mysqli_query($conn, $query);
             while ($data = mysqli_fetch_assoc($result)) {
 
          ?>
@@ -199,12 +194,10 @@ if (isset($_POST['upload'])) {
          <hr class="header-hr">
       
          <?php 
-            $connect = mysqli_connect('localhost', 'root', '', 'my-website-login'); 
-
             $name = $_SESSION["username"];
             $bioExists = "SELECT biography FROM userBiography WHERE userNames='$name'";      
 
-            $result = mysqli_query($connect, $bioExists);
+            $result = mysqli_query($conn, $bioExists);
 
             if($record = mysqli_fetch_assoc($result )) {
                echo '<p class="bio">'.$record['biography'].'</p>';

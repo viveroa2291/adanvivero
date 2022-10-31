@@ -1,4 +1,5 @@
 <?php 
+session_start();
 
 function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
     $result; 
@@ -70,8 +71,29 @@ function uidExists($conn, $username, $email) {
     mysqli_stmt_close($stmt); 
 }
 function createUser($conn, $name, $email, $username, $pwd) {
+    
     $sql = "INSERT INTO usersProfiles (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
+    /*
+    $sql = "INSERT INTO usersProfiles (usersName, usersEmail, usersUid, usersPwd) VALUES ('$name', '$email', '$username','$pwd');";
+    mysqli_query($conn, $sql);
+    
+    // Below is for the images....
+    $sqlImg = "SELECT * FROM usersProfiles WHERE usersUid='$username'";
+    $resultImg = mysqli_query($conn, $sqlImg);
+
+    if(mysqli_num_rows($resultImg) > 0) {
+        while($row = mysqli_fetch_assoc($resultImg)) {
+            $userid = $row['usersId'];
+            $sql = "INSERT INTO profileimg (userid, status) VALUES ('$userid', 1)";
+            mysqli_query($conn, $sql);
+            header("Location: profile.php");
+        }
+    }
+    else {
+        echo "You failed, Good Day Sir";
+    }
+    */
     if(!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../signup.php?error=stmtfailed");
         exit();
@@ -84,6 +106,25 @@ function createUser($conn, $name, $email, $username, $pwd) {
     mysqli_stmt_close($stmt);
     header("location: ../signup.php?error=none");
     exit();
+}
+function createUserProfilePicture ($conn, $username) {
+    $sql = "INSERT INTO user (username) VALUES ('$username');";
+    mysqli_query($conn, $sql);
+    // Below is for the images....
+    $sqlImg = "SELECT * FROM user WHERE username='$username'";
+    $resultImg = mysqli_query($conn, $sqlImg);
+
+    if(mysqli_num_rows($resultImg) > 0) {
+        while($row = mysqli_fetch_assoc($resultImg)) {
+            $userid = $row['id'];
+            $sql = "INSERT INTO profileimg (userid, status) VALUES ('$userid', 1)";
+            mysqli_query($conn, $sql);
+            header("Location: profile.php");
+        }
+    }
+    else {
+        echo "You failed, Good Day Sir";
+    }
 }
 function emptyInputLogin($username, $pwd) {
     $result; 

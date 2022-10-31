@@ -8,6 +8,7 @@ if(isset($_POST["submit"])) {
     $pwdRepeat = $_POST["pwdrepeat"]; 
 
     require_once 'dbh.inc.php';
+    include_once 'dbh.php';
     require_once 'functions.inc.php';
 
     if (emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false) {
@@ -30,7 +31,9 @@ if(isset($_POST["submit"])) {
         header("location: ../signup.php?error=usernametaken");
         exit();
     }
+    createUserProfilePicture($conn, $username);
     createUser($conn, $name, $email, $username, $pwd);
+    
 }
 else {
     header("location: ../signup.php");

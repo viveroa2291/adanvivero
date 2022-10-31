@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include_once 'dbh.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,7 @@
     <style>
         <?php 
         include 'CSS/bootstrap.min.css';
-        include 'CSS/about.css';
+        include 'CSS/friends.css';
         include 'CSS/styles.css';
          ?>
     </style>
@@ -61,7 +62,7 @@
                                 echo "<a class='nav-link text-white top-link login' href='login.php'>Log In</a>";
                             }
                         ?>
-                            <p class="title">About Page</p>
+                            <p class="title">Friends</p>
                             <p class="slash">|</p>
                     </div>
                 </div>
@@ -70,6 +71,32 @@
     </header>
    <main>
        <h1 style="text-align: center;">Coming soon</h1>
+       <?php 
+       $sql = "SELECT * FROM usersProfiles";
+       $result = mysqli_query($conn, $sql);
+       if(mysqli_num_rows($result) > 0) {
+        echo "<p class='nothing'>There are users</p>";
+        while ($row = mysqli_fetch_assoc($result)) {
+            $id = $row['usersId'];
+            $sqlImg = "SELECT * FROM profileimg WHERE userid='$id'";
+            $resultImg = mysqli_query($conn, $sqlImg);
+            while($rowImg = mysqli_fetch_assoc($resultImg)) {
+                echo "<div>";
+                    if($rowImg['status'] == 0) {
+                        echo "<img src='uploads/profile".$id.".jpg'>";
+                    }
+                    else {
+                        echo "<img src='uploads/default.jpeg'>";
+                    }
+                    echo $row['usersName'];
+                echo "</div>";
+            }
+        }
+       }                 
+       else {
+        echo "There are no users yet!";
+       }    
+       ?>
    </main>
    <?php 
         include_once 'footer.php';

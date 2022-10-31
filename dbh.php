@@ -1,3 +1,3 @@
 <?php 
 
-$conn = mysqli_connect("localhost", "root", "", "profile-pictures");
+$conn = mysqli_connect("localhost", "root", "", "my-website-login");

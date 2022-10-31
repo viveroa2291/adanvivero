@@ -66,7 +66,7 @@
                 
                 <div class="signup-form">
                     <h2>Sign Up</h2>
-                    <form action="includes/signup.inc.php" method="post">
+                    <form action="includes/signup.inc.php" method="POST">
                         <input type="text" name="name" placeholder="Full name..."> <br> <br>
                         <input type="text" name="email" placeholder="Email..."> <br> <br>
                         <input type="text" name="uid" placeholder="Username..."> <br> <br>
