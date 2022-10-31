@@ -17,6 +17,9 @@
     max-width: 100%;
     
 }
+.picture {
+    background-repeat: no-repeat;
+}
 .united-states-map {
     display: block;
     margin-left: auto;

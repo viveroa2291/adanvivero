@@ -45,19 +45,25 @@ a.top-link:hover:before {
 .projects {
     margin-left: 20.5rem;
 }
+.search {
+    position: absolute;
+    right: 3rem;
+}
 .login, .profile {
-    right: 5rem;
+    right: 19rem;
 }
 .profile {
     top: 5px;
 }
 .signup, .logout {
-    right: 0;
+    right: 14.5rem;
 }
 .slash {
+    position: absolute;
     color: white;
-    height: 10px;
-    margin-right: 2.5rem;
+    height: 22px;
+    font-size: 22px;
+    margin-left: 69rem;
 }
 .top-links {
     width: 100%;
@@ -69,7 +75,7 @@ a.top-link:hover:before {
     overflow: hidden;
     position: absolute;
     padding: 0 1rem;
-    right: 2rem;
+    right: 15.5rem;
     margin-top: 1.5rem;
     transition: height 0s;
     transition-delay: .15s;
@@ -478,6 +484,30 @@ a.footer-link:hover:before {
 }
 .google::before, .google::after {
       border-radius: 100%;
+}
+.search-button {
+    position: absolute;
+    right: .5rem;
+    top: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 35px;
+}
+.search-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.search-button:hover > .search-icon {
+    color: black;
+}
+.search-icon {
+    display: block;
+    color: white;
+    padding: 0px;
+    padding-right: 35px;
+    padding-left: 0px;
 }
 .fab {
     padding: 10px;

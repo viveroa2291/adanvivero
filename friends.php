@@ -45,6 +45,8 @@
                             <a class="nav-link text-white top-link story" href="story.php">Story</a>
                             <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                             <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
+                            <input class="search" type="text" placeholder="Search...">
+                            <button type="submit" class="search-button"><i class="fa fa-search search-icon"></i></button>
                             <?php
                             if (isset($_SESSION["useruid"])) {
                                  echo "<div class='profile'>
@@ -72,23 +74,28 @@
    <main>
        <h1 style="text-align: center;">Coming soon</h1>
        <?php 
-       $sql = "SELECT * FROM usersProfiles";
+       $id = $_SESSION['userid'];
+       $sql = "SELECT * FROM user";
        $result = mysqli_query($conn, $sql);
        if(mysqli_num_rows($result) > 0) {
         echo "<p class='nothing'>There are users</p>";
         while ($row = mysqli_fetch_assoc($result)) {
-            $id = $row['usersId'];
+            // $id = $row['id'];
             $sqlImg = "SELECT * FROM profileimg WHERE userid='$id'";
             $resultImg = mysqli_query($conn, $sqlImg);
             while($rowImg = mysqli_fetch_assoc($resultImg)) {
                 echo "<div>";
                     if($rowImg['status'] == 0) {
-                        echo "<img src='uploads/profile".$id.".jpg'>";
+                        echo "<img class='friends-profile-picture'src='profile-pictures/profile".$id.".jpeg'>";
                     }
                     else {
                         echo "<img src='uploads/default.jpeg'>";
                     }
-                    echo $row['usersName'];
+                    $nameSQL = "SELECT * FROM usersProfiles";
+                    $nameResult = mysqli_query($conn, $nameSQL);
+                    while($nameRow = mysqli_fetch_assoc($nameResult)) {
+                    echo $nameRow['usersName'];
+                    }
                 echo "</div>";
             }
         }

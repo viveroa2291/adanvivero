@@ -44,9 +44,11 @@
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
                         <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
+                        <input class="search" type="text" placeholder="Search...">
+                        <button type="submit" class="search-button"><i class="fa fa-search search-icon"></i></button>
                         <?php
                             if (isset($_SESSION["useruid"])) {
-                                echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>";
+                                echo "<a class='nav-link text-white top-link profile' href='profile.php'>Profile Page</a>";
                                 echo "<a class='nav-link text-white top-link logout' href='includes/logout.inc.php'>Log Out</a>";
                             }
                             else {

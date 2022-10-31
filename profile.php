@@ -33,7 +33,7 @@
 error_reporting(0);
  
 $msg = "";
- 
+ /*
 // If upload button is clicked ...
 if (isset($_POST['upload'])) {
  
@@ -53,7 +53,8 @@ if (isset($_POST['upload'])) {
     } else {
         echo "<h3>  Failed to upload image!</h3>";
     }
-}
+    
+} */
    }
 ?>
 <!DOCTYPE html>
@@ -80,32 +81,6 @@ if (isset($_POST['upload'])) {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-   <?php 
-      $sql = "SELECT * FROM usersProfiles";
-      $result = mysqli_query($conn, $sql); 
-      
-         if(mysqli_num_rows($result) > 0) {
-            while ($row = mysqli_fetch_assoc($result)) {
-               $id = $row['id'];
-               $sqlImg = "SELECT * FROM profileimg WHERE userid='$id'";
-               $resultImg = mysqli_query($conn, $sqlImg); 
-               while ($rowImg = mysqli_fetch_assoc($resultImg)) {
-                  echo "<div>";
-                     if($rowImg['status'] == 0) {
-                        echo "<img src='uploads/profile".$id.".jpeg>"; 
-                     }
-                     else {
-                        echo "<img src='uploads/default.jpeg'>";
-                     }
-                     echo $row['username'];
-                     echo "</div>";
-               }
-            }
-         }
-         else {
-            echo "There are no users yet!";
-         }
-   ?>
     <header>
       <div id="hamburger" class="hamburger" onclick="toggleNav(); myRotate(this);">
          <hr class="hr1">
@@ -130,10 +105,12 @@ if (isset($_POST['upload'])) {
                         <a class="nav-link text-white top-link story" href="story.php">Story</a>
                         <a class="nav-link text-white top-link travel" href="travel.php">Travel</a> 
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
+                        <input class="search" type="text" placeholder="Search...">
+                        <button type="submit" class="search-button"><i class="fa fa-search search-icon"></i></button>
                         <?php
                             if (isset($_SESSION["useruid"])) {
                                  echo "<div class='profile'>
-                                       <a class='nav-link text-white top-link profile' href='profile.php'>Profile page</a>
+                                       <a class='nav-link text-white top-link profile' href='profile.php'>Profile Page</a>
                                            <div class='bg-dark settings'> 
                                              <a class='text-white friends-link' href='friends.php'>Friends</a> <br>
                                              <a class='text-white settings-link' href='settings.php'>Settings</a> <br>
@@ -165,11 +142,35 @@ if (isset($_POST['upload'])) {
             <p class="edit-mode" id="edit-mode"></p>
          </span>
          
-         <div class="profile-picture">
-           <img id="blah" class="picture" src="#" alt="Picture of me">
-         </div> 
+      <div class="profile-picture">
+      <?php 
+         $id = $_SESSION['userid'];
+         $sql = "SELECT * FROM user";
+         $result = mysqli_query($conn, $sql); 
+      
+         if(mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+               /// $id = $row['id']; 
+               $sqlImg = "SELECT * FROM profileimg WHERE userid='$id'";
+               $resultImg = mysqli_query($conn, $sqlImg); 
+               while ($rowImg = mysqli_fetch_assoc($resultImg)) {
+                  echo "<div>";
+                     if($rowImg['status'] == 0) {
+                        echo "<img class='picture' src='profile-pictures/profile".$id.".jpeg'>"; 
+                     }
+                     else {
+                        echo "<img id='blah' class='picture' src='uploads/default.jpeg'>";
+                     }
+                  echo "</div>";
+               }
+            }
+         }
+         else {
+            echo "There are no users yet!";
+         }
+      ?>
+      </div> 
          <?php
-
             if(isset($_SESSION["username"])) {
 
                echo  "<form  runat='server' id='upload-pic' class='upload-pic' action='upload.php' method='POST' enctype='multipart/form-data'>";
@@ -180,16 +181,6 @@ if (isset($_POST['upload'])) {
 
                echo "<p class='header-name'>" . $_SESSION["username"] . "</p>";
             } 
-         ?>
-         <?php
-            $query = " SELECT * FROM profileimg";
-            $result = mysqli_query($conn, $query);
-            while ($data = mysqli_fetch_assoc($result)) {
-
-         ?>
-               <img src="./image/<?php echo $data['filename']; ?>">
-         <?php
-            }
          ?>
          <hr class="header-hr">
       
